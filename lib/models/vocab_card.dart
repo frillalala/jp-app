@@ -16,11 +16,11 @@ class VocabCard {
 
   factory VocabCard.fromRow(List<dynamic> row) {
     return VocabCard(
-      japanese: row[0].toString(),
-      reading: row[1].toString(),
-      meaning: row[2].toString(),
-      type: row[3].toString(),
-      category: row[4].toString(),
+      japanese: row[0].toString().trim(),
+      reading: row[1].toString().trim(),
+      meaning: row[2].toString().trim(),
+      type: row[3].toString().trim(),
+      category: row[4].toString().trim(),
     );
   }
 

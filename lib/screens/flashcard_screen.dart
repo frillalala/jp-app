@@ -80,10 +80,16 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
             ),
             const Spacer(),
             Text(card.japanese, style: const TextStyle(fontSize: 48)),
+            const SizedBox(height: 8),
+            Text(card.reading, style: const TextStyle(fontSize: 24, color: Colors.grey)),
             const SizedBox(height: 16),
             if (_showAnswer) ...[
-              Text(card.reading, style: const TextStyle(fontSize: 24)),
               Text(card.meaning, style: const TextStyle(fontSize: 20)),
+              const SizedBox(height: 4),
+              Text(
+                card.type,
+                style: const TextStyle(fontSize: 14, color: Colors.grey, fontStyle: FontStyle.italic),
+              ),
             ],
             const Spacer(),
             if (!_showAnswer)

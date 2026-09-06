@@ -1,4 +1,104 @@
 japanese,reading,meaning,type,category
-食べる,たべる,to eat,verb,food
-猫,ねこ,cat,noun,family
-学校,がっこう,school,noun,school
+名前,なまえ,name,noun,self_introduction
+私,わたし,I/me,pronoun,self_introduction
+学生,がくせい,student,noun,self_introduction
+先生,せんせい,teacher,noun,self_introduction
+会社員,かいしゃいん,company employee,noun,self_introduction
+出身,しゅっしん,hometown/origin,noun,self_introduction
+歳,さい,years old,counter,self_introduction
+国,くに,country,noun,self_introduction
+仕事,しごと,job/work,noun,self_introduction
+専門,せんもん,major/specialty,noun,self_introduction
+勉強,べんきょう,study,noun/verb,study
+学校,がっこう,school,noun,study
+大学,だいがく,university,noun,study
+先生,せんせい,teacher,noun,study
+生徒,せいと,pupil,noun,study
+宿題,しゅくだい,homework,noun,study
+教科書,きょうかしょ,textbook,noun,study
+試験,しけん,exam,noun,study
+図書館,としょかん,library,noun,study
+辞書,じしょ,dictionary,noun,study
+教える,おしえる,to teach,verb,study
+習う,ならう,to learn,verb,study
+会社,かいしゃ,company,noun,work
+仕事,しごと,work/job,noun,work
+働く,はたらく,to work,verb,work
+給料,きゅうりょう,salary,noun,work
+休み,やすみ,day off/holiday,noun,work
+会議,かいぎ,meeting,noun,work
+上司,じょうし,boss,noun,work
+同僚,どうりょう,colleague,noun,work
+電話,でんわ,telephone,noun,work
+名刺,めいし,business card,noun,work
+友達,ともだち,friend,noun,friend
+一緒に,いっしょに,together,adverb,friend
+遊ぶ,あそぶ,to play/hang out,verb,friend
+話す,はなす,to talk,verb,friend
+会う,あう,to meet,verb,friend
+連絡,れんらく,contact,noun/verb,friend
+親友,しんゆう,best friend,noun,friend
+知り合い,しりあい,acquaintance,noun,friend
+約束,やくそく,promise/appointment,noun,friend
+誕生日,たんじょうび,birthday,noun,friend
+朝ご飯,あさごはん,breakfast,noun,todays_meal
+昼ご飯,ひるごはん,lunch,noun,todays_meal
+晩ご飯,ばんごはん,dinner,noun,todays_meal
+食べる,たべる,to eat,verb,todays_meal
+飲む,のむ,to drink,verb,todays_meal
+料理,りょうり,cooking/dish,noun,todays_meal
+美味しい,おいしい,delicious,adjective,todays_meal
+野菜,やさい,vegetable,noun,todays_meal
+肉,にく,meat,noun,todays_meal
+魚,さかな,fish,noun,todays_meal
+米,こめ,rice,noun,todays_meal
+趣味,しゅみ,hobby,noun,hobby
+音楽,おんがく,music,noun,hobby
+映画,えいが,movie,noun,hobby
+本,ほん,book,noun,hobby
+読む,よむ,to read,verb,hobby
+写真,しゃしん,photo,noun,hobby
+絵,え,picture/drawing,noun,hobby
+歌う,うたう,to sing,verb,hobby
+踊る,おどる,to dance,verb,hobby
+旅行,りょこう,travel,noun,hobby
+買い物,かいもの,shopping,noun,shopping
+店,みせ,shop,noun,shopping
+値段,ねだん,price,noun,shopping
+安い,やすい,cheap,adjective,shopping
+高い,たかい,expensive,adjective,shopping
+お金,おかね,money,noun,shopping
+買う,かう,to buy,verb,shopping
+売る,うる,to sell,verb,shopping
+店員,てんいん,store clerk,noun,shopping
+財布,さいふ,wallet,noun,shopping
+休み,やすみ,vacation/day off,noun,holiday
+旅行,りょこう,trip,noun,holiday
+海,うみ,sea,noun,holiday
+山,やま,mountain,noun,holiday
+温泉,おんせん,hot spring,noun,holiday
+写真,しゃしん,photograph,noun,holiday
+祭り,まつり,festival,noun,holiday
+花火,はなび,fireworks,noun,holiday
+帰る,かえる,to return/go home,verb,holiday
+泊まる,とまる,to stay overnight,verb,holiday
+家,いえ,house,noun,living
+部屋,へや,room,noun,living
+住む,すむ,to live/reside,verb,living
+台所,だいどころ,kitchen,noun,living
+風呂,ふろ,bath,noun,living
+掃除,そうじ,cleaning,noun,living
+洗濯,せんたく,laundry,noun,living
+近所,きんじょ,neighborhood,noun,living
+家賃,やちん,rent,noun,living
+引っ越す,ひっこす,to move house,verb,living
+病院,びょういん,hospital,noun,health
+医者,いしゃ,doctor,noun,health
+薬,くすり,medicine,noun,health
+熱,ねつ,fever,noun,health
+痛い,いたい,painful,adjective,health
+病気,びょうき,illness,noun,health
+元気,げんき,healthy/energetic,adjective,health
+体,からだ,body,noun,health
+休む,やすむ,to rest,verb,health
+運動,うんどう,exercise,noun,health

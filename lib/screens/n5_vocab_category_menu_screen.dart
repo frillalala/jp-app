@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import '../models/vocab_card.dart';
 import '../services/progress_service.dart';
 import 'flashcard_screen.dart';
+import '../utils/category_labels.dart';
+
 
 class CategoryMenuScreen extends StatefulWidget {
   final List<VocabCard> allCards;
@@ -84,7 +86,7 @@ class _CategoryMenuScreenState extends State<CategoryMenuScreen> {
             final percent = _percentByCategory[cat]!;
             final cardsInCat = widget.allCards.where((c) => c.category == cat).toList();
             return ListTile(
-              title: Text(cat[0].toUpperCase() + cat.substring(1)),
+              title: Text(displayCategory(cat)),  // was: Text(cat[0].toUpperCase() + cat.substring(1))
               trailing: Text(
                 '$percent%',
                 style: TextStyle(

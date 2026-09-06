@@ -5,7 +5,7 @@ import '../models/vocab_card.dart';
 
 Future<List<VocabCard>> loadVocab() async {
   final raw = await rootBundle.loadString('assets/data/vocab.csv');
-  final rows = const CsvToListConverter(eol: '\n').convert(raw, eol: '\n');
+  final rows = const CsvToListConverter().convert(raw); // auto-detects eol
   return rows.skip(1).map((r) => VocabCard.fromRow(r)).toList();
 }
 
