@@ -1,4 +1,4 @@
-japanese,reading,meaning,type
-食べる,たべる,to eat,verb
-猫,ねこ,cat,noun
-綺麗,きれい,pretty/clean,adjective
+japanese,reading,meaning,type,category
+食べる,たべる,to eat,verb,food
+猫,ねこ,cat,noun,family
+学校,がっこう,school,noun,school

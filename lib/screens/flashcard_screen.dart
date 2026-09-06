@@ -1,6 +1,7 @@
 // lib/screens/flashcard_screen.dart
 import 'package:flutter/material.dart';
 import '../models/vocab_card.dart';
+import '../services/progress_service.dart';
 
 class FlashcardScreen extends StatefulWidget {
   final List<VocabCard> cards;
@@ -11,6 +12,7 @@ class FlashcardScreen extends StatefulWidget {
 }
 
 class _FlashcardScreenState extends State<FlashcardScreen> {
+  final _progressService = ProgressService();
   late List<VocabCard> _shuffledCards;
   int _index = 0;
   bool _showAnswer = false;
@@ -35,17 +37,21 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
       _index++;
       if (_index >= _shuffledCards.length) {
         _index = 0;
-        _shuffledCards.shuffle(); // reshuffle once the deck is exhausted
+        _shuffledCards.shuffle();
       }
     });
   }
 
   void _markCorrect() {
+    final card = _shuffledCards[_index];
+    _progressService.markMastered(card.key);
     setState(() => _correctCount++);
     _nextCard();
   }
 
   void _markWrong() {
+    final card = _shuffledCards[_index];
+    _progressService.unmarkMastered(card.key); // now un-masters on wrong
     setState(() => _wrongCount++);
     _nextCard();
   }
@@ -61,7 +67,6 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            // Stats bar
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -74,18 +79,13 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
               ],
             ),
             const Spacer(),
-
-            // Card content
             Text(card.japanese, style: const TextStyle(fontSize: 48)),
             const SizedBox(height: 16),
             if (_showAnswer) ...[
               Text(card.reading, style: const TextStyle(fontSize: 24)),
               Text(card.meaning, style: const TextStyle(fontSize: 20)),
             ],
-
             const Spacer(),
-
-            // Controls
             if (!_showAnswer)
               ElevatedButton(
                 onPressed: () => setState(() => _showAnswer = true),
@@ -106,7 +106,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
                       child: Text('Correct', style: TextStyle(color: Colors.white)),
                     ),
                   ),
-                                    ElevatedButton(
+                  ElevatedButton(
                     style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
                     onPressed: _markWrong,
                     child: const Padding(
