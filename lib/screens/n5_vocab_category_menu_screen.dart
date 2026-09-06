@@ -63,7 +63,12 @@ class _CategoryMenuScreenState extends State<CategoryMenuScreen> {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
     }
 
-    final categories = _percentByCategory.keys.toList()..sort();
+    final categories = _percentByCategory.keys.toList()
+    ..sort((a, b) {
+      final indexA = categoryOrder.indexOf(a);
+      final indexB = categoryOrder.indexOf(b);
+      return indexA.compareTo(indexB);
+    });
 
     return Scaffold(
       appBar: AppBar(title: const Text('Vocab Categories')),

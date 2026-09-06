@@ -1,6 +1,40 @@
 japanese,reading,meaning,type,category
-名前,なまえ,name,noun,self_introduction
-私,わたし,I/me,pronoun,self_introduction
+私,わたし,I,noun,self_introduction
+～です,～です,to be,particle,self_introduction
+～さん,～さん,Mr.,honorific,self_introduction
+～ちゃん,～ちゃん,affectionate/diminutive honorific suffix,honorific,self_introduction
+あなた,あなた,you,pronoun,self_introduction
+彼,かれ,he,noun,self_introduction
+彼女,かのじょ,she,noun,self_introduction
+お名前,おなまえ,name,noun,self_introduction
+はい,はい,yes,expression,self_introduction
+ええ,ええ,yes,expression,self_introduction
+いいえ,いいえ,no,expression,self_introduction
+そうです,そうです,that's right,expression,self_introduction
+違います,ちがいます,to be different,expression,self_introduction
+おはよう,おはよう,good morning,greeting,self_introduction
+こんにちは,こんにちは,hello,greeting,self_introduction
+こんばんは,こんばんは,good evening,greeting,self_introduction
+さようなら,さようなら,goodbye,greeting,self_introduction
+じゃあ、また,じゃあ、また,see you,greeting,self_introduction
+おやすみなさい,おやすみなさい,good night,greeting,self_introduction
+ありがとう,ありがとう,thank you,expression,self_introduction
+どういたしまして,どういたしまして,you're welcome,expression,self_introduction
+どうぞ,どうぞ,please,greeting,self_introduction
+どうも,どうも,thanks,greeting,self_introduction
+はじめまして,はじめまして,nice to meet you,greeting,self_introduction
+どうぞよろしく,どうぞよろしく,please treat me favorably,greeting,self_introduction
+こちらこそ,こちらこそ,likewise,greeting,self_introduction
+両親,りょうしん,parents,noun,self_introduction
+母,はは,my mother,noun,self_introduction
+父,ちち,my father,noun,self_introduction
+姉,あね,my older sister,noun,self_introduction
+兄,あに,my older brother,noun,self_introduction
+弟,おとうと,younger brother,noun,self_introduction
+妹,いもうと,younger sister,noun,self_introduction
+兄弟,きょうだい,siblings,noun,self_introduction
+犬,いぬ,dog,noun,self_introduction
+猫,ねこ,cat,noun,self_introduction
 学生,がくせい,student,noun,self_introduction
 先生,せんせい,teacher,noun,self_introduction
 会社員,かいしゃいん,company employee,noun,self_introduction
