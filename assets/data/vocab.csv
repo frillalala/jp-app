@@ -1,205 +1,300 @@
-japanese,reading,meaning,type,category
-私,わたし,I,noun,self_introduction
-～です,～です,to be,particle,self_introduction
-～さん,～さん,Mr.,honorific,self_introduction
-～ちゃん,～ちゃん,affectionate/diminutive honorific suffix,honorific,self_introduction
-あなた,あなた,you,pronoun,self_introduction
-彼,かれ,he,noun,self_introduction
-彼女,かのじょ,she,noun,self_introduction
-お名前,おなまえ,name,noun,self_introduction
-はい,はい,yes,expression,self_introduction
-ええ,ええ,yes,expression,self_introduction
-いいえ,いいえ,no,expression,self_introduction
-そうです,そうです,that's right,expression,self_introduction
-違います,ちがいます,to be different,expression,self_introduction
-おはよう,おはよう,good morning,greeting,self_introduction
-こんにちは,こんにちは,hello,greeting,self_introduction
-こんばんは,こんばんは,good evening,greeting,self_introduction
-さようなら,さようなら,goodbye,greeting,self_introduction
-じゃあ、また,じゃあ、また,see you,greeting,self_introduction
-おやすみなさい,おやすみなさい,good night,greeting,self_introduction
-ありがとう,ありがとう,thank you,expression,self_introduction
-どういたしまして,どういたしまして,you're welcome,expression,self_introduction
-どうぞ,どうぞ,please,greeting,self_introduction
-どうも,どうも,thanks,greeting,self_introduction
-はじめまして,はじめまして,nice to meet you,greeting,self_introduction
-どうぞよろしく,どうぞよろしく,please treat me favorably,greeting,self_introduction
-こちらこそ,こちらこそ,likewise,greeting,self_introduction
-両親,りょうしん,parents,noun,self_introduction
-母,はは,my mother,noun,self_introduction
-父,ちち,my father,noun,self_introduction
-姉,あね,my older sister,noun,self_introduction
-兄,あに,my older brother,noun,self_introduction
-弟,おとうと,younger brother,noun,self_introduction
-妹,いもうと,younger sister,noun,self_introduction
-兄弟,きょうだい,siblings,noun,self_introduction
-犬,いぬ,dog,noun,self_introduction
-猫,ねこ,cat,noun,self_introduction
-いる,いる,to exist; to be (living things),verb,self_introduction
-うち,うち,home; household; one’s family,noun,self_introduction
-家族,かぞく,family,noun,self_introduction
-おじいさん,おじいさん,grandfather; elderly man,noun,self_introduction
-おばあさん,おばあさん,grandmother; elderly woman,noun,self_introduction
-ご両親,ごりょうしん,(someone else’s) parents,noun,self_introduction
-お父さん,おとうさん,father; (someone else’s) father,noun,self_introduction
-お母さん,おかあさん,mother; (someone else’s) mother,noun,self_introduction
-お姉さん,おねえさん,older sister; young woman,noun,self_introduction
-お兄さん,おにいさん,older brother; young man,noun,self_introduction
-弟さん,おとうとさん,someone else’s younger brother,noun,self_introduction
-妹さん,いもうとさん,someone else’s younger sister,noun,self_introduction
-何人,なんにん,how many people,counter,self_introduction
-一人,ひとり,one person,counter,self_introduction
-二人,ふたり,two people,counter,self_introduction
-三人,さんにん,three people,counter,self_introduction
-四人,よにん,four people,counter,self_introduction
-五人,ごにん,five people,counter,self_introduction
-六人,ろくにん,six people,counter,self_introduction
-七人,しちにん,seven people,counter,self_introduction
-八人,はちにん,eight people,counter,self_introduction
-九人,きゅうにん,nine people,counter,self_introduction
-十人,じゅうにん,ten people,counter,self_introduction
-大人,おとな,adult,noun,self_introduction
-子供,こども,child; children,noun,self_introduction
-男の人,おとこのひと,man,noun,self_introduction
-女の人,おんなのひと,woman,noun,self_introduction
-男の子,おとこのこ,boy,noun,self_introduction
-女の子,おんなのこ,girl,noun,self_introduction
-国,くに,country,noun,self_introduction
-ある,ある,to exist; to have (non-living things),verb,self_introduction
-どちら,どちら,which; where (polite),pronoun,self_introduction
-～から来ました,～からきました,came from; am from,expression,self_introduction
-～人,～じん,person of [nationality]; [nationality] person,suffix,self_introduction
-地図,ちず,map,noun,self_introduction
-世界,せかい,world,noun,self_introduction
-日本,にほん,Japan,proper_noun,self_introduction
-インド,いんど,India,proper_noun,self_introduction
-インドネシア,いんどねしあ,Indonesia,proper_noun,self_introduction
-韓国,かんこく,South Korea,proper_noun,self_introduction
-タイ,たい,Thailand,proper_noun,self_introduction
-台湾,たいわん,Taiwan,proper_noun,self_introduction
-中国,ちゅうごく,China,proper_noun,self_introduction
-ネパール,ねぱーる,Nepal,proper_noun,self_introduction
-フィリピン,ふぃりぴん,Philippines,proper_noun,self_introduction
-ベトナム,べとなむ,Vietnam,proper_noun,self_introduction
-マレーシア,まれーしあ,Malaysia,proper_noun,self_introduction
-ミャンマー,みゃんまー,Myanmar,proper_noun,self_introduction
-トルコ,とるこ,Turkey,proper_noun,self_introduction
-オーストラリア,おーすとらりあ,Australia,proper_noun,self_introduction
-ニュージーランド,にゅーじーらんど,New Zealand,proper_noun,self_introduction
-アメリカ,あめりか,America; United States,proper_noun,self_introduction
-カナダ,かなだ,Canada,proper_noun,self_introduction
-メキシコ,めきしこ,Mexico,proper_noun,self_introduction
-ブラジル,ぶらじる,Brazil,proper_noun,self_introduction
-ロシア,ろしあ,Russia,proper_noun,self_introduction
-イギリス,いぎりす,United Kingdom; Britain,proper_noun,self_introduction
-フランス,ふらんす,France,proper_noun,self_introduction
-ドイツ,どいつ,Germany,proper_noun,self_introduction
-スイス,すいす,Switzerland,proper_noun,self_introduction
-イタリア,いたりあ,Italy,proper_noun,self_introduction
-スペイン,すぺいん,Spain,proper_noun,self_introduction
-エジプト,えじぷと,Egypt,proper_noun,self_introduction
-ケニア,けにあ,Kenya,proper_noun,self_introduction
-ヨーロッパ,よーろっぱ,Europe,proper_noun,self_introduction
-アジア,あじあ,Asia,proper_noun,self_introduction
-アフリカ,あふりか,Africa,proper_noun,self_introduction
-学生,がくせい,student,noun,self_introduction
-先生,せんせい,teacher,noun,self_introduction
-会社員,かいしゃいん,company employee,noun,self_introduction
-出身,しゅっしん,hometown/origin,noun,self_introduction
-歳,さい,years old,counter,self_introduction
-国,くに,country,noun,self_introduction
-仕事,しごと,job/work,noun,self_introduction
-専門,せんもん,major/specialty,noun,self_introduction
-勉強,べんきょう,study,noun/verb,study
-学校,がっこう,school,noun,study
-大学,だいがく,university,noun,study
-先生,せんせい,teacher,noun,study
-生徒,せいと,pupil,noun,study
-宿題,しゅくだい,homework,noun,study
-教科書,きょうかしょ,textbook,noun,study
-試験,しけん,exam,noun,study
-図書館,としょかん,library,noun,study
-辞書,じしょ,dictionary,noun,study
-教える,おしえる,to teach,verb,study
-習う,ならう,to learn,verb,study
-会社,かいしゃ,company,noun,work
-仕事,しごと,work/job,noun,work
-働く,はたらく,to work,verb,work
-給料,きゅうりょう,salary,noun,work
-休み,やすみ,day off/holiday,noun,work
-会議,かいぎ,meeting,noun,work
-上司,じょうし,boss,noun,work
-同僚,どうりょう,colleague,noun,work
-電話,でんわ,telephone,noun,work
-名刺,めいし,business card,noun,work
-友達,ともだち,friend,noun,friend
-一緒に,いっしょに,together,adverb,friend
-遊ぶ,あそぶ,to play/hang out,verb,friend
-話す,はなす,to talk,verb,friend
-会う,あう,to meet,verb,friend
-連絡,れんらく,contact,noun/verb,friend
-親友,しんゆう,best friend,noun,friend
-知り合い,しりあい,acquaintance,noun,friend
-約束,やくそく,promise/appointment,noun,friend
-誕生日,たんじょうび,birthday,noun,friend
-朝ご飯,あさごはん,breakfast,noun,todays_meal
-昼ご飯,ひるごはん,lunch,noun,todays_meal
-晩ご飯,ばんごはん,dinner,noun,todays_meal
-食べる,たべる,to eat,verb,todays_meal
-飲む,のむ,to drink,verb,todays_meal
-料理,りょうり,cooking/dish,noun,todays_meal
-美味しい,おいしい,delicious,adjective,todays_meal
-野菜,やさい,vegetable,noun,todays_meal
-肉,にく,meat,noun,todays_meal
-魚,さかな,fish,noun,todays_meal
-米,こめ,rice,noun,todays_meal
-趣味,しゅみ,hobby,noun,hobby
-音楽,おんがく,music,noun,hobby
-映画,えいが,movie,noun,hobby
-本,ほん,book,noun,hobby
-読む,よむ,to read,verb,hobby
-写真,しゃしん,photo,noun,hobby
-絵,え,picture/drawing,noun,hobby
-歌う,うたう,to sing,verb,hobby
-踊る,おどる,to dance,verb,hobby
-旅行,りょこう,travel,noun,hobby
-買い物,かいもの,shopping,noun,shopping
-店,みせ,shop,noun,shopping
-値段,ねだん,price,noun,shopping
-安い,やすい,cheap,adjective,shopping
-高い,たかい,expensive,adjective,shopping
-お金,おかね,money,noun,shopping
-買う,かう,to buy,verb,shopping
-売る,うる,to sell,verb,shopping
-店員,てんいん,store clerk,noun,shopping
-財布,さいふ,wallet,noun,shopping
-休み,やすみ,vacation/day off,noun,holiday
-旅行,りょこう,trip,noun,holiday
-海,うみ,sea,noun,holiday
-山,やま,mountain,noun,holiday
-温泉,おんせん,hot spring,noun,holiday
-写真,しゃしん,photograph,noun,holiday
-祭り,まつり,festival,noun,holiday
-花火,はなび,fireworks,noun,holiday
-帰る,かえる,to return/go home,verb,holiday
-泊まる,とまる,to stay overnight,verb,holiday
-家,いえ,house,noun,living
-部屋,へや,room,noun,living
-住む,すむ,to live/reside,verb,living
-台所,だいどころ,kitchen,noun,living
-風呂,ふろ,bath,noun,living
-掃除,そうじ,cleaning,noun,living
-洗濯,せんたく,laundry,noun,living
-近所,きんじょ,neighborhood,noun,living
-家賃,やちん,rent,noun,living
-引っ越す,ひっこす,to move house,verb,living
-病院,びょういん,hospital,noun,health
-医者,いしゃ,doctor,noun,health
-薬,くすり,medicine,noun,health
-熱,ねつ,fever,noun,health
-痛い,いたい,painful,adjective,health
-病気,びょうき,illness,noun,health
-元気,げんき,healthy/energetic,adjective,health
-体,からだ,body,noun,health
-休む,やすむ,to rest,verb,health
-運動,うんどう,exercise,noun,health
+vid,japanese,reading,meaning,type,category
+v001,私,わたし,I,noun,self_introduction
+v002,～です,～です,to be,particle,self_introduction
+v003,～さん,～さん,Mr.,honorific,self_introduction
+v004,～ちゃん,～ちゃん,affectionate/diminutive honorific suffix,honorific,self_introduction
+v005,あなた,あなた,you,pronoun,self_introduction
+v006,彼,かれ,he,noun,self_introduction
+v007,彼女,かのじょ,she,noun,self_introduction
+v008,お名前,おなまえ,name,noun,self_introduction
+v009,はい,はい,yes,expression,self_introduction
+v010,ええ,ええ,yes,expression,self_introduction
+v011,いいえ,いいえ,no,expression,self_introduction
+v012,そうです,そうです,that's right,expression,self_introduction
+v013,違います,ちがいます,to be different,expression,self_introduction
+v014,おはよう,おはよう,good morning,greeting,self_introduction
+v015,こんにちは,こんにちは,hello,greeting,self_introduction
+v016,こんばんは,こんばんは,good evening,greeting,self_introduction
+v017,さようなら,さようなら,goodbye,greeting,self_introduction
+v018,"じゃあ, また","じゃあ, また",see you,greeting,self_introduction
+v019,おやすみなさい,おやすみなさい,good night,greeting,self_introduction
+v020,ありがとう,ありがとう,thank you,expression,self_introduction
+v021,どういたしまして,どういたしまして,you're welcome,expression,self_introduction
+v022,どうぞ,どうぞ,please,greeting,self_introduction
+v023,どうも,どうも,thanks,greeting,self_introduction
+v024,はじめまして,はじめまして,nice to meet you,greeting,self_introduction
+v025,どうぞよろしく,どうぞよろしく,please treat me favorably,greeting,self_introduction
+v026,こちらこそ,こちらこそ,likewise,greeting,self_introduction
+v027,両親,りょうしん,parents,noun,self_introduction
+v028,母,はは,my mother,noun,self_introduction
+v029,父,ちち,my father,noun,self_introduction
+v030,姉,あね,my older sister,noun,self_introduction
+v031,兄,あに,my older brother,noun,self_introduction
+v032,弟,おとうと,younger brother,noun,self_introduction
+v033,妹,いもうと,younger sister,noun,self_introduction
+v034,兄弟,きょうだい,siblings,noun,self_introduction
+v035,犬,いぬ,dog,noun,self_introduction
+v036,猫,ねこ,cat,noun,self_introduction
+v037,いる,いる,to exist; to be (living things),verb,self_introduction
+v038,うち,うち,home; household; one’s family,noun,self_introduction
+v039,家族,かぞく,family,noun,self_introduction
+v040,おじいさん,おじいさん,grandfather; elderly man,noun,self_introduction
+v041,おばあさん,おばあさん,grandmother; elderly woman,noun,self_introduction
+v042,ご両親,ごりょうしん,(someone else’s) parents,noun,self_introduction
+v043,お父さん,おとうさん,father; (someone else’s) father,noun,self_introduction
+v044,お母さん,おかあさん,mother; (someone else’s) mother,noun,self_introduction
+v045,お姉さん,おねえさん,older sister; young woman,noun,self_introduction
+v046,お兄さん,おにいさん,older brother; young man,noun,self_introduction
+v047,弟さん,おとうとさん,someone else’s younger brother,noun,self_introduction
+v048,妹さん,いもうとさん,someone else’s younger sister,noun,self_introduction
+v049,何人,なんにん,how many people,counter,self_introduction
+v050,一人,ひとり,one person,counter,self_introduction
+v051,二人,ふたり,two people,counter,self_introduction
+v052,三人,さんにん,three people,counter,self_introduction
+v053,四人,よにん,four people,counter,self_introduction
+v054,五人,ごにん,five people,counter,self_introduction
+v055,六人,ろくにん,six people,counter,self_introduction
+v056,七人,しちにん,seven people,counter,self_introduction
+v057,八人,はちにん,eight people,counter,self_introduction
+v058,九人,きゅうにん,nine people,counter,self_introduction
+v059,十人,じゅうにん,ten people,counter,self_introduction
+v060,大人,おとな,adult,noun,self_introduction
+v061,子供,こども,child; children,noun,self_introduction
+v062,男の人,おとこのひと,man,noun,self_introduction
+v063,女の人,おんなのひと,woman,noun,self_introduction
+v064,男の子,おとこのこ,boy,noun,self_introduction
+v065,女の子,おんなのこ,girl,noun,self_introduction
+v066,国,くに,country,noun,self_introduction
+v067,ある,ある,to exist; to have (non-living things),verb,self_introduction
+v068,どちら,どちら,which; where (polite),pronoun,self_introduction
+v069,～から来ました,～からきました,came from; am from,expression,self_introduction
+v070,～人,～じん,person of [nationality]; [nationality] person,suffix,self_introduction
+v071,地図,ちず,map,noun,self_introduction
+v072,世界,せかい,world,noun,self_introduction
+v073,日本,にほん,Japan,proper_noun,self_introduction
+v074,インド,いんど,India,proper_noun,self_introduction
+v075,インドネシア,いんどねしあ,Indonesia,proper_noun,self_introduction
+v076,韓国,かんこく,South Korea,proper_noun,self_introduction
+v077,タイ,たい,Thailand,proper_noun,self_introduction
+v078,台湾,たいわん,Taiwan,proper_noun,self_introduction
+v079,中国,ちゅうごく,China,proper_noun,self_introduction
+v080,ネパール,ねぱーる,Nepal,proper_noun,self_introduction
+v081,フィリピン,ふぃりぴん,Philippines,proper_noun,self_introduction
+v082,ベトナム,べとなむ,Vietnam,proper_noun,self_introduction
+v083,マレーシア,まれーしあ,Malaysia,proper_noun,self_introduction
+v084,ミャンマー,みゃんまー,Myanmar,proper_noun,self_introduction
+v085,トルコ,とるこ,Turkey,proper_noun,self_introduction
+v086,オーストラリア,おーすとらりあ,Australia,proper_noun,self_introduction
+v087,ニュージーランド,にゅーじーらんど,New Zealand,proper_noun,self_introduction
+v088,アメリカ,あめりか,America; United States,proper_noun,self_introduction
+v089,カナダ,かなだ,Canada,proper_noun,self_introduction
+v090,メキシコ,めきしこ,Mexico,proper_noun,self_introduction
+v091,ブラジル,ぶらじる,Brazil,proper_noun,self_introduction
+v092,ロシア,ろしあ,Russia,proper_noun,self_introduction
+v093,イギリス,いぎりす,United Kingdom; Britain,proper_noun,self_introduction
+v094,フランス,ふらんす,France,proper_noun,self_introduction
+v095,ドイツ,どいつ,Germany,proper_noun,self_introduction
+v096,スイス,すいす,Switzerland,proper_noun,self_introduction
+v097,イタリア,いたりあ,Italy,proper_noun,self_introduction
+v098,スペイン,すぺいん,Spain,proper_noun,self_introduction
+v099,エジプト,えじぷと,Egypt,proper_noun,self_introduction
+v100,ケニア,けにあ,Kenya,proper_noun,self_introduction
+v101,ヨーロッパ,よーろっぱ,Europe,proper_noun,self_introduction
+v102,アジア,あじあ,Asia,proper_noun,self_introduction
+v103,アフリカ,あふりか,Africa,proper_noun,self_introduction
+v104,学生,がくせい,student,noun,self_introduction
+v105,先生,せんせい,teacher,noun,self_introduction
+v106,会社員,かいしゃいん,company employee,noun,self_introduction
+v107,出身,しゅっしん,hometown/origin,noun,self_introduction
+v108,歳,さい,years old,counter,self_introduction
+v109,国,くに,country,noun,self_introduction
+v110,仕事,しごと,job/work,noun,self_introduction
+v111,専門,せんもん,major/specialty,noun,self_introduction
+v112,会社,かいしゃ,company,noun,work
+v113,仕事,しごと,work/job,noun,work
+v114,働く,はたらく,to work,verb,work
+v115,給料,きゅうりょう,salary,noun,work
+v116,休み,やすみ,day off/holiday,noun,work
+v117,会議,かいぎ,meeting,noun,work
+v118,上司,じょうし,boss,noun,work
+v119,同僚,どうりょう,colleague,noun,work
+v120,電話,でんわ,telephone,noun,work
+v121,名刺,めいし,business card,noun,work
+v122,友達,ともだち,friend,noun,friend
+v123,一緒に,いっしょに,together,adverb,friend
+v124,遊ぶ,あそぶ,to play/hang out,verb,friend
+v125,話す,はなす,to talk,verb,friend
+v126,会う,あう,to meet,verb,friend
+v127,連絡,れんらく,contact,noun/verb,friend
+v128,親友,しんゆう,best friend,noun,friend
+v129,知り合い,しりあい,acquaintance,noun,friend
+v130,約束,やくそく,promise/appointment,noun,friend
+v131,誕生日,たんじょうび,birthday,noun,friend
+v132,朝ご飯,あさごはん,breakfast,noun,todays_meal
+v133,昼ご飯,ひるごはん,lunch,noun,todays_meal
+v134,晩ご飯,ばんごはん,dinner,noun,todays_meal
+v135,食べる,たべる,to eat,verb,todays_meal
+v136,飲む,のむ,to drink,verb,todays_meal
+v137,料理,りょうり,cooking/dish,noun,todays_meal
+v138,美味しい,おいしい,delicious,adjective,todays_meal
+v139,野菜,やさい,vegetable,noun,todays_meal
+v140,肉,にく,meat,noun,todays_meal
+v141,魚,さかな,fish,noun,todays_meal
+v142,米,こめ,rice,noun,todays_meal
+v143,趣味,しゅみ,hobby,noun,hobby
+v144,音楽,おんがく,music,noun,hobby
+v145,映画,えいが,movie,noun,hobby
+v146,本,ほん,book,noun,hobby
+v147,読む,よむ,to read,verb,hobby
+v148,写真,しゃしん,photo,noun,hobby
+v149,絵,え,picture/drawing,noun,hobby
+v150,歌う,うたう,to sing,verb,hobby
+v151,踊る,おどる,to dance,verb,hobby
+v152,旅行,りょこう,travel,noun,hobby
+v153,買い物,かいもの,shopping,noun,shopping
+v154,店,みせ,shop,noun,shopping
+v155,値段,ねだん,price,noun,shopping
+v156,安い,やすい,cheap,adjective,shopping
+v157,高い,たかい,expensive,adjective,shopping
+v158,お金,おかね,money,noun,shopping
+v159,買う,かう,to buy,verb,shopping
+v160,売る,うる,to sell,verb,shopping
+v161,店員,てんいん,store clerk,noun,shopping
+v162,財布,さいふ,wallet,noun,shopping
+v163,休み,やすみ,vacation/day off,noun,holiday
+v164,旅行,りょこう,trip,noun,holiday
+v165,海,うみ,sea,noun,holiday
+v166,山,やま,mountain,noun,holiday
+v167,温泉,おんせん,hot spring,noun,holiday
+v168,写真,しゃしん,photograph,noun,holiday
+v169,祭り,まつり,festival,noun,holiday
+v170,花火,はなび,fireworks,noun,holiday
+v171,帰る,かえる,to return/go home,verb,holiday
+v172,泊まる,とまる,to stay overnight,verb,holiday
+v173,家,いえ,house,noun,living
+v174,部屋,へや,room,noun,living
+v175,住む,すむ,to live/reside,verb,living
+v176,台所,だいどころ,kitchen,noun,living
+v177,風呂,ふろ,bath,noun,living
+v178,掃除,そうじ,cleaning,noun,living
+v179,洗濯,せんたく,laundry,noun,living
+v180,近所,きんじょ,neighborhood,noun,living
+v181,家賃,やちん,rent,noun,living
+v182,引っ越す,ひっこす,to move house,verb,living
+v183,病院,びょういん,hospital,noun,health
+v184,医者,いしゃ,doctor,noun,health
+v185,薬,くすり,medicine,noun,health
+v186,熱,ねつ,fever,noun,health
+v187,痛い,いたい,painful,adjective,health
+v188,病気,びょうき,illness,noun,health
+v189,元気,げんき,healthy/energetic,adjective,health
+v190,体,からだ,body,noun,health
+v191,休む,やすむ,to rest,verb,health
+v192,運動,うんどう,exercise,noun,health
+v193,先生,せんせい,teacher; instructor,noun,study
+v194,学生,がくせい,student,noun,study
+v195,留学生,りゅうがくせい,international student; foreign student,noun,study
+v196,学校,がっこう,school,noun,study
+v197,勉強する,べんきょうする,to study,verb,study
+v198,日本語学校,にほんごがっこう,Japanese language school,noun,study
+v199,小学校,しょうがっこう,elementary school,noun,study
+v200,中学校,ちゅうがっこう,junior high school,noun,study
+v201,高校,こうこう,high school,noun,study
+v202,大学,だいがく,university; college,noun,study
+v203,教室,きょうしつ,classroom,noun,study
+v204,クラス,クラス,class,noun,study
+v205,行く,いく,to go,verb,study
+v206,来る,くる,to come,verb,study
+v207,帰る,かえる,to return; go home,verb,study
+v208,ゼロ,ゼロ,zero,number,study
+v209,一,いち,one,number,study
+v210,二,に,two,number,study
+v211,三,さん,three,number,study
+v212,四,よん,four,number,study
+v213,五,ご,five,number,study
+v214,六,ろく,six,number,study
+v215,七,なな,seven,number,study
+v216,八,はち,eight,number,study
+v217,九,きゅう,nine,number,study
+v218,十,じゅう,ten,number,study
+v219,十一,じゅういち,eleven,number,study
+v220,十二,じゅうに,twelve,number,study
+v221,～月,～がつ,month; [month],suffix,study
+v222,一月,いちがつ,January,noun,study
+v223,二月,にがつ,February,noun,study
+v224,三月,さんがつ,March,noun,study
+v225,四月,しがつ,April,noun,study
+v226,五月,ごがつ,May,noun,study
+v227,六月,ろくがつ,June,noun,study
+v228,七月,しちがつ,July,noun,study
+v229,八月,はちがつ,August,noun,study
+v230,九月,くがつ,September,noun,study
+v231,十月,じゅうがつ,October,noun,study
+v232,十一月,じゅういちがつ,November,noun,study
+v233,十二月,じゅうにがつ,December,noun,study
+v234,何月,なんがつ,what month,noun,study
+v235,曜日,ようび,day of the week,noun,study
+v236,日曜日,にちようび,Sunday,noun,study
+v237,月曜日,げつようび,Monday,noun,study
+v238,火曜日,かようび,Tuesday,noun,study
+v239,水曜日,すいようび,Wednesday,noun,study
+v240,木曜日,もくようび,Thursday,noun,study
+v241,金曜日,きんようび,Friday,noun,study
+v242,土曜日,どようび,Saturday,noun,study
+v243,何曜日,なんようび,what day of the week,noun,study
+v244,今日,きょう,today,noun,study
+v245,昨日,きのう,yesterday,noun,study
+v246,明日,あした,tomorrow,noun,study
+v247,毎日,まいにち,every day,adverb,study
+v248,～週間,～しゅうかん,[number] weeks,suffix,study
+v249,～か月,～かげつ,[number] months,suffix,study
+v250,～年,～ねん,[number] years,suffix,study
+v251,～回,～かい,[number] times,suffix,study
+v252,何回,なんかい,how many times,noun,study
+v253,アルバイトする,アルバイトする,to work a part-time job,verb,study
+v254,する,する,to do,verb,study
+v255,言葉,ことば,word; language,noun,study
+v256,字,じ,character; letter,noun,study
+v257,日本語,にほんご,Japanese language,noun,study
+v258,～語,～ご,[language],suffix,study
+v259,話す,はなす,to speak; to talk,verb,study
+v260,ゆっくり,ゆっくり,slowly; leisurely,adverb,study
+v261,言う,いう,to say; to tell,verb,study
+v262,もう一度,もういちど,one more time; again,adverb,study
+v263,お願いします,おねがいします,please; I request,expression,study
+v264,分かる,わかる,to understand,verb,study
+v265,少し,すこし,a little; a few,adverb,study
+v266,もう少し,もうすこし,a little more,adverb,study
+v267,よく,よく,well; often,adverb,study
+v268,だいたい,だいたい,roughly; generally,adverb,study
+v269,全然,ぜんぜん,not at all; entirely,adverb,study
+v270,ひらがな,ひらがな,hiragana,noun,study
+v271,カタカナ,カタカナ,katakana,noun,study
+v272,漢字,かんじ,kanji; Chinese character,noun,study
+v273,ローマ字,ローマじ,Roman letters; romaji,noun,study
+v274,勉強,べんきょう,study; studying,noun,study
+v275,読む,よむ,to read,verb,study
+v276,本,ほん,book,noun,study
+v277,書く,かく,to write,verb,study
+v278,聞く,きく,to listen; to hear; to ask,verb,study
+v279,CD,シーディー,CD,noun,study
+v280,調べる,しらべる,to look up; to investigate,verb,study
+v281,買う,かう,to buy,verb,study
+v282,辞書,じしょ,dictionary,noun,study
+v283,電子辞書,でんしじしょ,electronic dictionary,noun,study
+v284,意味,いみ,meaning,noun,study
+v285,頑張る,がんばる,to do one's best; to persevere,verb,study
+v286,宿題,しゅくだい,homework,noun,study
+v287,日記,にっき,diary,noun,study
+v288,レポート,レポート,report; paper,noun,study
+v289,図書館,としょかん,library,noun,study
+v290,本屋,ほんや,bookstore,noun,study
+v291,練習する,れんしゅうする,to practice,verb,study
+v292,スピーチ,スピーチ,speech,noun,study
+v293,覚える,おぼえる,to memorize; to remember,verb,study
+v294,忘れる,わすれる,to forget,verb,study
+v295,問題,もんだい,question; problem,noun,study
+v296,例,れい,example,noun,study
+v297,答え,こたえ,answer,noun,study
+v298,質問する,しつもんする,to ask a question,verb,study
+v299,見学する,けんがくする,to observe; to visit for study,verb,study
