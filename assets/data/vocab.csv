@@ -35,6 +35,73 @@ japanese,reading,meaning,type,category
 兄弟,きょうだい,siblings,noun,self_introduction
 犬,いぬ,dog,noun,self_introduction
 猫,ねこ,cat,noun,self_introduction
+いる,いる,to exist; to be (living things),verb,self_introduction
+うち,うち,home; household; one’s family,noun,self_introduction
+家族,かぞく,family,noun,self_introduction
+おじいさん,おじいさん,grandfather; elderly man,noun,self_introduction
+おばあさん,おばあさん,grandmother; elderly woman,noun,self_introduction
+ご両親,ごりょうしん,(someone else’s) parents,noun,self_introduction
+お父さん,おとうさん,father; (someone else’s) father,noun,self_introduction
+お母さん,おかあさん,mother; (someone else’s) mother,noun,self_introduction
+お姉さん,おねえさん,older sister; young woman,noun,self_introduction
+お兄さん,おにいさん,older brother; young man,noun,self_introduction
+弟さん,おとうとさん,someone else’s younger brother,noun,self_introduction
+妹さん,いもうとさん,someone else’s younger sister,noun,self_introduction
+何人,なんにん,how many people,counter,self_introduction
+一人,ひとり,one person,counter,self_introduction
+二人,ふたり,two people,counter,self_introduction
+三人,さんにん,three people,counter,self_introduction
+四人,よにん,four people,counter,self_introduction
+五人,ごにん,five people,counter,self_introduction
+六人,ろくにん,six people,counter,self_introduction
+七人,しちにん,seven people,counter,self_introduction
+八人,はちにん,eight people,counter,self_introduction
+九人,きゅうにん,nine people,counter,self_introduction
+十人,じゅうにん,ten people,counter,self_introduction
+大人,おとな,adult,noun,self_introduction
+子供,こども,child; children,noun,self_introduction
+男の人,おとこのひと,man,noun,self_introduction
+女の人,おんなのひと,woman,noun,self_introduction
+男の子,おとこのこ,boy,noun,self_introduction
+女の子,おんなのこ,girl,noun,self_introduction
+国,くに,country,noun,self_introduction
+ある,ある,to exist; to have (non-living things),verb,self_introduction
+どちら,どちら,which; where (polite),pronoun,self_introduction
+～から来ました,～からきました,came from; am from,expression,self_introduction
+～人,～じん,person of [nationality]; [nationality] person,suffix,self_introduction
+地図,ちず,map,noun,self_introduction
+世界,せかい,world,noun,self_introduction
+日本,にほん,Japan,proper_noun,self_introduction
+インド,いんど,India,proper_noun,self_introduction
+インドネシア,いんどねしあ,Indonesia,proper_noun,self_introduction
+韓国,かんこく,South Korea,proper_noun,self_introduction
+タイ,たい,Thailand,proper_noun,self_introduction
+台湾,たいわん,Taiwan,proper_noun,self_introduction
+中国,ちゅうごく,China,proper_noun,self_introduction
+ネパール,ねぱーる,Nepal,proper_noun,self_introduction
+フィリピン,ふぃりぴん,Philippines,proper_noun,self_introduction
+ベトナム,べとなむ,Vietnam,proper_noun,self_introduction
+マレーシア,まれーしあ,Malaysia,proper_noun,self_introduction
+ミャンマー,みゃんまー,Myanmar,proper_noun,self_introduction
+トルコ,とるこ,Turkey,proper_noun,self_introduction
+オーストラリア,おーすとらりあ,Australia,proper_noun,self_introduction
+ニュージーランド,にゅーじーらんど,New Zealand,proper_noun,self_introduction
+アメリカ,あめりか,America; United States,proper_noun,self_introduction
+カナダ,かなだ,Canada,proper_noun,self_introduction
+メキシコ,めきしこ,Mexico,proper_noun,self_introduction
+ブラジル,ぶらじる,Brazil,proper_noun,self_introduction
+ロシア,ろしあ,Russia,proper_noun,self_introduction
+イギリス,いぎりす,United Kingdom; Britain,proper_noun,self_introduction
+フランス,ふらんす,France,proper_noun,self_introduction
+ドイツ,どいつ,Germany,proper_noun,self_introduction
+スイス,すいす,Switzerland,proper_noun,self_introduction
+イタリア,いたりあ,Italy,proper_noun,self_introduction
+スペイン,すぺいん,Spain,proper_noun,self_introduction
+エジプト,えじぷと,Egypt,proper_noun,self_introduction
+ケニア,けにあ,Kenya,proper_noun,self_introduction
+ヨーロッパ,よーろっぱ,Europe,proper_noun,self_introduction
+アジア,あじあ,Asia,proper_noun,self_introduction
+アフリカ,あふりか,Africa,proper_noun,self_introduction
 学生,がくせい,student,noun,self_introduction
 先生,せんせい,teacher,noun,self_introduction
 会社員,かいしゃいん,company employee,noun,self_introduction
