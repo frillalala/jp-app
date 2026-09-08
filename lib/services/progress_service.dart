@@ -39,3 +39,35 @@ class ProgressService {
     await prefs.remove(_masteredKey);
   }
 }
+
+class GrammarProgressService {
+  static const _masteredKey = 'mastered_grammar_exercises';
+
+  Future<Set<String>> _getMasteredSet() async {
+    final prefs = await SharedPreferences.getInstance();
+    return (prefs.getStringList(_masteredKey) ?? []).toSet();
+  }
+
+  Future<void> markMastered(String gid) async {
+    final prefs = await SharedPreferences.getInstance();
+    final mastered = await _getMasteredSet();
+    mastered.add(gid);
+    await prefs.setStringList(_masteredKey, mastered.toList());
+  }
+
+  Future<void> unmarkMastered(String gid) async {
+    final prefs = await SharedPreferences.getInstance();
+    final mastered = await _getMasteredSet();
+    mastered.remove(gid);
+    await prefs.setStringList(_masteredKey, mastered.toList());
+  }
+
+  Future<bool> isMastered(String gid) async {
+    return (await _getMasteredSet()).contains(gid);
+  }
+
+  Future<int> countMastered(List<String> gids) async {
+    final mastered = await _getMasteredSet();
+    return gids.where(mastered.contains).length;
+  }
+}

@@ -37,6 +37,7 @@ dependencies:
   csv: ^6.0.0
   shared_preferences: ^2.3.0
   flutter_tts: ^4.2.5
+  collection: ^1.18.0
 
 dev_dependencies:
   flutter_test:
@@ -61,7 +62,8 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/data/vocab.csv
+    - assets/data/n5_vocab.csv
+    - assets/data/n5_grammar.csv
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
