@@ -1,4 +1,4 @@
-// lib/screens/grammar_exercise_screen.dart
+// lib/screens/grammar_category_flow_screen.dart
 import 'package:flutter/material.dart';
 import 'package:collection/collection.dart';
 import '../models/grammar_item.dart';
@@ -10,22 +10,32 @@ class _WordTile {
   _WordTile(this.id, this.text);
 }
 
-class GrammarExerciseScreen extends StatefulWidget {
-  final List<GrammarItem> exercises;
-  const GrammarExerciseScreen({super.key, required this.exercises});
+class GrammarCategoryFlowScreen extends StatefulWidget {
+  final String category;
+  final List<String> grammarOrder; // ordered grammar names in this category
+  final List<GrammarItem> allItems; // all items (sample+exercise) for this category
+  final int startIndex; // which grammar in grammarOrder to start from
+
+  const GrammarCategoryFlowScreen({
+    super.key,
+    required this.category,
+    required this.grammarOrder,
+    required this.allItems,
+    this.startIndex = 0,
+  });
 
   @override
-  State<GrammarExerciseScreen> createState() => _GrammarExerciseScreenState();
+  State<GrammarCategoryFlowScreen> createState() => _GrammarCategoryFlowScreenState();
 }
 
-class _GrammarExerciseScreenState extends State<GrammarExerciseScreen> {
+class _GrammarCategoryFlowScreenState extends State<GrammarCategoryFlowScreen> {
   final _progressService = GrammarProgressService();
-  List<GrammarItem> _deck = [];
-  int _index = 0;
-  bool _loading = true;
-  int _correctCount = 0;
-  int _wrongCount = 0;
 
+  late int _groupIndex;
+  bool _showingSample = true;
+
+  List<GrammarItem> _currentExercises = [];
+  int _exIndex = 0;
   List<_WordTile> _bank = [];
   List<_WordTile?> _slots = [];
   bool _checked = false;
@@ -34,28 +44,35 @@ class _GrammarExerciseScreenState extends State<GrammarExerciseScreen> {
   @override
   void initState() {
     super.initState();
-    _buildDeck();
+    _groupIndex = widget.startIndex;
   }
 
-  Future<void> _buildDeck() async {
-    final priority = <GrammarItem>[];
-    final mastered = <GrammarItem>[];
-    for (final ex in widget.exercises) {
-      final isMastered = await _progressService.isMastered(ex.gid);
-      (isMastered ? mastered : priority).add(ex);
-    }
-    priority.shuffle();
-    mastered.shuffle();
+  String get _currentGrammar => widget.grammarOrder[_groupIndex];
+
+  GrammarItem get _currentSample => widget.allItems.firstWhere(
+        (i) => i.grammar == _currentGrammar && i.isSample,
+        orElse: () => widget.allItems.firstWhere((i) => i.grammar == _currentGrammar),
+      );
+
+  void _startExercises() {
+    final exercises = widget.allItems
+        .where((i) => i.grammar == _currentGrammar && i.isExercise)
+        .toList()
+      ..shuffle();
     setState(() {
-      _deck = [...priority, ...mastered];
-      _index = 0;
-      _loading = false;
+      _currentExercises = exercises;
+      _exIndex = 0;
+      _showingSample = false;
     });
     _setupCurrentExercise();
   }
 
   void _setupCurrentExercise() {
-    final current = _deck[_index];
+    if (_currentExercises.isEmpty) {
+      _advanceGroup();
+      return;
+    }
+    final current = _currentExercises[_exIndex];
     final tiles = <_WordTile>[
       for (var i = 0; i < current.words.length; i++) _WordTile('w$i', current.words[i])
     ]..shuffle();
@@ -89,7 +106,7 @@ class _GrammarExerciseScreenState extends State<GrammarExerciseScreen> {
   }
 
   Future<void> _checkAnswer() async {
-    final current = _deck[_index];
+    final current = _currentExercises[_exIndex];
     if (_slots.any((s) => s == null)) return;
 
     final answer = _slots.map((s) => s!.text).toList();
@@ -98,7 +115,6 @@ class _GrammarExerciseScreenState extends State<GrammarExerciseScreen> {
     setState(() {
       _checked = true;
       _isCorrect = isCorrect;
-      isCorrect ? _correctCount++ : _wrongCount++;
     });
 
     if (isCorrect) {
@@ -109,45 +125,76 @@ class _GrammarExerciseScreenState extends State<GrammarExerciseScreen> {
   }
 
   void _nextExercise() {
-    setState(() {
-      _index++;
-      if (_index >= _deck.length) _index = 0;
-    });
-    _setupCurrentExercise();
+    _exIndex++;
+    if (_exIndex < _currentExercises.length) {
+      _setupCurrentExercise();
+    } else {
+      _advanceGroup();
+    }
   }
 
-  double get _percentage {
-    final total = _correctCount + _wrongCount;
-    return total == 0 ? 0 : (_correctCount / total) * 100;
+  void _advanceGroup() {
+    if (_groupIndex + 1 < widget.grammarOrder.length) {
+      setState(() {
+        _groupIndex++;
+        _showingSample = true;
+      });
+    } else {
+      // Finished the whole category — pop back to the category menu
+      Navigator.of(context).pop();
+    }
   }
 
   @override
   Widget build(BuildContext context) {
-    if (_loading || _deck.isEmpty) {
+    return _showingSample ? _buildSampleView() : _buildExerciseView();
+  }
+
+  Widget _buildSampleView() {
+    final sample = _currentSample;
+    return Scaffold(
+      appBar: AppBar(title: Text(_currentGrammar)),
+      body: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(sample.sentence, style: const TextStyle(fontSize: 28)),
+            const SizedBox(height: 8),
+            Text(sample.hiragana, style: const TextStyle(fontSize: 18, color: Colors.grey)),
+            const SizedBox(height: 8),
+            Text(sample.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic)),
+            const SizedBox(height: 16),
+            if (sample.description.isNotEmpty)
+              Text(sample.description, style: const TextStyle(fontSize: 16)),
+            const Spacer(),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: _startExercises,
+                child: const Text('Next: Practice'),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildExerciseView() {
+    if (_currentExercises.isEmpty) {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
     }
-    final current = _deck[_index];
+    final current = _currentExercises[_exIndex];
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Grammar Exercise')),
+      appBar: AppBar(title: Text('$_currentGrammar — ${_exIndex + 1}/${_currentExercises.length}')),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text('Correct: $_correctCount', style: const TextStyle(color: Colors.green)),
-                Text('${_percentage.toStringAsFixed(0)}%',
-                    style: const TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
-                Text('Wrong: $_wrongCount', style: const TextStyle(color: Colors.red)),
-              ],
-            ),
-            const SizedBox(height: 8),
             Text(current.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic)),
             const SizedBox(height: 24),
-
-            // Answer slots (drop targets)
             Wrap(
               spacing: 8,
               runSpacing: 8,
@@ -178,10 +225,7 @@ class _GrammarExerciseScreenState extends State<GrammarExerciseScreen> {
                   ),
               ],
             ),
-
             const SizedBox(height: 32),
-
-            // Word bank (also a drop target, so tiles can be dragged back)
             DragTarget<_WordTile>(
               onAcceptWithDetails: (details) => _returnToBank(details.data),
               builder: (context, candidateData, rejectedData) {
@@ -204,9 +248,7 @@ class _GrammarExerciseScreenState extends State<GrammarExerciseScreen> {
                 );
               },
             ),
-
             const Spacer(),
-
             if (_checked) ...[
               Text(current.hiragana, style: const TextStyle(fontSize: 18)),
               Text(current.meaning, style: const TextStyle(fontSize: 16, color: Colors.grey)),

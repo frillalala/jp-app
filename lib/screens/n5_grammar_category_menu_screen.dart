@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import '../models/grammar_item.dart';
 import '../services/progress_service.dart';
-import 'grammar_sample_screen.dart';
+import 'grammar_category_flow_screen.dart';
 
 class GrammarCategoryMenuScreen extends StatefulWidget {
   final List<GrammarItem> allItems;
@@ -14,8 +14,16 @@ class GrammarCategoryMenuScreen extends StatefulWidget {
 
 class _GrammarCategoryMenuScreenState extends State<GrammarCategoryMenuScreen> {
   final _progressService = GrammarProgressService();
+
+  // category -> ordered list of grammar names within it
+  Map<String, List<String>> _grammarsByCategory = {};
   List<String> _categoryOrder = [];
+
+  // grammar name -> percent
+  Map<String, int> _percentByGrammar = {};
+  // category name -> percent (aggregated across its grammars)
   Map<String, int> _percentByCategory = {};
+
   bool _loading = true;
 
   @override
@@ -25,26 +33,53 @@ class _GrammarCategoryMenuScreenState extends State<GrammarCategoryMenuScreen> {
   }
 
   Future<void> _loadPercentages() async {
-    final order = <String>[];
+    final categoryOrder = <String>[];
+    final grammarsByCategory = <String, List<String>>{};
+
     for (final item in widget.allItems) {
-      if (!order.contains(item.grammar)) order.add(item.grammar);
+      if (!categoryOrder.contains(item.category)) {
+        categoryOrder.add(item.category);
+        grammarsByCategory[item.category] = [];
+      }
+      if (!grammarsByCategory[item.category]!.contains(item.grammar)) {
+        grammarsByCategory[item.category]!.add(item.grammar);
+      }
     }
 
-    final result = <String, int>{};
-    for (final cat in order) {
-      final exercises = widget.allItems.where((i) => i.grammar == cat && i.isExercise).toList();
-      if (exercises.isEmpty) {
-        result[cat] = 0;
-        continue;
+    final grammarPercents = <String, int>{};
+    final categoryPercents = <String, int>{};
+
+    for (final category in categoryOrder) {
+      int categoryMastered = 0;
+      int categoryTotal = 0;
+
+      for (final grammar in grammarsByCategory[category]!) {
+        final exercises = widget.allItems
+            .where((i) => i.category == category && i.grammar == grammar && i.isExercise)
+            .toList();
+
+        if (exercises.isEmpty) {
+          grammarPercents[grammar] = 0;
+          continue;
+        }
+
+        final gids = exercises.map((e) => e.gid).toList();
+        final masteredCount = await _progressService.countMastered(gids);
+        grammarPercents[grammar] = ((masteredCount / gids.length) * 100).round();
+
+        categoryMastered += masteredCount;
+        categoryTotal += gids.length;
       }
-      final gids = exercises.map((e) => e.gid).toList();
-      final masteredCount = await _progressService.countMastered(gids);
-      result[cat] = ((masteredCount / gids.length) * 100).round();
+
+      categoryPercents[category] =
+          categoryTotal == 0 ? 0 : ((categoryMastered / categoryTotal) * 100).round();
     }
 
     setState(() {
-      _categoryOrder = order;
-      _percentByCategory = result;
+      _categoryOrder = categoryOrder;
+      _grammarsByCategory = grammarsByCategory;
+      _percentByGrammar = grammarPercents;
+      _percentByCategory = categoryPercents;
       _loading = false;
     });
   }
@@ -58,37 +93,76 @@ class _GrammarCategoryMenuScreenState extends State<GrammarCategoryMenuScreen> {
     return Scaffold(
       appBar: AppBar(title: const Text('Grammar')),
       body: ListView(
-        children: _categoryOrder.map((cat) {
-          final percent = _percentByCategory[cat] ?? 0;
-          final sample = widget.allItems.firstWhere(
-            (i) => i.grammar == cat && i.isSample,
-            orElse: () => widget.allItems.firstWhere((i) => i.grammar == cat),
-          );
-          final exercises = widget.allItems.where((i) => i.grammar == cat && i.isExercise).toList();
+        children: _categoryOrder.expand((category) {
+          final catPercent = _percentByCategory[category] ?? 0;
+          final grammars = _grammarsByCategory[category] ?? [];
 
-          return ListTile(
-            title: Text(cat),
-            trailing: Text(
-              '$percent%',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: percent == 100 ? Colors.green : null,
+          return [
+            // Category header — bigger font, shows aggregated percentage, not tappable
+            Container(
+              color: Colors.grey.shade200,
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    category,
+                    style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    '$catPercent%',
+                    style: TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: catPercent == 100 ? Colors.green : Colors.black87,
+                    ),
+                  ),
+                ],
               ),
             ),
-            onTap: () async {
-              await Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => GrammarSampleScreen(
-                    sample: sample,
-                    exercises: exercises,
-                    categoryTitle: cat,
+            // Grammar sub-items
+            ...grammars.map((grammar) {
+              final percent = _percentByGrammar[grammar] ?? 0;
+              final sample = widget.allItems.firstWhere(
+                (i) => i.category == category && i.grammar == grammar && i.isSample,
+                orElse: () => widget.allItems
+                    .firstWhere((i) => i.category == category && i.grammar == grammar),
+              );
+              final exercises = widget.allItems
+                  .where((i) => i.category == category && i.grammar == grammar && i.isExercise)
+                  .toList();
+
+              return ListTile(
+                contentPadding: const EdgeInsets.only(left: 32, right: 16),
+                title: Text(grammar),
+                trailing: Text(
+                  '$percent%',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: percent == 100 ? Colors.green : null,
                   ),
                 ),
+                onTap: () async {
+                  final grammarsInCategory = _grammarsByCategory[category]!;
+                  final startIndex = grammarsInCategory.indexOf(grammar);
+                  final categoryItems = widget.allItems.where((i) => i.category == category).toList();
+
+                  await Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => GrammarCategoryFlowScreen(
+                        category: category,
+                        grammarOrder: grammarsInCategory,
+                        allItems: categoryItems,
+                        startIndex: startIndex,
+                      ),
+                    ),
+                  );
+                  _loadPercentages();
+                },
               );
-              _loadPercentages();
-            },
-          );
+            }),
+          ];
         }).toList(),
       ),
     );

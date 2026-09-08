@@ -2,7 +2,8 @@
 class GrammarItem {
   final String gid;
   final String type; // 'sample' or 'exercise'
-  final String grammar; // category name
+  final String category; // umbrella group, e.g. "Particles"
+  final String grammar; // sub-item, e.g. "の (no) - possessive"
   final String sentence;
   final String hiragana;
   final String meaning;
@@ -12,6 +13,7 @@ class GrammarItem {
   GrammarItem({
     required this.gid,
     required this.type,
+    required this.category,
     required this.grammar,
     required this.sentence,
     required this.hiragana,
@@ -21,16 +23,17 @@ class GrammarItem {
   });
 
   factory GrammarItem.fromRow(List<dynamic> row) {
-    final wordsRaw = row[6].toString().trim();
+    final wordsRaw = row[7].toString().trim();
     return GrammarItem(
       gid: row[0].toString().trim(),
       type: row[1].toString().trim(),
-      grammar: row[2].toString().trim(),
-      sentence: row[3].toString().trim(),
-      hiragana: row[4].toString().trim(),
-      meaning: row[5].toString().trim(),
+      category: row[2].toString().trim(),
+      grammar: row[3].toString().trim(),
+      sentence: row[4].toString().trim(),
+      hiragana: row[5].toString().trim(),
+      meaning: row[6].toString().trim(),
       words: wordsRaw.split('|').map((w) => w.trim()).toList(),
-      description: row.length > 7 ? row[7].toString().trim() : '',
+      description: row.length > 8 ? row[8].toString().trim() : '',
     );
   }
 
