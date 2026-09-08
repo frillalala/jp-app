@@ -2,3 +2,15 @@ gid,type,grammar,sentence,hiragana,meaning,words,description
 gw001,sample,わたしのAはBです,私の名前は クリスです。,わたしの なまえは くりす です。,My name is Chris.,私|の|名前|は|クリス|です,This expression is useful when you introduce yourself in Japanese.
 gw002,exercise,わたしのAはBです,私の趣味は空手です。,わたしの しゅみは からて です。,My hobby is karate.,私|の|趣味|は|空手|です,
 gw003,exercise,わたしのAはBです,私の仕事は教師です。,わたしの しごとは きょうし です。,My job is a teacher.,私|の|仕事|は|教師|です,
+gn001,sample,の (no) – 1: of (possessive particle),お父さんの机 , おとうさんのつくえ,Father's desk.,,"""Meaning:
+of / possessive particle (indicates possessive)
+When の is placed between two nouns it can act as a possessive
+particle. の is a particle used to indicate possession.This is similar to
+the English possessive "" 's "".
+Noun A の Noun B = Noun A's Noun B
+
+Formation:
+Noun 1 + の + Noun 2"""
+gn002,exercise,の (no) – 1: of (possessive particle),私の名前はテイラーだ 。,わたしの なまえは ていらーだ /。,My name is Taylor.,私|の|名前|は|テイラー|だ ,
+gn003,exercise,の (no) – 1: of (possessive particle),弟の仕事は医者です。,おとうとの しごとはいしゃです。,My younger brother's job is a doctor.,弟|の|仕事|は|医者|です,
+gn004,exercise,の (no) – 1: of (possessive particle),彼女の出身地はアリゾナです。,かのじょの しゅっしんちは ありぞなです。,She is from Arizona.,彼女|の|出身地|は|アリゾナ|です,
