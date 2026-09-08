@@ -13,16 +13,42 @@ class FlashcardScreen extends StatefulWidget {
 
 class _FlashcardScreenState extends State<FlashcardScreen> {
   final _progressService = ProgressService();
-  late List<VocabCard> _shuffledCards;
+  List<VocabCard> _deck = [];
   int _index = 0;
   bool _showAnswer = false;
+  bool _loading = true;
   int _correctCount = 0;
   int _wrongCount = 0;
 
   @override
   void initState() {
     super.initState();
-    _shuffledCards = List.of(widget.cards)..shuffle();
+    _buildDeck();
+  }
+
+  // Builds the deck with not-yet-mastered cards first (shuffled),
+  // followed by mastered cards (shuffled).
+  Future<void> _buildDeck() async {
+    final priority = <VocabCard>[];
+    final mastered = <VocabCard>[];
+
+    for (final card in widget.cards) {
+      final isMastered = await _progressService.isMastered(card.key);
+      if (isMastered) {
+        mastered.add(card);
+      } else {
+        priority.add(card);
+      }
+    }
+
+    priority.shuffle();
+    mastered.shuffle();
+
+    setState(() {
+      _deck = [...priority, ...mastered];
+      _index = 0;
+      _loading = false;
+    });
   }
 
   double get _percentage {
@@ -35,30 +61,35 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
     setState(() {
       _showAnswer = false;
       _index++;
-      if (_index >= _shuffledCards.length) {
+      if (_index >= _deck.length) {
         _index = 0;
-        _shuffledCards.shuffle();
       }
     });
   }
 
-  void _markCorrect() {
-    final card = _shuffledCards[_index];
-    _progressService.markMastered(card.key);
+  Future<void> _markCorrect() async {
+    final card = _deck[_index];
+    await _progressService.markMastered(card.key);
     setState(() => _correctCount++);
-    _nextCard();
+    // Rebuild the deck so this card moves to the back of the line
+    // (re-prioritizing remaining not-yet-mastered cards to the front).
+    await _buildDeck();
   }
 
-  void _markWrong() {
-    final card = _shuffledCards[_index];
-    _progressService.unmarkMastered(card.key); // now un-masters on wrong
+  Future<void> _markWrong() async {
+    final card = _deck[_index];
+    await _progressService.unmarkMastered(card.key);
     setState(() => _wrongCount++);
     _nextCard();
   }
 
   @override
   Widget build(BuildContext context) {
-    final card = _shuffledCards[_index];
+    if (_loading || _deck.isEmpty) {
+      return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    }
+
+    final card = _deck[_index];
     final total = _correctCount + _wrongCount;
 
     return Scaffold(

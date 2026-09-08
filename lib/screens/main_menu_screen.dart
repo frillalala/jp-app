@@ -10,7 +10,7 @@ class MainMenuScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('JP Flashcards')),
+      appBar: AppBar(title: const Text('JP-APP')),
       body: ListView(
         children: levels.map((level) {
           final isEnabled = level == 'N5';
