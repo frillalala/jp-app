@@ -48,6 +48,7 @@ class _FlashcardScreenState extends State<FlashcardScreen> {
       _deck = [...priority, ...mastered];
       _index = 0;
       _loading = false;
+      _showAnswer = false;
     });
   }
 
