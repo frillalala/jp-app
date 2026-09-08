@@ -1,5 +1,5 @@
 gid,type,category,grammar,sentence,hiragana,meaning,words,description
-bs001,sample,basic_sentence_1,N は N です,私は学生です。,"わたしは がくせいです
+bs001,sample,Basic Sentence - 1,N は N です,私は学生です。,"わたしは がくせいです
 ",I am a student.,,"The Topic Marker は “wa”
 
 The topic can be anything that a speaker wants to talk about (It can be an object, location or any other grammatical element). The topic marker ”wa” roughly corresponds to English ‘as for’. The topic particle while written as 「は」, is pronounced 「わ」.
@@ -7,94 +7,94 @@ The topic can be anything that a speaker wants to talk about (It can be an objec
 だ / です (da / desu)
 
 だ statements are directed at the speaker rather than the listener and serve to communicate self-expression. They are used to convey emotions, among other things. On the other hand, です is used to direct a statement at a listener, showing the speaker's awareness of them."
-bs002,exercise,basic_sentence_1,N は N です,彼はアメリカ出身です。,かれは あめりか しゅっしん です。,He is American.,彼|は|アメリカ|出身|です,
-bs003,exercise,basic_sentence_1,N は N です,彼女は看護師です。,かのじょは かんごし です。,She is a nurse.,彼女|は|看護師|です,
-bs004,exercise,basic_sentence_1,N は N です,天気は雨です。,てんきはあめ です。,The weather is rainy.,天気|は|雨|です,
-bs005,exercise,basic_sentence_1,N は N です,弟は医者です。,おとうとは いしゃ です。,My younger brother is a doctor.,弟|は|医者|です,
-bs006,exercise,basic_sentence_1,N は N です,私は最強だ。,わたしはさいきょうだ。,I am the best.,私|は|最強|だ,
-bs007,sample,basic_sentence_1,N は N じゃないです,僕はヒーローじゃないです。,ぼくは ひーろーじゃないです。,I'm not a hero.,,"Adding 〜じゃない or 〜ではない to the end of a noun or a な-adjective makes it negative, similar to the way ""not"" functions in English. Between the two, 〜じゃない is more casual, whereas 〜ではない is formal.
+bs002,exercise,Basic Sentence - 1,N は N です,彼はアメリカ出身です。,かれは あめりか しゅっしん です。,He is American.,彼|は|アメリカ|出身|です,
+bs003,exercise,Basic Sentence - 1,N は N です,彼女は看護師です。,かのじょは かんごし です。,She is a nurse.,彼女|は|看護師|です,
+bs004,exercise,Basic Sentence - 1,N は N です,天気は雨です。,てんきはあめ です。,The weather is rainy.,天気|は|雨|です,
+bs005,exercise,Basic Sentence - 1,N は N です,弟は医者です。,おとうとは いしゃ です。,My younger brother is a doctor.,弟|は|医者|です,
+bs006,exercise,Basic Sentence - 1,N は N です,私は最強だ。,わたしはさいきょうだ。,I am the best.,私|は|最強|だ,
+bs007,sample,Basic Sentence - 1,N は N じゃないです,僕はヒーローじゃないです。,ぼくは ひーろーじゃないです。,I'm not a hero.,,"Adding 〜じゃない or 〜ではない to the end of a noun or a な-adjective makes it negative, similar to the way ""not"" functions in English. Between the two, 〜じゃない is more casual, whereas 〜ではない is formal.
 
 You often hear 〜じゃない in spoken language while 〜ではない is mostly used in written language. When 〜ではない is used in casual conversation, it often indicates an emphatic rejection."
-bs008,exercise,basic_sentence_1,N は N じゃないです,あなたは一人じゃないです。,あなたは ひとりじゃないです。,You are not alone.,,
-bs009,exercise,basic_sentence_1,N は N じゃないです,これは夢じゃないです。,これは ゆめじゃないです。,This isn't a dream.,,
-bs010,exercise,basic_sentence_1,N は N じゃないです,僕たちは他人じゃないです。,ぼくたちは たにんじゃないです。,We're not strangers.,,
-bs011,exercise,basic_sentence_1,N は N じゃないです,僕の毎日は悪いものじゃないです。,ぼくの まいにちは わるい ものじゃないです。,My everyday life isn't a bad thing.,,
-bs012,exercise,basic_sentence_1,N は N じゃないです,僕は弱い人じゃないです。,ぼくは よわい ひとじゃないです。,I'm not a weak person.,,
-bs013,sample,basic_sentence_1,N は N ですか,あなたは学生ですか。,あなたは がくせいですか。,Are you a student?,,"We often think of particle か as ""the Japanese question mark,"" but it's actually a marker of the unknown. It can be used to mark a sentence as a question, or to express alternatives, like ""either … or …"" in English. It's very simple to form a question sentence in Japanese. Simply adding か to the end of a sentence does the trick."
-bs014,exercise,basic_sentence_1,N は N ですか,ここは病院ですか。,ここは びょういんですか。,Is this a hospital?,,
-bs015,exercise,basic_sentence_1,N は N ですか,君は大丈夫ですか。,きみは だいじょうぶですか。,Are you okay?,,
-bs016,exercise,basic_sentence_1,N は N ですか,この人は友達ですか。,このひとは ともだちですか。,Is this person your friend?,,
-bs017,exercise,basic_sentence_1,N は N ですか,これは本当ですか。,これは ほんとうですか。,Is this true?,,
-bs018,exercise,basic_sentence_1,N は N ですか,今日は休みですか。,きょうは やすみですか。,Is today a day off?,,
-bs019,sample,basic_sentence_2,N も,あの人も日本人です。,あのひとも にほんじんです。,That person is also Japanese.,,"The particle も is similar to the English words ""too"" and ""also."" It is placed after a word to show that the word is part of a set. To conceptualize the particle も, it's helpful to imagine a list on a memo (me-も) sheet. The list is a group of things or people that belong together. When も goes after a word, it indicates that the word is a member of the group.
+bs008,exercise,Basic Sentence - 1,N は N じゃないです,あなたは一人じゃないです。,あなたは ひとりじゃないです。,You are not alone.,あなた|は|一人|じゃない|です,
+bs009,exercise,Basic Sentence - 1,N は N じゃないです,これは夢じゃないです。,これは ゆめじゃないです。,This isn't a dream.,これ|は|夢|じゃない|です,
+bs010,exercise,Basic Sentence - 1,N は N じゃないです,僕たちは他人じゃないです。,ぼくたちは たにんじゃないです。,We're not strangers.,僕たち|は|他人|じゃない|です,
+bs011,exercise,Basic Sentence - 1,N は N じゃないです,僕の毎日は悪いものじゃないです。,ぼくの まいにちは わるい ものじゃないです。,My everyday life isn't a bad thing.,僕|の|毎日|は|悪いもの|じゃない|です,
+bs012,exercise,Basic Sentence - 1,N は N じゃないです,僕は弱い人じゃないです。,ぼくは よわい ひとじゃないです。,I'm not a weak person.,僕|は|弱い|人|じゃない|です,
+bs013,sample,Basic Sentence - 1,N は N ですか,あなたは学生ですか。,あなたは がくせいですか。,Are you a student?,,"We often think of particle か as ""the Japanese question mark,"" but it's actually a marker of the unknown. It can be used to mark a sentence as a question, or to express alternatives, like ""either … or …"" in English. It's very simple to form a question sentence in Japanese. Simply adding か to the end of a sentence does the trick."
+bs014,exercise,Basic Sentence - 1,N は N ですか,ここは病院ですか。,ここは びょういんですか。,Is this a hospital?,ここ|は|病院|です|か,
+bs015,exercise,Basic Sentence - 1,N は N ですか,君は大丈夫ですか。,きみは だいじょうぶですか。,Are you okay?,君|は|大丈夫|です|か,
+bs016,exercise,Basic Sentence - 1,N は N ですか,この人は友達ですか。,このひとは ともだちですか。,Is this person your friend?,この|人|は|友達|です|か,
+bs017,exercise,Basic Sentence - 1,N は N ですか,これは本当ですか。,これは ほんとうですか。,Is this true?,これ|は|本当|です|か,
+bs018,exercise,Basic Sentence - 1,N は N ですか,今日は休みですか。,きょうは やすみですか。,Is today a day off?,今日|は|休み|です|か,
+bs019,sample,Basic Sentence - 2,N も,あの人も日本人です。,あのひとも にほんじんです。,That person is also Japanese.,,"The particle も is similar to the English words ""too"" and ""also."" It is placed after a word to show that the word is part of a set. To conceptualize the particle も, it's helpful to imagine a list on a memo (me-も) sheet. The list is a group of things or people that belong together. When も goes after a word, it indicates that the word is a member of the group.
 
 も often follows a noun or a noun phrase. What comes after も can be a lot of varieties of words and forms. It can be anything from nouns, い-adjectives, な-adjectives, to verbs in either the positive or negative form."
-bs020,exercise,basic_sentence_2,N も,今日もいい日です。,きょうも いいひです。,Today is also a good day.,,
-bs021,exercise,basic_sentence_2,N も,これも夢です。,これも ゆめです。,This is also a dream.,,
-bs022,exercise,basic_sentence_2,N も,僕も元気です。,ぼくも げんきです。,I'm doing well too.,,
-bs023,exercise,basic_sentence_2,N も,この歌も好きです。,このうたも すきです。,I like this song too.,,
-bs024,exercise,basic_sentence_2,N も,君の言葉も大切です。,きみの ことばも たいせつです。,Your words are important too.,,
-bs025,sample,basic_sentence_2,N の N,僕の夢です。,ぼくの ゆめです。,It's my dream.,,"の can express ownership or possession when it comes after a person or a group of people. This is the use that is similar to …'s in English. You put your name on your things, right? Labelling is important for showing ownership!
+bs020,exercise,Basic Sentence - 2,N も,今日もいい日です。,きょうも いいひです。,Today is also a good day.,今日|も|いい|日|です,
+bs021,exercise,Basic Sentence - 2,N も,これも夢です。,これも ゆめです。,This is also a dream.,これ|も|夢|です,
+bs022,exercise,Basic Sentence - 2,N も,僕も元気です。,ぼくも げんきです。,I'm doing well too.,僕|も|元気|です,
+bs023,exercise,Basic Sentence - 2,N も,この歌も好きです。,このうたも すきです。,I like this song too.,この|歌|も|好き|です,
+bs024,exercise,Basic Sentence - 2,N も,君の言葉も大切です。,きみの ことばも たいせつです。,Your words are important too.,君|の|言葉|も|大切|です,
+bs025,sample,Basic Sentence - 2,N の N,僕の夢です。,ぼくの ゆめです。,It's my dream.,,"の can express ownership or possession when it comes after a person or a group of people. This is the use that is similar to …'s in English. You put your name on your things, right? Labelling is important for showing ownership!
 
 You might think of particle の like Japanese equivalent of the possessive 's ending in English, as in Tom's car of Granny's kittens. However, the label maker is really a better way to think of particle の, since the relationship between the label and the noun can result in various different interpretations. "
-bs026,exercise,basic_sentence_2,N の N,君の笑顔です。,きみの えがおです。,It's your smile.,,
-bs027,exercise,basic_sentence_2,N の N,これは日本の歌です。,これは にほんの うたです。,This is a Japanese song.,,
-bs028,exercise,basic_sentence_2,N の N,あの人は僕の友達です。,あのひとは ぼくの ともだちです。,That person is my friend.,,
-bs029,exercise,basic_sentence_2,N の N,これは母の本です。,これは ははの ほんです。,This is my mother's book.,,
-bs030,exercise,basic_sentence_2,N の N,今日は僕の誕生日です。,きょうは ぼくの たんじょうびです。,Today is my birthday.,,
-bs031,sample,basic_sentence_2,N と N,僕と君です。,ぼくと きみです。,It's me and you.,,"The particle と wears a lot of hats, but its fundamental meaning is quite simple — to connect two or more things together as companions."
-bs032,exercise,basic_sentence_2,N と N,日本語と英語です。,にほんごと えいごです。,It's Japanese and English.,,
-bs033,exercise,basic_sentence_2,N と N,母と父です。,ははと ちちです。,It's my mother and father.,,
-bs034,exercise,basic_sentence_2,N と N,春と夏が好きです。,はると なつが すきです。,I like spring and summer.,,
-bs035,exercise,basic_sentence_2,N と N,パンと牛乳です。,ぱんと ぎゅうにゅうです。,It's bread and milk.,,
-bs036,exercise,basic_sentence_2,N と N,君と僕の夢です。,きみと ぼくの ゆめです。,It's the dream of you and me.,,
-bs037,sample,basic_sentence_3,これ・それ・あれ,これは私のかばんです。,これは わたしの かばんです。,This is my bag.,,"これ, それ, あれ, and どれ are a set of こそあど words. You can use them to refer to things (specific objects that are physically present) you want to talk about, without specifying what they are. They are the equivalent of ""this one,"" ""that one,"" and ""that one over there"" in English.
+bs026,exercise,Basic Sentence - 2,N の N,君の笑顔です。,きみの えがおです。,It's your smile.,君|の|笑顔|です,
+bs027,exercise,Basic Sentence - 2,N の N,これは日本の歌です。,これは にほんの うたです。,This is a Japanese song.,これ|は|日本|の|歌|です,
+bs028,exercise,Basic Sentence - 2,N の N,あの人は僕の友達です。,あのひとは ぼくの ともだちです。,That person is my friend.,あの|人|は|僕|の|友達|です,
+bs029,exercise,Basic Sentence - 2,N の N,これは母の本です。,これは ははの ほんです。,This is my mother's book.,これ|は|母|の|本|です,
+bs030,exercise,Basic Sentence - 2,N の N,今日は僕の誕生日です。,きょうは ぼくの たんじょうびです。,Today is my birthday.,今日|は|僕|の|誕|生日|です,
+bs031,sample,Basic Sentence - 2,N と N,僕と君です。,ぼくと きみです。,It's me and you.,,"The particle と wears a lot of hats, but its fundamental meaning is quite simple — to connect two or more things together as companions."
+bs032,exercise,Basic Sentence - 2,N と N,日本語と英語です。,にほんごと えいごです。,It's Japanese and English.,日本語|と|英語|です,
+bs033,exercise,Basic Sentence - 2,N と N,母と父です。,ははと ちちです。,It's my mother and father.,母|と|父|です,
+bs034,exercise,Basic Sentence - 2,N と N,春と夏が好きです。,はると なつが すきです。,I like spring and summer.,春|と|夏|が|好き|です,
+bs035,exercise,Basic Sentence - 2,N と N,パンと牛乳です。,ぱんと ぎゅうにゅうです。,It's bread and milk.,パン|と|牛乳|です,
+bs036,exercise,Basic Sentence - 2,N と N,君と僕の夢です。,きみと ぼくの ゆめです。,It's the dream of you and me.,君|と|僕|の|夢|です,
+bs037,sample,Basic Sentence - 3,これ・それ・あれ,これは私のかばんです。,これは わたしの かばんです。,This is my bag.,,"これ, それ, あれ, and どれ are a set of こそあど words. You can use them to refer to things (specific objects that are physically present) you want to talk about, without specifying what they are. They are the equivalent of ""this one,"" ""that one,"" and ""that one over there"" in English.
 
 In general, これ is used for things that are close to the speaker, それ is used for things that are close to the listener, and あれ is used for things that are close to neither of them. "
-bs038,exercise,basic_sentence_3,これ・それ・あれ,それは君の本ですか。,それは きみの ほんですか。,Is that your book?,,
-bs039,exercise,basic_sentence_3,これ・それ・あれ,あれは東京です。,あれは とうきょうです。,That's Tokyo over there.,,
-bs040,exercise,basic_sentence_3,これ・それ・あれ,それは夢です。,それは ゆめです。,That is a dream.,,
-bs041,exercise,basic_sentence_3,これ・それ・あれ,あれは僕の家です。,あれは ぼくの いえです。,That's my house over there.,,
-bs042,exercise,basic_sentence_3,これ・それ・あれ,これは大切なものです。,これは たいせつな ものです。,This is something important.,,
-bs043,exercise,basic_sentence_3,これ・それ・あれ,それは本当ですか。,それは ほんとうですか。,Is that true?,,
-bs044,exercise,basic_sentence_3,これ・それ・あれ,あれは僕たちの学校です。,あれは ぼくたちの がっこうです。,That's our school over there.,,
-bs045,sample,basic_sentence_3,この・その・あの + N,この本は面白いです。,この ほんは おもしろいです。,This book is interesting.,,"この, その, あの, and どの are a set of こそあど words. They all go before nouns to give information about their location in relation to you. In general, この attaches to something close to the speaker, その to something close to the listener, and あの to something close to neither of them. どの is the question word that asks ""which…?"" out of a choice of three or more objects."
-bs046,exercise,basic_sentence_3,この・その・あの + N,そのペンはあなたのですか。,その ぺんは あなたのですか。,Is that pen yours?,,
-bs047,exercise,basic_sentence_3,この・その・あの + N,あの人は先生です。,あの ひとは せんせいです。,That person is a teacher.,,
-bs048,exercise,basic_sentence_3,この・その・あの + N,この歌を聞きます。,この うたを ききます。,I listen to this song.,,
-bs049,exercise,basic_sentence_3,この・その・あの + N,その言葉を覚えています。,その ことばを おぼえています。,I remember those words.,,
-bs050,exercise,basic_sentence_3,この・その・あの + N,あの夏は楽しかったです。,あの なつは たのしかったです。,That summer was fun.,,
-bs051,exercise,basic_sentence_3,この・その・あの + N,その写真はきれいです。,その しゃしんは きれいです。,That photo is beautiful.,,
-bs052,exercise,basic_sentence_3,この・その・あの + N,あの山は高いです。,あの やまは たかいです。,That mountain is high.,,
-bs053,sample,basic_sentence_3,ここ・そこ・あそこ,ここは学校です。,ここは がっこうです。,This is a school.,,"ここ, そこ, あそこ, and どこ are a set of こそあど words. They can describe places you want to talk about without specifying exactly where they are. In general, ここ refers to places close to the speaker, そこ refers to places close to the listener, or reasonably far from both the speaker and listener if they're side by side, and あそこ refers to places close to neither of them. どこ is the question word that pairs together with these characters, and asks ""where?"""
-bs054,exercise,basic_sentence_3,ここ・そこ・あそこ,そこで待ちます。,そこで まちます。,I'll wait there.,,
-bs055,exercise,basic_sentence_3,ここ・そこ・あそこ,そこは寒いです。,そこは さむいです。,It is cold there.,,
-bs056,exercise,basic_sentence_3,ここ・そこ・あそこ,あそこは私の学校です。,あそこは わたしの がっこうです。,That place over there is my school.,,
-bs057,exercise,basic_sentence_3,ここ・そこ・あそこ,あそこで写真を撮ります。,あそこで しゃしんを とります。,I take photos over there.,,
-bs058,exercise,basic_sentence_3,ここ・そこ・あそこ,ここに本があります。,ここに ほんが あります。,There is a book here.,,
-bs059,sample,basic_sentence_3,ここ・そこ・あそこ,ここで勉強します。,ここで べんきょうします。,I study here.,,
-bs060,exercise,basic_sentence_4,どれ・どの,どれがあなたの本ですか。,どれが あなたの ほんですか。,Which one is your book?,どれ|が|あなた|の|本|ですか,"ど-Words: Words that begin with ど are used to ask a question.
+bs038,exercise,Basic Sentence - 3,これ・それ・あれ,それは君の本ですか。,それは きみの ほんですか。,Is that your book?,それ|は|君|の|本|です|か,
+bs039,exercise,Basic Sentence - 3,これ・それ・あれ,あれは東京です。,あれは とうきょうです。,That's Tokyo over there.,あれ|は|東京|です,
+bs040,exercise,Basic Sentence - 3,これ・それ・あれ,それは夢です。,それは ゆめです。,That is a dream.,それ|は|夢|です,
+bs041,exercise,Basic Sentence - 3,これ・それ・あれ,あれは僕の家です。,あれは ぼくの いえです。,That's my house over there.,あれ|は|僕|の|家|です,
+bs042,exercise,Basic Sentence - 3,これ・それ・あれ,これは大切なものです。,これは たいせつな ものです。,This is something important.,これ|は|大切な|も|の|です,
+bs043,exercise,Basic Sentence - 3,これ・それ・あれ,それは本当ですか。,それは ほんとうですか。,Is that true?,それ|は|本当|です|か,
+bs044,exercise,Basic Sentence - 3,これ・それ・あれ,あれは僕たちの学校です。,あれは ぼくたちの がっこうです。,That's our school over there.,あれ|は|僕たち|の|学校|です,
+bs045,sample,Basic Sentence - 3,この・その・あの + N,この本は面白いです。,この ほんは おもしろいです。,This book is interesting.,,"この, その, あの, and どの are a set of こそあど words. They all go before nouns to give information about their location in relation to you. In general, この attaches to something close to the speaker, その to something close to the listener, and あの to something close to neither of them. どの is the question word that asks ""which…?"" out of a choice of three or more objects."
+bs046,exercise,Basic Sentence - 3,この・その・あの + N,そのペンはあなたのですか。,その ぺんは あなたのですか。,Is that pen yours?,その|ペン|は|あなた|の|です|か,
+bs047,exercise,Basic Sentence - 3,この・その・あの + N,あの人は先生です。,あの ひとは せんせいです。,That person is a teacher.,あの|人|は|先生|です,
+bs048,exercise,Basic Sentence - 3,この・その・あの + N,この歌を聞きます。,この うたを ききます。,I listen to this song.,この|歌|を|聞きます,
+bs049,exercise,Basic Sentence - 3,この・その・あの + N,その言葉を覚えています。,その ことばを おぼえています。,I remember those words.,その|言葉|を|覚えています,
+bs050,exercise,Basic Sentence - 3,この・その・あの + N,あの夏は楽しかったです。,あの なつは たのしかったです。,That summer was fun.,あの|夏|は|楽しかった|です,
+bs051,exercise,Basic Sentence - 3,この・その・あの + N,その写真はきれいです。,その しゃしんは きれいです。,That photo is beautiful.,その|写真|は|きれい|です,
+bs052,exercise,Basic Sentence - 3,この・その・あの + N,あの山は高いです。,あの やまは たかいです。,That mountain is high.,あの|山|は|高い|です,
+bs053,sample,Basic Sentence - 3,ここ・そこ・あそこ,ここは学校です。,ここは がっこうです。,This is a school.,,"ここ, そこ, あそこ, and どこ are a set of こそあど words. They can describe places you want to talk about without specifying exactly where they are. In general, ここ refers to places close to the speaker, そこ refers to places close to the listener, or reasonably far from both the speaker and listener if they're side by side, and あそこ refers to places close to neither of them. どこ is the question word that pairs together with these characters, and asks ""where?"""
+bs054,exercise,Basic Sentence - 3,ここ・そこ・あそこ,そこで待ちます。,そこで まちます。,I'll wait there.,そこ|で|待ちます,
+bs055,exercise,Basic Sentence - 3,ここ・そこ・あそこ,そこは寒いです。,そこは さむいです。,It is cold there.,そこ|は|寒い|です,
+bs056,exercise,Basic Sentence - 3,ここ・そこ・あそこ,あそこは私の学校です。,あそこは わたしの がっこうです。,That place over there is my school.,あそこ|は|私|の|学校|です,
+bs057,exercise,Basic Sentence - 3,ここ・そこ・あそこ,あそこで写真を撮ります。,あそこで しゃしんを とります。,I take photos over there.,あそこ|で|写真|を|撮ります,
+bs058,exercise,Basic Sentence - 3,ここ・そこ・あそこ,ここに本があります。,ここに ほんが あります。,There is a book here.,ここ|に|本|が|あります,
+bs059,sample,Basic Sentence - 3,ここ・そこ・あそこ,ここで勉強します。,ここで べんきょうします。,I study here.,ここ|で|勉強|します,
+bs060,exercise,Basic Sentence - 4,どれ・どの,どれがあなたの本ですか。,どれが あなたの ほんですか。,Which one is your book?,どれ|が|あなた|の|本|ですか,"ど-Words: Words that begin with ど are used to ask a question.
 
 どれ is used to ask ""Which one?"" or ""Which ones?"" However, どれ can only be used when asking about a choice of three or more people or things. When you only have a choice of two options, you'll use どっち (or its polite version どちら) instead.
 
 どの (followed by noun) can only be used when asking ""which…?"" out of a choice of three or more people or things. When you only have a choice of two options, you'll use どっち (or its polite version どちら) with the particle の instead, as in どっちのドア (which door?)"
-bs061,exercise,basic_sentence_4,どれ・どの,どれが好きですか。,どれが すきですか。,Which one do you like?,どれ|が|好き|ですか,
-bs062,exercise,basic_sentence_4,どれ・どの,どれを食べますか。,どれを たべますか。,Which one will you eat?,どれ|を|食べますか,
-bs063,exercise,basic_sentence_4,どれ・どの,どれが新しいですか。,どれが あたらしいですか。,Which one is new?,どれ|が|新しい|ですか,
-bs064,exercise,basic_sentence_4,どれ・どの,どの店が安いですか。,どの みせが やすいですか。,Which shop is cheap?,どの|店|が|安い|ですか,
-bs065,exercise,basic_sentence_4,どれ・どの,どの歌を聞きますか。,どの うたを ききますか。,Which song will you listen to?,どの|歌|を|聞きますか,
-bs066,exercise,basic_sentence_4,どれ・どの,どの映画を見ますか。,どの えいがを みますか。,Which movie will you watch?,どの|映画|を|見ますか,
-bs067,exercise,basic_sentence_4,どれ・どの,どの道が駅までですか。,どの みちが えきまでですか。,Which road goes to the station?,どの|道|が|駅|まで|ですか,
-bs068,sample,basic_sentence_4,だれ・何・どこ,だれが日本人ですか。,だれが にほんじんですか。,Who is Japanese?,だれ|が|日本人|ですか,"だれ (dare) is Interrogative pronoun meaning: who. The subject indicator wa cannot be used after dare.
+bs061,exercise,Basic Sentence - 4,どれ・どの,どれが好きですか。,どれが すきですか。,Which one do you like?,どれ|が|好き|ですか,
+bs062,exercise,Basic Sentence - 4,どれ・どの,どれを食べますか。,どれを たべますか。,Which one will you eat?,どれ|を|食べますか,
+bs063,exercise,Basic Sentence - 4,どれ・どの,どれが新しいですか。,どれが あたらしいですか。,Which one is new?,どれ|が|新しい|ですか,
+bs064,exercise,Basic Sentence - 4,どれ・どの,どの店が安いですか。,どの みせが やすいですか。,Which shop is cheap?,どの|店|が|安い|ですか,
+bs065,exercise,Basic Sentence - 4,どれ・どの,どの歌を聞きますか。,どの うたを ききますか。,Which song will you listen to?,どの|歌|を|聞きますか,
+bs066,exercise,Basic Sentence - 4,どれ・どの,どの映画を見ますか。,どの えいがを みますか。,Which movie will you watch?,どの|映画|を|見ますか,
+bs067,exercise,Basic Sentence - 4,どれ・どの,どの道が駅までですか。,どの みちが えきまでですか。,Which road goes to the station?,どの|道|が|駅|まで|です|か,
+bs068,sample,Basic Sentence - 4,だれ・何・どこ,だれが日本人ですか。,だれが にほんじんですか。,Who is Japanese?,だれ|が|日本人|です|か,"だれ (dare) is Interrogative pronoun meaning: who. The subject indicator wa cannot be used after dare.
 
 何 is translated as “what” in English and replaces nouns. The grammatical rule is that it is always pronounced as なん if the letter after 何 is part of the Ta line (た ち つ て と), Da line (だ ぢ づ で ど), or Na line (な に ぬ ね の). Otherwise, you always pronounce 何 as なに.
 
 どこ is the Japanese word for ""where?"" The polite version of どこ is どちら."
-bs069,exercise,basic_sentence_4,だれ・何・どこ,だれと話しますか。,だれと はなしますか。,Who will you talk with?,だれ|と|話しますか,
-bs070,exercise,basic_sentence_4,だれ・何・どこ,何の本ですか。,なんの ほんですか。,What kind of book is it?,何|の|本|ですか,
-bs071,exercise,basic_sentence_4,だれ・何・どこ,何時ですか。,なんじですか。,What time is it?,何時|ですか,
-bs072,exercise,basic_sentence_4,だれ・何・どこ,どこに行きますか。,どこに いきますか。,Where will you go?,どこ|に|行きますか,
-bs073,exercise,basic_sentence_4,だれ・何・どこ,どこで勉強しますか。,どこで べんきょうしますか。,Where do you study?,どこ|で|勉強しますか,
-bs074,exercise,basic_sentence_4,だれ・何・どこ,どこで写真を撮りますか。,どこで しゃしんを とりますか。,Where will you take photos?,どこ|で|写真|を|撮りますか,
-bs075,exercise,basic_sentence_4,だれ・何・どこ,何を食べますか。,なにを たべますか。,What will you eat?,何|を|食べますか,
-bs076,exercise,basic_sentence_4,だれ・何・どこ,だれと行きますか。,だれと いきますか。,Who will you go with?,だれ|と|行きますか,
+bs069,exercise,Basic Sentence - 4,だれ・何・どこ,だれと話しますか。,だれと はなしますか。,Who will you talk with?,だれ|と|話します|か,
+bs070,exercise,Basic Sentence - 4,だれ・何・どこ,何の本ですか。,なんの ほんですか。,What kind of book is it?,何|の|本|です|か,
+bs071,exercise,Basic Sentence - 4,だれ・何・どこ,何時ですか。,なんじですか。,What time is it?,何時|です|か,
+bs072,exercise,Basic Sentence - 4,だれ・何・どこ,どこに行きますか。,どこに いきますか。,Where will you go?,どこ|に|行きます|か,
+bs073,exercise,Basic Sentence - 4,だれ・何・どこ,どこで勉強しますか。,どこで べんきょうしますか。,Where do you study?,どこ|で|勉強します|か,
+bs074,exercise,Basic Sentence - 4,だれ・何・どこ,どこで写真を撮りますか。,どこで しゃしんを とりますか。,Where will you take photos?,どこ|で|写真|を|撮ります|か,
+bs075,exercise,Basic Sentence - 4,だれ・何・どこ,何を食べますか。,なにを たべますか。,What will you eat?,何|を|食べます|か,
+bs076,exercise,Basic Sentence - 4,だれ・何・どこ,だれと行きますか。,だれと いきますか。,Who will you go with?,だれ|と|行きます|か,

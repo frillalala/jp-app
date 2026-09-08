@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:collection/collection.dart';
 import '../models/grammar_item.dart';
 import '../services/progress_service.dart';
+import '../widgets/centered_page.dart';
 
 class _WordTile {
   final String id;
@@ -154,28 +155,30 @@ class _GrammarCategoryFlowScreenState extends State<GrammarCategoryFlowScreen> {
     final sample = _currentSample;
     return Scaffold(
       appBar: AppBar(title: Text(_currentGrammar)),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(sample.sentence, style: const TextStyle(fontSize: 28)),
-            const SizedBox(height: 8),
-            Text(sample.hiragana, style: const TextStyle(fontSize: 18, color: Colors.grey)),
-            const SizedBox(height: 8),
-            Text(sample.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic)),
-            const SizedBox(height: 16),
-            if (sample.description.isNotEmpty)
-              Text(sample.description, style: const TextStyle(fontSize: 16)),
-            const Spacer(),
-            SizedBox(
-              width: double.infinity,
-              child: ElevatedButton(
-                onPressed: _startExercises,
-                child: const Text('Next: Practice'),
+      body: CenteredPage(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              Text(sample.sentence, style: const TextStyle(fontSize: 28)),
+              const SizedBox(height: 8),
+              Text(sample.hiragana, style: const TextStyle(fontSize: 18, color: Colors.grey)),
+              const SizedBox(height: 8),
+              Text(sample.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic)),
+              const SizedBox(height: 16),
+              if (sample.description.isNotEmpty)
+                Text(sample.description, style: const TextStyle(fontSize: 16)),
+              const Spacer(),
+              SizedBox(
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: _startExercises,
+                  child: const Text('Next: Practice'),
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
