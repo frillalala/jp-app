@@ -153,42 +153,43 @@ class _GrammarCategoryFlowScreenState extends State<GrammarCategoryFlowScreen> {
   }
 
   Widget _buildSampleView() {
-    final sample = _currentSample;
-    return Scaffold(
-      appBar: AppBar(title: Text(_currentGrammar)),
-      body: CenteredPage(
-        child: Padding(
-          padding: const EdgeInsets.all(16),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              Text(sample.sentence, style: const TextStyle(fontSize: 28)),
-              const SizedBox(height: 8),
-              Text(sample.hiragana, style: const TextStyle(fontSize: 18, color: Colors.grey)),
-              const SizedBox(height: 8),
-              Text(sample.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic)),
-              const SizedBox(height: 16),
-              if (sample.description.isNotEmpty)
-                MarkdownBody(
-                  data: sample.description,
-                  styleSheet: MarkdownStyleSheet(
-                    p: const TextStyle(fontSize: 16),
-                  ),
-                ),
-              const Spacer(),
-              SizedBox(
-                width: double.infinity,
-                child: ElevatedButton(
-                  onPressed: _startExercises,
-                  child: const Text('Next: Practice'),
+  final sample = _currentSample;
+  return Scaffold(
+    appBar: AppBar(title: Text(_currentGrammar)),
+    body: CenteredPage(
+      child: SingleChildScrollView(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(sample.sentence, style: const TextStyle(fontSize: 28), textAlign: TextAlign.center),
+            const SizedBox(height: 8),
+            Text(sample.hiragana, style: const TextStyle(fontSize: 18, color: Colors.grey), textAlign: TextAlign.center),
+            const SizedBox(height: 8),
+            Text(sample.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic), textAlign: TextAlign.center),
+            const SizedBox(height: 16),
+            if (sample.description.isNotEmpty)
+              MarkdownBody(
+                data: sample.description,
+                styleSheet: MarkdownStyleSheet(
+                  p: const TextStyle(fontSize: 16),
                 ),
               ),
-            ],
-          ),
+          ],
         ),
       ),
-    );
-  }
+    ),
+    bottomNavigationBar: SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: ElevatedButton(
+          onPressed: _startExercises,
+          child: const Text('Next: Practice'),
+        ),
+      ),
+    ),
+  );
+}
 
   Widget _buildExerciseView() {
     if (_currentExercises.isEmpty) {
