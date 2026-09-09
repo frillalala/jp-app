@@ -1,6 +1,7 @@
 // lib/screens/grammar_category_flow_screen.dart
 import 'package:flutter/material.dart';
 import 'package:collection/collection.dart';
+import 'package:flutter_markdown/flutter_markdown.dart';
 import '../models/grammar_item.dart';
 import '../services/progress_service.dart';
 import '../widgets/centered_page.dart';
@@ -168,7 +169,12 @@ class _GrammarCategoryFlowScreenState extends State<GrammarCategoryFlowScreen> {
               Text(sample.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic)),
               const SizedBox(height: 16),
               if (sample.description.isNotEmpty)
-                Text(sample.description, style: const TextStyle(fontSize: 16)),
+                MarkdownBody(
+                  data: sample.description,
+                  styleSheet: MarkdownStyleSheet(
+                    p: const TextStyle(fontSize: 16),
+                  ),
+                ),
               const Spacer(),
               SizedBox(
                 width: double.infinity,
@@ -192,84 +198,92 @@ class _GrammarCategoryFlowScreenState extends State<GrammarCategoryFlowScreen> {
 
     return Scaffold(
       appBar: AppBar(title: Text('$_currentGrammar — ${_exIndex + 1}/${_currentExercises.length}')),
-      body: Padding(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          children: [
-            Text(current.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic)),
-            const SizedBox(height: 24),
-            Wrap(
-              spacing: 8,
-              runSpacing: 8,
-              children: [
-                for (var i = 0; i < _slots.length; i++)
-                  DragTarget<_WordTile>(
-                    onAcceptWithDetails: (details) => _placeInSlot(details.data, i),
-                    builder: (context, candidateData, rejectedData) {
-                      final tile = _slots[i];
-                      return Container(
-                        width: 64,
-                        height: 48,
-                        alignment: Alignment.center,
-                        decoration: BoxDecoration(
-                          border: Border.all(color: Colors.grey),
-                          color: candidateData.isNotEmpty ? Colors.blue.shade50 : Colors.white,
-                        ),
-                        child: tile == null
-                            ? null
-                            : Draggable<_WordTile>(
-                                data: tile,
-                                feedback: Material(child: _wordChip(tile.text)),
-                                childWhenDragging: const SizedBox.shrink(),
-                                child: Text(tile.text, style: const TextStyle(fontSize: 18)),
+      body: CenteredPage(
+        child: Padding(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            children: [
+              Text(current.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic)),
+              const SizedBox(height: 24),
+              Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                children: [
+                  for (var i = 0; i < _slots.length; i++)
+                    DragTarget<_WordTile>(
+                      onAcceptWithDetails: (details) => _placeInSlot(details.data, i),
+                      builder: (context, candidateData, rejectedData) {
+                        final tile = _slots[i];
+                        return ConstrainedBox(
+                          constraints: const BoxConstraints(minWidth: 64, minHeight: 48),
+                          child: IntrinsicWidth(
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(horizontal: 8),
+                              height: 48,
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.grey),
+                                color: candidateData.isNotEmpty ? Colors.blue.shade50 : Colors.white,
                               ),
-                      );
-                    },
+                              child: Center(
+                                child: tile == null
+                                    ? null
+                                    : Draggable<_WordTile>(
+                                        data: tile,
+                                        feedback: Material(child: _wordChip(tile.text)),
+                                        childWhenDragging: const SizedBox.shrink(),
+                                        child: Text(tile.text, style: const TextStyle(fontSize: 18)),
+                                      ),
+                              ),
+                            ),
+                          ),
+                        );
+                      },
+                    ),
+                ],
+              ),
+              const SizedBox(height: 32),
+              DragTarget<_WordTile>(
+                onAcceptWithDetails: (details) => _returnToBank(details.data),
+                builder: (context, candidateData, rejectedData) {
+                  return Container(
+                    padding: const EdgeInsets.all(8),
+                    constraints: const BoxConstraints(minHeight: 64),
+                    decoration: BoxDecoration(border: Border.all(color: Colors.grey.shade300)),
+                    child: Wrap(
+                      spacing: 8,
+                      runSpacing: 8,
+                      children: _bank.map((tile) {
+                        return Draggable<_WordTile>(
+                          data: tile,
+                          feedback: Material(child: _wordChip(tile.text)),
+                          childWhenDragging: Opacity(opacity: 0.3, child: _wordChip(tile.text)),
+                          child: _wordChip(tile.text),
+                        );
+                      }).toList(),
+                    ),
+                  );
+                },
+              ),
+              const Spacer(),
+              if (_checked) ...[
+                Text(current.hiragana, style: const TextStyle(fontSize: 18)),
+                Text(current.meaning, style: const TextStyle(fontSize: 16, color: Colors.grey)),
+                Text(
+                  _isCorrect! ? 'Correct!' : 'Not quite — check the order above.',
+                  style: TextStyle(
+                    color: _isCorrect! ? Colors.green : Colors.red,
+                    fontWeight: FontWeight.bold,
                   ),
-              ],
-            ),
-            const SizedBox(height: 32),
-            DragTarget<_WordTile>(
-              onAcceptWithDetails: (details) => _returnToBank(details.data),
-              builder: (context, candidateData, rejectedData) {
-                return Container(
-                  padding: const EdgeInsets.all(8),
-                  constraints: const BoxConstraints(minHeight: 64),
-                  decoration: BoxDecoration(border: Border.all(color: Colors.grey.shade300)),
-                  child: Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
-                    children: _bank.map((tile) {
-                      return Draggable<_WordTile>(
-                        data: tile,
-                        feedback: Material(child: _wordChip(tile.text)),
-                        childWhenDragging: Opacity(opacity: 0.3, child: _wordChip(tile.text)),
-                        child: _wordChip(tile.text),
-                      );
-                    }).toList(),
-                  ),
-                );
-              },
-            ),
-            const Spacer(),
-            if (_checked) ...[
-              Text(current.hiragana, style: const TextStyle(fontSize: 18)),
-              Text(current.meaning, style: const TextStyle(fontSize: 16, color: Colors.grey)),
-              Text(
-                _isCorrect! ? 'Correct!' : 'Not quite — check the order above.',
-                style: TextStyle(
-                  color: _isCorrect! ? Colors.green : Colors.red,
-                  fontWeight: FontWeight.bold,
                 ),
-              ),
-              const SizedBox(height: 12),
-              ElevatedButton(onPressed: _nextExercise, child: const Text('Next')),
-            ] else
-              ElevatedButton(
-                onPressed: _slots.any((s) => s == null) ? null : _checkAnswer,
-                child: const Text('Check'),
-              ),
-          ],
+                const SizedBox(height: 12),
+                ElevatedButton(onPressed: _nextExercise, child: const Text('Next')),
+              ] else
+                ElevatedButton(
+                  onPressed: _slots.any((s) => s == null) ? null : _checkAnswer,
+                  child: const Text('Check'),
+                ),
+            ],
+          ),
         ),
       ),
     );

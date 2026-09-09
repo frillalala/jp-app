@@ -1,12 +1,12 @@
 gid,type,category,grammar,sentence,hiragana,meaning,words,description
 bs001,sample,Basic Sentence - 1,N は N です,私は学生です。,"わたしは がくせいです
-",I am a student.,,"The Topic Marker は “wa”
+",I am a student.,,"## The Topic Marker は “wa”
 
 The topic can be anything that a speaker wants to talk about (It can be an object, location or any other grammatical element). The topic marker ”wa” roughly corresponds to English ‘as for’. The topic particle while written as 「は」, is pronounced 「わ」.
 
-だ / です (da / desu)
+## だ / です (da / desu)
 
-だ statements are directed at the speaker rather than the listener and serve to communicate self-expression. They are used to convey emotions, among other things. On the other hand, です is used to direct a statement at a listener, showing the speaker's awareness of them."
+**だ** statements are directed at the speaker rather than the listener and serve to communicate self-expression. They are used to convey emotions, among other things. On the other hand, **です** is used to direct a statement at a listener, showing the speaker's awareness of them."
 bs002,exercise,Basic Sentence - 1,N は N です,彼はアメリカ出身です。,かれは あめりか しゅっしん です。,He is American.,彼|は|アメリカ|出身|です,
 bs003,exercise,Basic Sentence - 1,N は N です,彼女は看護師です。,かのじょは かんごし です。,She is a nurse.,彼女|は|看護師|です,
 bs004,exercise,Basic Sentence - 1,N は N です,天気は雨です。,てんきはあめ です。,The weather is rainy.,天気|は|雨|です,
@@ -98,3 +98,38 @@ bs073,exercise,Basic Sentence - 4,だれ・何・どこ,どこで勉強します
 bs074,exercise,Basic Sentence - 4,だれ・何・どこ,どこで写真を撮りますか。,どこで しゃしんを とりますか。,Where will you take photos?,どこ|で|写真|を|撮ります|か,
 bs075,exercise,Basic Sentence - 4,だれ・何・どこ,何を食べますか。,なにを たべますか。,What will you eat?,何|を|食べます|か,
 bs076,exercise,Basic Sentence - 4,だれ・何・どこ,だれと行きますか。,だれと いきますか。,Who will you go with?,だれ|と|行きます|か,
+bs076,sample,Particles,を・に・で,音楽を聞きます。,おんがくを ききます。,I listen to music.,,"# **を**
+Particle を marks the grammatical object of a sentence, which is the thing that is acted upon or affected by the verb. In other words it's what gets ""verbed"" in a sentence. 
+
+Noun + を
+Particle を can appear after nouns to make them the object of the sentence.
+
+手紙を書きます。(I write a letter)
+
+# **に**
+Particle に is a complex particle with many uses. Some linguists have found that it can be used in more than twenty different ways! However, if you boil に down all the way to its basics, you'll find that it has a fundamental meaning that unites all its uses. In short, に shows you where something is, was, or will be in the future. It's used to pin down something, whether it's location, time, purpose, or condition.
+
+学校に行きます。(I go to school.)
+
+# **で**
+Particle で appears in a lot of different contexts, and is an important particle to wrap your mind around. Its meaning shifts depending on how it's used, but, at its core, particle で helps specify where or how an activity or an event takes place. 
+
+箸でご飯を食べます。(I eat rice with chopsticks.)"
+bs074,exercise,Particles,を・に・で,手紙を書きます。,てがみを かきます。,I write a letter.,手紙|を|書きます,
+bs075,exercise,Particles,を・に・で,毎朝コーヒーを飲みます。,まいあさ こーひーを のみます。,I drink coffee every morning.,毎朝|コーヒー|を|飲みます,
+bs076,exercise,Particles,を・に・で,写真を撮ります。,しゃしんを とります。,I take a photo.,写真|を|撮ります,
+bs076,exercise,Particles,を・に・で,映画を見ます。,えいがを みます。,I watch a movie.,映画|を|見ます,
+bs074,exercise,Particles,を・に・で,ドアを開けます。,どあを あけます。,I open the door.,ドア|を|開けます,
+bs075,exercise,Particles,を・に・で,学校に行きます。,がっこうに いきます。,I go to school.,学校|に|行きます,
+bs076,exercise,Particles,を・に・で,友達に電話します。,ともだちに でんわします。,I call my friend.,友達|に|電話します,
+bs076,exercise,Particles,を・に・で,七時に起きます。,しちじに おきます。,I wake up at seven.,七時|に|起きます,
+bs074,exercise,Particles,を・に・で,母に花をあげます。,ははに はなを あげます。,I give flowers to my mother.,母|に|花|を|あげます,
+bs075,exercise,Particles,を・に・で,駅に着きます。,えきに つきます。,I arrive at the station.,駅|に|着きます,
+bs076,exercise,Particles,を・に・で,机の上に本があります。,つくえの うえに ほんが あります。,There is a book on the desk.,机|の|上|に|本|が|あります,
+bs076,exercise,Particles,を・に・で,日曜日に友達の家に行きます。,にちようびに ともだちの いえに いきます。,I go to my friend's house on Sunday.,日曜日|に|友達|の|家|に|行きます,
+bs074,exercise,Particles,を・に・で,図書館で本を読みます。,としょかんで ほんを よみます。,I read books at the library.,図書館|で|本|を|読みます,
+bs075,exercise,Particles,を・に・で,公園で写真を撮ります。,こうえんで しゃしんを とります。,I take photos at the park.,公園|で|写真|を|撮ります,
+bs076,exercise,Particles,を・に・で,電車で会社に行きます。,でんしゃで かいしゃに いきます。,I go to the company by train.,電車|で|会社|に|行きます,
+bs076,exercise,Particles,を・に・で,日本語で話します。,にほんごで はなします。,I speak in Japanese.,日本語|で|話します,
+bs074,exercise,Particles,を・に・で,箸でご飯を食べます。,はしで ごはんを たべます。,I eat rice with chopsticks.,箸|で|ご飯|を|食べます,
+bs075,exercise,Particles,を・に・で,駅で友達を待ちます。,えきで ともだちを まちます。,I wait for my friend at the station.,駅|で|友達|を|待ちます,
