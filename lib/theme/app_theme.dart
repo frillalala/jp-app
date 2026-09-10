@@ -4,6 +4,10 @@ import 'package:flutter/material.dart';
 class AppColors {
   static const primary = Color(0xFF66003E);
   static const onPrimary = Colors.white;
+
+  static const gotIt = Color(0xFF7CB88F);   // soft sage green
+  static const again = Color(0xFFE0A458);   // soft amber
+  static const mastery = Color(0xFF9E9E9E); // neutral gray
 }
 
 class AppTheme {

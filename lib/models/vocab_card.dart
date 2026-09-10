@@ -6,6 +6,11 @@ class VocabCard {
   final String meaning;
   final String type;
   final String category;
+  final String subCategory;
+  final String level;
+  final String sampleSentence;
+  final String sentenceHiragana;
+  final String sentenceMeaning;
 
   VocabCard({
     required this.vid,
@@ -14,6 +19,11 @@ class VocabCard {
     required this.meaning,
     required this.type,
     required this.category,
+    required this.subCategory,
+    required this.level,
+    required this.sampleSentence,
+    required this.sentenceHiragana,
+    required this.sentenceMeaning,
   });
 
   factory VocabCard.fromRow(List<dynamic> row) {
@@ -24,9 +34,13 @@ class VocabCard {
       meaning: row[3].toString().trim(),
       type: row[4].toString().trim(),
       category: row[5].toString().trim(),
+      subCategory: row[6].toString().trim(),
+      level: row[7].toString().trim(),
+      sampleSentence: row.length > 8 ? row[8].toString().trim() : '',
+      sentenceHiragana: row.length > 9 ? row[9].toString().trim() : '',
+      sentenceMeaning: row.length > 10? row[10].toString().trim() : '',
     );
   }
 
-  // Unique key to track mastery per word
   String get key => '$japanese|$reading';
 }
