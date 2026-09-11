@@ -134,7 +134,7 @@ class _GrammarCategoryMenuScreenState extends State<GrammarCategoryMenuScreen> {
 
               return ListTile(
                 contentPadding: const EdgeInsets.only(left: 32, right: 16),
-                title: Text(grammar),
+                title: Text(grammar, style: const TextStyle(fontSize: 14)),
                 trailing: Text(
                   '$percent%',
                   style: TextStyle(
@@ -162,6 +162,7 @@ class _GrammarCategoryMenuScreenState extends State<GrammarCategoryMenuScreen> {
                 },
               );
             }),
+            const Divider(height: 1, indent: 32),
           ];
         }).toList(),
       ),

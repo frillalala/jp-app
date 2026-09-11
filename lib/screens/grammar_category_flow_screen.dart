@@ -5,6 +5,7 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import '../models/grammar_item.dart';
 import '../services/progress_service.dart';
 import '../widgets/centered_page.dart';
+import '../theme/app_theme.dart';
 
 class _WordTile {
   final String id;
@@ -162,17 +163,36 @@ class _GrammarCategoryFlowScreenState extends State<GrammarCategoryFlowScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text(sample.sentence, style: const TextStyle(fontSize: 28), textAlign: TextAlign.center),
+            const SizedBox(height: 12),
+            Text(sample.sentence, style: const TextStyle(fontSize: 26), textAlign: TextAlign.center),
             const SizedBox(height: 8),
-            Text(sample.hiragana, style: const TextStyle(fontSize: 18, color: Colors.grey), textAlign: TextAlign.center),
+            Text(sample.hiragana, style: const TextStyle(fontSize: 14, color: Colors.grey), textAlign: TextAlign.center),
             const SizedBox(height: 8),
-            Text(sample.meaning, style: const TextStyle(fontSize: 18, fontStyle: FontStyle.italic), textAlign: TextAlign.center),
-            const SizedBox(height: 16),
+            Text(sample.meaning, style: const TextStyle(fontSize: 12, fontStyle: FontStyle.italic), textAlign: TextAlign.center),
+            const SizedBox(height: 24),
             if (sample.description.isNotEmpty)
               MarkdownBody(
                 data: sample.description,
                 styleSheet: MarkdownStyleSheet(
-                  p: const TextStyle(fontSize: 16),
+                  p: const TextStyle(fontSize: 16, height: 1.5, color: Colors.black87),
+                  strong: const TextStyle(fontWeight: FontWeight.bold, color: AppColors.primary),
+                  em: const TextStyle(fontStyle: FontStyle.italic, color: Colors.black54),
+                  h1: const TextStyle(fontSize: 23, fontWeight: FontWeight.bold),
+                  h1Padding: const EdgeInsets.only(top: 24, bottom: 8),
+                  h2: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                  h2Padding: const EdgeInsets.only(top: 16, bottom: 6),
+                  h3: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                  h3Padding: const EdgeInsets.only(top: 16, bottom: 0),
+                  listBullet: const TextStyle(fontSize: 16),
+                  blockquote: const TextStyle(fontSize: 15, color: Colors.grey, fontStyle: FontStyle.italic),
+                  blockquoteDecoration: BoxDecoration(
+                    border: Border(left: BorderSide(color: Colors.grey.shade400, width: 3)),
+                  ),
+                  code: TextStyle(
+                    backgroundColor: Colors.grey.shade200,
+                    fontFamily: 'monospace',
+                    fontSize: 14,
+                  ),
                 ),
               ),
           ],

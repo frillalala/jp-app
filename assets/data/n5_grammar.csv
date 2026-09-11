@@ -1,6 +1,6 @@
 gid,type,category,grammar,sentence,hiragana,meaning,words,description
 bs001,sample,Sentence Basics,Saying what something is with です,私は学生です。,"わたしは がくせいです
-",I am a student.,,"X は Y です is the sentence for saying what something is: a name, a job, a home country. です is the polite “is / am / are,” and one form fits every subject. 
+",I am a student.,,"X は Y です is the sentence for saying what something is: a name, a job, a home country. です is the polite “is / am / are,” and one form fits every subject. \
 
 
 ## The Topic Marker は “wa”
@@ -154,17 +154,77 @@ el009,exercise,Sentence Basics,"あります ・います: There Is, There Are",
 el010,exercise,Sentence Basics,"あります ・います: There Is, There Are",君がいない部屋に静かな夜があります。,きみが いない へやに しずかな よるが あります。,There is a quiet night in the room where you're not here.,君|が|いない|部屋|に|静かな|夜|が|あります,
 el011,exercise,Sentence Basics,"あります ・います: There Is, There Are",夜の街に人がいません。,よるの まちに ひとが いません。,There are no people in the city at night.,夜|の|街|に|人|が|いません,
 el012,exercise,Sentence Basics,"あります ・います: There Is, There Are",冷蔵庫に何もありません。,れいぞうこに なにも ありません。,There's nothing in the refrigerator.,冷蔵庫|に|何|も|ありません,
-bs019,sample,Particles,"The topic marker は, and も for “also”",あの人も日本人です。,あのひとも にほんじんです。,That person is also Japanese.,,"The particle も is similar to the English words ""too"" and ""also."" It is placed after a word to show that the word is part of a set. To conceptualize the particle も, it's helpful to imagine a list on a memo (me-も) sheet. The list is a group of things or people that belong together. When も goes after a word, it indicates that the word is a member of the group.
+at001,sample,Sentence Basics,をください / をお願いします: Asking for Things,コーヒーをお願いします。,こーひーを おねがいします。,"Coffee, please.",,"To ask for a thing, name it and add をください, which means “…, please.” をお願いします does the same job and sounds a little more adult. 
+
+をください works in any store, and をお願いします fits ordering food, paying, or speaking on the phone. Do not use ください on its own, because it always needs a word in front of it. お願いします can stand alone: give the clerk your card and say it."
+at002,exercise,Sentence Basics,をください / をお願いします: Asking for Things,水を一杯お願いします。,みずを いっぱい おねがいします。,"One glass of water, please.",水|を|一杯|お願いします,
+at003,exercise,Sentence Basics,をください / をお願いします: Asking for Things,少し時間をお願いします。,すこし じかんを おねがいします。,Please give me a little time.,少し|時間|を|お願いします,
+at004,exercise,Sentence Basics,をください / をお願いします: Asking for Things,明日もお願いします。,あしたも おねがいします。,"Please, again tomorrow.",明日|も|お願いします,
+at005,exercise,Sentence Basics,をください / をお願いします: Asking for Things,この旅行のパンフレットをください。,この りょこうの ぱんふれっとを ください。,"This travel brochure, please.",この|旅行|の|パンフレット|を|ください,
+at006,exercise,Sentence Basics,をください / をお願いします: Asking for Things,りんごを二つください。,りんごを ふたつ ください。,"Two apples, please.",りんご|を|二つ|ください,
+at007,exercise,Sentence Basics,をください / をお願いします: Asking for Things,東京までの切符を一枚ください。,とうきょうまでの きっぷを いちまい ください。,"One ticket to Tokyo, please.",東京|まで|の|切符|を|一枚|ください,
+at008,exercise,Sentence Basics,をください / をお願いします: Asking for Things,窓側の席をお願いします。,まどがわの せきを おねがいします。,"A window seat, please.",窓側|の|席|を|お願いします,
+cou001,sample,Sentence Basics,How Counters Work,写真を三枚撮りました。,しゃしんを さんまい とりました。,I took three photos.,,"Most languages count with a number and a noun: three pencils. Japanese adds a third word — a counter — that changes with the shape or kind of thing you count.
+
+### N を + number + counter + verb
+
+Pick the counter from the object's shape: 枚 for flat things, 本 for long thin things, 匹 for small animals, 人 for people. When you are unsure, the all-purpose つ works for most objects up to ten. Do not put the bare number straight in front of the noun: it sits after を, right before the verb.
+
+| counter |hiragana  |usage|
+|--|--|--|
+|枚 | まい | for flat things |
+|本| ほん | for long things|
+|匹|ひき|for small animals |
+|人|にん|for people|
+|つ|つ|all purposes/general|
+
+
+## The sound changes
+Counters that begin with an h-sound, like 本, shift after certain numbers. After 1, 6, 8, and 10 a small っ appears and ほ hardens to ぽ: いっぽん, ろっぽん, はっぽん, じゅっぽん. After 3 it softens to ぼ, giving さんぼん.
+
+The other numbers stay plain: にほん, よんほん, ごほん, ななほん, きゅうほん."
+cou002,exercise,Sentence Basics,How Counters Work,チケットを四枚買いました。,ちけっとを よんまい かいました。,I bought four tickets.,チケット|を|四枚|買いました|,
+cou003,exercise,Sentence Basics,How Counters Work,公園に犬が三匹います。,こうえんに いぬが さんびき います。,There are three dogs in the park.,公園|に|犬|が|三|匹|います,
+cou004,exercise,Sentence Basics,How Counters Work,水族館に魚が五匹います。,すいぞくかんに さかなが ごひき います。,There are five fish at the aquarium.,水族館|に|魚|が|五匹|います,
+cou005,exercise,Sentence Basics,How Counters Work,教室に学生が六人います。,きょうしつに がくせいが ろくにん います。,There are six students in the classroom.,教室|に|学生|が|六|人|います,
+cou006,exercise,Sentence Basics,How Counters Work,今日は友達が二人来ます。,きょうは ともだちが ふたり きます。,Two friends are coming today.,今日|は|友達|が|二|人|来ます,
+cou007,exercise,Sentence Basics,How Counters Work,箱の中にりんごが三つあります。,はこの なかに りんごが みっつ あります。,There are three apples in the box.,箱|の|中|に|りんご|が|三つ|あります,
+cou008,exercise,Sentence Basics,How Counters Work,机の上に小さな箱が二つあります。,つくえの うえに ちいさな はこが ふたつ あります。,There are two small boxes on the desk.,机|の|上|に|小さな|箱|が|二つ|あります,
+cou009,exercise,Sentence Basics,How Counters Work,花を一本買いました。,はなを いっぽん かいました。,I bought one flower.,花|を|一|本|買いました,
+cou010,exercise,Sentence Basics,How Counters Work,水を二本お願いします。,みずを にほん おねがいします。,"Two bottles of water, please.",水|を|二|本|お願いします,
+bs019,sample,Particles,"The topic marker は, and も for “also”",あの人も日本人です。,あのひとも にほんじんです。,That person is also Japanese.,,"## The Topic Marker は “wa”
+The は after X is the topic marker, the small word that flags X as what the sentence is about. Each sentence then names one fact about that topic. Notice the order: the topic comes first and です closes the thought. The topic can be anything that a speaker wants to talk about (It can be an object, location or any other grammatical element). The topic marker ”wa” roughly corresponds to English ‘as for’. The topic particle while written as 「は」, is pronounced 「わ」.
+
+## Adding to a group with も ""mo""
+も fills the very slot that は or が would take, and it marks its word as one more of a group already in play. Once you have said that one person is a bank clerk, swap は for も to add the next person.
+
+The particle も is similar to the English words ""too"" and ""also."" It is placed after a word to show that the word is part of a set. To conceptualize the particle も, it's helpful to imagine a list on a memo (me-も) sheet. The list is a group of things or people that belong together. When も goes after a word, it indicates that the word is a member of the group.
 
 も often follows a noun or a noun phrase. What comes after も can be a lot of varieties of words and forms. It can be anything from nouns, い-adjectives, な-adjectives, to verbs in either the positive or negative form."
+add001,exercise,Particles,"The topic marker は, and も for “also”",チケットは二枚あります。,ちけっとは にまい あります。,There are two tickets.,チケット|は|二枚|あります,
 bs020,exercise,Particles,"The topic marker は, and も for “also”",今日もいい日です。,きょうも いいひです。,Today is also a good day.,今日|も|いい|日|です,
 bs021,exercise,Particles,"The topic marker は, and も for “also”",これも夢です。,これも ゆめです。,This is also a dream.,これ|も|夢|です,
 bs022,exercise,Particles,"The topic marker は, and も for “also”",僕も元気です。,ぼくも げんきです。,I'm doing well too.,僕|も|元気|です,
 bs023,exercise,Particles,"The topic marker は, and も for “also”",この歌も好きです。,このうたも すきです。,I like this song too.,この|歌|も|好き|です,
 bs024,exercise,Particles,"The topic marker は, and も for “also”",君の言葉も大切です。,きみの ことばも たいせつです。,Your words are important too.,君|の|言葉|も|大切|です,
+add002,exercise,Particles,"The topic marker は, and も for “also”",私は一人じゃありません。あなたも一人じゃありません。,わたしは ひとりじゃ ありません。あなたも ひとりじゃ ありません。,I am not alone. You aren't alone either.,私|は|一人|じゃありません|あなた|も|一人|じゃありません,
+add003,exercise,Particles,"The topic marker は, and も for “also”",この本は面白いです。でも、その本も面白いです。,この ほんは おもしろいです。でも、その ほんも おもしろいです。,This book is interesting. But that book is interesting too.,この|本|は|面白い|です|でも|その|本|も|面白い|です,
+p028,sample,Particles,は vs が: choosing your subject marker,猫がいます。,ねこが います。,There is a cat.,猫|が|います,"The particle が goes after a noun to show us that the noun is the subject of a sentence. That is, the noun before が is the person or thing that's doing whatever comes next. In other words, が marks the grammatical subject. 
+
+Use が when the subject is new to the listener: something that appears, or a question word like who. Use は when you both already know the thing and you are saying more about it. One rule to keep: a question that asks with が is answered with が — do not switch to は.
+
+Beyond marking the subject, が also puts emphasis onto that subject, and excludes other possible subjects."
+p029,exercise,Particles,は vs が: choosing your subject marker,公園に子どもがいます。,こうえんに こどもが います。,There are children in the park.,公園|に|子ども|が|います,
+p030,exercise,Particles,は vs が: choosing your subject marker,日本語が分かります。,にほんごが わかります。,I understand Japanese.,日本語|が|分かります,
+p031,exercise,Particles,は vs が: choosing your subject marker,君の声が好きです。,きみの こえが すきです。,I like your voice.,君|の|声|が|好き|です,
+p032,exercise,Particles,は vs が: choosing your subject marker,今日は天気がいいです。,きょうは てんきが いいです。,The weather is good today.,今日|は|天気|が|いい|です,
+p033,exercise,Particles,は vs が: choosing your subject marker,君がいるから大丈夫です。,きみが いるから だいじょうぶです。,It's okay because you're here.,君|が|いる|から|大丈夫|です,
+p034,exercise,Particles,は vs が: choosing your subject marker,日本語が少し話せます。,にほんごが すこし はなせます。,I can speak a little Japanese.,日本語|が|少し|話せます,
 bs025,sample,Particles,Connecting nouns with の,僕の夢です。,ぼくの ゆめです。,It's my dream.,,"の can express ownership or possession when it comes after a person or a group of people. This is the use that is similar to …'s in English. You put your name on your things, right? Labelling is important for showing ownership!
 
-You might think of particle の like Japanese equivalent of the possessive 's ending in English, as in Tom's car of Granny's kittens. However, the label maker is really a better way to think of particle の, since the relationship between the label and the noun can result in various different interpretations. "
+You might think of particle の like Japanese equivalent of the possessive 's ending in English, as in Tom's car of Granny's kittens. However, the label maker is really a better way to think of particle の, since the relationship between the label and the noun can result in various different interpretations. 
+
+の joins nouns only: when the describing part is a verb or an adjective, a different pattern takes over."
 bs026,exercise,Particles,Connecting nouns with の,君の笑顔です。,きみの えがおです。,It's your smile.,君|の|笑顔|です,
 bs027,exercise,Particles,Connecting nouns with の,これは日本の歌です。,これは にほんの うたです。,This is a Japanese song.,これ|は|日本|の|歌|です,
 bs028,exercise,Particles,Connecting nouns with の,あの人は僕の友達です。,あのひとは ぼくの ともだちです。,That person is my friend.,あの|人|は|僕|の|友達|です,
@@ -235,13 +295,6 @@ p016,exercise,Particles,を・に・で,電車で会社に行きます。,でん
 p017,exercise,Particles,を・に・で,日本語で話します。,にほんごで はなします。,I speak in Japanese.,日本語|で|話します,
 p018,exercise,Particles,を・に・で,箸でご飯を食べます。,はしで ごはんを たべます。,I eat rice with chopsticks.,箸|で|ご飯|を|食べます,
 p019,exercise,Particles,を・に・で,駅で友達を待ちます。,えきで ともだちを まちます。,I wait for my friend at the station.,駅|で|友達|を|待ちます,
-p028,sample,Particles,は vs が: choosing your subject marker,猫がいます。,ねこが います。,There is a cat.,猫|が|います,"The particle が goes after a noun to show us that the noun is the subject of a sentence. That is, the noun before が is the person or thing that's doing whatever comes next. In other words, が marks the grammatical subject. Beyond marking the subject, が also puts emphasis onto that subject, and excludes other possible subjects."
-p029,exercise,Particles,は vs が: choosing your subject marker,公園に子どもがいます。,こうえんに こどもが います。,There are children in the park.,公園|に|子ども|が|います,
-p030,exercise,Particles,は vs が: choosing your subject marker,日本語が分かります。,にほんごが わかります。,I understand Japanese.,日本語|が|分かります,
-p031,exercise,Particles,は vs が: choosing your subject marker,君の声が好きです。,きみの こえが すきです。,I like your voice.,君|の|声|が|好き|です,
-p032,exercise,Particles,は vs が: choosing your subject marker,今日は天気がいいです。,きょうは てんきが いいです。,The weather is good today.,今日|は|天気|が|いい|です,
-p033,exercise,Particles,は vs が: choosing your subject marker,君がいるから大丈夫です。,きみが いるから だいじょうぶです。,It's okay because you're here.,君|が|いる|から|大丈夫|です,
-p034,exercise,Particles,は vs が: choosing your subject marker,日本語が少し話せます。,にほんごが すこし はなせます。,I can speak a little Japanese.,日本語|が|少し|話せます,
 p035,sample,Particles,から ・まで:  Where a Range Begins and Ends,朝から夜まで働きます。,あさから よるまで はたらきます。,I work from morning until night.,朝|から|夜|まで|働きます,"**から** is a particle that marks the **source**, such as a starting point, an origin, or a reason.
 
 **まで** is a particle that indicates the **end** point in space, time, and numbers. In its most basic use, it marks an end point of a connection between two points, such as with a distance or over a period of time.
