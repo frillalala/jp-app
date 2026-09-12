@@ -1,5 +1,5 @@
 gid,type,category,grammar,sentence,hiragana,meaning,words,description
-bs001,sample,Sentence Basics,Saying what something is with です,私は学生です。,"わたしは がくせいです
+sb001,sample,Sentence Basics,Saying what something is with です,私は学生です。,"わたしは がくせいです
 ",I am a student.,,"X は Y です is the sentence for saying what something is: a name, a job, a home country. です is the polite “is / am / are,” and one form fits every subject. \
 
 
@@ -13,37 +13,37 @@ The は after X is the topic marker, the small word that flags X as what the sen
 
 ## Making it negative
 To say X is not Y, keep X は and change the ending. In conversation じゃないです is the everyday choice, じゃありません is the textbook standard, and ではありません is the formal, written-sounding one. All three are fully polite, so pick by how formal the moment feels."
-bs002,exercise,Sentence Basics,Saying what something is with です,彼はアメリカ出身です。,かれは あめりか しゅっしん です。,He is American.,彼|は|アメリカ|出身|です,
-bs003,exercise,Sentence Basics,Saying what something is with です,彼女は看護師です。,かのじょは かんごし です。,She is a nurse.,彼女|は|看護師|です,
-bs004,exercise,Sentence Basics,Saying what something is with です,天気は雨です。,てんきはあめ です。,The weather is rainy.,天気|は|雨|です,
-bs005,exercise,Sentence Basics,Saying what something is with です,弟は医者です。,おとうとは いしゃ です。,My younger brother is a doctor.,弟|は|医者|です,
-bs006,exercise,Sentence Basics,Saying what something is with です,私は最強だ。,わたしはさいきょうだ。,I am the best.,私|は|最強|だ,
-bs007,exercise,Sentence Basics,Saying what something is with です,僕はヒーローじゃないです。,ぼくは ひーろーじゃないです。,I'm not a hero.,僕|は|ヒーロー|じゃない|です,
-bs008,exercise,Sentence Basics,Saying what something is with です,あなたは一人じゃないです。,あなたは ひとりじゃないです。,You are not alone.,あなた|は|一人|じゃない|です,
-bs009,exercise,Sentence Basics,Saying what something is with です,これは夢じゃないです。,これは ゆめじゃないです。,This isn't a dream.,これ|は|夢|じゃない|です,
-bs010,exercise,Sentence Basics,Saying what something is with です,僕たちは他人じゃないです。,ぼくたちは たにんじゃないです。,We're not strangers.,僕たち|は|他人|じゃない|です,
-bs011,exercise,Sentence Basics,Saying what something is with です,僕の毎日は悪いものじゃないです。,ぼくの まいにちは わるい ものじゃないです。,My everyday life isn't a bad thing.,僕|の|毎日|は|悪いもの|じゃない|です,
-bs012,exercise,Sentence Basics,Saying what something is with です,僕は弱い人じゃないです。,ぼくは よわい ひとじゃないです。,I'm not a weak person.,僕|は|弱い|人|じゃない|です,
-bsp01,exercise,Sentence Basics,Saying what something is with です,これは私の本ではありません。,これは わたしの ほんでは ありません。,This is not my book.,これ|は|私|の|本|ではありません,
-bsp02,exercise,Sentence Basics,Saying what something is with です,田中さんは先生ではありません。,たなかさんは せんせいでは ありません。,Tanaka is not a teacher.,田中|さん|は|先生|ではありません。,
-bsp00,sample,Sentence Basics,Past tense: でした / じゃありませんでした,あの人は私の大切な友達でした。,あの ひとは わたしの たいせつな ともだちでした。,That person was my dear friend.,あの|人|は|私|の|大切な|友達|でした,"でした is the past of です: it turns “X is Y” into “X was Y.” For the negative, じゃありませんでした does the same job for “was not.”
+sb002,exercise,Sentence Basics,Saying what something is with です,彼はアメリカ出身です。,かれは あめりか しゅっしん です。,He is American.,彼|は|アメリカ|出身|です,
+sb003,exercise,Sentence Basics,Saying what something is with です,彼女は看護師です。,かのじょは かんごし です。,She is a nurse.,彼女|は|看護師|です,
+sb004,exercise,Sentence Basics,Saying what something is with です,天気は雨です。,てんきはあめ です。,The weather is rainy.,天気|は|雨|です,
+sb005,exercise,Sentence Basics,Saying what something is with です,弟は医者です。,おとうとは いしゃ です。,My younger brother is a doctor.,弟|は|医者|です,
+sb006,exercise,Sentence Basics,Saying what something is with です,私は最強だ。,わたしはさいきょうだ。,I am the best.,私|は|最強|だ,
+sb007,exercise,Sentence Basics,Saying what something is with です,僕はヒーローじゃないです。,ぼくは ひーろーじゃないです。,I'm not a hero.,僕|は|ヒーロー|じゃない|です,
+sb008,exercise,Sentence Basics,Saying what something is with です,あなたは一人じゃないです。,あなたは ひとりじゃないです。,You are not alone.,あなた|は|一人|じゃない|です,
+sb009,exercise,Sentence Basics,Saying what something is with です,これは夢じゃないです。,これは ゆめじゃないです。,This isn't a dream.,これ|は|夢|じゃない|です,
+sb010,exercise,Sentence Basics,Saying what something is with です,僕たちは他人じゃないです。,ぼくたちは たにんじゃないです。,We're not strangers.,僕たち|は|他人|じゃない|です,
+sb011,exercise,Sentence Basics,Saying what something is with です,僕の毎日は悪いものじゃないです。,ぼくの まいにちは わるい ものじゃないです。,My everyday life isn't a bad thing.,僕|の|毎日|は|悪いもの|じゃない|です,
+sb012,exercise,Sentence Basics,Saying what something is with です,僕は弱い人じゃないです。,ぼくは よわい ひとじゃないです。,I'm not a weak person.,僕|は|弱い|人|じゃない|です,
+sb013,exercise,Sentence Basics,Saying what something is with です,これは私の本ではありません。,これは わたしの ほんでは ありません。,This is not my book.,これ|は|私|の|本|ではありません,
+sb014,exercise,Sentence Basics,Saying what something is with です,田中さんは先生ではありません。,たなかさんは せんせいでは ありません。,Tanaka is not a teacher.,田中|さん|は|先生|ではありません。,
+sb015,sample,Sentence Basics,Past tense: でした / じゃありませんでした,あの人は私の大切な友達でした。,あの ひとは わたしの たいせつな ともだちでした。,That person was my dear friend.,あの|人|は|私|の|大切な|友達|でした,"でした is the past of です: it turns “X is Y” into “X was Y.” For the negative, じゃありませんでした does the same job for “was not.”
 
 Use でした when a noun sentence or a な-adjective sentence is about the past: yesterday's weather, last week's plans, what someone used to be. Do not use it after an い-adjective (a describing word that ends in い, such as 寒い); those build their own past, 寒かったです.
 
 The negative has two polite forms. じゃありませんでした is the formal one; じゃなかったです is lighter and more common in speech. Both are polite, so pick by how formal the moment feels."
-bsp03,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日は静かな夜でした。,きのうは しずかな よるでした。,Yesterday was a quiet night.,昨日|は|静かな|夜|でした,
-bsp04,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,その日は雨でした。,その ひは あめでした。,It was a rainy day.,その|日|は|雨|でした,
-bsp05,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昔、ここは学校でした。,むかし、ここは がっこうでした。,"Long ago, this was a school.",昔|ここ|は|学校|でした,
-bsp06,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日のパーティーは楽しい時間でした。,きのうの ぱーてぃーは たのしい じかんでした。,Yesterday's party was a fun time.,昨日|の|パーティー|は|楽しい|時間|でした。,
-bsp07,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日の夢は不思議な夢でした。,きのうの ゆめは ふしぎな ゆめでした。,Yesterday's dream was a strange dream.,昨日|の|夢|は|不思議な|夢|でした,
-bsp08,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,あの日は、まだ夏でした。,あの ひは、まだ なつでした。,"That day, it was still summer.",あの|日|は|まだ|夏|でした,
-bsp09,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,その町は大きな町じゃなかったです。,その まちは おおきな まちじゃ なかったです。,That town wasn't a big town.,その|町|は|大きな|町|じゃなかったです,
-bsp10,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日の月はきれいじゃなかったです。,きのうの つきは きれいじゃ なかったです。,Yesterday's moon wasn't beautiful.,昨日|の|月|は|きれい|じゃなかったです。,
-bsp11,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,あの人は私の先生じゃありませんでした。,あの ひとは わたしの せんせいじゃ ありませんでした。,That person wasn't my teacher.,あの|人|は|私|の|先生|じゃありませんでした,
-bsp12,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日の夢は怖い夢じゃありませんでした。,きのうの ゆめは こわい ゆめじゃ ありませんでした。,Yesterday's dream wasn't a scary dream.,昨日|の|夢|は|怖い|夢|じゃありませんでした,
-bsp13,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,子供のころ、私は静かな子じゃありませんでした。,こどもの ころ、わたしは しずかな こじゃ ありませんでした。,"When I was a child, I wasn't a quiet child.",子供|の|ころ|私|は|静かな|子|じゃありませんでした,
-bsp14,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,あの日は夏じゃなかったです。,あの ひは なつじゃ なかったです。,That day wasn't summer.,あの|日|は|夏|じゃなかったです,
-bs013,sample,Sentence Basics,Asking questions with か and question words,あなたは学生ですか。,あなたは がくせいですか。,Are you a student?,,"We often think of particle か as ""the Japanese question mark,"" but it's actually a marker of the unknown. It can be used to mark a sentence as a question, or to express alternatives, like ""either … or …"" in English. 
+sb016,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日は静かな夜でした。,きのうは しずかな よるでした。,Yesterday was a quiet night.,昨日|は|静かな|夜|でした,
+sb017,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,その日は雨でした。,その ひは あめでした。,It was a rainy day.,その|日|は|雨|でした,
+sb018,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昔、ここは学校でした。,むかし、ここは がっこうでした。,"Long ago, this was a school.",昔|ここ|は|学校|でした,
+sb019,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日のパーティーは楽しい時間でした。,きのうの ぱーてぃーは たのしい じかんでした。,Yesterday's party was a fun time.,昨日|の|パーティー|は|楽しい|時間|でした。,
+sb020,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日の夢は不思議な夢でした。,きのうの ゆめは ふしぎな ゆめでした。,Yesterday's dream was a strange dream.,昨日|の|夢|は|不思議な|夢|でした,
+sb021,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,あの日は、まだ夏でした。,あの ひは、まだ なつでした。,"That day, it was still summer.",あの|日|は|まだ|夏|でした,
+sb022,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,その町は大きな町じゃなかったです。,その まちは おおきな まちじゃ なかったです。,That town wasn't a big town.,その|町|は|大きな|町|じゃなかったです,
+sb023,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日の月はきれいじゃなかったです。,きのうの つきは きれいじゃ なかったです。,Yesterday's moon wasn't beautiful.,昨日|の|月|は|きれい|じゃなかったです。,
+sb024,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,あの人は私の先生じゃありませんでした。,あの ひとは わたしの せんせいじゃ ありませんでした。,That person wasn't my teacher.,あの|人|は|私|の|先生|じゃありませんでした,
+sb025,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,昨日の夢は怖い夢じゃありませんでした。,きのうの ゆめは こわい ゆめじゃ ありませんでした。,Yesterday's dream wasn't a scary dream.,昨日|の|夢|は|怖い|夢|じゃありませんでした,
+sb026,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,子供のころ、私は静かな子じゃありませんでした。,こどもの ころ、わたしは しずかな こじゃ ありませんでした。,"When I was a child, I wasn't a quiet child.",子供|の|ころ|私|は|静かな|子|じゃありませんでした,
+sb027,exercise,Sentence Basics,Past tense: でした / じゃありませんでした,あの日は夏じゃなかったです。,あの ひは なつじゃ なかったです。,That day wasn't summer.,あの|日|は|夏|じゃなかったです,
+sb028,sample,Sentence Basics,Asking questions with か and question words,あなたは学生ですか。,あなたは がくせいですか。,Are you a student?,,"We often think of particle か as ""the Japanese question mark,"" but it's actually a marker of the unknown. It can be used to mark a sentence as a question, or to express alternatives, like ""either … or …"" in English. 
 
 Take any plain statement, put か on the very end, and you have a yes-or-no question. Nothing else moves: the subject, the object, and the verb all stay where they were. In writing か already marks the question, so a question mark is optional.
 
@@ -58,44 +58,44 @@ For anything beyond yes or no, use a question word. It sits exactly where the an
 どんな (donna): What kind of
 どの (dono): Which (of several)
 いくら (ikura): How much"
-bs014,exercise,Sentence Basics,Asking questions with か and question words,ここは病院ですか。,ここは びょういんですか。,Is this a hospital?,ここ|は|病院|です|か,
-bs015,exercise,Sentence Basics,Asking questions with か and question words,君は大丈夫ですか。,きみは だいじょうぶですか。,Are you okay?,君|は|大丈夫|です|か,
-bs016,exercise,Sentence Basics,Asking questions with か and question words,この人は友達ですか。,このひとは ともだちですか。,Is this person your friend?,この|人|は|友達|です|か,
-bs017,exercise,Sentence Basics,Asking questions with か and question words,これは本当ですか。,これは ほんとうですか。,Is this true?,これ|は|本当|です|か,
-bs018,exercise,Sentence Basics,Asking questions with か and question words,今日は休みですか。,きょうは やすみですか。,Is today a day off?,今日|は|休み|です|か,
-bs019,exercise,Sentence Basics,Asking questions with か and question words,あなたの大切なものは何ですか。,あなたの たいせつな ものは なんですか。,What is something precious to you?,あなた|の|大切な|もの|は|何|です|か|,
-bs020,exercise,Sentence Basics,Asking questions with か and question words,誰がこの手紙を書きましたか。,だれが この てがみを かきましたか。,Who wrote this letter?,誰|が|この|手紙|を|書きました|か,
-bs021,exercise,Sentence Basics,Asking questions with か and question words,どこで君に会いましたか。,どこで きみに あいましたか。,Where did I meet you?,どこ|で|君|に|会いました|か,
-bs022,exercise,Sentence Basics,Asking questions with か and question words,いつまた会いますか。,いつ また あいますか。,When will we meet again?,いつ|また|会います|か,
-bs023,exercise,Sentence Basics,Asking questions with か and question words,どんな夢がありますか。,どんな ゆめが ありますか。,What kind of dream do you have?,どんな|夢|が|あります|か,
-bs024,exercise,Sentence Basics,Asking questions with か and question words,どの道を歩きたいですか。,どの みちを あるきたいですか。,Which road do you want to walk?,どの|道|を|歩きたい|です|か,
-bs025,exercise,Sentence Basics,Asking questions with か and question words,この本はいくらですか。,この ほんは いくらですか。,How much is this book?,この|本|は|いくら|です|か,
-bs026,exercise,Sentence Basics,Asking questions with か and question words,幸せはいくらですか。,しあわせは いくらですか。,How much is happiness?,幸せ|は|いくら|です|か,
-bs068,exercise,Sentence Basics,Asking questions with か and question words,だれが日本人ですか。,だれが にほんじんですか。,Who is Japanese?,だれ|が|日本人|です|か,
-bs069,exercise,Sentence Basics,Asking questions with か and question words,だれと話しますか。,だれと はなしますか。,Who will you talk with?,だれ|と|話します|か,
-bs070,exercise,Sentence Basics,Asking questions with か and question words,何の本ですか。,なんの ほんですか。,What kind of book is it?,何|の|本|です|か,
-bs071,exercise,Sentence Basics,Asking questions with か and question words,何時ですか。,なんじですか。,What time is it?,何時|です|か,
-bs075,exercise,Sentence Basics,Asking questions with か and question words,何を食べますか。,なにを たべますか。,What will you eat?,何|を|食べます|か,
-bs076,exercise,Sentence Basics,Asking questions with か and question words,だれと行きますか。,だれと いきますか。,Who will you go with?,だれ|と|行きます|か,
-bs037,sample,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,これは私のかばんです。,これは わたしの かばんです。,This is my bag.,,"これ, それ, あれ, and どれ are a set of こそあど words. You can use them to refer to things (specific objects that are physically present) you want to talk about, without specifying what they are. They are the equivalent of ""this one,"" ""that one,"" and ""that one over there"" in English.
+sb029,exercise,Sentence Basics,Asking questions with か and question words,ここは病院ですか。,ここは びょういんですか。,Is this a hospital?,ここ|は|病院|です|か,
+sb030,exercise,Sentence Basics,Asking questions with か and question words,君は大丈夫ですか。,きみは だいじょうぶですか。,Are you okay?,君|は|大丈夫|です|か,
+sb031,exercise,Sentence Basics,Asking questions with か and question words,この人は友達ですか。,このひとは ともだちですか。,Is this person your friend?,この|人|は|友達|です|か,
+sb032,exercise,Sentence Basics,Asking questions with か and question words,これは本当ですか。,これは ほんとうですか。,Is this true?,これ|は|本当|です|か,
+sb033,exercise,Sentence Basics,Asking questions with か and question words,今日は休みですか。,きょうは やすみですか。,Is today a day off?,今日|は|休み|です|か,
+sb034,exercise,Sentence Basics,Asking questions with か and question words,あなたの大切なものは何ですか。,あなたの たいせつな ものは なんですか。,What is something precious to you?,あなた|の|大切な|もの|は|何|です|か,
+sb035,exercise,Sentence Basics,Asking questions with か and question words,誰がこの手紙を書きましたか。,だれが この てがみを かきましたか。,Who wrote this letter?,誰|が|この|手紙|を|書きました|か,
+sb036,exercise,Sentence Basics,Asking questions with か and question words,どこで君に会いましたか。,どこで きみに あいましたか。,Where did I meet you?,どこ|で|君|に|会いました|か,
+sb037,exercise,Sentence Basics,Asking questions with か and question words,いつまた会いますか。,いつ また あいますか。,When will we meet again?,いつ|また|会います|か,
+sb038,exercise,Sentence Basics,Asking questions with か and question words,どんな夢がありますか。,どんな ゆめが ありますか。,What kind of dream do you have?,どんな|夢|が|あります|か,
+sb039,exercise,Sentence Basics,Asking questions with か and question words,どの道を歩きたいですか。,どの みちを あるきたいですか。,Which road do you want to walk?,どの|道|を|歩きたい|です|か,
+sb040,exercise,Sentence Basics,Asking questions with か and question words,この本はいくらですか。,この ほんは いくらですか。,How much is this book?,この|本|は|いくら|です|か,
+sb041,exercise,Sentence Basics,Asking questions with か and question words,幸せはいくらですか。,しあわせは いくらですか。,How much is happiness?,幸せ|は|いくら|です|か,
+sb042,exercise,Sentence Basics,Asking questions with か and question words,だれが日本人ですか。,だれが にほんじんですか。,Who is Japanese?,だれ|が|日本人|です|か,
+sb043,exercise,Sentence Basics,Asking questions with か and question words,だれと話しますか。,だれと はなしますか。,Who will you talk with?,だれ|と|話します|か,
+sb044,exercise,Sentence Basics,Asking questions with か and question words,何の本ですか。,なんの ほんですか。,What kind of book is it?,何|の|本|です|か,
+sb045,exercise,Sentence Basics,Asking questions with か and question words,何時ですか。,なんじですか。,What time is it?,何時|です|か,
+sb046,exercise,Sentence Basics,Asking questions with か and question words,何を食べますか。,なにを たべますか。,What will you eat?,何|を|食べます|か,
+sb047,exercise,Sentence Basics,Asking questions with か and question words,だれと行きますか。,だれと いきますか。,Who will you go with?,だれ|と|行きます|か,
+sb048,sample,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,これは私のかばんです。,これは わたしの かばんです。,This is my bag.,,"これ, それ, あれ, and どれ are a set of こそあど words. You can use them to refer to things (specific objects that are physically present) you want to talk about, without specifying what they are. They are the equivalent of ""this one,"" ""that one,"" and ""that one over there"" in English.
 
 Most languages split “this and that” into two words, and Japanese splits it into three. The choice follows whose space the thing is in: yours, the listener's, or neither. これ points to something in your own space, それ to something in the listener's, and あれ to something outside both. Do not choose by distance alone: それ marks the listener's space even when that person stands beside you. 
 
 
 ## The question word is どれ, “which one.”
 どれ is used to ask ""Which one?"" or ""Which ones?"" However, どれ can only be used when asking about a choice of three or more people or things. When you only have a choice of two options, you'll use どっち (or its polite version どちら) instead."
-bs038,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは君の本ですか。,それは きみの ほんですか。,Is that your book?,それ|は|君|の|本|です|か,
-bs039,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは東京です。,あれは とうきょうです。,That's Tokyo over there.,あれ|は|東京|です,
-bs040,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは夢です。,それは ゆめです。,That is a dream.,それ|は|夢|です,
-bs041,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは僕の家です。,あれは ぼくの いえです。,That's my house over there.,あれ|は|僕|の|家|です,
-bs042,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,これは大切なものです。,これは たいせつな ものです。,This is something important.,これ|は|大切な|も|の|です,
-bs043,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは本当ですか。,それは ほんとうですか。,Is that true?,それ|は|本当|です|か,
-bs044,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは僕たちの学校です。,あれは ぼくたちの がっこうです。,That's our school over there.,あれ|は|僕たち|の|学校|です,
-bs060,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれがあなたの本ですか。,どれが あなたの ほんですか。,Which one is your book?,どれ|が|あなた|の|本|ですか,
-bs061,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれが好きですか。,どれが すきですか。,Which one do you like?,どれ|が|好き|ですか,
-bs062,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれを食べますか。,どれを たべますか。,Which one will you eat?,どれ|を|食べますか,
-bs063,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれが新しいですか。,どれが あたらしいですか。,Which one is new?,どれ|が|新しい|ですか,
-bs045,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,この本は面白いです。,この ほんは おもしろいです。,This book is interesting.,,"Japanese sorts pointing words three ways: near me, near you, and away from us both.
+sb049,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは君の本ですか。,それは きみの ほんですか。,Is that your book?,それ|は|君|の|本|です|か,
+sb050,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは東京です。,あれは とうきょうです。,That's Tokyo over there.,あれ|は|東京|です,
+sb051,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは夢です。,それは ゆめです。,That is a dream.,それ|は|夢|です,
+sb052,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは僕の家です。,あれは ぼくの いえです。,That's my house over there.,あれ|は|僕|の|家|です,
+sb053,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,これは大切なものです。,これは たいせつな ものです。,This is something important.,これ|は|大切な|も|の|です,
+sb054,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは本当ですか。,それは ほんとうですか。,Is that true?,それ|は|本当|です|か,
+sb055,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは僕たちの学校です。,あれは ぼくたちの がっこうです。,That's our school over there.,あれ|は|僕たち|の|学校|です,
+sb056,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれがあなたの本ですか。,どれが あなたの ほんですか。,Which one is your book?,どれ|が|あなた|の|本|ですか,
+sb057,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれが好きですか。,どれが すきですか。,Which one do you like?,どれ|が|好き|ですか,
+sb058,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれを食べますか。,どれを たべますか。,Which one will you eat?,どれ|を|食べますか,
+sb059,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれが新しいですか。,どれが あたらしいですか。,Which one is new?,どれ|が|新しい|ですか,
+sb060,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,この本は面白いです。,この ほんは おもしろいです。,This book is interesting.,,"Japanese sorts pointing words three ways: near me, near you, and away from us both.
 
 こ・そ・あ・ど + れ / こ / の
 
@@ -111,28 +111,28 @@ bs045,sample,Sentence Basics,この・その・あの: Pointing at Places and Th
 **どの** (followed by noun) can only be used when asking ""which…?"" out of a choice of three or more people or things. When you only have a choice of two options, you'll use どっち (or its polite version どちら) with the particle の instead, as in どっちのドア (which door?)
 
 **どこ** is the question word that pairs together with these characters, and asks ""where?"""
-bs046,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そのペンはあなたのですか。,その ぺんは あなたのですか。,Is that pen yours?,その|ペン|は|あなた|の|です|か,
-bs047,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの人は先生です。,あの ひとは せんせいです。,That person is a teacher.,あの|人|は|先生|です,
-bs048,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,この歌を聞きます。,この うたを ききます。,I listen to this song.,この|歌|を|聞きます,
-bs049,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,その言葉を覚えています。,その ことばを おぼえています。,I remember those words.,その|言葉|を|覚えています,
-bs050,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの夏は楽しかったです。,あの なつは たのしかったです。,That summer was fun.,あの|夏|は|楽しかった|です,
-bs051,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,その写真はきれいです。,その しゃしんは きれいです。,That photo is beautiful.,その|写真|は|きれい|です,
-bs052,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの山は高いです。,あの やまは たかいです。,That mountain is high.,あの|山|は|高い|です,
-bs064,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの店が安いですか。,どの みせが やすいですか。,Which shop is cheap?,どの|店|が|安い|ですか,
-bs065,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの歌を聞きますか。,どの うたを ききますか。,Which song will you listen to?,どの|歌|を|聞きますか,
-bs066,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの映画を見ますか。,どの えいがを みますか。,Which movie will you watch?,どの|映画|を|見ますか,
-bs067,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの道が駅までですか。,どの みちが えきまでですか。,Which road goes to the station?,どの|道|が|駅|まで|です|か,
-bs053,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,ここは学校です。,ここは がっこうです。,This is a school.,,
-bs054,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そこで待ちます。,そこで まちます。,I'll wait there.,そこ|で|待ちます,
-bs055,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そこは寒いです。,そこは さむいです。,It is cold there.,そこ|は|寒い|です,
-bs056,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あそこは私の学校です。,あそこは わたしの がっこうです。,That place over there is my school.,あそこ|は|私|の|学校|です,
-bs057,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あそこで写真を撮ります。,あそこで しゃしんを とります。,I take photos over there.,あそこ|で|写真|を|撮ります,
-bs058,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,ここに本があります。,ここに ほんが あります。,There is a book here.,ここ|に|本|が|あります,
-bs059,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,ここで勉強します。,ここで べんきょうします。,I study here.,ここ|で|勉強|します,
-bs072,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこに行きますか。,どこに いきますか。,Where will you go?,どこ|に|行きます|か,
-bs073,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこで勉強しますか。,どこで べんきょうしますか。,Where do you study?,どこ|で|勉強します|か,
-bs074,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこで写真を撮りますか。,どこで しゃしんを とりますか。,Where will you take photos?,どこ|で|写真|を|撮ります|か,
-el001,sample,Sentence Basics,"あります ・います: There Is, There Are",机の上に本があります。,つくえの うえに ほんが あります。,There is a book on the desk.,机|の|上|に|本|が|あります,"Japanese uses two different verbs to say that something exists. あります is used for things that do not move on their own, and plants belong here too. います is used for anything that moves under its own power: people, animals, and insects.
+sb061,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そのペンはあなたのですか。,その ぺんは あなたのですか。,Is that pen yours?,その|ペン|は|あなた|の|です|か,
+sb062,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの人は先生です。,あの ひとは せんせいです。,That person is a teacher.,あの|人|は|先生|です,
+sb063,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,この歌を聞きます。,この うたを ききます。,I listen to this song.,この|歌|を|聞きます,
+sb064,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,その言葉を覚えています。,その ことばを おぼえています。,I remember those words.,その|言葉|を|覚えています,
+sb065,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの夏は楽しかったです。,あの なつは たのしかったです。,That summer was fun.,あの|夏|は|楽しかった|です,
+sb066,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,その写真はきれいです。,その しゃしんは きれいです。,That photo is beautiful.,その|写真|は|きれい|です,
+sb067,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの山は高いです。,あの やまは たかいです。,That mountain is high.,あの|山|は|高い|です,
+sb068,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの店が安いですか。,どの みせが やすいですか。,Which shop is cheap?,どの|店|が|安い|ですか,
+sb069,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの歌を聞きますか。,どの うたを ききますか。,Which song will you listen to?,どの|歌|を|聞きますか,
+sb070,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの映画を見ますか。,どの えいがを みますか。,Which movie will you watch?,どの|映画|を|見ますか,
+sb071,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの道が駅までですか。,どの みちが えきまでですか。,Which road goes to the station?,どの|道|が|駅|まで|です|か,
+sb072,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,ここは学校です。,ここは がっこうです。,This is a school.,,
+sb073,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そこで待ちます。,そこで まちます。,I'll wait there.,そこ|で|待ちます,
+sb074,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そこは寒いです。,そこは さむいです。,It is cold there.,そこ|は|寒い|です,
+sb075,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あそこは私の学校です。,あそこは わたしの がっこうです。,That place over there is my school.,あそこ|は|私|の|学校|です,
+sb076,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あそこで写真を撮ります。,あそこで しゃしんを とります。,I take photos over there.,あそこ|で|写真|を|撮ります,
+sb077,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,ここに本があります。,ここに ほんが あります。,There is a book here.,ここ|に|本|が|あります,
+sb078,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,ここで勉強します。,ここで べんきょうします。,I study here.,ここ|で|勉強|します,
+sb079,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこに行きますか。,どこに いきますか。,Where will you go?,どこ|に|行きます|か,
+sb080,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこで勉強しますか。,どこで べんきょうしますか。,Where do you study?,どこ|で|勉強します|か,
+sb081,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこで写真を撮りますか。,どこで しゃしんを とりますか。,Where will you take photos?,どこ|で|写真|を|撮ります|か,
+sb082,sample,Sentence Basics,"あります ・います: There Is, There Are",机の上に本があります。,つくえの うえに ほんが あります。,There is a book on the desk.,机|の|上|に|本|が|あります,"Japanese uses two different verbs to say that something exists. あります is used for things that do not move on their own, and plants belong here too. います is used for anything that moves under its own power: people, animals, and insects.
 
 がある (ga aru): there is (used for non-living things)
 がいる (ga iru): there is (used for living things)
@@ -143,28 +143,28 @@ Use these two verbs to say what is in a place, and mark the place with に.
 
 ## Negatives and having
 For the negative, あります becomes ありません and います becomes いません. The same two verbs also say that you have something: 時間があります means “I have time,” and 兄がいます means “I have an older brother.” What you own is treated as something that exists, so the same rule still picks the verb."
-el002,exercise,Sentence Basics,"あります ・います: There Is, There Are",机の上に昨日の手紙があります。,つくえの うえに きのうの てがみが あります。,There's yesterday's letter on the desk.,机|の|上|に|昨日|の|手紙|が|あります,
-el003,exercise,Sentence Basics,"あります ・います: There Is, There Are",公園に大きな木があります。,こうえんに おおきな きが あります。,There is a big tree in the park.,公園|に|大きな|木|が|あります,
-el004,exercise,Sentence Basics,"あります ・います: There Is, There Are",僕のかばんに小さな花があります。,ぼくの かばんに ちいさな はなが あります。,There's a small flower in my bag.,僕|の|かばん|に|小さな花|が|あります,
-el005,exercise,Sentence Basics,"あります ・います: There Is, There Are",公園に子どもがいます。,こうえんに こどもが います。,There are children in the park.,公園|に|子ども|が|います,
-el006,exercise,Sentence Basics,"あります ・います: There Is, There Are",ここに君との思い出があります。,ここに きみとの おもいでが あります。,There are memories of you here.,ここ|に|君|と|の|思い出|が|あります,
-el007,exercise,Sentence Basics,"あります ・います: There Is, There Are",冷蔵庫に何がありますか。,れいぞうこに なにが ありますか。,What is in the refrigerator?,冷蔵庫|に|何|が|ありますか,
-el008,exercise,Sentence Basics,"あります ・います: There Is, There Are",ここに誰がいますか。,ここに だれが いますか。,Who is here?,ここ|に|誰|が|いますか,
-el009,exercise,Sentence Basics,"あります ・います: There Is, There Are",窓の外に雨があります。,まどの そとに あめが あります。,There is rain outside the window.,窓|の|外|に|雨|が|あります,
-el010,exercise,Sentence Basics,"あります ・います: There Is, There Are",君がいない部屋に静かな夜があります。,きみが いない へやに しずかな よるが あります。,There is a quiet night in the room where you're not here.,君|が|いない|部屋|に|静かな|夜|が|あります,
-el011,exercise,Sentence Basics,"あります ・います: There Is, There Are",夜の街に人がいません。,よるの まちに ひとが いません。,There are no people in the city at night.,夜|の|街|に|人|が|いません,
-el012,exercise,Sentence Basics,"あります ・います: There Is, There Are",冷蔵庫に何もありません。,れいぞうこに なにも ありません。,There's nothing in the refrigerator.,冷蔵庫|に|何|も|ありません,
-at001,sample,Sentence Basics,をください / をお願いします: Asking for Things,コーヒーをお願いします。,こーひーを おねがいします。,"Coffee, please.",,"To ask for a thing, name it and add をください, which means “…, please.” をお願いします does the same job and sounds a little more adult. 
+sb083,exercise,Sentence Basics,"あります ・います: There Is, There Are",机の上に昨日の手紙があります。,つくえの うえに きのうの てがみが あります。,There's yesterday's letter on the desk.,机|の|上|に|昨日|の|手紙|が|あります,
+sb084,exercise,Sentence Basics,"あります ・います: There Is, There Are",公園に大きな木があります。,こうえんに おおきな きが あります。,There is a big tree in the park.,公園|に|大きな|木|が|あります,
+sb085,exercise,Sentence Basics,"あります ・います: There Is, There Are",僕のかばんに小さな花があります。,ぼくの かばんに ちいさな はなが あります。,There's a small flower in my bag.,僕|の|かばん|に|小さな花|が|あります,
+sb086,exercise,Sentence Basics,"あります ・います: There Is, There Are",公園に子どもがいます。,こうえんに こどもが います。,There are children in the park.,公園|に|子ども|が|います,
+sb087,exercise,Sentence Basics,"あります ・います: There Is, There Are",ここに君との思い出があります。,ここに きみとの おもいでが あります。,There are memories of you here.,ここ|に|君|と|の|思い出|が|あります,
+sb088,exercise,Sentence Basics,"あります ・います: There Is, There Are",冷蔵庫に何がありますか。,れいぞうこに なにが ありますか。,What is in the refrigerator?,冷蔵庫|に|何|が|ありますか,
+sb089,exercise,Sentence Basics,"あります ・います: There Is, There Are",ここに誰がいますか。,ここに だれが いますか。,Who is here?,ここ|に|誰|が|いますか,
+sb090,exercise,Sentence Basics,"あります ・います: There Is, There Are",窓の外に雨があります。,まどの そとに あめが あります。,There is rain outside the window.,窓|の|外|に|雨|が|あります,
+sb091,exercise,Sentence Basics,"あります ・います: There Is, There Are",君がいない部屋に静かな夜があります。,きみが いない へやに しずかな よるが あります。,There is a quiet night in the room where you're not here.,君|が|いない|部屋|に|静かな|夜|が|あります,
+sb092,exercise,Sentence Basics,"あります ・います: There Is, There Are",夜の街に人がいません。,よるの まちに ひとが いません。,There are no people in the city at night.,夜|の|街|に|人|が|いません,
+sb093,exercise,Sentence Basics,"あります ・います: There Is, There Are",冷蔵庫に何もありません。,れいぞうこに なにも ありません。,There's nothing in the refrigerator.,冷蔵庫|に|何|も|ありません,
+sb094,sample,Sentence Basics,をください / をお願いします: Asking for Things,コーヒーをお願いします。,こーひーを おねがいします。,"Coffee, please.",,"To ask for a thing, name it and add をください, which means “…, please.” をお願いします does the same job and sounds a little more adult. 
 
 をください works in any store, and をお願いします fits ordering food, paying, or speaking on the phone. Do not use ください on its own, because it always needs a word in front of it. お願いします can stand alone: give the clerk your card and say it."
-at002,exercise,Sentence Basics,をください / をお願いします: Asking for Things,水を一杯お願いします。,みずを いっぱい おねがいします。,"One glass of water, please.",水|を|一杯|お願いします,
-at003,exercise,Sentence Basics,をください / をお願いします: Asking for Things,少し時間をお願いします。,すこし じかんを おねがいします。,Please give me a little time.,少し|時間|を|お願いします,
-at004,exercise,Sentence Basics,をください / をお願いします: Asking for Things,明日もお願いします。,あしたも おねがいします。,"Please, again tomorrow.",明日|も|お願いします,
-at005,exercise,Sentence Basics,をください / をお願いします: Asking for Things,この旅行のパンフレットをください。,この りょこうの ぱんふれっとを ください。,"This travel brochure, please.",この|旅行|の|パンフレット|を|ください,
-at006,exercise,Sentence Basics,をください / をお願いします: Asking for Things,りんごを二つください。,りんごを ふたつ ください。,"Two apples, please.",りんご|を|二つ|ください,
-at007,exercise,Sentence Basics,をください / をお願いします: Asking for Things,東京までの切符を一枚ください。,とうきょうまでの きっぷを いちまい ください。,"One ticket to Tokyo, please.",東京|まで|の|切符|を|一枚|ください,
-at008,exercise,Sentence Basics,をください / をお願いします: Asking for Things,窓側の席をお願いします。,まどがわの せきを おねがいします。,"A window seat, please.",窓側|の|席|を|お願いします,
-cou001,sample,Sentence Basics,How Counters Work,写真を三枚撮りました。,しゃしんを さんまい とりました。,I took three photos.,,"Most languages count with a number and a noun: three pencils. Japanese adds a third word — a counter — that changes with the shape or kind of thing you count.
+sb095,exercise,Sentence Basics,をください / をお願いします: Asking for Things,水を一杯お願いします。,みずを いっぱい おねがいします。,"One glass of water, please.",水|を|一杯|お願いします,
+sb096,exercise,Sentence Basics,をください / をお願いします: Asking for Things,少し時間をお願いします。,すこし じかんを おねがいします。,Please give me a little time.,少し|時間|を|お願いします,
+sb097,exercise,Sentence Basics,をください / をお願いします: Asking for Things,明日もお願いします。,あしたも おねがいします。,"Please, again tomorrow.",明日|も|お願いします,
+sb098,exercise,Sentence Basics,をください / をお願いします: Asking for Things,この旅行のパンフレットをください。,この りょこうの ぱんふれっとを ください。,"This travel brochure, please.",この|旅行|の|パンフレット|を|ください,
+sb099,exercise,Sentence Basics,をください / をお願いします: Asking for Things,りんごを二つください。,りんごを ふたつ ください。,"Two apples, please.",りんご|を|二つ|ください,
+sb100,exercise,Sentence Basics,をください / をお願いします: Asking for Things,東京までの切符を一枚ください。,とうきょうまでの きっぷを いちまい ください。,"One ticket to Tokyo, please.",東京|まで|の|切符|を|一枚|ください,
+sb101,exercise,Sentence Basics,をください / をお願いします: Asking for Things,窓側の席をお願いします。,まどがわの せきを おねがいします。,"A window seat, please.",窓側|の|席|を|お願いします,
+sb102,sample,Sentence Basics,How Counters Work,写真を三枚撮りました。,しゃしんを さんまい とりました。,I took three photos.,,"Most languages count with a number and a noun: three pencils. Japanese adds a third word — a counter — that changes with the shape or kind of thing you count.
 
 ### N を + number + counter + verb
 
@@ -183,16 +183,16 @@ Pick the counter from the object's shape: 枚 for flat things, 本 for long thin
 Counters that begin with an h-sound, like 本, shift after certain numbers. After 1, 6, 8, and 10 a small っ appears and ほ hardens to ぽ: いっぽん, ろっぽん, はっぽん, じゅっぽん. After 3 it softens to ぼ, giving さんぼん.
 
 The other numbers stay plain: にほん, よんほん, ごほん, ななほん, きゅうほん."
-cou002,exercise,Sentence Basics,How Counters Work,チケットを四枚買いました。,ちけっとを よんまい かいました。,I bought four tickets.,チケット|を|四枚|買いました|,
-cou003,exercise,Sentence Basics,How Counters Work,公園に犬が三匹います。,こうえんに いぬが さんびき います。,There are three dogs in the park.,公園|に|犬|が|三|匹|います,
-cou004,exercise,Sentence Basics,How Counters Work,水族館に魚が五匹います。,すいぞくかんに さかなが ごひき います。,There are five fish at the aquarium.,水族館|に|魚|が|五匹|います,
-cou005,exercise,Sentence Basics,How Counters Work,教室に学生が六人います。,きょうしつに がくせいが ろくにん います。,There are six students in the classroom.,教室|に|学生|が|六|人|います,
-cou006,exercise,Sentence Basics,How Counters Work,今日は友達が二人来ます。,きょうは ともだちが ふたり きます。,Two friends are coming today.,今日|は|友達|が|二|人|来ます,
-cou007,exercise,Sentence Basics,How Counters Work,箱の中にりんごが三つあります。,はこの なかに りんごが みっつ あります。,There are three apples in the box.,箱|の|中|に|りんご|が|三つ|あります,
-cou008,exercise,Sentence Basics,How Counters Work,机の上に小さな箱が二つあります。,つくえの うえに ちいさな はこが ふたつ あります。,There are two small boxes on the desk.,机|の|上|に|小さな|箱|が|二つ|あります,
-cou009,exercise,Sentence Basics,How Counters Work,花を一本買いました。,はなを いっぽん かいました。,I bought one flower.,花|を|一|本|買いました,
-cou010,exercise,Sentence Basics,How Counters Work,水を二本お願いします。,みずを にほん おねがいします。,"Two bottles of water, please.",水|を|二|本|お願いします,
-bs019,sample,Particles,"The topic marker は, and も for “also”",あの人も日本人です。,あのひとも にほんじんです。,That person is also Japanese.,,"## The Topic Marker は “wa”
+sb103,exercise,Sentence Basics,How Counters Work,チケットを四枚買いました。,ちけっとを よんまい かいました。,I bought four tickets.,チケット|を|四枚|買いました|,
+sb104,exercise,Sentence Basics,How Counters Work,公園に犬が三匹います。,こうえんに いぬが さんびき います。,There are three dogs in the park.,公園|に|犬|が|三|匹|います,
+sb105,exercise,Sentence Basics,How Counters Work,水族館に魚が五匹います。,すいぞくかんに さかなが ごひき います。,There are five fish at the aquarium.,水族館|に|魚|が|五匹|います,
+sb106,exercise,Sentence Basics,How Counters Work,教室に学生が六人います。,きょうしつに がくせいが ろくにん います。,There are six students in the classroom.,教室|に|学生|が|六|人|います,
+sb107,exercise,Sentence Basics,How Counters Work,今日は友達が二人来ます。,きょうは ともだちが ふたり きます。,Two friends are coming today.,今日|は|友達|が|二|人|来ます,
+sb108,exercise,Sentence Basics,How Counters Work,箱の中にりんごが三つあります。,はこの なかに りんごが みっつ あります。,There are three apples in the box.,箱|の|中|に|りんご|が|三つ|あります,
+sb109,exercise,Sentence Basics,How Counters Work,机の上に小さな箱が二つあります。,つくえの うえに ちいさな はこが ふたつ あります。,There are two small boxes on the desk.,机|の|上|に|小さな|箱|が|二つ|あります,
+sb110,exercise,Sentence Basics,How Counters Work,花を一本買いました。,はなを いっぽん かいました。,I bought one flower.,花|を|一|本|買いました,
+sb111,exercise,Sentence Basics,How Counters Work,水を二本お願いします。,みずを にほん おねがいします。,"Two bottles of water, please.",水|を|二|本|お願いします,
+pa001,sample,Particles,"The topic marker は, and も for “also”",あの人も日本人です。,あのひとも にほんじんです。,That person is also Japanese.,,"## The Topic Marker は “wa”
 The は after X is the topic marker, the small word that flags X as what the sentence is about. Each sentence then names one fact about that topic. Notice the order: the topic comes first and です closes the thought. The topic can be anything that a speaker wants to talk about (It can be an object, location or any other grammatical element). The topic marker ”wa” roughly corresponds to English ‘as for’. The topic particle while written as 「は」, is pronounced 「わ」.
 
 ## Adding to a group with も ""mo""
@@ -201,42 +201,117 @@ The は after X is the topic marker, the small word that flags X as what the sen
 The particle も is similar to the English words ""too"" and ""also."" It is placed after a word to show that the word is part of a set. To conceptualize the particle も, it's helpful to imagine a list on a memo (me-も) sheet. The list is a group of things or people that belong together. When も goes after a word, it indicates that the word is a member of the group.
 
 も often follows a noun or a noun phrase. What comes after も can be a lot of varieties of words and forms. It can be anything from nouns, い-adjectives, な-adjectives, to verbs in either the positive or negative form."
-add001,exercise,Particles,"The topic marker は, and も for “also”",チケットは二枚あります。,ちけっとは にまい あります。,There are two tickets.,チケット|は|二枚|あります,
-bs020,exercise,Particles,"The topic marker は, and も for “also”",今日もいい日です。,きょうも いいひです。,Today is also a good day.,今日|も|いい|日|です,
-bs021,exercise,Particles,"The topic marker は, and も for “also”",これも夢です。,これも ゆめです。,This is also a dream.,これ|も|夢|です,
-bs022,exercise,Particles,"The topic marker は, and も for “also”",僕も元気です。,ぼくも げんきです。,I'm doing well too.,僕|も|元気|です,
-bs023,exercise,Particles,"The topic marker は, and も for “also”",この歌も好きです。,このうたも すきです。,I like this song too.,この|歌|も|好き|です,
-bs024,exercise,Particles,"The topic marker は, and も for “also”",君の言葉も大切です。,きみの ことばも たいせつです。,Your words are important too.,君|の|言葉|も|大切|です,
-add002,exercise,Particles,"The topic marker は, and も for “also”",私は一人じゃありません。あなたも一人じゃありません。,わたしは ひとりじゃ ありません。あなたも ひとりじゃ ありません。,I am not alone. You aren't alone either.,私|は|一人|じゃありません|あなた|も|一人|じゃありません,
-add003,exercise,Particles,"The topic marker は, and も for “also”",この本は面白いです。でも、その本も面白いです。,この ほんは おもしろいです。でも、その ほんも おもしろいです。,This book is interesting. But that book is interesting too.,この|本|は|面白い|です|でも|その|本|も|面白い|です,
-p028,sample,Particles,は vs が: choosing your subject marker,猫がいます。,ねこが います。,There is a cat.,猫|が|います,"The particle が goes after a noun to show us that the noun is the subject of a sentence. That is, the noun before が is the person or thing that's doing whatever comes next. In other words, が marks the grammatical subject. 
+pa002,exercise,Particles,"The topic marker は, and も for “also”",チケットは二枚あります。,ちけっとは にまい あります。,There are two tickets.,チケット|は|二枚|あります,
+pa003,exercise,Particles,"The topic marker は, and も for “also”",今日もいい日です。,きょうも いいひです。,Today is also a good day.,今日|も|いい|日|です,
+pa004,exercise,Particles,"The topic marker は, and も for “also”",これも夢です。,これも ゆめです。,This is also a dream.,これ|も|夢|です,
+pa005,exercise,Particles,"The topic marker は, and も for “also”",僕も元気です。,ぼくも げんきです。,I'm doing well too.,僕|も|元気|です,
+pa006,exercise,Particles,"The topic marker は, and も for “also”",この歌も好きです。,このうたも すきです。,I like this song too.,この|歌|も|好き|です,
+pa007,exercise,Particles,"The topic marker は, and も for “also”",君の言葉も大切です。,きみの ことばも たいせつです。,Your words are important too.,君|の|言葉|も|大切|です,
+pa008,exercise,Particles,"The topic marker は, and も for “also”",私は一人じゃありません。あなたも一人じゃありません。,わたしは ひとりじゃ ありません。あなたも ひとりじゃ ありません。,I am not alone. You aren't alone either.,私|は|一人|じゃありません|あなた|も|一人|じゃありません,
+pa009,exercise,Particles,"The topic marker は, and も for “also”",この本は面白いです。でも、その本も面白いです。,この ほんは おもしろいです。でも、その ほんも おもしろいです。,This book is interesting. But that book is interesting too.,この|本|は|面白い|です|でも|その|本|も|面白い|です,
+pa010,sample,Particles,は vs が: choosing your subject marker,猫がいます。,ねこが います。,There is a cat.,猫|が|います,"The particle が goes after a noun to show us that the noun is the subject of a sentence. That is, the noun before が is the person or thing that's doing whatever comes next. In other words, が marks the grammatical subject. 
 
 Use が when the subject is new to the listener: something that appears, or a question word like who. Use は when you both already know the thing and you are saying more about it. One rule to keep: a question that asks with が is answered with が — do not switch to は.
 
+|Situation|は  or  が|Example|
+|--|--|--|
+|Something new appears in front of you|が|あ、車**が**来ました。|
+|You name a topic already known|は|あの車**は**部長のです。|
+|A question word is the subject|が|どちら**が**山田さんですか。|
+|You answer that question|が|わたし**が**山田です。|
+
 Beyond marking the subject, が also puts emphasis onto that subject, and excludes other possible subjects."
-p029,exercise,Particles,は vs が: choosing your subject marker,公園に子どもがいます。,こうえんに こどもが います。,There are children in the park.,公園|に|子ども|が|います,
-p030,exercise,Particles,は vs が: choosing your subject marker,日本語が分かります。,にほんごが わかります。,I understand Japanese.,日本語|が|分かります,
-p031,exercise,Particles,は vs が: choosing your subject marker,君の声が好きです。,きみの こえが すきです。,I like your voice.,君|の|声|が|好き|です,
-p032,exercise,Particles,は vs が: choosing your subject marker,今日は天気がいいです。,きょうは てんきが いいです。,The weather is good today.,今日|は|天気|が|いい|です,
-p033,exercise,Particles,は vs が: choosing your subject marker,君がいるから大丈夫です。,きみが いるから だいじょうぶです。,It's okay because you're here.,君|が|いる|から|大丈夫|です,
-p034,exercise,Particles,は vs が: choosing your subject marker,日本語が少し話せます。,にほんごが すこし はなせます。,I can speak a little Japanese.,日本語|が|少し|話せます,
-bs025,sample,Particles,Connecting nouns with の,僕の夢です。,ぼくの ゆめです。,It's my dream.,,"の can express ownership or possession when it comes after a person or a group of people. This is the use that is similar to …'s in English. You put your name on your things, right? Labelling is important for showing ownership!
+pa011,exercise,Particles,は vs が: choosing your subject marker,公園に子どもがいます。,こうえんに こどもが います。,There are children in the park.,公園|に|子ども|が|います,
+pa012,exercise,Particles,は vs が: choosing your subject marker,日本語が分かります。,にほんごが わかります。,I understand Japanese.,日本語|が|分かります,
+pa013,exercise,Particles,は vs が: choosing your subject marker,君の声が好きです。,きみの こえが すきです。,I like your voice.,君|の|声|が|好き|です,
+pa014,exercise,Particles,は vs が: choosing your subject marker,今日は天気がいいです。,きょうは てんきが いいです。,The weather is good today.,今日|は|天気|が|いい|です,
+pa015,exercise,Particles,は vs が: choosing your subject marker,君がいるから大丈夫です。,きみが いるから だいじょうぶです。,It's okay because you're here.,君|が|いる|から|大丈夫|です,
+pa016,exercise,Particles,は vs が: choosing your subject marker,日本語が少し話せます。,にほんごが すこし はなせます。,I can speak a little Japanese.,日本語|が|少し|話せます,
+pa017,exercise,Particles,は vs が: choosing your subject marker,その犬は隣の家の犬です。,そのいぬはとなりのいえのいぬです。,That dog belongs to the house next door.,その|犬|は|隣の家|の|犬|です,
+pa018,sample,Particles,Connecting nouns with の,僕の夢です。,ぼくの ゆめです。,It's my dream.,,"の can express ownership or possession when it comes after a person or a group of people. This is the use that is similar to …'s in English. You put your name on your things, right? Labelling is important for showing ownership!
 
 You might think of particle の like Japanese equivalent of the possessive 's ending in English, as in Tom's car of Granny's kittens. However, the label maker is really a better way to think of particle の, since the relationship between the label and the noun can result in various different interpretations. 
 
+It can be express ownership: わたしのかん
+or that something belongs in a particular group: 会社の人
+or is a type of something: 日本語の本
+
 の joins nouns only: when the describing part is a verb or an adjective, a different pattern takes over."
-bs026,exercise,Particles,Connecting nouns with の,君の笑顔です。,きみの えがおです。,It's your smile.,君|の|笑顔|です,
-bs027,exercise,Particles,Connecting nouns with の,これは日本の歌です。,これは にほんの うたです。,This is a Japanese song.,これ|は|日本|の|歌|です,
-bs028,exercise,Particles,Connecting nouns with の,あの人は僕の友達です。,あのひとは ぼくの ともだちです。,That person is my friend.,あの|人|は|僕|の|友達|です,
-bs029,exercise,Particles,Connecting nouns with の,これは母の本です。,これは ははの ほんです。,This is my mother's book.,これ|は|母|の|本|です,
-bs030,exercise,Particles,Connecting nouns with の,今日は僕の誕生日です。,きょうは ぼくの たんじょうびです。,Today is my birthday.,今日|は|僕|の|誕|生日|です,
-bs031,sample,Particles,"Listing nouns: と for the whole set, や for examples",僕と君です。,ぼくと きみです。,It's me and you.,,"The particle と wears a lot of hats, but its fundamental meaning is quite simple — to connect two or more things together as companions."
-bs032,exercise,Particles,"Listing nouns: と for the whole set, や for examples",日本語と英語です。,にほんごと えいごです。,It's Japanese and English.,日本語|と|英語|です,
-bs033,exercise,Particles,"Listing nouns: と for the whole set, や for examples",母と父です。,ははと ちちです。,It's my mother and father.,母|と|父|です,
-bs034,exercise,Particles,"Listing nouns: と for the whole set, や for examples",春と夏が好きです。,はると なつが すきです。,I like spring and summer.,春|と|夏|が|好き|です,
-bs035,exercise,Particles,"Listing nouns: と for the whole set, や for examples",パンと牛乳です。,ぱんと ぎゅうにゅうです。,It's bread and milk.,パン|と|牛乳|です,
-bs036,exercise,Particles,"Listing nouns: と for the whole set, や for examples",君と僕の夢です。,きみと ぼくの ゆめです。,It's the dream of you and me.,君|と|僕|の|夢|です,
-p020,sample,Particles,Marking Where You're Headed with に and へ,駅へ歩きます。,えきへ あるきます。,I walk to the station.,駅|へ|歩きます,"The particle へ indicates a destination, or the direction that something is heading. It's written with the hiragana character へ /he/, but this is always pronounced like the え /e/ character when it's used as a particle.
+pa019,exercise,Particles,Connecting nouns with の,君の笑顔です。,きみの えがおです。,It's your smile.,君|の|笑顔|です,
+pa020,exercise,Particles,Connecting nouns with の,これは日本の歌です。,これは にほんの うたです。,This is a Japanese song.,これ|は|日本|の|歌|です,
+pa021,exercise,Particles,Connecting nouns with の,あの人は僕の友達です。,あのひとは ぼくの ともだちです。,That person is my friend.,あの|人|は|僕|の|友達|です,
+pa022,exercise,Particles,Connecting nouns with の,朝のコーヒーはおいしいです。,あさの こーひーは おいしいです。,Morning coffee is delicious.,朝|の|コーヒー|は|おいしい|です,
+pa023,exercise,Particles,Connecting nouns with の,雨の日の音が好きです。,あめの ひの おとが すきです。,I like the sound of rainy days.,雨|の|日|の|音|が|好き|です,
+pa024,exercise,Particles,Connecting nouns with の,会社の近くに小さな店があります。,かいしゃの ちかくに ちいさな みせが あります。,There is a small shop near the office.,会社|の|近く|に|小さな|店|が|あります,
+pa025,exercise,Particles,Connecting nouns with の,春の風が窓から入ってきます。,はるの かぜが まどから はいってきます。,The spring wind comes in through the window.,春|の|風|が|窓から|入ってきます,
+pa026,exercise,Particles,Connecting nouns with の,窓の外に青い空が見えます。,まどの そとに あおい そらが みえます。,I can see the blue sky outside the window.,窓|の|外|に|青い空|が|見えます,
+pa027,exercise,Particles,Connecting nouns with の,夕方の空を見ると、少し元気になります。,ゆうがたの そらを みると、すこし げんきに なります。,"When I look at the evening sky, I feel a little better.",夕方|の|空|を|見る|と|少し|元気|に|なります,
+pa028,exercise,Particles,Connecting nouns with の,駅の前で猫が寝ています。,えきの まえで ねこが ねています。,A cat is sleeping in front of the station.,駅|の|前|で|猫|が|寝ています,
+pa029,exercise,Particles,Connecting nouns with の,これは母の本です。,これは ははの ほんです。,This is my mother's book.,これ|は|母|の|本|です,
+pa030,exercise,Particles,Connecting nouns with の,今日は僕の誕生日です。,きょうは ぼくの たんじょうびです。,Today is my birthday.,今日|は|僕|の|誕|生日|です,
+pa031,exercise,Particles,Connecting nouns with の,駅の前に小さい花屋があります。,えきのまえにちいさいはなやがあります。,There is a small flower shop in front of the station.,駅|の|前|に|小さい|花屋|が|あります,
+pa032,sample,Particles,Saying Where Things Are: に and Position Words,机の上に本があります。,つくえの うえに ほんが あります。,There is a book on the desk.,机|の|上|に|本|が|あります,"Particle に is a complex particle with many uses. Some linguists have found that it can be used in more than twenty different ways! However, if you boil に down all the way to its basics, you'll find that it has a fundamental meaning that unites all its uses. In short, に shows you where something is, was, or will be in the future. It's used to pin down something, whether it's location, time, purpose, or condition.
+
+In this section, we're going to learn に to pin the place where something or someone exists: the spot where you find it. For finer location, a position word joins the noun with の, as in 机の上に, “on the desk.” Use に with ある, いる, and 住む “to live,” where the point is that something is there. Do not use it for the place of an action: that place takes で.
+
+## Finer Position
+Fine location sits between the noun and に: **noun + の + position word. **
+
+| Position word | Meaning | In use |
+|--|--|--|
+|上(うえ)|On / above|机の上に|
+|下(した)|Under / below|いすの下に|
+|中(なか)|Inside|かばんの中に|
+|前(まえ)|In front of|店の前に|
+|うしろ|Behind|家のうしろ|
+|となり|Next to|コンビニのとなりに|
+|近く (ちかく)|Near / nearby|駅の近くに|"
+pa033,exercise,Particles,Saying Where Things Are: に and Position Words,駅に知らない人がいます。,えきに しらない ひとが います。,There is a person I don't know at the station.,駅|に|知らない|人|が|います,
+pa034,exercise,Particles,Saying Where Things Are: に and Position Words,私のかばんの中に夢があります。,わたしの かばんの なかに ゆめが あります。,There is a dream in my bag.,私|の|かばん|の|中|に|夢|が|あります,
+pa035,exercise,Particles,Saying Where Things Are: に and Position Words,夜の空に大きな月があります。,よるの そらに おおきな つきが あります。,There is a big moon in the night sky.,夜|の|空|に|大きな|月|が|あります,
+pa036,exercise,Particles,Saying Where Things Are: に and Position Words,雲の上に小さな町があります。,くもの うえに ちいさな まちが あります。,There is a small town above the clouds.,雲|の|上|に|小さな|町|が|あります,
+pa037,exercise,Particles,Saying Where Things Are: に and Position Words,私は東京に住んでいます。,わたしは とうきょうに すんでいます。,I live in Tokyo.,私|は|東京|に|住んでいます,
+pa038,exercise,Particles,Saying Where Things Are: に and Position Words,その猫は小さな家に住んでいます。,その ねこは ちいさな いえに すんでいます。,That cat lives in a small house.,その|猫|は|小さな|家|に|住んでいます,
+pa039,exercise,Particles,Saying Where Things Are: に and Position Words,公園に大きな木があります。,こうえんに おおきな きが あります。,There is a big tree in the park.,公園|に|大きな|木|が|あります,
+pa040,exercise,Particles,Saying Where Things Are: に and Position Words,学校の前に小さな花があります。,がっこうの まえに ちいさな はなが あります。,There is a small flower in front of the school.,学校|の|前|に|小さな|花|が|あります,
+pa041,Sample,Particles,で for the Place of an Action: に vs で,図書館で本を読みます。,としょかんで ほんを よみます。,I read books at the library.,図書館|で|本|を|読みます,"Particle で appears in a lot of different contexts, and is an important particle to wrap your mind around. Its meaning shifts depending on how it's used, but, at its core, particle で helps specify where or how an activity or an event takes place. 
+
+で marks the place where an action happens, and に marks where something exists or arrives. One picture decides it: if you can see someone doing something there, the spot takes で.
+
+に points to a place as a state: where you are, where you live, where you arrive. で points to the place where you do something. Do not use で for existing or arriving: いる, ある, 住む, and 着く all take に."
+pa042,exercise,Particles,で for the Place of an Action: に vs で,公園で写真を撮ります。,こうえんで しゃしんを とります。,I take photos at the park.,公園|で|写真|を|撮ります,
+pa043,exercise,Particles,で for the Place of an Action: に vs で,駅で友達を待ちます。,えきで ともだちを まちます。,I wait for my friend at the station.,駅|で|友達|を|待ちます,
+pa044,exercise,Particles,で for the Place of an Action: に vs で,公園で友達と話します。,こうえんで ともだちと はなします。,I talk with my friend at the park.,公園|で|友達|と|話します,
+pa045,exercise,Particles,で for the Place of an Action: に vs で,あの家に誰かがいます。,あの いえに だれかが います。,There is someone in that house.,あの|家|に|誰か|が|います,
+pa046,exercise,Particles,で for the Place of an Action: に vs で,家で音楽を聞きます。,いえで おんがくを ききます。,I listen to music at home.,家|で|音楽|を|聞きます,
+pa047,exercise,Particles,で for the Place of an Action: に vs で,図書館で本を読みます。,としょかんで ほんを よみます。,I read books at the library.,図書館|で|本|を|読みます,
+pa048,exercise,Particles,で for the Place of an Action: に vs で,夜の公園で一人で歌いました。,よるの こうえんで ひとりで うたいました。,I sang alone in the park at night.,夜|の|公園|で|一人|で|歌いました,
+pa049,exercise,Particles,で for the Place of an Action: に vs で,小さな店で面白い本を見つけました。,ちいさな みせで おもしろい ほんを みつけました。,I found an interesting book at a small shop.,小さな|店|で|面白い|本|を|見つけました,
+pa050,exercise,Particles,で for the Place of an Action: に vs で,山の上で青い空を見ました。,やまの うえで あおい そらを みました。,I looked at the blue sky on top of the mountain.,山|の|上|で|青い空|を|見ました,
+pa051,sample,Particles,The Particle で: By What Means,電車で会社に行きます。,でんしゃで かいしゃに いきます。,I go to the company by train.,電車|で|会社|に|行きます,"Previously we learned to use で for the place where something happens. In this section, で names the means instead: the vehicle, tool, material or language you use.
+
+Attach で to whatever the action depends on, then finish with the verb. A noun takes で when it answers the test question “by what means?” Do not use で for the thing you act on: that noun takes を, as in ごはんを食べます.
+
+English splits this idea across “by,” “with” and “in,” while Japanese routes all of it through one で. It is the same で as the place lesson doing a different job: there it framed the setting, here it names the instrument."
+pa052,exercise,Particles,The Particle で: By What Means,日本語で話します。,にほんごで はなします。,I speak in Japanese.,日本語|で|話します,
+pa053,exercise,Particles,The Particle で: By What Means,箸でご飯を食べます。,はしで ごはんを たべます。,I eat rice with chopsticks.,箸|で|ご飯|を|食べます,
+pa054,exercise,Particles,The Particle で: By What Means,鉛筆で絵を描きます。,えんぴつで えを かきます。,I draw pictures with a pencil.,鉛筆|で|絵|を|描きます,
+pa055,exercise,Particles,The Particle で: By What Means,スマホで写真を撮ります。,すまほで しゃしんを とります。,I take photos with my smartphone.,スマホ|で|写真|を|撮ります,
+pa056,exercise,Particles,The Particle で: By What Means,はさみで紙を切ります。,はさみで かみを きります。,I cut paper with scissors.,はさみ|で|紙|を|切ります,
+pa057,exercise,Particles,The Particle で: By What Means,自転車で小さな町へ行きました。,じてんしゃで ちいさな まちへ いきました。,I went to a small town by bicycle.,自転車|で|小さな|町|へ|行きました,
+pa058,exercise,Particles,The Particle で: By What Means,電話で友達と長く話しました。,でんわで ともだちと ながく はなしました。,I talked with my friend for a long time by phone.,電話|で|友達|と|長く|話しました,
+pa059,exercise,Particles,The Particle で: By What Means,カメラで月の写真を撮りました。,かめらで つきの しゃしんを とりました。,I took a picture of the moon with a camera.,カメラ|で|月|の|写真|を|撮りました,
+pa060,exercise,Particles,The Particle で: By What Means,魔法のペンで星を描きました。,まほうの ぺんで ほしを かきました。,I drew a star with a magic pen.,魔法|の|ペン|で|星|を|描きました,
+pa061,sample,Particles,Marking Where You're Headed with に and へ,駅へ歩きます。,えきへ あるきます。,I walk to the station.,駅|へ|歩きます,"Both に and へ attach to a place to mark where you are headed. With a movement verb such as 行く, 来る, or 帰る, either one is correct. These two are particles — the small words that mark a word's job in the sentence. に treats the place as the endpoint you reach, and へ treats it as the direction you move toward.
+
+## Difference between に and へ
+Particle へ is like an arrow, pointing the way to the destination. Particle に on the other hand, does not indicate a path at all, it just acts like a pin on a map, marking your final destination.
+
+The sense of directionality that particle へ carries makes it more significantly different from に in other contexts. If you use a verb that expresses movement, but lacks a sense of direction, then particle へ can help add direction
+
+コンビニへ歩いた vs コンビニに向かって歩いた
+
+The particle へ indicates a destination, or the direction that something is heading. It's written with the hiragana character へ /he/, but this is always pronounced like the え /e/ character when it's used as a particle.
 
 ### へ For Physical Destinations and Directions
 へ marks destinations, while also highlighting the route someone (or something) takes to get there. Thus, particle へ is often followed by a verb that expresses directional movement. For example, verbs like 行く (go) and 来る (come).
@@ -245,66 +320,208 @@ p020,sample,Particles,Marking Where You're Headed with に and へ,駅へ歩き�
 You can also use へ to mark a figurative destination or direction. Such as goal or objective.
 
 ### へ For Recipients
-へ is also used to indicate the recipient of something. 
+へ is also used to indicate the recipient of something. "
+pa062,exercise,Particles,Marking Where You're Headed with に and へ,家へ帰ります。,いえへ かえります。,I go home.,家|へ|帰ります,
+pa063,exercise,Particles,Marking Where You're Headed with に and へ,左へ曲がってください。,ひだりへ まがってください。,Please turn left.,左|へ|曲がってください,
+pa064,exercise,Particles,Marking Where You're Headed with に and へ,母へ花をあげます。,ははへ はなを あげます。,I give flowers to my mother.,母|へ|花|を|あげます,
+pa065,exercise,Particles,Marking Where You're Headed with に and へ,東京に行きたいです。,とうきょうに いきたいです。,I want to go to Tokyo.,東京|に|行きたい|です,
+pa066,exercise,Particles,Marking Where You're Headed with に and へ,東京へ行きたいです。,とうきょうへ いきたいです。,I want to head toward Tokyo.,東京|へ|行きたい|です,
+pa067,exercise,Particles,Marking Where You're Headed with に and へ,あの星へ行きたいです。,あの ほしへ いきたいです。,I want to go to that star.,あの|星|へ|行きたい|です,
+pa068,exercise,Particles,Marking Where You're Headed with に and へ,夢に向かって歩きます。,ゆめに むかって あるきます。,I walk toward my dream.,夢|に|向かって|歩きます,
+pa069,exercise,Particles,Marking Where You're Headed with に and へ,月に近づきたいです。,つきに ちかづきたいです。,I want to get closer to the moon.,月|に|近づきたい|です,
+pa070,exercise,Particles,Marking Where You're Headed with に and へ,あなたへこの本を送ります。,あなたへ この ほんを おくります。,I send this book to you.,あなた|へ|この|本|を|送ります,
+pa071,exercise,Particles,Marking Where You're Headed with に and へ,未来へ一歩歩きます。,みらいへ いっぽ あるきます。,I take one step toward the future.,未来|へ|一歩|歩きます,
+pa072,exercise,Particles,Marking Where You're Headed with に and へ,君へ言葉を届けます。,きみへ ことばを とどけます。,I’ll deliver these words to you.,君|へ|言葉|を|届けます,
+pa073,exercise,Particles,Marking Where You're Headed with に and へ,明日へ歩きます。,あしたへ あるきます。,I walk toward tomorrow.,明日|へ|歩きます,
+pa074,exercise,Particles,Marking Where You're Headed with に and へ,学校に行きます。,がっこうに いきます。,I go to school.,学校|に|行きます,
+pa075,exercise,Particles,Marking Where You're Headed with に and へ,駅に着きます。,えきに つきます。,I arrive at the station.,駅|に|着きます,
+pa076,exercise,Particles,Marking Where You're Headed with に and へ,母に花をあげます。,ははに はなを あげます。,I give flowers to my mother.,母|に|花|を|あげます,
+pa077,exercise,Particles,Marking Where You're Headed with に and へ,友達に電話します。,ともだちに でんわします。,I call my friend.,友達|に|電話します,
+pa078,sample,Particles,The object marker を: marking what the verb acts on,音楽を聞きます。,おんがくを ききます。,I listen to music.,,"Particle を marks the grammatical object of a sentence, which is the thing that is acted upon or affected by the verb. In other words it's what gets ""verbed"" in a sentence. 
 
-## Difference between に and へ
-Particle へ is like an arrow, pointing the way to the destination. Particle に on the other hand, does not indicate a path at all, it just acts like a pin on a map, marking your final destination.
+**Noun + を + Verb**
 
-The sense of directionality that particle へ carries makes it more significantly different from に in other contexts. If you use a verb that expresses movement, but lacks a sense of direction, then particle へ can help add direction
+Use を for the thing the verb acts on: what is made, taken, or written. Do not put を on the doer of the action, because the person acting takes は or が. Find the object first: the thing being made, taken, or written. Then put を onto it. The verb then closes the sentence, so the shape is always noun を verb.
+"
+pa079,exercise,Particles,The object marker を: marking what the verb acts on,手紙を書きます。,てがみを かきます。,I write a letter.,手紙|を|書きます,
+pa080,exercise,Particles,The object marker を: marking what the verb acts on,毎朝コーヒーを飲みます。,まいあさ こーひーを のみます。,I drink coffee every morning.,毎朝|コーヒー|を|飲みます,
+pa081,exercise,Particles,The object marker を: marking what the verb acts on,写真を撮ります。,しゃしんを とります。,I take a photo.,写真|を|撮ります,
+pa082,exercise,Particles,The object marker を: marking what the verb acts on,映画を見ます。,えいがを みます。,I watch a movie.,映画|を|見ます,
+pa083,exercise,Particles,The object marker を: marking what the verb acts on,ドアを開けます。,どあを あけます。,I open the door.,ドア|を|開けます,
+pa084,sample,Particles,"Listing nouns: と for the whole set, や for examples",僕と君です。,ぼくと きみです。,It's me and you.,,"The particle と wears a lot of hats, but its fundamental meaning is quite simple — to connect two or more things together as companions.
 
-コンビニへ歩いた vs コンビニに向かって歩いた"
-p007,exercise,Particles,Marking Where You're Headed with に and へ,学校に行きます。,がっこうに いきます。,I go to school.,学校|に|行きます,
-p008,exercise,Particles,Marking Where You're Headed with に and へ,友達に電話します。,ともだちに でんわします。,I call my friend.,友達|に|電話します,
-p009,exercise,Particles,Marking Where You're Headed with に and へ,七時に起きます。,しちじに おきます。,I wake up at seven.,七時|に|起きます,
-p010,exercise,Particles,Marking Where You're Headed with に and へ,母に花をあげます。,ははに はなを あげます。,I give flowers to my mother.,母|に|花|を|あげます,
-p011,exercise,Particles,Marking Where You're Headed with に and へ,駅に着きます。,えきに つきます。,I arrive at the station.,駅|に|着きます,
-p012,exercise,Particles,Marking Where You're Headed with に and へ,机の上に本があります。,つくえの うえに ほんが あります。,There is a book on the desk.,机|の|上|に|本|が|あります,
-p013,exercise,Particles,Marking Where You're Headed with に and へ,日曜日に友達の家に行きます。,にちようびに ともだちの いえに いきます。,I go to my friend's house on Sunday.,日曜日|に|友達|の|家|に|行きます,
-p021,exercise,Particles,Marking Where You're Headed with に and へ,家へ帰ります。,いえへ かえります。,I go home.,家|へ|帰ります,
-p022,exercise,Particles,Marking Where You're Headed with に and へ,左へ曲がってください。,ひだりへ まがってください。,Please turn left.,左|へ|曲がってください,
-p023,exercise,Particles,Marking Where You're Headed with に and へ,母へ花をあげます。,ははへ はなを あげます。,I give flowers to my mother.,母|へ|花|を|あげます,
-p024,exercise,Particles,Marking Where You're Headed with に and へ,あなたへこの本を送ります。,あなたへ この ほんを おくります。,I send this book to you.,あなた|へ|この|本|を|送ります,
-p025,exercise,Particles,Marking Where You're Headed with に and へ,未来へ一歩歩きます。,みらいへ いっぽ あるきます。,I take one step toward the future.,未来|へ|一歩|歩きます,
-p026,exercise,Particles,Marking Where You're Headed with に and へ,君へ言葉を届けます。,きみへ ことばを とどけます。,I’ll deliver these words to you.,君|へ|言葉|を|届けます,
-p027,exercise,Particles,Marking Where You're Headed with に and へ,明日へ歩きます。,あしたへ あるきます。,I walk toward tomorrow.,明日|へ|歩きます,
-p001,sample,Particles,を・に・で,音楽を聞きます。,おんがくを ききます。,I listen to music.,,"# **を**
-Particle を marks the grammatical object of a sentence, which is the thing that is acted upon or affected by the verb. In other words it's what gets ""verbed"" in a sentence. 
+と and や both join nouns into a list, but they promise different things. と says the list is complete; や gives a few examples and leaves room for more. Use と when you can name every item, and や when you are only giving a sample. Do not put と after the last item, and do not close a と list with など (“and so on”); など belongs with や.
 
-Noun + を
-Particle を can appear after nouns to make them the object of the sentence.
+**N と N / N や N (など)**
 
-手紙を書きます。(I write a letter)
+## A different と: with, not and
+One more と looks the same but marks the person you do something with: 友だちと行きます is “go with a friend.” The test is what と joins. Two things of the same kind in one slot make a list; a person marked with と is your companion."
+pa085,exercise,Particles,"Listing nouns: と for the whole set, や for examples",日本語と英語です。,にほんごと えいごです。,It's Japanese and English.,日本語|と|英語|です,
+pa086,exercise,Particles,"Listing nouns: と for the whole set, や for examples",母と父は元気です。,ははと ちちは げんきです。,My mother and father are well.,母|と|父|は|元気|です,
+pa087,exercise,Particles,"Listing nouns: と for the whole set, や for examples",春と夏が好きです。,はると なつが すきです。,I like spring and summer.,春|と|夏|が|好き|です,
+pa088,exercise,Particles,"Listing nouns: と for the whole set, や for examples",朝はパンとコーヒーを食べます。,あさは ぱんと こーひーを たべます。,"In the morning, I have bread and coffee.",朝|は|パン|と|コーヒー|を|食べます,
+pa089,exercise,Particles,"Listing nouns: と for the whole set, や for examples",君と僕の夢です。,きみと ぼくの ゆめです。,It's the dream of you and me.,君|と|僕|の|夢|です,
+pa090,exercise,Particles,"Listing nouns: と for the whole set, や for examples",部屋に花や小さな星があります。,へやに はなや ちいさな ほしが あります。,"There are flowers, little stars, and things like that in the room.",部屋|に|花|や|小さな|星|が|あります,
+pa091,exercise,Particles,"Listing nouns: と for the whole set, や for examples",夏は海や山へ行きたいです。,なつは うみや やまへ いきたいです。,"In summer, I want to go to places like the sea and mountains.",夏|は|海|や|山|へ|行きたい|です,
+pa092,exercise,Particles,"Listing nouns: と for the whole set, や for examples",夜は音楽や本と一緒に過ごします。,よるは おんがくや ほんと いっしょに すごします。,"At night, I spend time with things like music and books.",夜|は|音楽|や|本|と|一緒|に|過ごします。,
+pa093,exercise,Particles,"Listing nouns: と for the whole set, や for examples",りんごとバナナを買いました。,りんごと ばななを かいました。,I bought apples and bananas.,りんご|と|バナナ|を|買いました,
+pa094,exercise,Particles,"Listing nouns: と for the whole set, や for examples",夢や思い出と一緒に生きたいです。,ゆめや おもいでと いっしょに いきたいです。,I want to live together with my dreams and memories.,夢|や|思い出|と|一緒|に|生きたい|です,
+pa095,exercise,Particles,"Listing nouns: と for the whole set, や for examples",スーパーで野菜や果物を買います。,すーぱーで やさいや くだものを かいます。,"I buy vegetables, fruit, and things like that at the supermarket.",スーパー|で|野菜|や|果物|を|買います,
+pa096,exercise,Particles,"Listing nouns: と for the whole set, や for examples",友達と公園で歌いました。,ともだちと こうえんで うたいました。,I sang with my friend in the park.,友達|と|公園|で|歌いました,
+pa097,exercise,Particles,"Listing nouns: と for the whole set, や for examples",家族と夜の町を歩きました。,かぞくと よるの まちを あるきました。,I walked through the town at night with my family.,家族|と|夜|の|町|を|歩きました,
+pa098,exercise,Particles,"Listing nouns: と for the whole set, や for examples",大切な人と星を見ました。,たいせつな ひとと ほしを みました。,I looked at the stars with someone important to me.,大切な|人|と|星|を|見ました,
+pa099,exercise,Particles,に with time words: when to add it,七時に起きます。,しちじに おきます。,I wake up at seven.,七時|に|起きます,"Particle に is a complex particle with many uses. Some linguists have found that it can be used in more than twenty different ways! However, if you boil に down all the way to its basics, you'll find that it has a fundamental meaning that unites all its uses. In short, に shows you where something is, was, or will be in the future. It's used to pin down something, whether it's location, time, purpose, or condition.
 
-# **に**
-Particle に is a complex particle with many uses. Some linguists have found that it can be used in more than twenty different ways! However, if you boil に down all the way to its basics, you'll find that it has a fundamental meaning that unites all its uses. In short, に shows you where something is, was, or will be in the future. It's used to pin down something, whether it's location, time, purpose, or condition.
+In this section, we'll learn about when to use it for time words.
 
-学校に行きます。(I go to school.)
+Japanese marks a **fixed point** in time with に and leaves relative time words bare. Clock times, weekdays, dates, and months take it, while 今日 and 毎日 never do. Use に for a time that names a slot on a clock or a calendar. Do not use it with a word that points at now, because 今日 and 毎日 shift as the day moves.
 
-# **で**
-Particle で appears in a lot of different contexts, and is an important particle to wrap your mind around. Its meaning shifts depending on how it's used, but, at its core, particle で helps specify where or how an activity or an event takes place. 
+**fixed time word + に + verb**"
+pa100,exercise,Particles,に with time words: when to add it,日曜日に友達の家に行きます。,にちようびに ともだちの いえに いきます。,I go to my friend's house on Sunday.,日曜日|に|友達|の|家|に|行きます,
+pa101,exercise,Particles,に with time words: when to add it,月曜日に新しい仕事を始めます。,げつようびに あたらしい しごとを はじめます。,I start a new job on Monday.,月曜日|に|新しい|仕事|を|始めます,
+pa102,exercise,Particles,に with time words: when to add it,三月に桜を見たいです。,さんがつに さくらを みたいです。,I want to see cherry blossoms in March.,三月|に|桜|を|見たいです,
+pa103,exercise,Particles,に with time words: when to add it,二〇二六年に日本へ行きたいです。,にせんにじゅうろくねんに にほんへ いきたいです。,I want to go to Japan in 2026.,二〇二六年|に|日本|へ|行きたいです,
+pa104,exercise,Particles,に with time words: when to add it,誕生日にケーキを食べます。,たんじょうびに けーきを たべます。,I eat cake on my birthday.,誕生日|に|ケーキ|を|食べます,
+pa105,exercise,Particles,に with time words: when to add it,夜の十二時に月を見ました。,よるの じゅうにじに つきを みました。,I looked at the moon at midnight.,夜|の|十二時|に|月|を|見ました,
+pa106,exercise,Particles,に with time words: when to add it,春休みに知らない町へ行きました。,はるやすみに しらない まちへ いきました。,I went to an unfamiliar town during spring break.,春休み|に|知らない|町|へ|行きました,
+pa107,exercise,Particles,に with time words: when to add it,十年後にもう一度ここへ来たいです。,じゅうねんごに もういちど ここへ きたいです。,I want to come here again in ten years.,十年後|に|もう|一度|ここ|へ|来たいです,
+pa108,exercise,Particles,に with time words: when to add it,九時に仕事が始まります。,くじに しごとが はじまります。,Work starts at nine.,九時|に|仕事|が|始まります,
+pa109,sample,Particles,から ・まで:  Where a Range Begins and Ends,朝から夜まで働きます。,あさから よるまで はたらきます。,I work from morning until night.,朝|から|夜|まで|働きます,"から marks where a range begins and まで marks where it ends. The same pair works for stretches of time and for distances between places.
 
-箸でご飯を食べます。(I eat rice with chopsticks.)"
-p002,exercise,Particles,を・に・で,手紙を書きます。,てがみを かきます。,I write a letter.,手紙|を|書きます,
-p003,exercise,Particles,を・に・で,毎朝コーヒーを飲みます。,まいあさ こーひーを のみます。,I drink coffee every morning.,毎朝|コーヒー|を|飲みます,
-p004,exercise,Particles,を・に・で,写真を撮ります。,しゃしんを とります。,I take a photo.,写真|を|撮ります,
-p005,exercise,Particles,を・に・で,映画を見ます。,えいがを みます。,I watch a movie.,映画|を|見ます,
-p006,exercise,Particles,を・に・で,ドアを開けます。,どあを あけます。,I open the door.,ドア|を|開けます,
-p014,exercise,Particles,を・に・で,図書館で本を読みます。,としょかんで ほんを よみます。,I read books at the library.,図書館|で|本|を|読みます,
-p015,exercise,Particles,を・に・で,公園で写真を撮ります。,こうえんで しゃしんを とります。,I take photos at the park.,公園|で|写真|を|撮ります,
-p016,exercise,Particles,を・に・で,電車で会社に行きます。,でんしゃで かいしゃに いきます。,I go to the company by train.,電車|で|会社|に|行きます,
-p017,exercise,Particles,を・に・で,日本語で話します。,にほんごで はなします。,I speak in Japanese.,日本語|で|話します,
-p018,exercise,Particles,を・に・で,箸でご飯を食べます。,はしで ごはんを たべます。,I eat rice with chopsticks.,箸|で|ご飯|を|食べます,
-p019,exercise,Particles,を・に・で,駅で友達を待ちます。,えきで ともだちを まちます。,I wait for my friend at the station.,駅|で|友達|を|待ちます,
-p035,sample,Particles,から ・まで:  Where a Range Begins and Ends,朝から夜まで働きます。,あさから よるまで はたらきます。,I work from morning until night.,朝|から|夜|まで|働きます,"**から** is a particle that marks the **source**, such as a starting point, an origin, or a reason.
+**から** is a particle that marks the **source**, such as a starting point, an origin, or a reason.
 
 **まで** is a particle that indicates the **end** point in space, time, and numbers. In its most basic use, it marks an end point of a connection between two points, such as with a distance or over a period of time.
 
-"
-p036,exercise,Particles,から ・まで:  Where a Range Begins and Ends,九時から五時まで仕事です。,くじから ごじまで しごとです。,I work from nine to five.,九時|から|五時|まで|仕事|です,
-p037,exercise,Particles,から ・まで:  Where a Range Begins and Ends,東京から大阪まで行きます。,とうきょうから おおさかまで いきます。,I go from Tokyo to Osaka.,東京|から|大阪|まで|行きます,
-p038,exercise,Particles,から ・まで:  Where a Range Begins and Ends,家から駅まで歩きます。,いえから えきまで あるきます。,I walk from home to the station.,家|から|駅|まで|歩きます,
-p039,exercise,Particles,から ・まで:  Where a Range Begins and Ends,ここから駅まで近いです。,ここから えきまで ちかいです。,It is close from here to the station.,ここ|から|駅|まで|近い|です,
-p040,exercise,Particles,から ・まで:  Where a Range Begins and Ends,友達から手紙が来ました。,ともだちから てがみが きました。,I received a letter from my friend.,友達|から|手紙|が|来ました,
-p041,exercise,Particles,から ・まで:  Where a Range Begins and Ends,母から電話がありました。,ははから でんわが ありました。,I got a call from my mother.,母|から|電話|が|ありました,
-p042,exercise,Particles,から ・まで:  Where a Range Begins and Ends,君から僕まで、その言葉を大切にします。,きみから ぼくまで、その ことばを たいせつに します。,"From you to me, we will treasure those words.",君|から|僕|まで|その|言葉|を|大切に|します,
-p043,exercise,Particles,から ・まで:  Where a Range Begins and Ends,夜までここにいます。,よるまで ここに います。,I will be here until night.,夜|まで|ここ|に|います,
+Use から and まで for any span with two edges: opening hours, a break, a route, a work week. The earlier edge takes から and the later edge takes まで, never the other way around. For a deadline, not a stretch, Japanese uses までに instead.
+
+から is the equivalent of English “from,” and まで does the work of both “to” and “until.” Each one can also stand alone when only one edge matters. あしたから means “starting tomorrow,” and ここまで means “this far and no further.”"
+pa110,exercise,Particles,から ・まで:  Where a Range Begins and Ends,九時から五時まで仕事です。,くじから ごじまで しごとです。,I work from nine to five.,九時|から|五時|まで|仕事|です,
+pa111,exercise,Particles,から ・まで:  Where a Range Begins and Ends,東京から大阪まで行きます。,とうきょうから おおさかまで いきます。,I go from Tokyo to Osaka.,東京|から|大阪|まで|行きます,
+pa112,exercise,Particles,から ・まで:  Where a Range Begins and Ends,家から駅まで歩きます。,いえから えきまで あるきます。,I walk from home to the station.,家|から|駅|まで|歩きます,
+pa113,exercise,Particles,から ・まで:  Where a Range Begins and Ends,ここから駅まで近いです。,ここから えきまで ちかいです。,It is close from here to the station.,ここ|から|駅|まで|近い|です,
+pa114,exercise,Particles,から ・まで:  Where a Range Begins and Ends,友達から手紙が来ました。,ともだちから てがみが きました。,I received a letter from my friend.,友達|から|手紙|が|来ました,
+pa115,exercise,Particles,から ・まで:  Where a Range Begins and Ends,母から電話がありました。,ははから でんわが ありました。,I got a call from my mother.,母|から|電話|が|ありました,
+pa116,exercise,Particles,から ・まで:  Where a Range Begins and Ends,君から僕まで、その言葉を大切にします。,きみから ぼくまで、その ことばを たいせつに します。,"From you to me, we will treasure those words.",君|から|僕|まで|その|言葉|を|大切に|します,
+pa117,exercise,Particles,から ・まで:  Where a Range Begins and Ends,夜までここにいます。,よるまで ここに います。,I will be here until night.,夜|まで|ここ|に|います,
+ve001,sample,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,毎日、日本語を勉強します。,まいにち、にほんごをべんきょうします。,I study Japanese every day.,,"ます is the polite verb ending, and it comes in four forms: ます, ません, ました, ませんでした. Together they handle every polite statement a verb makes: now or later, past, and their negatives.
+
+Japanese sorts time into two tenses: non-past and past. ます names both a daily habit and a plan for later, and only the time word tells you which. ました and ませんでした handle everything already finished.
+
+**V-stem + ます / ません / ました / ませんでした**"
+ve002,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,朝ご飯を食べませんでした。,あさごはんをたべませんでした。,I didn't eat breakfast.,朝ご飯|を|食べませんでした|食べます|食べません|食べました,
+ve003,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,週末に本を読みます。,しゅうまつにほんをよみます。,I read books on weekends.,週末|に|本|を|読みます|読みませんでした|読みません|読みました,
+ve004,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,この店ではお酒を飲みません。,このみせではおさけをのみません。,I don't drink alcohol at this restaurant.,この|店|で|は|お酒|を|飲みません|飲みます|飲みませんでした|飲みました,
+ve005,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,毎朝、音楽を聞きます。,まいあさ、おんがくをききます。,I listen to music every morning.,毎朝|音楽|を|聞きます|聞きませんでした|聞きません|聞きました,
+ve006,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,日曜日は早く起きません。,にちようびははやくおきません。,I don't wake up early on Sundays.,日曜日|は|早く|起きません|起きます|起きませんでした|起きました,
+ve007,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,先週、京都へ行きました。,せんしゅう、きょうとへいきました。,I went to Kyoto last week.,先週|京都|へ|行きました|行きます|行きません|行きませんでした,
+ve008,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,昨日、映画を見ました。,きのう、えいがをみました。,I watched a movie yesterday.,昨日|映画|を|見ました|見ます|見ません|見ませんでした,
+ve009,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,昨日は学校へ行きませんでした。,きのうはがっこうへいきませんでした。,I didn't go to school yesterday.,昨日|は|学校|へ|行きませんでした|行きました|行きます|行きません,
+ve010,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,毎週、スーパーで買い物をします。,まいしゅう、スーパーでかいものをします。,I go shopping at the supermarket every week.,毎週|スーパー|で|買い物|を|します|しませんでした|しみません|しました,
+ve011,exercise,Verb Forms,The Polite Verb: ます / ません / ました / ませんでした,土曜日は仕事をしません。,どようびはしごとをしません。,I don't work on Saturdays.,土曜日|は|仕事|を|しません|します|しませんでした|しました,
+ve012,sample,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,本を買いに行きます。,ほんを かいに いきます。,I go to buy a book.,,"Japanese builds “go somewhere to do something” as one compact phrase. Take the verb stem, add に, then finish with a verb of motion.
+
+Use this pattern whenever a trip has a purpose: going to buy, coming to meet, returning to fetch. Do not close it with an ordinary verb, because the last slot needs motion: at this level 行く, 来る, and 帰る.
+
+**V-stem + に + いく / くる / かえる**
+
+Start from the ます form, drop the ます, and the stem is what remains. Attach に and a verb of motion, so 買います “buy” gives 買いに行きます “go to buy.” A noun that names an activity fills the same slot on its own: 買い物に行きます “go shopping.”
+
+When you name the place as well, the order is fixed. The destination with に or へ comes first, then the object with を, then the purpose, then the motion verb. That gives デパートへ靴を買いに行きますデパートへくつをかいにいきます “go to the department store to buy shoes.”"
+ve013,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,映画を見に行きます。,えいがを みに いきます。,I go to see a movie.,映画|を|見|に|行きます,
+ve014,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,友達に会いに行きます。,ともだちに あいに いきます。,I go to meet my friend.,友達|に|会い|に|行きます,
+ve015,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,写真を撮りに公園へ行きました。,しゃしんを とりに こうえんへ いきました。,I went to the park to take pictures.,写真|を|撮り|に|公園|へ|行きました,
+ve016,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,友達が遊びに来ました。,ともだちが あそびに きました。,My friend came to hang out.,友達|が|遊び|に|来ました,
+ve017,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,母が私に会いに来ます。,ははが わたしに あいに きます。,My mother is coming to see me.,母|が|私|に|会い|に|来ます,
+ve018,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,日本から桜を見に来ました。,にほんから さくらを みに きました。,I came from Japan to see the cherry blossoms.,日本|から|桜|を|見|に|来ました,
+ve019,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,猫が魚を食べに来ました。,ねこが さかなを たべに きました。,The cat came to eat the fish.,猫|が|魚|を|食べ|に|来ました,
+ve020,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,友達の家へ本を借りに行きました。,ともだちの いえへ ほんを かりに いきました。,I went to my friend's house to borrow a book.,友達|の|家|へ|本|を|借り|に|行きました,
+ve021,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,夕方、海へ夕日を見に行きませんか。,ゆうがた、うみへ ゆうひを みに いきませんか。,Shall we go to the sea to watch the sunset this evening?,夕方|海|へ|夕日|を|見に|行きません|か,
+ve022,exercise,Verb Forms,Going Somewhere to Do Something: Verb Stem + に + 行く,忘れた夢を探しに、もう一度あの町へ帰ります。,わすれた ゆめを さがしに、もう いちど あの まちへ かえります。,I will return to that town once more to look for the dream I forgot.,忘れた|夢|を|探し|に|もう|一度|あの|町|へ|帰ります,
+ve023,sample,Verb Forms,Building the て Form,朝起きて、顔を洗います。,あさ おきて、かおを あらいます。,I wake up in the morning and wash my face.,,"The て form is the all-purpose connecting shape of a verb. One conversion gives you requests (てください), permission (てもいい), the progressive (ています, an action going on now), and joined actions.
+
+How you build the て form depends on which of the three verb groups a verb belongs to. Ru-verbs and the two irregulars swap the ending for て directly, and u-verbs take one of six endings. In polite speech the て form is a connector, not an ending, and on its own it is only a casual request like 待って (wait).
+
+Read the table by group. For ru-verbs and the irregulars, the rule is a single swap, so only the two irregular forms need memorizing.
+
+|Group|Dictionary ending|て  form|Example|
+|--|--|--|--|
+|u-verb|う・つ・る|って|買う → 買って|
+|u-verb|む・ぶ・ぬ|んで|飲む → 飲んで|
+|u-verb|く|いて|書く → 書いて|
+|u-verb|ぐ|いで|泳ぐ → 泳いで|
+|u-verb|す|して|話す → 話して|
+|ru-verb|る|て|食べる → 食べて|
+|Irregular|する|して|する → して|
+|Irregular|来る|来て|来る → 来て|"
+ve024,exercise,Verb Forms,Building the て Form,パンを食べて、学校へ行きます。,ぱんを たべて、がっこうへ いきます。,I eat bread and go to school.,パン|を|食べて|学校|へ|行きます|食べる,
+ve025,exercise,Verb Forms,Building the て Form,本を読んで、寝ます。,ほんを よんで、ねます。,I read a book and go to bed.,本|を|読んで|寝ます|読む,
+ve026,exercise,Verb Forms,Building the て Form,音楽を聞いて、勉強します。,おんがくを きいて、べんきょうします。,I listen to music and study.,音楽|を|聞いて|勉強します|聞く,
+ve027,exercise,Verb Forms,Building the て Form,公園を歩いて、家に帰ります。,こうえんを あるいて、いえに かえります。,I walk in the park and go home.,公園|を|歩いて|家|に|帰ります|歩く,
+ve028,exercise,Verb Forms,Building the て Form,水を飲んで、休みます。,みずを のんで、やすみます。,I drink water and rest.,水|を|飲んで|休みます|飲む,
+ve029,exercise,Verb Forms,Building the て Form,友達と話して、笑いました。,ともだちと はなして、わらいました。,I talked with my friend and laughed.,友達|と|話して|笑いました|話す,
+ve030,exercise,Verb Forms,Building the て Form,花を買って、部屋に飾ります。,はなを かって、へやに かざります。,I buy flowers and decorate my room with them.,花|を|買って|部屋|に|飾ります|買う,
+ve031,exercise,Verb Forms,Building the て Form,窓を開けて、空を見ます。,まどを あけて、そらを みます。,I open the window and look at the sky.,窓|を|開けて|空|を|見ます|開ける,
+ve032,exercise,Verb Forms,Building the て Form,手紙を書いて、友達に送ります。,てがみを かいて、ともだちに おくります。,I write a letter and send it to my friend.,手紙|を|書いて|友達|に|送ります|書く,
+ve033,sample,Verb Forms,Asking Someone to Do Something with てください,ここに名前を書いてください。,ここに なまえを かいて ください。,Please write your name here.,,"Add ください to a verb's て-form (the connecting form: 撮る becomes 撮って) and you have a polite request. It reuses the ください of をください, but here you ask for an action instead of an object.
+
+Use てください to ask someone for an action, in a store, a classroom, or a taxi. Do not use it alone with a boss or a customer, because it can sound like an order. Open with すみませんが or switch to くださいませんか instead.
+
+## Asking for an object vs. an action
+One question settles the choice: are you asking for a thing, or for an action? をください asks for an object, and てください asks for an action.
+
+Japanese|Meaning|When to use
+--|--|--
+をください|Please give me X|Asking for an object
+てください|Please do X|A request or instruction
+てくださいませんか|Would you please do X?|A softer, more polite request"
+ve034,exercise,Verb Forms,Asking Someone to Do Something with てください,明日の朝、電話してください。,あしたの あさ、でんわして ください。,Please call me tomorrow morning.,明日|の|朝|電話して|ください,
+ve035,exercise,Verb Forms,Asking Someone to Do Something with てください,駅に着いたら、私に連絡してください。,えきに ついたら、わたしに れんらくして ください。,"When you arrive at the station, please contact me.",駅|に|着いたら|私|に|連絡して|ください,
+ve036,exercise,Verb Forms,Asking Someone to Do Something with てください,少し待ってください。,すこし まって ください。,Please wait a little.,少し|待って|ください,
+ve037,exercise,Verb Forms,Asking Someone to Do Something with てください,ここで写真を撮ってください。,ここで しゃしんを とって ください。,Please take a photo here.,ここ|で|写真|を|撮って|ください,
+ve038,exercise,Verb Forms,Asking Someone to Do Something with てください,ゆっくり話してください。,ゆっくり はなして ください。,Please speak slowly.,ゆっくり|話して|ください,
+ve039,exercise,Verb Forms,Asking Someone to Do Something with てください,今日は早く帰ってください。,きょうは はやく かえって ください。,Please go home early today.,今日|は|早く|帰って|ください,
+ve040,exercise,Verb Forms,Asking Someone to Do Something with てください,疲れたら、ここで休んでください。,つかれたら、ここで やすんで ください。,"If you get tired, please rest here.",疲れたら|ここ|で|休んで|ください,
+ve041,exercise,Verb Forms,Asking Someone to Do Something with てください,この薬を飲んでください。,この くすりを のんで ください。,Please take this medicine.,この|薬を|飲んで|ください,
+ve042,exercise,Verb Forms,Asking Someone to Do Something with てください,友達にもこの写真を見せてください。,ともだちにも この しゃしんを みせて ください。,Please show this photo to your friend too.,友達|に|も|この|写真|を|見せて|ください,
+ve043,exercise,Verb Forms,Asking Someone to Do Something with てください,分からない言葉があったら、私に聞いてください。,わからない ことばが あったら、わたしに きいて ください。,"If there is a word you don't understand, please ask me.",分からない|言葉|が|あったら|私|に|聞いて|ください,
+ve044,exercise,Verb Forms,Asking Someone to Do Something with てください,この紙にあなたの住所を書いてください。,この かみに あなたの じゅうしょを かいて ください。,Please write your address on this paper.,この|紙|に|あなた|の|住所|を|書いて|ください,
+ve045,sample,Verb Forms,Linking Actions in a Row with the て Form,朝起きて、顔を洗います。,あさ おきて、かおを あらいます。,I wake up in the morning and wash my face.,,"Use a て chain when the actions belong to one stretch of time, in the order they happen. Do not put ました on every verb, because only the last one takes it. For two unrelated events, start a new sentence instead.
+
+Put each action into its て form and keep the real order of events. The final verb alone shows whether the chain is past or present, polite or plain. Change that one ending and the whole chain follows."
+ve046,exercise,Verb Forms,Linking Actions in a Row with the て Form,パンを食べて、学校へ行きます。,ぱんを たべて、がっこうへ いきます。,I eat bread and go to school.,パン|を|食べて|学校|へ|行きます,
+ve047,exercise,Verb Forms,Linking Actions in a Row with the て Form,音楽を聞いて、本を読みました。,おんがくを きいて、ほんを よみました。,I listened to music and read a book.,音楽|を|聞いて|本|を|読みました,
+ve048,exercise,Verb Forms,Linking Actions in a Row with the て Form,友達に会って、一緒に映画を見ました。,ともだちに あって、いっしょに えいがを みました。,I met my friend and watched a movie together.,友達|に|会って|一緒に|映画|を|見ました,
+ve049,exercise,Verb Forms,Linking Actions in a Row with the て Form,窓を開けて、空を見ます。,まどを あけて、そらを みます。,I open the window and look at the sky.,窓|を|開けて|空|を|見ます,
+ve050,exercise,Verb Forms,Linking Actions in a Row with the て Form,手紙を書いて、友達に送りました。,てがみを かいて、ともだちに おくりました。,I wrote a letter and sent it to my friend.,手紙|を|書いて|友達|に|送りました,
+ve051,exercise,Verb Forms,Linking Actions in a Row with the て Form,今日は早く帰って、ゆっくり寝ます。,きょうは はやく かえって、ゆっくり ねます。,Today I'll go home early and sleep well.,今日|は|早く|帰って|ゆっくり|寝ます,
+ve052,exercise,Verb Forms,Linking Actions in a Row with the て Form,ドアを閉めて、部屋を暗くしました。,どあを しめて、へやを くらく しました。,I closed the door and made the room dark.,ドア|を|閉めて|部屋|を|暗くしました,
+ve053,exercise,Verb Forms,Linking Actions in a Row with the て Form,花を買って、部屋に飾りました。,はなを かって、へやに かざりました。,I bought flowers and decorated my room with them.,花|を|買って|部屋|に|飾りました,
+ve054,exercise,Verb Forms,Linking Actions in a Row with the て Form,夜空を見て、明日の夢を考えました。,よぞらを みて、あしたの ゆめを かんがえました。,I looked at the night sky and thought about tomorrow's dreams.,夜空|を|見て|明日|の|夢|を|考えました,
+ve055,exercise,Verb Forms,Linking Actions in a Row with the て Form,公園を歩いて、猫を探しました。,こうえんを あるいて、ねこを さがしました。,I walked around the park and looked for a cat.,公園|を|歩いて|猫|を|探しました,
+ve056,exercise,Verb Forms,Linking Actions in a Row with the て Form,コーヒーを飲んで、少し休みます。,こーひーを のんで、すこし やすみます。,I drink coffee and rest for a little while.,コーヒー|を|飲んで|少し|休みます,
+ve057,exercise,Verb Forms,Linking Actions in a Row with the て Form,電車に乗って、東京へ行きます。,でんしゃに のって、とうきょうへ いきます。,I take the train and go to Tokyo.,電車|に|乗って|東京|へ|行きます,
+ve058,sample,Verb Forms,The ない-form and ないでください,一人で行かないで。,ひとりで いかないで。,Don't go alone.,一人|で|行かない|で,"The ない form is the plain negative of a verb — the “does not” shape. Its most useful job now is ないでください, a polite way to ask someone not to do something.
+
+Group|Dictionary form|ない  form
+|--|--|--|
+u-verb (う  →  わ)|買う|買わない
+u-verb (す  →  さ)|消す|消さない
+u-verb (る  →  ら)|入る|入らない
+ru-verb (drop  る)|食べる|食べない
+Irregular|する|しない
+Irregular|来る|来ない
+
+Use ないでください for a request, a rule, or a sign. Do not use it to say that you will not do something, because the plain ない form alone does that. The casual version drops ください and stops at ないで.
+
+**Vない + で + ください**"
+ve059,exercise,Verb Forms,The ない-form and ないでください,今日は学校へ行かない。,きょうは がっこうへ いかない。,I'm not going to school today.,今日|は|学校|へ|行かない,
+ve060,exercise,Verb Forms,The ない-form and ないでください,この本は読まないでください。,この ほんは よまないで ください。,Please don't read this book.,この|本|は|読まない|で|ください,
+ve061,exercise,Verb Forms,The ない-form and ないでください,ここで写真を撮らないでください。,ここで しゃしんを とらないで ください。,Please don't take photos here.,ここ|で|写真|を|撮らない|で|ください,
+ve062,exercise,Verb Forms,The ない-form and ないでください,そんなに心配しないで。,そんなに しんぱいしないで。,Don't worry so much.,そんな|に|心配しない|で,
+ve063,exercise,Verb Forms,The ない-form and ないでください,忘れないでください。,わすれないで ください。,Please don't forget.,忘れない|で|ください,
+ve064,exercise,Verb Forms,The ない-form and ないでください,私は肉を食べない。,わたしは にくを たべない。,I don't eat meat.,私|は|肉|を|食べない,
+ve065,exercise,Verb Forms,The ない-form and ないでください,この部屋では大きな声で話さないでください。,この へやでは おおきな こえで はなさないで ください。,Please don't speak loudly in this room.,この|部屋|で|は|大きな|声|で|話さないで|ください,
+ve066,exercise,Verb Forms,The ない-form and ないでください,明日は仕事をしない。,あしたは しごとを しない。,I won't work tomorrow.,明日|は|仕事|を|しない,
+ve067,exercise,Verb Forms,The ない-form and ないでください,ここに荷物を置かないでください。,ここに にもつを おかないで ください。,Please don't put your luggage here.,ここ|に|荷物|を|置かない|で|ください,
+ve068,exercise,Verb Forms,The ない-form and ないでください,まだ帰らないで。,まだ かえらないで。,Don't go home yet.,まだ|帰らない|で,
+ve069,exercise,Verb Forms,The ない-form and ないでください,朝はコーヒーを飲まない。,あさは こーひーを のまない。,I don't drink coffee in the morning.,朝|は|コーヒー|を|飲まない,
