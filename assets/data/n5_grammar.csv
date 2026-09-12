@@ -525,3 +525,181 @@ ve066,exercise,Verb Forms,The ない-form and ないでください,明日は仕
 ve067,exercise,Verb Forms,The ない-form and ないでください,ここに荷物を置かないでください。,ここに にもつを おかないで ください。,Please don't put your luggage here.,ここ|に|荷物|を|置かない|で|ください,
 ve068,exercise,Verb Forms,The ない-form and ないでください,まだ帰らないで。,まだ かえらないで。,Don't go home yet.,まだ|帰らない|で,
 ve069,exercise,Verb Forms,The ない-form and ないでください,朝はコーヒーを飲まない。,あさは こーひーを のまない。,I don't drink coffee in the morning.,朝|は|コーヒー|を|飲まない,
+ta001,sample,Tense and Aspect,"ています: In Progress, State, and Habit",日本語を勉強しています。,にほんごを べんきょうしています。,I am studying Japanese.,日本語|を|勉強しています,"ています has three jobs: an action going on now, a state that stays after a change, and a habit. English -ing matches only the first, so the other two are where learners slip.
+
+**V-て + います**
+
+Use ています whenever English would ask what someone is doing, or what their life looks like these days. Do not use it for a one-time future plan: 東京に住みます announces a move, while 住んでいます describes the life you already lead.
+
+## 1. In progress
+The first job is the true be -ing: the action has started and has not finished. Here the English map holds cleanly.
+## 2. A state that stays
+When a verb names a one-moment change — 結婚する, 住む, 持つ — ています describes the condition left behind. 結婚しています means someone is married now, not that a wedding is under way.
+## 3. A habit
+A repeated routine also takes ています. A time word such as 毎朝 or 週に二回 is usually the clue."
+ta002,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",母は料理をしています。,ははは りょうりを しています。,My mother is cooking.,母|は|料理|を|しています,
+ta003,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",雨が降っています。,あめが ふっています。,It is raining.,雨|が|降っています,
+ta004,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",毎日、音楽を聞いています。,まいにち、おんがくを きいています。,I listen to music every day.,毎日|音楽|を|聞いています,
+ta005,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",毎朝、コーヒーを飲んでいます。,まいあさ、こーひーを のんでいます。,I drink coffee every morning.,毎朝|コーヒー|を|飲んでいます,
+ta006,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",日曜日は家で休んでいます。,にちようびは いえで やすんでいます。,I rest at home on Sundays.,日曜日|は|家|で|休んでいます,
+ta007,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",彼は東京に住んでいます。,かれは とうきょうに すんでいます。,He lives in Tokyo.,彼|は|東京|に|住んでいます,
+ta008,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",私は毎日日本語を書いています。,わたしは まいにち にほんごを かいています。,I write Japanese every day.,私|は|毎日|日本語|を|書いています,
+ta009,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",君のことを考えています。,きみの ことを かんがえています。,I'm thinking about you.,君|の|こと|を|考えています,
+ta010,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",ずっと君を待っています。,ずっと きみを まっています。,I've been waiting for you.,ずっと|君|を|待っています,
+ta011,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",よくこの歌を聞いています。,よく この うたを きいています。,I often listen to this song.,よく|この|歌|を|聞いています,
+ta012,exercise,Tense and Aspect,"ています: In Progress, State, and Habit",最近、日本の映画を見ています。,さいきん、にほんの えいがを みています。,"Recently, I've been watching Japanese movies.",最近|日本|の|映画|を|見ています,
+ta013,sample,Tense and Aspect,"もう and まだ: already, still, not yet",もうご飯を食べました。,もう ごはんを たべました。,I already ate.,もう|ご飯|を|食べました,"もう says an action is already done, and まだ says it is still going. Both flip meaning when the verb turns negative: “no longer” and “not yet.”
+
+##  もう
+At its most basic, もう means ""already"" and もう〜ない means ""not…anymore."" 
+
+もう expresses something relative to the existing amount or state of things. And, ""already"" and ""not…anymore"" are relative expressions that are always based on a certain point in time. As its core, もう signifies that you have a certain reference point in mind and what you're talking about has already passed the point, or will not pass that point anymore.
+
+##
+まだ is a versatile adverb that can be used to express something you're still in the process of doing, or something you haven't done yet. Used in a positive context, まだ means ""still,"" whereas in a negative context, as in まだ〜ない, it implies that something has ""not yet"" happened.
+
+At its core, まだ has similar connotations to the English ""yet"" – it assumes a pre-determined baseline for comparison, or reference point, by which the topic of a まだ statement is measured. To put it simply, まだ expresses that whatever it is you're talking about hasn't passed that point of reference, yet.
+
+Pattern|Meaning|Example
+--|--|--
+もう + past|Already done|もう食べました
+まだ + positive|Still, continuing|まだあります
+もう + negative|No longer|もうありません
+まだ + negative|Not yet|まだ出していません"
+ta014,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",もう宿題をしました。,もう しゅくだいを しました。,I already did my homework.,もう|宿題|を|しました,
+ta015,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",もう映画を見ました。,もう えいがを みました。,I already watched the movie.,もう|映画|を|見ました,
+ta016,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",まだ雨が降っています。,まだ あめが ふっています。,It is still raining.,まだ|雨|が|降っています,
+ta017,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",まだ学校にいます。,まだ がっこうに います。,I am still at school.,まだ|学校|に|います,
+ta018,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",まだ朝ご飯を食べていません。,まだ あさごはんを たべていません。,I haven't eaten breakfast yet.,まだ|朝ご飯|を|食べていません,
+ta019,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",まだ手紙を書いていません。,まだ てがみを かいていません。,I haven't written the letter yet.,まだ|手紙|を|書いていません,
+ta020,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",もうテレビを見ません。,もう てれびを みません。,I don't watch TV anymore.,もう|テレビ|を|見ません,
+ta021,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",もうここには来ません。,もう ここには きません。,I won't come here anymore.,もう|ここ|には|来ません,
+ta022,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",もうこの本を読んでいません。,もう この ほんを よんでいません。,I don't read this book anymore.,もう|この|本|を|読んでいません,
+ta023,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",まだ先生に聞いていません。,まだ せんせいに きいていません。,I haven't asked the teacher yet.,まだ|先生|に|聞いていません,
+ta024,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",もう晩ご飯を作りましたか。,もう ばんごはんを つくりましたか。,Have you already made dinner?,もう|晩ご飯|を|作りましたか,
+ta025,exercise,Tense and Aspect,"もう and まだ: already, still, not yet",まだ電車を待っています。,まだ でんしゃを まっています。,I am still waiting for the train.,まだ|電車|を|待っています,
+ad001,sample,Adjectives and Description,"い-adjectives: present, negative, past, past negative",今日は暑いです。,きょうは あついです。,It is hot today.,今日|は|暑いです,"An い-adjective is a describing word ending in い, such as 高い “expensive.” It changes its own tail for tense and negation, so です never changes shape: 高かったです.
+
+Drop the final い and you reach the stem — the part that never changes — and every form builds from there. Add くない for the negative, かった for the past, and くなかった for the past negative. Do not use でした or じゃない on these words: those belong to nouns and な-adjectives.
+
+Form|Regular: “expensive”|Irregular: “good”
+--|--|--
+Present|高い|いい
+Negative|高くない|よくない
+Past|高かった|よかった
+Past negative|高くなかった|よくなかった"
+ad002,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",このかばんは重いです。,この かばんは おもいです。,This bag is heavy.,この|かばん|は|重いです,
+ad003,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",日本語は難しくないです。,にほんごは むずかしくないです。,Japanese is not difficult.,日本語|は|難しくないです,
+ad004,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",この料理は辛くないです。,この りょうりは からくないです。,This food is not spicy.,この|料理|は|辛くないです,
+ad005,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",昨日は寒かったです。,きのうは さむかったです。,It was cold yesterday.,昨日|は|寒かったです,
+ad006,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",昨日のテストは難しくなかったです。,きのうの てすとは むずかしくなかったです。,Yesterday's test wasn't difficult.,昨日|の|テスト|は|難しくなかったです,
+ad007,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",朝は忙しくなかったです。,あさは いそがしくなかったです。,I wasn't busy in the morning.,朝|は|忙しくなかったです,
+ad008,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",この道は長いです。,この みちは ながいです。,This road is long.,この|道|は|長いです,
+ad009,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",昔の家は大きくなかったです。,むかしの いえは おおきくなかったです。,The old house wasn't big.,昔|の|家|は|大きくなかったです,
+ad010,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",君の声は優しいです。,きみの こえは やさしいです。,Your voice is gentle.,君|の|声|は|優しいです,
+ad011,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",この町は大きくないです。,この まちは おおきくないです。,This town is not big.,この|町|は|大きくないです,
+ad012,exercise,Adjectives and Description,"い-adjectives: present, negative, past, past negative",あの日は悲しかったです。,あの ひは かなしかったです。,That day was sad.,あの|日|は|悲しかったです,
+ad013,sample,Adjectives and Description,な-adjectives: describing words that act like nouns,この町は静かです。,この まちは しずかです。,This town is quiet.,この|町|は|静かです,"In the previous section, we learned that い-adjective changes its own ending. A な-adjective never does: です, でした, and じゃないです carry the change for it.
+
+Use a な-adjective the way you use a noun: put です, でした, or じゃないです after it. Do not give it an い-adjective ending, so きれいくない is wrong and きれいじゃない is right. Add な only when the word sits directly in front of a noun."
+ad014,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,彼は元気です。,かれは げんきです。,He is healthy / energetic.,彼|は|元気です,
+ad015,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,この部屋はきれいです。,この へやは きれいです。,This room is clean.,この|部屋|は|きれいです,
+ad016,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,今日は暇ではありません。,きょうは ひまでは ありません。,I am not free today.,今日|は|暇では|ありません,
+ad017,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,このホテルは便利ではありません。,この ほてるは べんりでは ありません。,This hotel is not convenient.,この|ホテル|は|便利では|ありません,
+ad018,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,昔、この町は静かでした。,むかし、この まちは しずかでした。,"Long ago, this town was quiet.",昔|この|町|は|静かでした,
+ad019,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,旅行のホテルはきれいでした。,りょこうの ほてるは きれいでした。,The hotel on the trip was clean.,旅行|の|ホテル|は|きれいでした,
+ad020,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,子どもの時、静かではありませんでした。,こどもの とき、しずかでは ありませんでした。,I wasn't quiet when I was a child.,子ども|の|時|静かでは|ありませんでした,
+ad021,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,昨日の部屋はきれいではありませんでした。,きのうの へやは きれいでは ありませんでした。,Yesterday's room wasn't clean.,昨日|の|部屋|は|きれいでは|ありませんでした,
+ad022,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,あの店は昔、有名ではありませんでした。,あの みせは むかし、ゆうめいでは ありませんでした。,That store wasn't famous in the past.,あの|店|は|昔|有名では|ありませんでした,
+ad023,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,有名な店で昼ご飯を食べました。,ゆうめいな みせで ひるごはんを たべました。,I ate lunch at a famous restaurant.,有名な|店|で|昼ご飯|を|食べました,
+ad024,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,大切な友達と話しました。,たいせつな ともだちと はなしました。,I talked with an important/dear friend.,大切な|友達|と|話しました,
+ad025,exercise,Adjectives and Description,な-adjectives: describing words that act like nouns,きれいな花を買いました。,きれいな はなを かいました。,I bought a beautiful flower.,きれいな|花|を|買いました,
+ad026,sample,Adjectives and Description,Putting Adjectives Before Nouns,小さい月が空に浮かんでいます。,ちいさい つきが そらに うかんでいます。,A little moon is floating in the sky.,小さい|月|が|空|に|浮かんでいます,"**いadj + N / なadj + な + N**
+
+An い-adjective is a describing word whose plain form ends in い, such as 新しい “new.” It goes directly in front of the noun, with no linking word. Do not add な to it.
+
+A な-adjective is a describing word that needs な in front of a noun, such as 静か “quiet.” Drop that な and the two words will not connect.
+
+Some な-adjectives end in い by sound alone. きれい “pretty” and 有名 “famous” still take な, so check the word rather than its last letter."
+ad027,exercise,Adjectives and Description,Putting Adjectives Before Nouns,赤い猫が屋根の上にいます。,あかい ねこが やねの うえに います。,A red cat is on the roof.,赤い|猫|が|屋根|の|上|に|います,
+ad028,exercise,Adjectives and Description,Putting Adjectives Before Nouns,静かな森に大きな木があります。,しずかな もりに おおきな きが あります。,There is a big tree in the quiet forest.,静かな|森|に|大きな|木|が|あります,
+ad029,exercise,Adjectives and Description,Putting Adjectives Before Nouns,白い鳥が青い空を飛んでいます。,しろい とりが あおい そらを とんでいます。,A white bird is flying through the blue sky.,白い|鳥|が|青い|空|を|飛んでいます,
+ad030,exercise,Adjectives and Description,Putting Adjectives Before Nouns,古い時計が夜に鳴りました。,ふるい とけいが よるに なりました。,An old clock rang at night.,古い|時計|が|夜|に|鳴りました,
+ad031,exercise,Adjectives and Description,Putting Adjectives Before Nouns,元気な星が夜空で笑っています。,げんきな ほしが よぞらで わらっています。,A lively star is smiling in the night sky.,元気な|星|が|夜空|で|笑っています,
+ad032,exercise,Adjectives and Description,Putting Adjectives Before Nouns,甘い夢を小さな箱に入れました。,あまい ゆめを ちいさな はこに いれました。,I put a sweet dream into a little box.,甘い|夢|を|小さな|箱|に|入れました,
+ad033,exercise,Adjectives and Description,Putting Adjectives Before Nouns,にぎやかな町に変な店があります。,にぎやかな まちに へんな みせが あります。,There is a strange shop in the lively town.,にぎやかな|町|に|変な|店|が|あります,
+ad034,sample,Adjectives and Description,Linking adjectives with くて and で,この猫は白くて小さくてかわいいです。,この ねこは しろくて ちいさくて かわいいです。,"This cat is white, small, and cute.",この|猫|は|白くて|小さくて|かわいいです,"Two adjectives can describe one thing at once: an い-adjective becomes くて, and a な-adjective or noun becomes で. Only the last word in the chain carries tense and politeness.
+
+An い-adjective drops its final い and takes くて, so 安い “cheap” becomes 安くて. A な-adjective adds で, so 静か “quiet” becomes 静かで. A plain noun links the same way: 学生 “student” becomes 学生で.
+
+Use くて and で when both traits point the same way, all positive or all negative. Do not link traits that pull against each other. For “cheap but cramped” Japanese uses けど or が instead."
+ad035,exercise,Adjectives and Description,Linking adjectives with くて and で,あの人は親切で元気な先生です。,あの ひとは しんせつで げんきな せんせいです。,That person is a kind and energetic teacher.,あの|人|は|親切で|元気な|先生です,
+ad036,exercise,Adjectives and Description,Linking adjectives with くて and で,昨日の夜は寒くて静かでした。,きのうの よるは さむくて しずかでした。,Last night was cold and quiet.,昨日|の|夜|は|寒くて|静かでした,
+ad037,exercise,Adjectives and Description,Linking adjectives with くて and で,この町は小さくて静かで、きれいです。,この まちは ちいさくて しずかで、きれいです。,"This town is small, quiet, and beautiful.",この|町|は|小さくて|静かで|きれいです,
+ad038,exercise,Adjectives and Description,Linking adjectives with くて and で,大きくて赤い花がきれいな庭にあります。,おおきくて あかい はなが きれいな にわに あります。,There is a big red flower in a beautiful garden.,大きくて|赤い|花|が|きれいな|庭|に|あります,
+ad039,exercise,Adjectives and Description,Linking adjectives with くて and で,今日は暑くて長い一日でした。,きょうは あつくて ながい いちにちでした。,"Today was a hot, long day.",今日|は|暑くて|長い|一日でした,
+ad040,exercise,Adjectives and Description,Linking adjectives with くて and で,このケーキは甘くておいしいです。,この けーきは あまくて おいしいです。,This cake is sweet and delicious.,この|ケーキ|は|甘くて|おいしいです,
+ad041,exercise,Adjectives and Description,Linking adjectives with くて and で,あの山は高くて大きいです。,あの やまは たかくて おおきいです。,That mountain is tall and big.,あの|山|は|高くて|大きいです,
+ad042,exercise,Adjectives and Description,Linking adjectives with くて and で,この町は静かで便利です。,この まちは しずかで べんりです。,This town is quiet and convenient.,この|町|は|静かで|便利です,
+ad043,sample,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",今日はとても暑いです。,きょうは とても あついです。,It is very hot today.,今日|は|とても|暑いです,"とても, あまり, and ぜんぜん say how much, and each one decides how the sentence must end. とても needs a positive ending, while あまり and ぜんぜん need a negative one.
+
+あまり softens the meaning to “not very”: it denies a high degree, not the whole thing. ぜんぜん makes it “not at all.” Put the word right before the adjective or verb it describes.
+
+Word|Ending it needs|Strength
+--|--|--
+とても|Positive|Strong: “very”
+あまり|Negative|Partial: “not very”
+ぜんぜん|Negative in careful speech|Total: “not at all”"
+ad044,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",この料理はとてもおいしいです。,この りょうりは とても おいしいです。,This food is very delicious.,この|料理|は|とても|おいしいです,
+ad045,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",あの人はとても親切です。,あの ひとは とても しんせつです。,That person is very kind.,あの|人|は|とても|親切です,
+ad046,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",この本はあまり面白くないです。,この ほんは あまり おもしろくないです。,This book isn't very interesting.,この|本|は|あまり|面白くないです,
+ad047,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",今日はあまり元気ではありません。,きょうは あまり げんきでは ありません。,I don't feel very well today.,今日|は|あまり|元気では|ありません,
+ad048,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",この映画はぜんぜん面白くないです。,この えいがは ぜんぜん おもしろくないです。,This movie isn't interesting at all.,この|映画|は|ぜんぜん|面白くないです,
+ad049,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",私は魚がぜんぜん好きではありません。,わたしは さかなが ぜんぜん すきでは ありません。,I don't like fish at all.,私|は|魚|が|ぜんぜん|好きでは|ありません,
+ad050,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",あの店はあまり大きくないけど、いつも人が多いです。,あの みせは あまり おおきくないけど、いつも ひとが おおいです。,"That shop isn't very big, but there are always many people.",あの|店|は|あまり|大きくないけど|いつも|人|が|多いです,
+ad051,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",このケーキはとても甘いので、全部は食べられません。,この けーきは とても あまいので、ぜんぶは たべられません。,This cake is so sweet that I can't eat it all.,この|ケーキ|は|とても|甘いので|全部|は|食べられません,
+ad052,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",あの犬はとても大きいですが、ぜんぜん怖くないです。,あの いぬは とても おおきいですが、ぜんぜん こわくないです。,"That dog is very big, but it's not scary at all.",あの|犬|は|とても|大きいですが|ぜんぜん|怖くないです,
+ad053,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",この小さな町はとても静かで、夜は星がよく見えます。,この ちいさな まちは とても しずかで、よるは ほしが よく みえます。,"This little town is very quiet, and you can see the stars well at night.",この|小さな|町|は|とても|静かで|夜|は|星|が|よく|見えます,
+ad054,exercise,Adjectives and Description,"とても, あまり, ぜんぜん: how much, and which ending",昨日の映画はとても面白かったですが、少し長かったです。,きのうの えいがは とても おもしろかったですが、すこし ながかったです。,"Yesterday's movie was very interesting, but it was a little long.",昨日|の|映画|は|とても|面白かったですが|少し|長かったです,
+ad055,sample,Adjectives and Description,Comparing with より and のほうが,東京より大阪のほうが静かです。,とうきょうより おおさかの ほうが しずかです。,Osaka is quieter than Tokyo.,東京|より|大阪|の|ほうが|静かです,"Japanese compares two things with two markers, each with its own job: より marks the standard, のほうが marks the one you pick. Which noun comes first does not change the meaning.
+
+**A + より + B + のほうが + adjective**
+
+Use this pattern when you weigh two named things against each other: two drinks, two routes, two seasons. のほうが marks the one you choose, and より marks the thing you compare it with. Do not use it for the best of a whole group, because that is the job of 一番.
+
+## Asking which one you prefer
+To ask which of two things someone prefers, list both with と and end the question with どちらが. The answer names your pick and adds のほうが, and the noun the question already supplied can be omitted."
+ad056,exercise,Adjectives and Description,Comparing with より and のほうが,夏より春のほうが好きです。,なつより はるの ほうが すきです。,I like spring more than summer.,夏|より|春|の|ほうが|好きです,
+ad057,exercise,Adjectives and Description,Comparing with より and のほうが,この本よりあの本のほうが面白いです。,この ほんより あの ほんの ほうが おもしろいです。,That book is more interesting than this book.,この|本|より|あの|本|の|ほうが|面白いです,
+ad058,exercise,Adjectives and Description,Comparing with より and のほうが,電車よりバスのほうが安いです。,でんしゃより ばすの ほうが やすいです。,The bus is cheaper than the train.,電車|より|バス|の|ほうが|安いです,
+ad059,exercise,Adjectives and Description,Comparing with より and のほうが,夏と冬と、どちらが暑いですか。,なつと ふゆと、どちらが あついですか。,"Which is hotter, summer or winter?",夏|と|冬|と|どちらが|暑いですか,
+ad060,exercise,Adjectives and Description,Comparing with より and のほうが,電車とバスと、どちらが便利ですか。,でんしゃと ばすと、どちらが べんりですか。,"Which is more convenient, the train or the bus?",電車|と|バス|と|どちらが|便利ですか,
+ad061,exercise,Adjectives and Description,Comparing with より and のほうが,海と山と、どちらが好きですか。,うみと やまと、どちらが すきですか。,"Which do you like better, the sea or the mountains?",海|と|山|と|どちらが|好きですか,
+ad062,exercise,Adjectives and Description,Comparing with より and のほうが,一人より友達と一緒のほうが楽しいです。,ひとりより ともだちと いっしょの ほうが たのしいです。,Being with friends is more fun than being alone.,一人|より|友達|と|一緒|の|ほうが|楽しいです,
+ad063,exercise,Adjectives and Description,Comparing with より and のほうが,昼より夜のほうが星がきれいです。,ひるより よるの ほうが ほしが きれいです。,The stars are prettier at night than during the day.,昼|より|夜|の|ほうが|星|が|きれいです,
+ad064,exercise,Adjectives and Description,Comparing with より and のほうが,仕事より休みの日のほうが大切です。,しごとより やすみの ひの ほうが たいせつです。,Days off are more important than work.,仕事|より|休み|の|日|の|ほうが|大切です,
+ad065,exercise,Adjectives and Description,Comparing with より and のほうが,夏のほうが暑いです。,なつの ほうが あついです。,Summer is hotter.,夏|の|ほうが|暑いです,
+ad066,exercise,Adjectives and Description,Comparing with より and のほうが,一人のほうが楽しいです。,ひとりの ほうが たのしいです。,It's more fun alone.,一人|の|ほうが|楽しいです,
+ad067,exercise,Adjectives and Description,Comparing with より and のほうが,この店のほうが安いです。,この みせの ほうが やすいです。,This shop is cheaper.,この|店|の|ほうが|安いです,
+ad068,sample,Adjectives and Description,がいちばん: saying the most or the best,四つの季節で夏が一番暑いです。,よっつの きせつで なつが いちばん あついです。,"Of the four seasons, summer is the hottest.",四つ|の|季節|で|夏|が|一番|暑いです,"一番 in front of an adjective makes it the most or the best. The group you compare within takes で, as in 日本で.
+
+The order is fixed: range, then the subject with が, then 一番, then the adjective. The adjective never changes shape, so 高い stays 高い and 好き stays 好き. Do not add より “than”: 一番 already means “the most,” and the two together double up.
+
+The range is usually marked with plain で, as in 日本で or 一年で. When the group is a set you belong to, add 中 first: 家族の中で. To ask which one wins, put a question word plus が in front of 一番, and the answer echoes that が.
+
+## Patterns:
+A の中で B が一番〜です → Of A, B is the most ~
+A で B が一番〜です → Among A, B is the most ~
+どれ／どの + N が一番〜ですか → Which is the most ~?
+一番 + adjective → the most ~ / the best"
+ad069,exercise,Adjectives and Description,がいちばん: saying the most or the best,この町で駅が一番にぎやかです。,この まちで えきが いちばん にぎやかです。,The station is the liveliest place in this town.,この|町|で|駅|が|一番|にぎやかです,
+ad070,exercise,Adjectives and Description,がいちばん: saying the most or the best,三人の中で田中さんが一番元気です。,さんにんの なかで たなかさんが いちばん げんきです。,"Of the three people, Tanaka is the most energetic.",三人|の|中|で|田中さん|が|一番|元気です,
+ad071,exercise,Adjectives and Description,がいちばん: saying the most or the best,どの映画が一番面白かったですか。,どの えいがが いちばん おもしろかったですか。,Which movie was the most interesting?,どの|映画|が|一番|面白かったですか,
+ad072,exercise,Adjectives and Description,がいちばん: saying the most or the best,この中でどれが一番好きですか。,この なかで どれが いちばん すきですか。,Which one do you like the most among these?,この|中|で|どれが|一番|好きですか,
+ad073,exercise,Adjectives and Description,がいちばん: saying the most or the best,私は春が一番好きです。,わたしは はるが いちばん すきです。,I like spring the best.,私|は|春|が|一番|好きです,
+ad074,exercise,Adjectives and Description,がいちばん: saying the most or the best,一年で八月が一番暑いです。,いちねんで はちがつが いちばん あついです。,August is the hottest month of the year.,一年|で|八月|が|一番|暑いです,
+ad075,exercise,Adjectives and Description,がいちばん: saying the most or the best,私の家族で母が一番早く起きます。,わたしの かぞくで ははが いちばん はやく おきます。,"In my family, my mother gets up the earliest.",私|の|家族|で|母|が|一番|早く|起きます,
+ad076,exercise,Adjectives and Description,がいちばん: saying the most or the best,この中で青い花が一番きれいです。,この なかで あおい はなが いちばん きれいです。,"Among these, the blue flower is the prettiest.",この|中|で|青い|花|が|一番|きれいです,
+ad077,exercise,Adjectives and Description,がいちばん: saying the most or the best,一年で夏の夜が一番好きです。,いちねんで なつの よるが いちばん すきです。,"Of the whole year, I like summer nights the best.",一年|で|夏|の|夜|が|一番|好きです,
+ad078,exercise,Adjectives and Description,がいちばん: saying the most or the best,この町であの小さな店が一番不思議です。,この まちで あの ちいさな みせが いちばん ふしぎです。,"In this town, that little shop is the most mysterious.",この|町|で|あの|小さな|店|が|一番|不思議です,
+ad079,exercise,Adjectives and Description,がいちばん: saying the most or the best,星の中であの星が一番明るいです。,ほしの なかで あの ほしが いちばん あかるいです。,"Among the stars, that star is the brightest.",星|の|中|で|あの|星|が|一番|明るいです,
