@@ -65,6 +65,9 @@ flutter:
   assets:
     - assets/data/n5_vocab.csv
     - assets/data/n5_grammar.csv
+    - assets/data/n5_radicals.csv
+    - assets/data/n5_kanji.csv
+    - assets/data/n5_kanji_vocab.csv
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

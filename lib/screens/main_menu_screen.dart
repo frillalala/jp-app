@@ -1,19 +1,18 @@
 // lib/screens/main_menu_screen.dart
 import 'package:flutter/material.dart';
-import 'n5_menu_screen.dart';
+import '../config/levels.dart';
+import 'level_menu_screen.dart';
 
 class MainMenuScreen extends StatelessWidget {
   const MainMenuScreen({super.key});
 
-  static const levels = ['N5', 'N4', 'N3', 'N2', 'N1'];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('SUPER-APP')),
+      appBar: AppBar(title: const Text('SUPER APP')),
       body: ListView(
-        children: levels.map((level) {
-          final isEnabled = level == 'N5';
+        children: jlptLevels.map((level) {
+          final isEnabled = level == 'N5'; // expand this as you add more levels
           return ListTile(
             title: Text(level),
             enabled: isEnabled,
@@ -21,7 +20,7 @@ class MainMenuScreen extends StatelessWidget {
             onTap: isEnabled
                 ? () => Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (_) => const N5MenuScreen()),
+                      MaterialPageRoute(builder: (_) => LevelMenuScreen(level: level)),
                     )
                 : null,
           );

@@ -703,3 +703,219 @@ ad076,exercise,Adjectives and Description,がいちばん: saying the most or th
 ad077,exercise,Adjectives and Description,がいちばん: saying the most or the best,一年で夏の夜が一番好きです。,いちねんで なつの よるが いちばん すきです。,"Of the whole year, I like summer nights the best.",一年|で|夏|の|夜|が|一番|好きです,
 ad078,exercise,Adjectives and Description,がいちばん: saying the most or the best,この町であの小さな店が一番不思議です。,この まちで あの ちいさな みせが いちばん ふしぎです。,"In this town, that little shop is the most mysterious.",この|町|で|あの|小さな|店|が|一番|不思議です,
 ad079,exercise,Adjectives and Description,がいちばん: saying the most or the best,星の中であの星が一番明るいです。,ほしの なかで あの ほしが いちばん あかるいです。,"Among the stars, that star is the brightest.",星|の|中|で|あの|星|が|一番|明るいです,
+dac001,sample,"Desire, Ability & Change",Talking About Change: くなります / になります,春になると、暖かくなります。,はるに なると、あたたかく なります。,"When spring comes, it gets warm.",春|に|なると|暖かく|なります,"なる is the verb of change: it turns “X is cold” into “X gets cold.”
+
+Use なる when the subject itself turns into something else: the season turns, prices climb, a child grows up. Do not use it when you change something else, because that needs する instead.
+
+The rule splits by word type. An い-adjective drops its final い and adds くなります, so 寒い becomes 寒くなります. A な-adjective or a noun keeps its full shape and adds になります."
+dac002,exercise,"Desire, Ability & Change",Talking About Change: くなります / になります,夜になると、空が暗くなります。,よるに なると、そらが くらく なります。,"When night comes, the sky gets dark.",夜|に|なると|空|が|暗く|なります,
+dac003,exercise,"Desire, Ability & Change",Talking About Change: くなります / になります,日本語の勉強がだんだん楽しくなりました。,にほんごの べんきょうが だんだん たのしく なりました。,Studying Japanese gradually became fun.,日本語|の|勉強|が|だんだん|楽しく|なりました,
+dac004,exercise,"Desire, Ability & Change",Talking About Change: くなります / になります,この町は前より静かになりました。,この まちは まえより しずかに なりました。,This town has become quieter than before.,この|町|は|前|より|静かに|なりました,
+dac005,exercise,"Desire, Ability & Change",Talking About Change: くなります / になります,この道は夜になると静かになります。,この みちは よるに なると しずかに なります。,This road becomes quiet at night.,この|道|は|夜|に|なると|静かに|なります,
+dac006,exercise,"Desire, Ability & Change",Talking About Change: くなります / になります,冬になると、猫がもっと元気になります。,ふゆに なると、ねこが もっと げんきに なります。,"When winter comes, the cat becomes even more energetic.",冬|に|なると|猫|が|もっと|元気に|なります,
+dac007,exercise,"Desire, Ability & Change",Talking About Change: くなります / になります,小さな夢が大きな夢になりました。,ちいさな ゆめが おおきな ゆめに なりました。,A little dream became a big dream.,小さな|夢|が|大きな|夢|に|なりました,
+dac008,exercise,"Desire, Ability & Change",Talking About Change: くなります / になります,来年、私は二十歳になります。,らいねん、わたしは はたちに なります。,"Next year, I will turn twenty.",来年|私|は|二十歳|に|なります,
+dac009,exercise,"Desire, Ability & Change",Talking About Change: くなります / になります,将来、先生になりたいです。,しょうらい、せんせいに なりたいです。,I want to become a teacher in the future.,将来|先生|に|なりたいです,
+dac010,sample,"Desire, Ability & Change",Likes and dislikes: 好き / きらい take が,猫が好きです。, ねこが すきです。,I like cats.,猫|が|好きです,"Most languages treat “like” as a verb, so the thing you like becomes its object. 好き is a describing word instead, so what you like takes が, not を. 好き does not name an action. It names a state, so Japanese treats it as a な-adjective — a describing word that takes な in front of a noun. The thing that pleases you is the subject of the sentence, and が marks it.
+
+Use this pattern for tastes: food, music, places, and anything you feel warm or cold about. In this pattern the thing you like takes が, never を. The same が carries きらい, 大好き, and 大きらい.
+
+The everyday 'I don't like it' is 好きじゃないです, and it is the form you will use most. きらいです also means “I dislike it,” but it is blunt and heavy. When your feeling is mild, use 好きじゃない rather than きらい.
+
+Feeling|Japanese|How it sounds
+--|--|--
+Love it|大好きです|Strongest yes
+Like|好きです|Warm, neutral
+Don't like|好きじゃないです|The gentle no
+Dislike|きらいです|A strong no
+Hate|大きらいです|Strongest no"
+dac011,exercise,"Desire, Ability & Change",Likes and dislikes: 好き / きらい take が,彼は甘いケーキが好きです。,かれは あまい けーきが すきです。,He likes sweet cakes.,彼|は|甘い|ケーキ|が|好きです,
+dac012,exercise,"Desire, Ability & Change",Likes and dislikes: 好き / きらい take が,私は朝の静かな時間が大好きです。,わたしは あさの しずかな じかんが だいすきです。,I really love quiet mornings.,私|は|朝|の|静かな|時間|が|大好きです,
+dac013,exercise,"Desire, Ability & Change",Likes and dislikes: 好き / きらい take が,妹は犬が好きです。,いもうとは いぬが すきです。,My younger sister likes dogs.,妹|は|犬|が|好きです,
+dac014,exercise,"Desire, Ability & Change",Likes and dislikes: 好き / きらい take が,妹は暗い部屋が嫌いです。,いもうとは くらい へやが きらいです。,My younger sister dislikes dark rooms.,妹|は|暗い|部屋|が|嫌いです,
+dac015,exercise,"Desire, Ability & Change",Likes and dislikes: 好き / きらい take が,私は夏の暑い日が大嫌いです。,わたしは なつの あつい ひが だいきらいです。,I really hate hot summer days.,私|は|夏|の|暑い|日|が|大嫌いです,
+dac016,exercise,"Desire, Ability & Change",Likes and dislikes: 好き / きらい take が,猫は暖かい場所が大好きです。,ねこは あたたかい ばしょが だいすきです。,Cats love warm places.,猫|は|暖かい|場所|が|大好きです,
+dac017,exercise,"Desire, Ability & Change",Likes and dislikes: 好き / きらい take が,私は辛い食べ物が好きじゃないです。,わたしは からい たべものが すきじゃないです。,I don't like spicy food.,私|は|辛い|食べ物|が|好きじゃないです,
+dac018,exercise,"Desire, Ability & Change",Likes and dislikes: 好き / きらい take が,彼は朝早く起きるのが大嫌いです。,かれは あさ はやく おきるのが だいきらいです。,He really hates getting up early.,彼|は|朝|早く|起きる|の|が|大嫌いです,
+dac019,sample,"Desire, Ability & Change",Describing a Part or Skill with は … が,田中さんは英語が上手です。,たなかさんは えいごが じょうずです。,Tanaka is good at English.,田中さんは|英語|が|上手です,"A sentence with both は and が looks like a mistake, but it is not. **N1はN2が** names a whole first, then points at one part of it.
+
+は sets the large topic, and が names the part, skill, or condition you want to talk about. Many languages use a possessive here: “my sister's eyes are big.” Do not put a second は on the inner part for a plain description, because は there adds a contrast.
+
+## The three kinds of detail
+The が part points to one of three things. It names a skill, a part of the body or its condition, or a quality that belongs to a thing. In every case the topic stays in front with は."
+dac020,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,妹は歌が上手です。,いもうとは うたが じょうずです。,My younger sister is good at singing.,妹は|歌|が|上手です,
+dac021,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,私は漢字が分かりません。,わたしは かんじが わかりません。,I don't understand kanji.,私は|漢字が|分かりません,
+dac022,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,この町は店が少ないです。,このまちは みせが すくないです。,This town has few shops.,この町は|店が|少ないです,
+dac023,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,東京は人が多いです。,とうきょうは ひとが おおいです。,Tokyo has many people.,東京は|人が|多いです,
+dac024,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,この部屋は窓が大きいです。,このへやは まどが おおきいです。,This room has large windows.,この部屋は|窓が|大きいです,
+dac025,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,春は花がきれいです。,はるは はなが きれいです。,"In spring, the flowers are beautiful.",春は|花が|きれいです,
+dac026,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,私の町は夜が静かです。,わたしのまちは よるが しずかです。,The nights in my town are quiet.,私の町は|夜が|静かです,
+dac027,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,妹は髪が長いです。,いもうとは かみが ながいです。,My younger sister has long hair.,妹は|髪が|長いです,
+dac028,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,私は足が小さいです。,わたしは あしが ちいさいです。,I have small feet.,私は|足が|小さいです,
+dac029,exercise,"Desire, Ability & Change",Describing a Part or Skill with は … が,彼女は声がきれいです。,かのじょは こえが きれいです。,She has a beautiful voice.,彼女は|声が|きれいです,
+dac030,sample,"Desire, Ability & Change",Saying You Can: ができます and ことができます,私は料理ができます。,わたしは りょうりが できます。,I can cook.,私は|料理が|できます,"Japanese has one verb for “can,”: できます, and two ways to name what you can do. A noun takes が in front of it, and an action adds ことができます.
+
+Use できます for a skill or a possibility, in a statement or in a question. The ability itself takes が, never を, even when the verb inside keeps its own を. A verb cannot sit in front of ができます on its own, so add こと first.
+
+For a noun — a language, a sport, a task — say the noun, then が, then できます. For an action, take the verb in its dictionary form — the plain form you find in a dictionary — and add こと. こと turns the verb into a noun meaning “the act of doing it.”
+
+In a question, …ことができますか often asks for permission as much as ability. The booking question above means “is it possible, or am I allowed.”
+
+## Key Takeaways
+1. Ask what comes before できます: a noun takes が, and a verb needs こと first.
+2. A question with ことができますか can ask for permission, not only ability."
+dac031,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,妹はピアノができます。,いもうとは ぴあのが できます。,My younger sister can play the piano.,妹は|ピアノが|できます,
+dac032,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,田中さんはスキーができます。,たなかさんは すきーが できます。,Tanaka can ski.,田中さんは|スキーが|できます,
+dac033,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,ここで写真を撮ることができます。,ここで しゃしんを とることが できます。,You can take pictures here.,ここで|写真を|撮ることが|できます,
+dac034,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,この店でお金を払うことができます。,このみせで おかねを はらうことが できます。,You can pay money at this shop.,この店で|お金を|払うことが|できます,
+dac035,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,明日、友達と会うことができます。,あした、ともだちと あうことが できます。,I can meet my friend tomorrow.,明日|友達と|会うことが|できます,
+dac036,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,妹は自転車に乗ることができます。,いもうとは じてんしゃに のることが できます。,My younger sister can ride a bicycle.,妹は|自転車に|乗ることが|できます,
+dac037,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,私は日本の歌を歌うことができます。,わたしは にほんの うたを うたうことが できます。,I can sing Japanese songs.,私は|日本の|歌を|歌うことが|できます,
+dac038,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,彼女は泳ぐことができます。,かのじょは およぐことが できます。,She can swim.,彼女は|泳ぐことが|できます,
+dac039,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,明日、来ることができますか。,あした、くることが できますか。,Can you come tomorrow?,明日|来ることが|できますか,
+dac040,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,一人で料理することができますか。,ひとりで りょうりすることが できますか。,Can you cook by yourself?,一人で|料理することが|できますか,
+dac041,exercise,"Desire, Ability & Change",Saying You Can: ができます and ことができます,この漢字を書くことができますか。,このかんじを かくことが できますか。,Can you write this kanji?,この漢字を|書くことが|できますか,
+dac042,sample,"Desire, Ability & Change",Saying What You Want to Do with たい,おいしいものを食べたいです。,おいしいものを たべたいです。,I want to eat something delicious.,おいしいものを|食べたいです,"The たい form turns a verb into “I want to …”: 飲む “drink” becomes 飲みたい, “I want to drink.” The catch that trips almost everyone is that たい then behaves like an い-adjective, so its past and negative change the ending, not the verb.
+
+Take the polite ます form, drop ます, and add たい: 行きます → 行きたい. From there たい changes shape like an い-adjective, so the negative is たくない and the past is たかった. Do not use たい for a third person's wants: those take たがる, which you meet at N4.
+
+Each of these is a ます-verb with its tail swapped: 入ります → 入りたい, 見つけます → 見つけたい. Once the verb is frozen this way, only the たい ending moves, and the table below lays out the four shapes.
+
+Tense|Affirmative|Negative
+--|--|--
+Non-past (want / don't want to)|行きたいです|行きたくないです
+Past (wanted / didn't want to)|行きたかったです|行きたくなかったです"
+dac043,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,美しい景色を見たいです。,うつくしい けしきを みたいです。,I want to see beautiful scenery.,美しい|景色を|見たいです,
+dac044,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,今日は家で休みたいです。,きょうは いえで やすみたいです。,I want to rest at home today.,今日は|家で|休みたいです,
+dac045,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,子どもの時、海で泳ぎたかったです。,こどものとき、うみで およぎたかったです。,"When I was a child, I wanted to swim in the sea.",子どもの時|海で|泳ぎたかったです,
+dac046,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,昨日、ラーメンを食べたかったです。,きのう、らーめんを たべたかったです。,I wanted to eat ramen yesterday.,昨日|ラーメンを|食べたかったです,
+dac047,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,朝は何も食べたくないです。,あさは なにも たべたくないです。,I don't want to eat anything in the morning.,朝は|何も|食べたくないです,
+dac048,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,その本を読みたくないです。,そのほんを よみたくないです。,I don't want to read that book.,その本を|読みたくないです,
+dac049,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,昨日は何もしたくなかったです。,きのうは なにも したくなかったです。,I didn't want to do anything yesterday.,昨日は|何も|したくなかったです,
+dac050,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,あの日は誰とも話したくなかったです。,あのひは だれとも はなしたくなかったです。,I didn't want to talk to anyone that day.,あの日は|誰とも|話したくなかったです,
+dac051,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,もっと日本語を勉強したかったです。,もっと にほんごを べんきょうしたかったです。,I wanted to study more Japanese.,もっと|日本語を|勉強したかったです,
+dac052,exercise,"Desire, Ability & Change",Saying What You Want to Do with たい,昨日は誰にも会いたくなかったです。,きのうは だれにも あいたくなかったです。,"Yesterday, I didn't want to see anyone.",昨日は|誰にも|会いたくなかったです,
+dac053,sample,"Desire, Ability & Change",〜がほしいです: wanting a thing,新しいかばんがほしいです。,あたらしい かばんが ほしいです。,I want a new bag.,新しい|かばんが|ほしいです,"〜がほしいです says you want an object, and that object takes が, never を. ほしい changes shape like an い-adjective: ほしくない, ほしかった.
+
+**N + が + ほしいです**
+
+Name the object, mark it with が, and close with ほしいです. Do not use ほしい for an action, because a verb plus たい does that job. In a plain statement it describes your own wish, and in a question it asks the listener's.
+
+## Negatives and the past
+ほしくないです denies a wish, and ほしかったです places it in the past. In a denial, が usually shifts to は to mark the contrast: コーヒーはほしくないです. Affirmative sentences keep が."
+dac054,exercise,"Desire, Ability & Change",〜がほしいです: wanting a thing,新しい自転車がほしいです。,あたらしい じてんしゃが ほしいです。,I want a new bicycle.,新しい|自転車が|ほしいです,
+dac055,exercise,"Desire, Ability & Change",〜がほしいです: wanting a thing,いつか自分の家がほしいです。,いつか じぶんの いえが ほしいです。,"Someday, I want a house of my own.",いつか|自分の|家が|ほしいです,
+dac056,exercise,"Desire, Ability & Change",〜がほしいです: wanting a thing,旅行のために新しいカメラがほしいです。,りょこうの ために あたらしい カメラが ほしいです。,I want a new camera for traveling.,旅行の|ために|新しい|カメラが|ほしいです,
+dac057,exercise,"Desire, Ability & Change",〜がほしいです: wanting a thing,学生の時、大きな机がほしかったです。,がくせいの とき、おおきな つくえが ほしかったです。,"When I was a student, I wanted a big desk.",学生の|時|大きな|机が|ほしかったです,
+dac058,exercise,"Desire, Ability & Change",〜がほしいです: wanting a thing,誕生日に新しい時計がほしかったです。,たんじょうびに あたらしい とけいが ほしかったです。,I wanted a new watch for my birthday.,誕生日に|新しい|時計が|ほしかったです,
+dac059,exercise,"Desire, Ability & Change",〜がほしいです: wanting a thing,高い時計はほしくないです。,たかい とけいは ほしくないです。,I don't want an expensive watch.,高い|時計は|ほしくないです,
+dac060,exercise,"Desire, Ability & Change",〜がほしいです: wanting a thing,昨日は何もほしくなかったです。,きのうは なにも ほしくなかったです。,I didn't want anything yesterday.,昨日は|何も|ほしくなかったです,
+dac061,exercise,"Desire, Ability & Change",〜がほしいです: wanting a thing,子どもの時、お金はほしくなかったです。,こどもの とき、おかねは ほしくなかったです。,"When I was a child, I didn't want money.",子どもの|時|お金は|ほしくなかったです,
+dac062,exercise,"Desire, Ability & Change",〜がほしいです: wanting a thing,昔は大きな家がほしかったですが、今はほしくないです。,むかしは おおきな いえが ほしかったですが、いまは ほしくないです。,"I used to want a big house, but I don't want one now.",昔は|大きな|家が|ほしかったです|が|今は|ほしくないです,
+dac063,sample,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,私は友達に本をあげました。,わたしは ともだちに ほんを あげました。,I gave a book to my friend.,私は|友達に|本を|あげました,"あげる and くれる both mean give, and beginners confuse them more than any other pair. The direction decides it: くれる only when the gift comes toward you.
+
+Use these three whenever a thing or a favor moves between people. Do not use them for a plain transfer with no goodwill in it, such as handing in homework or paying a bill.
+
+**giver + が + receiver + に + thing + を + あげる / くれる**
+
+## The three verbs at a glance
+The same friend and the same gift can be told three ways. Only the viewpoint changes, and one marker moves with it.
+
+あげる takes the giver's side: I give to someone, or one person gives to a third. くれる is also give, but only when the thing arrives at me or at someone on my side. もらう starts from the receiver, so that person becomes the subject.
+
+Verb|Told from|Key particle|Example
+--|--|--|--
+あげる|The giver's side|Receiver takes に|私が友だちにあげる
+くれる|The giver, but only toward me|Receiver (私) takes に|友だちが私にくれる
+もらう|The receiver's side|Giver takes に / からなかったです|私が友だちにもらう
+
+## Key takeaways
+1. Ask which way the gift moves: toward me is くれる, away from me is あげる.
+2. もらう tells the same event from the receiver's side.
+3. あげる and くれる mark the receiver with に, while もらう marks the giver."
+dac064,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,妹に日本のお土産をあげました。,いもうとに にほんの おみやげを あげました。,I gave my younger sister a souvenir from Japan.,妹に|日本の|お土産を|あげました,
+dac065,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,母に誕生日のプレゼントをあげます。,ははに たんじょうびの プレゼントを あげます。,I will give my mother a birthday present.,母に|誕生日の|プレゼントを|あげます,
+dac066,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,友達の誕生日にケーキをあげます。,ともだちの たんじょうびに ケーキを あげます。,I'll give my friend a cake for their birthday.,友達の|誕生日に|ケーキを|あげます,
+dac067,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,私は弟に古い時計をあげません。,わたしは おとうとに ふるい とけいを あげません。,I don't give my younger brother the old watch.,私は|弟に|古い|時計を|あげません,
+dac068,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,母はいつもお弁当をくれます。,ははは いつも おべんとうを くれます。,My mother always gives me a packed lunch.,母は|いつも|お弁当を|くれます,
+dac069,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,友達が誕生日に時計をくれました。,ともだちが たんじょうびに とけいを くれました。,My friend gave me a watch for my birthday.,友達が|誕生日に|時計を|くれました,
+dac070,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,兄は私にお金をくれません。,あには わたしに おかねを くれません。,My older brother doesn't give me money.,兄は|私に|お金を|くれません,
+dac071,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,田中さんが写真をくれました。,たなかさんが しゃしんを くれました。,Tanaka gave me a photo.,田中さんが|写真を|くれました,
+dac072,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,毎年、友達から年賀状をもらいます。,まいとし、ともだちから ねんがじょうを もらいます。,I receive New Year's cards from my friends every year.,毎年|友達から|年賀状を|もらいます,
+dac073,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,友達から日本のお土産をもらいました。,ともだちから にほんの おみやげを もらいました。,I received a souvenir from Japan from my friend.,友達から|日本の|お土産を|もらいました,
+dac074,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,昨日は友達からプレゼントをもらいませんでした。,きのうは ともだちから プレゼントを もらいませんでした。,I didn't receive a present from my friend yesterday.,昨日は|友達から|プレゼントを|もらいませんでした,
+dac075,exercise,"Desire, Ability & Change",Giving and receiving: あげる / くれる / もらう,妹は友達から何ももらいません。,いもうとは ともだちから なにも もらいません。,My younger sister doesn't receive anything from her friend.,妹は|友達から|何も|もらいません,
+ca001,sample,Conditional and Advice,Asking Permission with てもいいですか,このペンを使ってもいいですか。,このペンを つかっても いいですか。,May I use this pen?,このペンを|使っても|いいですか,"You already know the て form, the connecting shape that ends in て or で. Add もいいですか to it, and you have the polite way to ask “May I …?” before you act.
+
+**V-て + もいいですか**
+
+Use it whenever you need permission first: trying clothes on, using a room, borrowing a charger. Without か, the same form grants permission. It asks about permission, not ability; for “are you able to,” use ことができますか.
+
+## Saying yes, and saying no
+To allow the action, answer はい、どうぞ, “yes, go ahead.” Refusing a polite request with a flat だめです is rare. The usual way is すみません、ちょっと, letting the unfinished sentence carry the “no.”"
+ca002,exercise,Conditional and Advice,Asking Permission with てもいいですか,ここで写真を撮ってもいいですか。,ここで しゃしんを とっても いいですか。,May I take pictures here?,ここで|写真を|撮っても|いいですか,
+ca003,exercise,Conditional and Advice,Asking Permission with てもいいですか,ここに座ってもいいですか。,ここに すわっても いいですか。,May I sit here?,ここに|座っても|いいですか,
+ca004,exercise,Conditional and Advice,Asking Permission with てもいいですか,明日、休んでもいいですか。,あした、やすんでも いいですか。,May I take tomorrow off?,明日|休んでも|いいですか,
+ca005,exercise,Conditional and Advice,Asking Permission with てもいいですか,このケーキを食べてもいいですか。,このケーキを たべても いいですか。,May I eat this cake?,このケーキを|食べても|いいですか,
+ca006,exercise,Conditional and Advice,Asking Permission with てもいいですか,はい、入ってもいいです。,はい、はいっても いいです。,"Yes, you may come in.",はい|入っても|いいです,
+ca007,exercise,Conditional and Advice,Asking Permission with てもいいですか,もちろん、使ってもいいです。,もちろん、つかっても いいです。,"Of course, you may use it.",もちろん|使っても|いいです,
+ca008,exercise,Conditional and Advice,Asking Permission with てもいいですか,ここに荷物を置いてもいいです。,ここに にもつを おいても いいです。,You may put your luggage here.,ここに|荷物を|置いても|いいです,
+ca009,exercise,Conditional and Advice,Asking Permission with てもいいですか,このペンを使ってもいいですか。,このペンを つかっても いいですか。,May I use this pen?,このペンを|使っても|いいですか,
+ca010,sample,Conditional and Advice,Saying What Is Forbidden with てはいけません,ここで写真を撮ってはいけません。,ここで しゃしんを とっては いけません。,You must not take pictures here.,ここで|写真を|撮ってはいけません,"Attach はいけません to a verb's て-form and you have a flat prohibition — “you must not do this.” It is the language of rules: signs, house policies, a doctor's orders, and the blunt “no” to the てもいいですか “may I …?” you met last time.
+
+Build the て-form, then add はいけません: 吸う “to smoke” becomes 吸ってはいけません. The plain-style version is てはいけない, which is what you hear in speech. It announces a rule about a place, so use it for signs and policies rather than for scolding the person in front of you.
+
+This is also the honest “no” to a request: ask 入ってもいいですか “may I go in?” and the refusal comes back as 入ってはいけません. Signs and printed rules keep the polite てはいけません, or switch to ないでください.
+
+Set the two side by side and each locks the other into memory: てもいいです gives permission, てはいけません refuses it. Only the tail changes between them, so one て-form lets you both grant permission and withhold it."
+ca011,exercise,Conditional and Advice,Saying What Is Forbidden with てはいけません,この部屋で食べてはいけません。,このへやで たべては いけません。,You must not eat in this room.,この部屋で|食べてはいけません,
+ca012,exercise,Conditional and Advice,Saying What Is Forbidden with てはいけません,図書館で大きな声で話してはいけません。,としょかんで おおきな こえで はなしては いけません。,You must not speak loudly in the library.,図書館で|大きな|声で|話してはいけません,
+ca013,exercise,Conditional and Advice,Saying What Is Forbidden with てはいけません,電車の中で電話してはいけません。,でんしゃの なかで でんわしては いけません。,You must not make phone calls on the train.,電車の|中で|電話してはいけません,
+ca014,exercise,Conditional and Advice,Saying What Is Forbidden with てはいけません,この道を一人で歩いてはいけません。,このみちを ひとりで あるいては いけません。,You must not walk on this road alone.,この道を|一人で|歩いてはいけません,
+ca015,exercise,Conditional and Advice,Saying What Is Forbidden with てはいけません,授業中に寝てはいけません。,じゅぎょうちゅうに ねては いけません。,You must not sleep during class.,授業中に|寝てはいけません,
+ca016,exercise,Conditional and Advice,Saying What Is Forbidden with てはいけません,大切な書類をなくしてはいけません。,たいせつな しょるいを なくしては いけません。,You must not lose important documents.,大切な|書類を|なくしてはいけません,
+ca017,exercise,Conditional and Advice,Saying What Is Forbidden with てはいけません,ここに自転車を置いてはいけません。,ここに じてんしゃを おいては いけません。,You must not park your bicycle here.,ここに|自転車を|置いてはいけません,
+ca018,exercise,Conditional and Advice,Saying What Is Forbidden with てはいけません,約束を忘れてはいけません。,やくそくを わすれては いけません。,You must not forget the promise.,約束を|忘れてはいけません,
+ca019,sample,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,明日、早く起きなければなりません。,あした、はやく おきなければ なりません。,I must wake up early tomorrow.,明日|早く|起きなければなりません,"You already know the ない form, the plain negative of a verb. Two endings are built from it: 〜なければなりません says you must act, and 〜なくてもいいです says you do not have to.
+
+Use 〜なければなりません for rules, deadlines, and signs. Do not take 〜なくてもいいです as a ban: it releases you from a duty, and 〜てはいけません is the ending that forbids an action.
+
+**Vない → Vなければ + なりません / Vない → Vなくても + いいです**
+
+## Lifting an obligation
+〜なくてもいいです tells someone that an effort is not required. A host uses it to tell a guest to relax, and a teacher uses it to make a task optional. It is the polite way to say that skipping is allowed.
+
+
+Japanese|Meaning|English
+--|--|--
+〜なければなりません|Obligation|Must / have to
+〜なくてもいいです|Exemption|Don't have to
+〜てはいけません|Prohibition|Must not"
+ca020,exercise,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,学校へ行く前に、朝ご飯を食べなければなりません。,がっこうへ いく まえに、あさごはんを たべなければ なりません。,I must eat breakfast before going to school.,学校へ|行く|前に|朝ご飯を|食べなければなりません,
+ca021,exercise,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,この薬は毎日飲まなければなりません。,このくすりは まいにち のまなければ なりません。,You must take this medicine every day.,この薬は|毎日|飲まなければなりません,
+ca022,exercise,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,靴を脱がなくてもいいです。,くつを ぬがなくても いいです。,You don't have to take off your shoes.,靴を|脱がなくてもいいです,
+ca023,exercise,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,この本を全部読まなくてもいいです。,このほんを ぜんぶ よまなくても いいです。,You don't have to read this whole book.,この本を|全部|読まなくてもいいです,
+ca024,exercise,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,明日は早く起きなくてもいいです。,あしたは はやく おきなくても いいです。,You don't have to wake up early tomorrow.,明日は|早く|起きなくてもいいです,
+ca025,exercise,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,電車の中で大きな声で話してはいけません。,でんしゃの なかで おおきな こえで はなしては いけません。,You must not speak loudly on the train.,電車の|中で|大きな|声で|話してはいけません,
+ca026,exercise,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,この部屋で写真を撮ってはいけません。,このへやで しゃしんを とっては いけません。,You must not take pictures in this room.,この部屋で|写真を|撮ってはいけません,
+ca027,exercise,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,夜遅くに一人で出かけてはいけません。,よる おそくに ひとりで でかけては いけません。,You must not go out alone late at night.,夜|遅くに|一人で|出かけてはいけません,
+ca028,exercise,Conditional and Advice,Must and Don't Have To: 〜なければなりません and 〜なくてもいいです,明日までに宿題をしなければなりません。,あしたまでに しゅくだいを しなければ なりません。,I must do my homework by tomorrow.,明日までに|宿題を|しなければなりません,
+ca029,sample,Conditional and Advice,Two Ways to Say “If / When”: たら and と,春になったら、花がたくさん咲きます。,はるに なったら、はなが たくさん さきます。,"When spring comes, many flowers bloom.",春に|なったら|花が|たくさん|咲きます,"たら and と both mean “if” or “when,” and one rule separates them. Use たら for a single occasion, and と for a result that always follows.
+
+Use たら when you talk about one particular occasion: if it rains tomorrow, when you reach the station. Do not use と there, because the second half of a と sentence cannot carry a plan, a request, or an invitation.
+
+**…た + ら / V-る + と**
+
+たら works for the widest range. Take the plain past form (the た form) and add ら: 食べた becomes 食べたら. When you are unsure which of the two fits, たら is the safe pick.
+
+と is for what happens automatically. It marks a result that always follows from the trigger: machines, natural laws, directions on a map. Attach と to the plain non-past verb, so 押す plus と gives 押すと.
+
+**A quick test decides it.** If the outcome is a rule that never varies, と fits. If you mean a particular occasion, or the second half shows what you plan to do, choose たら."
+ca030,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,この薬を飲んだら、少し休んでください。,このくすりを のんだら、すこし やすんで ください。,"After taking this medicine, please rest a little.",この薬を|飲んだら|少し|休んでください,
+ca031,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,駅に着いたら、連絡します。,えきに ついたら、れんらくします。,"When I arrive at the station, I'll contact you.",駅に|着いたら|連絡します,
+ca032,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,時間があったら、この本を読んでください。,じかんが あったら、このほんを よんで ください。,"If you have time, please read this book.",時間が|あったら|この本を|読んでください,
+ca033,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,朝になると、鳥の声が聞こえます。,あさに なると、とりの こえが きこえます。,"When morning comes, you can hear birds singing.",朝に|なると|鳥の|声が|聞こえます,
+ca034,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,この道をまっすぐ行くと、駅があります。,このみちを まっすぐ いくと、えきが あります。,"If you go straight along this road, there is a station.",この道を|まっすぐ|行くと|駅が|あります,
+ca035,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,春になると、暖かくなります。,はるに なると、あたたかく なります。,"When spring comes, it gets warmer.",春に|なると|暖かく|なります,
+ca036,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,この道を右に曲がると、学校があります。,このみちを みぎに まがると、がっこうが あります。,"If you turn right on this road, there is a school.",この道を|右に|曲がると|学校が|あります,
+ca037,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,時間があったら、この本を読んでください。,じかんが あったら、このほんを よんで ください。,"If you have time, please read this book.",時間が|あったら|この本を|読んでください,
