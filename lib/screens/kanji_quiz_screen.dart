@@ -100,10 +100,10 @@ class _KanjiQuizScreenState extends State<KanjiQuizScreen> {
     });
   }
 
-  double get _percentage {
-    final total = _correctCount + _wrongCount;
-    return total == 0 ? 0 : (_correctCount / total) * 100;
-  }
+  // double get _percentage {
+  //   final total = _correctCount + _wrongCount;
+  //   return total == 0 ? 0 : (_correctCount / total) * 100;
+  // }
 
   @override
   void dispose() {
@@ -128,16 +128,16 @@ class _KanjiQuizScreenState extends State<KanjiQuizScreen> {
         padding: const EdgeInsets.all(24),
         child: Column(
           children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text('Correct: $_correctCount', style: const TextStyle(color: Colors.green)),
-                Text('${_percentage.toStringAsFixed(0)}%',
-                    style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
-                Text('Wrong: $_wrongCount', style: const TextStyle(color: Colors.red)),
-              ],
-            ),
-            const SizedBox(height: 8),
+            // Row(
+            //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            //   children: [
+            //     Text('Correct: $_correctCount', style: const TextStyle(color: Colors.green)),
+            //     Text('${_percentage.toStringAsFixed(0)}%',
+            //         style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+            //     Text('Wrong: $_wrongCount', style: const TextStyle(color: Colors.red)),
+            //   ],
+            // ),
+            const SizedBox(height: 24),
             LinearProgressIndicator(value: (_promptIndex + 1) / _prompts.length),
             const Spacer(),
             Text(prompt.item.display, style: const TextStyle(fontSize: 56), textAlign: TextAlign.center),

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../models/kanji_learning_item.dart';
 import '../models/kanji_item_tier.dart';
 import '../services/kanji_progress_service.dart';
-import '../theme/app_theme.dart';
 
 class KanjiItemDetailScreen extends StatefulWidget {
   final KanjiLearningItem item;

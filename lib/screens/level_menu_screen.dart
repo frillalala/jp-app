@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'vocab_category_menu_screen.dart';
 import 'grammar_category_menu_screen.dart';
 import 'kanji_menu_screen.dart';
+import 'fillblank_menu_screen.dart';
 import '../services/vocab_loader.dart';
 import '../services/grammar_loader.dart';
 import '../services/kanji_data_loader.dart';
@@ -23,11 +24,13 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
   final _progressService = ProgressService();
   final _grammarProgressService = GrammarProgressService();
   final _kanjiProgressService = KanjiProgressService();
+  final _fillBlankProgressService = FillBlankProgressService();
   late final KanjiUnlockService _kanjiUnlockService;
   late final KanjiSummaryService _kanjiSummaryService;
   int? _vocabPercent;
   int? _grammarPercent;
   int? _kanjiPercent;
+  int? _fillBlankPercent;
 
   @override
   void initState() {
@@ -37,6 +40,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
     _loadVocabPercent();
     _loadGrammarPercent();
     _loadKanjiPercent();
+    _loadFillBlankPercent();
   }
 
   Future<void> _loadVocabPercent() async {
@@ -76,10 +80,20 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
     });
   }
 
+  Future<void> _loadFillBlankPercent() async {
+    final cards = await loadVocab(widget.level);
+    final keys = cards.map((c) => c.key).toList();
+    final masteredCount = await _fillBlankProgressService.countMastered(keys);
+    setState(() {
+      _fillBlankPercent = keys.isEmpty ? 0 : ((masteredCount / keys.length) * 100).round();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final items = [
-      {'label': 'Vocab', 'enabled': true},
+      {'label': 'Vocab: Flashcards', 'enabled': true},      
+      {'label': 'Vocab: Fill in the Blank', 'enabled': true},
       {'label': 'Grammar', 'enabled': true},
       {'label': 'Kanji', 'enabled': true},
       {'label': 'Reading', 'enabled': false},
@@ -93,7 +107,8 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
         children: items.map((item) {
           final label = item['label'] as String;
           final isEnabled = item['enabled'] as bool;
-          final isVocab = label == 'Vocab';
+          final isVocab = label == 'Vocab: Flashcards';
+          final isVocalFillBlank = label == 'Vocab: Fill in the Blank';
           final isGrammar = label == 'Grammar';
 
           Widget? trailing;
@@ -103,6 +118,8 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
             trailing = Text('$_grammarPercent%', style: const TextStyle(fontWeight: FontWeight.bold));
           } else if (label == 'Kanji' && _kanjiPercent != null) {
             trailing = Text('$_kanjiPercent%', style: const TextStyle(fontWeight: FontWeight.bold));
+          } else if (isVocalFillBlank && _fillBlankPercent != null) {
+            trailing = Text('$_fillBlankPercent%', style: const TextStyle(fontWeight: FontWeight.bold));  
           } else if (isEnabled) {
             trailing = const Icon(Icons.arrow_forward_ios);
           }
@@ -114,7 +131,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
             onTap: !isEnabled
                 ? null
                 : () async {
-                    final cards = await loadVocab(widget.level);
+                    // final cards = await loadVocab(widget.level);
                     if (isVocab) {
                       final cards = await loadVocab(widget.level);
                       if (context.mounted) {
@@ -146,6 +163,15 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
                           ),
                         );
                         _loadKanjiPercent();
+                      }
+                    } else if (isVocalFillBlank) {
+                      final cards = await loadVocab(widget.level);
+                      if (context.mounted) {
+                        await Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (_) => FillBlankCategoryMenuScreen(allCards: cards)),
+                        );
+                        _loadFillBlankPercent(); // add a matching _loadFillBlankPercent(), mirroring _loadVocabPercent
                       }
                     }
                   },
