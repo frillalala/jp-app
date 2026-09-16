@@ -76,12 +76,19 @@ class _GrammarCategoryFlowScreenState extends State<GrammarCategoryFlowScreen> {
       return;
     }
     final current = _currentExercises[_exIndex];
-    final tiles = <_WordTile>[
+
+    final correctTiles = <_WordTile>[
       for (var i = 0; i < current.words.length; i++) _WordTile('w$i', current.words[i])
-    ]..shuffle();
+    ];
+    final distractorTiles = <_WordTile>[
+      for (var i = 0; i < current.options.length; i++) _WordTile('d$i', current.options[i])
+    ];
+
+    final allTiles = [...correctTiles, ...distractorTiles]..shuffle();
+
     setState(() {
-      _bank = tiles;
-      _slots = List<_WordTile?>.filled(current.words.length, null);
+      _bank = allTiles;
+      _slots = List<_WordTile?>.filled(current.words.length, null); // slot count = correct words only
       _checked = false;
       _isCorrect = null;
     });
