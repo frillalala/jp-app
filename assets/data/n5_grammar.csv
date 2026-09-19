@@ -84,17 +84,17 @@ Most languages split “this and that” into two words, and Japanese splits it 
 
 ## The question word is どれ, “which one.”
 どれ is used to ask ""Which one?"" or ""Which ones?"" However, どれ can only be used when asking about a choice of three or more people or things. When you only have a choice of two options, you'll use どっち (or its polite version どちら) instead.",
-sb049,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは君の本ですか。,それは きみの ほんですか。,Is that your book?,それ|は|君|の|本|です|か,,
-sb050,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは東京です。,あれは とうきょうです。,That's Tokyo over there.,あれ|は|東京|です,,
-sb051,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは夢です。,それは ゆめです。,That is a dream.,それ|は|夢|です,,
-sb052,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは僕の家です。,あれは ぼくの いえです。,That's my house over there.,あれ|は|僕|の|家|です,,
-sb053,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,これは大切なものです。,これは たいせつな ものです。,This is something important.,これ|は|大切な|も|の|です,,
-sb054,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは本当ですか。,それは ほんとうですか。,Is that true?,それ|は|本当|です|か,,
-sb055,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは僕たちの学校です。,あれは ぼくたちの がっこうです。,That's our school over there.,あれ|は|僕たち|の|学校|です,,
-sb056,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれがあなたの本ですか。,どれが あなたの ほんですか。,Which one is your book?,どれ|が|あなた|の|本|ですか,,
-sb057,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれが好きですか。,どれが すきですか。,Which one do you like?,どれ|が|好き|ですか,,
-sb058,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれを食べますか。,どれを たべますか。,Which one will you eat?,どれ|を|食べますか,,
-sb059,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれが新しいですか。,どれが あたらしいですか。,Which one is new?,どれ|が|新しい|ですか,,
+sb049,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは君の本ですか。,それは きみの ほんですか。,Is that your book?,それ|は|君|の|本|です|か,,あれ
+sb050,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは東京です。,あれは とうきょうです。,That's Tokyo over there.,あれ|は|東京|です,,どれ
+sb051,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは夢です。,それは ゆめです。,That is a dream.,それ|は|夢|です,,あれ
+sb052,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは僕の家です。,あれは ぼくの いえです。,That's my house over there.,あれ|は|僕|の|家|です,,それ
+sb053,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,これは大切なものです。,これは たいせつな ものです。,This is something important.,これ|は|大切な|も|の|です,,どれ
+sb054,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,それは本当ですか。,それは ほんとうですか。,Is that true?,それ|は|本当|です|か,,あれ
+sb055,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,あれは僕たちの学校です。,あれは ぼくたちの がっこうです。,That's our school over there.,あれ|は|僕たち|の|学校|です,,どれ
+sb056,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれがあなたの本ですか。,どれが あなたの ほんですか。,Which one is your book?,どれ|が|あなた|の|本|ですか,,それ
+sb057,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれが好きですか。,どれが すきですか。,Which one do you like?,どれ|が|好き|ですか,,あれ
+sb058,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれを食べますか。,どれを たべますか。,Which one will you eat?,どれ|を|食べますか,,それ
+sb059,exercise,Sentence Basics,これ・それ・あれ: Whose Space the Thing Is In,どれが新しいですか。,どれが あたらしいですか。,Which one is new?,どれ|が|新しい|ですか,,あれ
 sb060,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,この本は面白いです。,この ほんは おもしろいです。,This book is interesting.,,"Japanese sorts pointing words three ways: near me, near you, and away from us both.
 
 こ・そ・あ・ど + れ / こ / の
@@ -110,28 +110,28 @@ sb060,sample,Sentence Basics,この・その・あの: Pointing at Places and Th
 ## Question word:
 **どの** (followed by noun) can only be used when asking ""which…?"" out of a choice of three or more people or things. When you only have a choice of two options, you'll use どっち (or its polite version どちら) with the particle の instead, as in どっちのドア (which door?)
 
-**どこ** is the question word that pairs together with these characters, and asks ""where?""",
-sb061,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そのペンはあなたのですか。,その ぺんは あなたのですか。,Is that pen yours?,その|ペン|は|あなた|の|です|か,,
-sb062,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの人は先生です。,あの ひとは せんせいです。,That person is a teacher.,あの|人|は|先生|です,,
-sb063,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,この歌を聞きます。,この うたを ききます。,I listen to this song.,この|歌|を|聞きます,,
-sb064,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,その言葉を覚えています。,その ことばを おぼえています。,I remember those words.,その|言葉|を|覚えています,,
-sb065,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの夏は楽しかったです。,あの なつは たのしかったです。,That summer was fun.,あの|夏|は|楽しかった|です,,
-sb066,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,その写真はきれいです。,その しゃしんは きれいです。,That photo is beautiful.,その|写真|は|きれい|です,,
-sb067,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの山は高いです。,あの やまは たかいです。,That mountain is high.,あの|山|は|高い|です,,
-sb068,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの店が安いですか。,どの みせが やすいですか。,Which shop is cheap?,どの|店|が|安い|ですか,,
-sb069,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの歌を聞きますか。,どの うたを ききますか。,Which song will you listen to?,どの|歌|を|聞きますか,,
-sb070,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの映画を見ますか。,どの えいがを みますか。,Which movie will you watch?,どの|映画|を|見ますか,,
-sb071,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの道が駅までですか。,どの みちが えきまでですか。,Which road goes to the station?,どの|道|が|駅|まで|です|か,,
-sb072,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,ここは学校です。,ここは がっこうです。,This is a school.,,,
-sb073,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そこで待ちます。,そこで まちます。,I'll wait there.,そこ|で|待ちます,,
-sb074,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そこは寒いです。,そこは さむいです。,It is cold there.,そこ|は|寒い|です,,
-sb075,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あそこは私の学校です。,あそこは わたしの がっこうです。,That place over there is my school.,あそこ|は|私|の|学校|です,,
-sb076,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あそこで写真を撮ります。,あそこで しゃしんを とります。,I take photos over there.,あそこ|で|写真|を|撮ります,,
-sb077,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,ここに本があります。,ここに ほんが あります。,There is a book here.,ここ|に|本|が|あります,,
-sb078,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,ここで勉強します。,ここで べんきょうします。,I study here.,ここ|で|勉強|します,,
-sb079,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこに行きますか。,どこに いきますか。,Where will you go?,どこ|に|行きます|か,,
-sb080,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこで勉強しますか。,どこで べんきょうしますか。,Where do you study?,どこ|で|勉強します|か,,
-sb081,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこで写真を撮りますか。,どこで しゃしんを とりますか。,Where will you take photos?,どこ|で|写真|を|撮ります|か,,
+**どこ** is the question word that pairs together with these characters, and asks ""where?""",あの
+sb061,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そのペンはあなたのですか。,その ぺんは あなたのですか。,Is that pen yours?,その|ペン|は|あなた|の|です|か,,どこ
+sb062,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの人は先生です。,あの ひとは せんせいです。,That person is a teacher.,あの|人|は|先生|です,,その|あそこ
+sb063,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,この歌を聞きます。,この うたを ききます。,I listen to this song.,この|歌|を|聞きます,,あそこ|ここ
+sb064,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,その言葉を覚えています。,その ことばを おぼえています。,I remember those words.,その|言葉|を|覚えています,,そこ
+sb065,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの夏は楽しかったです。,あの なつは たのしかったです。,That summer was fun.,あの|夏|は|楽しかった|です,,あそこ
+sb066,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,その写真はきれいです。,その しゃしんは きれいです。,That photo is beautiful.,その|写真|は|きれい|です,,そこ
+sb067,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あの山は高いです。,あの やまは たかいです。,That mountain is high.,あの|山|は|高い|です,,ここ
+sb068,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの店が安いですか。,どの みせが やすいですか。,Which shop is cheap?,どの|店|が|安い|ですか,,あの
+sb069,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの歌を聞きますか。,どの うたを ききますか。,Which song will you listen to?,どの|歌|を|聞きますか,,どこ
+sb070,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの映画を見ますか。,どの えいがを みますか。,Which movie will you watch?,どの|映画|を|見ますか,,その|ここ
+sb071,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どの道が駅までですか。,どの みちが えきまでですか。,Which road goes to the station?,どの|道|が|駅|まで|です|か,,その
+sb072,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,ここは学校です。,ここは がっこうです。,This is a school.,ここ|は|学校|です,,その
+sb073,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そこで待ちます。,そこで まちます。,I'll wait there.,そこ|で|待ちます,,あの
+sb074,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,そこは寒いです。,そこは さむいです。,It is cold there.,そこ|は|寒い|です,,どこ|その
+sb075,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あそこは私の学校です。,あそこは わたしの がっこうです。,That place over there is my school.,あそこ|は|私|の|学校|です,,そこ|その
+sb076,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,あそこで写真を撮ります。,あそこで しゃしんを とります。,I take photos over there.,あそこ|で|写真|を|撮ります,,その
+sb077,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,ここに本があります。,ここに ほんが あります。,There is a book here.,ここ|に|本|が|あります,,そこ
+sb078,sample,Sentence Basics,この・その・あの: Pointing at Places and Things,ここで勉強します。,ここで べんきょうします。,I study here.,ここ|で|勉強|します,,どの|その
+sb079,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこに行きますか。,どこに いきますか。,Where will you go?,どこ|に|行きます|か,,あそこ
+sb080,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこで勉強しますか。,どこで べんきょうしますか。,Where do you study?,どこ|で|勉強します|か,,その|どの
+sb081,exercise,Sentence Basics,この・その・あの: Pointing at Places and Things,どこで写真を撮りますか。,どこで しゃしんを とりますか。,Where will you take photos?,どこ|で|写真|を|撮ります|か,,あの|あそこ
 sb082,sample,Sentence Basics,"あります ・います: There Is, There Are",机の上に本があります。,つくえの うえに ほんが あります。,There is a book on the desk.,机|の|上|に|本|が|あります,"Japanese uses two different verbs to say that something exists. あります is used for things that do not move on their own, and plants belong here too. います is used for anything that moves under its own power: people, animals, and insects.
 
 がある (ga aru): there is (used for non-living things)
@@ -157,13 +157,13 @@ sb093,exercise,Sentence Basics,"あります ・います: There Is, There Are",
 sb094,sample,Sentence Basics,をください / をお願いします: Asking for Things,コーヒーをお願いします。,こーひーを おねがいします。,"Coffee, please.",,"To ask for a thing, name it and add をください, which means “…, please.” をお願いします does the same job and sounds a little more adult. 
 
 をください works in any store, and をお願いします fits ordering food, paying, or speaking on the phone. Do not use ください on its own, because it always needs a word in front of it. お願いします can stand alone: give the clerk your card and say it.",
-sb095,exercise,Sentence Basics,をください / をお願いします: Asking for Things,水を一杯お願いします。,みずを いっぱい おねがいします。,"One glass of water, please.",水|を|一杯|お願いします,,
-sb096,exercise,Sentence Basics,をください / をお願いします: Asking for Things,少し時間をお願いします。,すこし じかんを おねがいします。,Please give me a little time.,少し|時間|を|お願いします,,
-sb097,exercise,Sentence Basics,をください / をお願いします: Asking for Things,明日もお願いします。,あしたも おねがいします。,"Please, again tomorrow.",明日|も|お願いします,,
-sb098,exercise,Sentence Basics,をください / をお願いします: Asking for Things,この旅行のパンフレットをください。,この りょこうの ぱんふれっとを ください。,"This travel brochure, please.",この|旅行|の|パンフレット|を|ください,,
-sb099,exercise,Sentence Basics,をください / をお願いします: Asking for Things,りんごを二つください。,りんごを ふたつ ください。,"Two apples, please.",りんご|を|二つ|ください,,
-sb100,exercise,Sentence Basics,をください / をお願いします: Asking for Things,東京までの切符を一枚ください。,とうきょうまでの きっぷを いちまい ください。,"One ticket to Tokyo, please.",東京|まで|の|切符|を|一枚|ください,,
-sb101,exercise,Sentence Basics,をください / をお願いします: Asking for Things,窓側の席をお願いします。,まどがわの せきを おねがいします。,"A window seat, please.",窓側|の|席|を|お願いします,,
+sb095,exercise,Sentence Basics,をください / をお願いします: Asking for Things,水を一杯お願いします。,みずを いっぱい おねがいします。,"One glass of water, please.",水|を|一杯|お願いします,,りんご|窓側
+sb096,exercise,Sentence Basics,をください / をお願いします: Asking for Things,少し時間をお願いします。,すこし じかんを おねがいします。,Please give me a little time.,少し|時間|を|お願いします,,明日
+sb097,exercise,Sentence Basics,をください / をお願いします: Asking for Things,明日もお願いします。,あしたも おねがいします。,"Please, again tomorrow.",明日|も|お願いします,,水
+sb098,exercise,Sentence Basics,をください / をお願いします: Asking for Things,この旅行のパンフレットをください。,この りょこうの ぱんふれっとを ください。,"This travel brochure, please.",この|旅行|の|パンフレット|を|ください,,まで
+sb099,exercise,Sentence Basics,をください / をお願いします: Asking for Things,りんごを二つください。,りんごを ふたつ ください。,"Two apples, please.",りんご|を|二つ|ください,,りんご
+sb100,exercise,Sentence Basics,をください / をお願いします: Asking for Things,東京までの切符を一枚ください。,とうきょうまでの きっぷを いちまい ください。,"One ticket to Tokyo, please.",東京|まで|の|切符|を|一枚|ください,,明日
+sb101,exercise,Sentence Basics,をください / をお願いします: Asking for Things,窓側の席をお願いします。,まどがわの せきを おねがいします。,"A window seat, please.",窓側|の|席|を|お願いします,,水
 sb102,sample,Sentence Basics,How Counters Work,写真を三枚撮りました。,しゃしんを さんまい とりました。,I took three photos.,,"Most languages count with a number and a noun: three pencils. Japanese adds a third word — a counter — that changes with the shape or kind of thing you count.
 
 ### N を + number + counter + verb
@@ -453,15 +453,15 @@ Read the table by group. For ru-verbs and the irregulars, the rule is a single s
 |ru-verb|る|て|食べる → 食べて|
 |Irregular|する|して|する → して|
 |Irregular|来る|来て|来る → 来て|",
-ve024,exercise,Verb Forms,Building the て Form,パンを食べて、学校へ行きます。,ぱんを たべて、がっこうへ いきます。,I eat bread and go to school.,パン|を|食べて|学校|へ|行きます|食べる,,
-ve025,exercise,Verb Forms,Building the て Form,本を読んで、寝ます。,ほんを よんで、ねます。,I read a book and go to bed.,本|を|読んで|寝ます|読む,,
-ve026,exercise,Verb Forms,Building the て Form,音楽を聞いて、勉強します。,おんがくを きいて、べんきょうします。,I listen to music and study.,音楽|を|聞いて|勉強します|聞く,,
-ve027,exercise,Verb Forms,Building the て Form,公園を歩いて、家に帰ります。,こうえんを あるいて、いえに かえります。,I walk in the park and go home.,公園|を|歩いて|家|に|帰ります|歩く,,
-ve028,exercise,Verb Forms,Building the て Form,水を飲んで、休みます。,みずを のんで、やすみます。,I drink water and rest.,水|を|飲んで|休みます|飲む,,
-ve029,exercise,Verb Forms,Building the て Form,友達と話して、笑いました。,ともだちと はなして、わらいました。,I talked with my friend and laughed.,友達|と|話して|笑いました|話す,,
-ve030,exercise,Verb Forms,Building the て Form,花を買って、部屋に飾ります。,はなを かって、へやに かざります。,I buy flowers and decorate my room with them.,花|を|買って|部屋|に|飾ります|買う,,
-ve031,exercise,Verb Forms,Building the て Form,窓を開けて、空を見ます。,まどを あけて、そらを みます。,I open the window and look at the sky.,窓|を|開けて|空|を|見ます|開ける,,
-ve032,exercise,Verb Forms,Building the て Form,手紙を書いて、友達に送ります。,てがみを かいて、ともだちに おくります。,I write a letter and send it to my friend.,手紙|を|書いて|友達|に|送ります|書く,,
+ve024,exercise,Verb Forms,Building the て Form,パンを食べて、学校へ行きます。,ぱんを たべて、がっこうへ いきます。,I eat bread and go to school.,パン|を|食べて|学校|へ|行きます,,食べる
+ve025,exercise,Verb Forms,Building the て Form,本を読んで、寝ます。,ほんを よんで、ねます。,I read a book and go to bed.,本|を|読んで|寝ます,,読む
+ve026,exercise,Verb Forms,Building the て Form,音楽を聞いて、勉強します。,おんがくを きいて、べんきょうします。,I listen to music and study.,音楽|を|聞いて|勉強します,,聞く
+ve027,exercise,Verb Forms,Building the て Form,公園を歩いて、家に帰ります。,こうえんを あるいて、いえに かえります。,I walk in the park and go home.,公園|を|歩いて|家|に|帰ります,,歩く
+ve028,exercise,Verb Forms,Building the て Form,水を飲んで、休みます。,みずを のんで、やすみます。,I drink water and rest.,水|を|飲んで|休みます,,飲む
+ve029,exercise,Verb Forms,Building the て Form,友達と話して、笑いました。,ともだちと はなして、わらいました。,I talked with my friend and laughed.,友達|と|話して|笑いました,,話す
+ve030,exercise,Verb Forms,Building the て Form,花を買って、部屋に飾ります。,はなを かって、へやに かざります。,I buy flowers and decorate my room with them.,花|を|買って|部屋|に|飾ります|,,買う
+ve031,exercise,Verb Forms,Building the て Form,窓を開けて、空を見ます。,まどを あけて、そらを みます。,I open the window and look at the sky.,窓|を|開けて|空|を|見ます,,開ける
+ve032,exercise,Verb Forms,Building the て Form,手紙を書いて、友達に送ります。,てがみを かいて、ともだちに おくります。,I write a letter and send it to my friend.,手紙|を|書いて|友達|に|送ります,,書く
 ve033,sample,Verb Forms,Asking Someone to Do Something with てください,ここに名前を書いてください。,ここに なまえを かいて ください。,Please write your name here.,,"Add ください to a verb's て-form (the connecting form: 撮る becomes 撮って) and you have a polite request. It reuses the ください of をください, but here you ask for an action instead of an object.
 
 Use てください to ask someone for an action, in a store, a classroom, or a taxi. Do not use it alone with a boss or a customer, because it can sound like an order. Open with すみませんが or switch to くださいませんか instead.
@@ -1159,3 +1159,43 @@ CC071,exercise,Connectives & clauses,"Joining Sentences: そして, それから
 CC072,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",明日は早く起きます。だから、今から寝ます。,あしたははやくおきます。だから、いまからねます,I'll wake up early tomorrow. So I'm going to bed now.,明日は|早く|起きます|だから|今から|寝ます,,
 CC073,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",この部屋は小さいですが、きれいです。そして、静かです。,このへやはちいさいですが、きれいです。そして、しずかです,"This room is small, but it's clean. And it's quiet.",この部屋は|小さいですが|きれいです|そして|静かです,,
 CC074,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",昨日は雨でした。でも、友達と出かけました。それから、映画を見ました。,きのうはあめでした。でも、ともだちとでかけました。それから、えいがをみました,It rained yesterday. But I went out with my friend. Then we watched a movie.,昨日は|雨でした|でも|友達と|出かけました|それから|映画を|見ました,,
+KR001,sample,Keigo and Register,Plain Form: How to Build It and When to Use It,明日、学校に行く。,あした、がっこうにいく,I'm going to school tomorrow.,明日|学校に|行く,"Plain form (普通形) is the casual counterpart to polite ます / です. It is the shape you use with family and close friends, and the shape that longer sentences require in the middle.
+
+Plain form is built by part of speech. A verb carries a four-piece set: 行く “go,” the ない-form, the た-form, and the なかった-form. An い-adjective drops です, while nouns and な-adjectives take だ / じゃない / だった / じゃなかった.
+
+## Who you use it with
+Plain form is the language of closeness: family, close friends, children, and your own diary or inner voice. Do not use it with people you keep distance from, such as store staff or most of the workplace: they take ます / です. Social media sits on the casual side, since posts read like talking to friends.",
+KR002,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,今日は家で勉強する。,きょうはいえでべんきょうする,I'll study at home today.,今日は|家で|勉強する,,行く|話し
+KR003,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,今日はコーヒーを飲まない。,きょうはこーひーをのまない,I won't drink coffee today.,今日は|コーヒーを|飲まない,,|飲まない
+KR004,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,昨日、友達と話した。,きのう、ともだちとはなした,I talked with my friend yesterday.,昨日|友達と|話した,,行く
+KR005,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,昨日はあまり寝なかった。,きのうはあまりねなかった,I didn't sleep much yesterday.,昨日は|あまり|寝なかった,,辛くない
+KR006,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,この本は面白い。,このほんはおもしろい,This book is interesting.,この|本は|面白い,,話し
+KR007,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,この料理は辛くない。,このりょうりはからくない,This food isn't spicy.,この|料理は|辛くない,,楽しい
+KR008,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,昨日の映画は長かった。,きのうのえいがはながかった,Yesterday's movie was long.,昨日の|映画は|長かった,,|飲まない
+KR009,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,この部屋は広くなかった。,このへやはひろくなかった,This room wasn't spacious.,この|部屋は|広くなかった,,辛くない
+KR010,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,この町は静かだ。,このまちはしずかだ,This town is quiet.,この|町は|静かだ,,話し
+KR011,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,この店はあまり有名じゃない。,このみせはあまりゆうめいじゃない,This shop isn't very famous.,この|店は|あまり|有名じゃない,,行く
+KR012,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,昔、この町は静かだった。,むかし、このまちはしずかだった,This town used to be quiet.,昔|この|町は|静かだった,,楽しい
+KR013,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,昨日は元気じゃなかった。,きのうはげんきじゃなかった,I wasn't feeling well yesterday.,昨日は|元気じゃなかった,,辛くない
+KR014,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,私は学生だ。,わたしはがくせいだ,I'm a student.,私は|学生だ,,静か
+KR015,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,今日は休みじゃない。,きょうはやすみじゃない,Today isn't a holiday/day off.,今日は|休みじゃない,,|飲まない
+KR016,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,昨日は休日だった。,きのうはきゅうじつだった,Yesterday was a holiday.,昨日は|休日だった,,行く|話し
+KR017,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,あの人は先生じゃなかった。,あのひとはせんせいじゃなかった,That person wasn't a teacher.,あの|人は|先生じゃなかった,,|飲まない
+KR018,exercise,Keigo and Register,Plain Form: How to Build It and When to Use It,明日はきっと楽しい。,あしたはきっとたのしい,Tomorrow will surely be fun.,明日は|きっと|楽しい,,静か
+FE001,sample,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,この店では野菜だけ買います。,このみせではやさいだけかいます,I only buy vegetables at this shop.,この店では|野菜だけ|買います,"だけ and しか both mean “only,” but they carry opposite moods. だけ states a limit flatly, while しか always pairs with a negative verb and adds the feeling that the amount falls short.
+
+だけ is neutral: it attaches to a noun and says “only this, nothing more.” しか takes the same fact and colors it with shortage, so it forces the verb into the negative. 百円だけあります is calm reporting, while 百円しかありません says the same thing with a note of complaint.
+
+## Why しか needs a negative
+One rule keeps しか under control: the verb that follows it must be negative, every time. English “only” feels positive, so learners use あります, but しか takes ありません instead. だけ carries no such rule, and it leaves the verb free.",
+FE002,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,週末だけ家で料理します。,しゅうまつだけいえでりょうりします,I only cook at home on weekends.,週末だけ|家で|料理します,,買います|しか
+FE003,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,一時間だけ勉強しました。,いちじかんだけべんきょうしました,I studied for only one hour.,一時間だけ|勉強しました,,しか|できます
+FE004,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,水しかありません。,みずしかありません,There is nothing but water.,水|しか|ありません,,だけ|休みます
+FE005,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,冷蔵庫に卵しかない。,れいぞうこにたまごしかない,There are only eggs in the refrigerator.,冷蔵庫に|卵|しか|ない,,料理します|だけ
+FE006,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,財布に千円しかありません。,さいふにせんえんしかありません,"I only have 1,000 yen in my wallet.",財布に|千円|しか|ありません,,だけ|できます
+FE007,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,今日は二時間しか寝ていません。,きょうはにじかんしかねていません,I've only slept for two hours today.,今日は|二時間しか|寝ていません,,だけ|休みます
+FE008,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,昨日は三人しか来ませんでした。,きのうはさんにんしかきませんでした,Only three people came yesterday.,昨日は|三人|しか|来ませんでした,,勉強しました
+FE009,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,今はこの方法しかありません。,いまはこのほうほうしかありません,This is the only option we have now.,今は|この|方法|しか|ありません,,買います|だけ
+FE010,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,朝はパンだけ食べました。,あさはぱんだけたべました,I only ate bread for breakfast.,朝は|パンだけ|食べました,,しか|できます
+FE011,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,今日は少しだけ休みます。,きょうはすこしだけやすみます,I'll rest just a little today.,今日は|少しだけ|休みます,,勉強しました|しか
+FE012,exercise,Focus and Emphasis,Saying “Only” with だけ and しか〜ない,彼は英語だけできます。,かれはえいごだけできます,He can only speak/do English.,彼は|英語|だけ|できます,,料理します|しか

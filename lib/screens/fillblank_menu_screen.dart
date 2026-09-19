@@ -20,8 +20,9 @@ class _FillBlankCategoryMenuScreenState extends State<FillBlankCategoryMenuScree
   bool _loading = true;
 
   // Only cards with a sample sentence are eligible for this lesson type.
-  List<VocabCard> get _eligibleCards =>
-      widget.allCards.where((c) => c.sampleSentence.isNotEmpty).toList();
+  List<VocabCard> get _eligibleCards => widget.allCards
+    .where((c) => c.sampleSentence.isNotEmpty && c.sampleSentence.contains(c.japanese))
+    .toList();
 
   @override
   void initState() {
