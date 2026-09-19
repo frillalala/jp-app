@@ -919,7 +919,7 @@ ca034,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら an
 ca035,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,春になると、暖かくなります。,はるに なると、あたたかく なります。,"When spring comes, it gets warmer.",春に|なると|暖かく|なります,,
 ca036,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,この道を右に曲がると、学校があります。,このみちを みぎに まがると、がっこうが あります。,"If you turn right on this road, there is a school.",この道を|右に|曲がると|学校が|あります,,
 ca037,exercise,Conditional and Advice,Two Ways to Say “If / When”: たら and と,時間があったら、この本を読んでください。,じかんが あったら、このほんを よんで ください。,"If you have time, please read this book.",時間が|あったら|この本を|読んでください,,
-,sample,Modality,よ and ね: Telling and Agreeing,この映画は面白いですよ。,このえいがは おもしろいですよ。,"This movie is interesting, you know.",この映画は|面白いですよ,"ね and よ sit at the end of a sentence and show who knows what. ね asks for agreement, and よ tells the listener something new.
+mo01,sample,Modality,よ and ね: Telling and Agreeing,この映画は面白いですよ。,このえいがは おもしろいですよ。,"This movie is interesting, you know.",この映画は|面白いですよ,"ね and よ sit at the end of a sentence and show who knows what. ね asks for agreement, and よ tells the listener something new.
 
 **ぶん + ね / ぶん + よ / ぶん + よね**
 
@@ -932,26 +932,26 @@ Ending|The knowledge|What you are doing
 ね|Both of you have it|Inviting a nod
 よ|Only you have it|Giving it to the listener
 よね|You have it, probably|Checking to be sure",
-,exercise,Modality,よ and ね: Telling and Agreeing,明日は休みですよ。,あしたは やすみですよ。,"Tomorrow is a day off, you know.",明日は|休みですよ,,
-,exercise,Modality,よ and ね: Telling and Agreeing,この店は安いですよ。,このみせは やすいですよ。,This shop is inexpensive.,この店は|安いですよ,,
-,exercise,Modality,よ and ね: Telling and Agreeing,今日は人が多いですね。,きょうは ひとが おおいですね。,"There are a lot of people today, aren't there?",今日は|人が|多いですね,,
-,exercise,Modality,よ and ね: Telling and Agreeing,この景色はきれいですね。,このけしきは きれいですね。,"This scenery is beautiful, isn't it?",この景色は|きれいですね,,
-,exercise,Modality,よ and ね: Telling and Agreeing,明日は雨ですよね。,あしたは あめですよね。,"It's going to rain tomorrow, right?",明日は|雨ですよね,,
-,exercise,Modality,よ and ね: Telling and Agreeing,彼は日本語が上手ですよね。,かれは にほんごが じょうずですよね。,"He's good at Japanese, isn't he?",彼は|日本語が|上手ですよね,,
-,exercise,Modality,よ and ね: Telling and Agreeing,春は花がきれいですよね。,はるは はなが きれいですよね。,"Flowers are beautiful in spring, aren't they?",春は|花が|きれいですよね,,
-,exercise,Modality,よ and ね: Telling and Agreeing,最近、少し忙しいですよね。,さいきん、すこし いそがしいですよね。,"We've been a little busy lately, haven't we?",最近|少し|忙しいですよね,,
-,sample,Modality,Suggesting and Offering with ましょう / ましょうか,一緒に日本語を勉強しましょう。,いっしょににほんごをべんきょうしましょう,Let's study Japanese together.,一緒に|日本語を|勉強しましょう,"ましょう turns a verb into a warm “let's,” the everyday way to suggest doing something together. Adding か makes ましょうか, which offers your help or asks the group to decide.
+mo02,exercise,Modality,よ and ね: Telling and Agreeing,明日は休みですよ。,あしたは やすみですよ。,"Tomorrow is a day off, you know.",明日は|休みですよ,,
+mo03,exercise,Modality,よ and ね: Telling and Agreeing,この店は安いですよ。,このみせは やすいですよ。,This shop is inexpensive.,この店は|安いですよ,,
+mo04,exercise,Modality,よ and ね: Telling and Agreeing,今日は人が多いですね。,きょうは ひとが おおいですね。,"There are a lot of people today, aren't there?",今日は|人が|多いですね,,
+mo05,exercise,Modality,よ and ね: Telling and Agreeing,この景色はきれいですね。,このけしきは きれいですね。,"This scenery is beautiful, isn't it?",この景色は|きれいですね,,
+mo06,exercise,Modality,よ and ね: Telling and Agreeing,明日は雨ですよね。,あしたは あめですよね。,"It's going to rain tomorrow, right?",明日は|雨ですよね,,
+mo07,exercise,Modality,よ and ね: Telling and Agreeing,彼は日本語が上手ですよね。,かれは にほんごが じょうずですよね。,"He's good at Japanese, isn't he?",彼は|日本語が|上手ですよね,,
+mo08,exercise,Modality,よ and ね: Telling and Agreeing,春は花がきれいですよね。,はるは はなが きれいですよね。,"Flowers are beautiful in spring, aren't they?",春は|花が|きれいですよね,,
+mo09,exercise,Modality,よ and ね: Telling and Agreeing,最近、少し忙しいですよね。,さいきん、すこし いそがしいですよね。,"We've been a little busy lately, haven't we?",最近|少し|忙しいですよね,,
+mo10,sample,Modality,Suggesting and Offering with ましょう / ましょうか,一緒に日本語を勉強しましょう。,いっしょににほんごをべんきょうしましょう,Let's study Japanese together.,一緒に|日本語を|勉強しましょう,"ましょう turns a verb into a warm “let's,” the everyday way to suggest doing something together. Adding か makes ましょうか, which offers your help or asks the group to decide.
 
 ましょうか is ましょう with the question marker か at the end, and the situation splits it in two. When only you can do the action, it offers your help. When the action belongs to everyone, it asks “what shall we do?”",
-,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,明日、図書館へ行きましょう。,あした、としょかんへいきましょう,Let's go to the library tomorrow.,明日|図書館へ|行きましょう,,
-,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,疲れましたね。少し休みましょう。,つかれましたね。すこしやすみましょう,"We're tired, aren't we? Let's rest a little.",疲れましたね|少し|休みましょう,,
-,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,天気がいいので、公園を散歩しましょう。,てんきがいいので、こうえんをさんぽしましょう,"Since the weather is nice, let's take a walk in the park.",天気が|いいので|公園を|散歩しましょう,,
-,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,今日は早く帰りましょう。,きょうははやくかえりましょう,Let's go home early today.,今日は|早く|帰りましょう,,
-,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,一緒に写真を撮りましょうか。,いっしょにしゃしんをとりましょうか,Shall we take a picture together?,一緒に|写真を|撮りましょうか,,
-,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,窓を開けましょうか。,まどをあけましょうか,Shall I open the window?,窓を|開けましょうか,,
-,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,荷物を持ちましょうか。,にもつをもちましょうか,Shall I carry your luggage?,荷物を|持ちましょうか,,
-,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,疲れているなら、明日にしましょうか。,つかれているなら、あしたにしましょうか,"If you're tired, shall we do it tomorrow instead?",疲れているなら|明日に|しましょうか,,
-,sample,Modality,"Inviting with ませんか: How to Offer, and How to Decline",一緒に映画を見ませんか。,いっしょにえいがをみませんか,Would you like to watch a movie together?,一緒に|映画を|見ませんか,"ませんか turns a polite verb into a negative question that invites someone. It is softer than ましょう, because it asks the other person instead of announcing the plan.
+mo11,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,明日、図書館へ行きましょう。,あした、としょかんへいきましょう,Let's go to the library tomorrow.,明日|図書館へ|行きましょう,,
+mo12,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,疲れましたね。少し休みましょう。,つかれましたね。すこしやすみましょう,"We're tired, aren't we? Let's rest a little.",疲れましたね|少し|休みましょう,,
+mo13,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,天気がいいので、公園を散歩しましょう。,てんきがいいので、こうえんをさんぽしましょう,"Since the weather is nice, let's take a walk in the park.",天気が|いいので|公園を|散歩しましょう,,
+mo14,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,今日は早く帰りましょう。,きょうははやくかえりましょう,Let's go home early today.,今日は|早く|帰りましょう,,
+mo15,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,一緒に写真を撮りましょうか。,いっしょにしゃしんをとりましょうか,Shall we take a picture together?,一緒に|写真を|撮りましょうか,,
+mo16,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,窓を開けましょうか。,まどをあけましょうか,Shall I open the window?,窓を|開けましょうか,,
+mo17,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,荷物を持ちましょうか。,にもつをもちましょうか,Shall I carry your luggage?,荷物を|持ちましょうか,,
+mo18,exercise,Modality,Suggesting and Offering with ましょう / ましょうか,疲れているなら、明日にしましょうか。,つかれているなら、あしたにしましょうか,"If you're tired, shall we do it tomorrow instead?",疲れているなら|明日に|しましょうか,,
+mo19,sample,Modality,"Inviting with ませんか: How to Offer, and How to Decline",一緒に映画を見ませんか。,いっしょにえいがをみませんか,Would you like to watch a movie together?,一緒に|映画を|見ませんか,"ませんか turns a polite verb into a negative question that invites someone. It is softer than ましょう, because it asks the other person instead of announcing the plan.
 
 ## How to offer
 Build it from the polite ます verb: 行きます becomes 行きませんか, literally 'won't you go?'. The negative shape looks like doubt in English, but here it is a warm, open offer. Do not use it when the plan is already settled: that is ましょう, 'let's go'.
@@ -965,18 +965,18 @@ Accept|いいですね。|Warm, ready yes
 Accept eagerly|ぜひ。|“By all means” — genuinely eager
 Decline (trail off)|その日はちょっと…。|Declines without ever saying no
 Decline (apology + reason) |すみません、用事があって…。すみません、ようじがあって…。|Apologizes, then hints at a reason",
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",いいですね。見ましょう。,いいですね。みましょう,That sounds good. Let's watch it.,いいですね|見ましょう,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",今週末、一緒に美術館へ行きませんか。,こんしゅうまつ、いっしょにびじゅつかんへいきませんか,Would you like to go to an art museum together this weekend?,今週末|一緒に|美術館へ|行きませんか,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",もちろんです！ぜひ行きましょう！,もちろんです！ぜひいきましょう！,Of course! I'd love to!,もちろんです|ぜひ|行きましょう,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",明日の朝、公園を散歩しませんか。,あしたのあさ、こうえんをさんぽしませんか,Would you like to take a walk in the park tomorrow morning?,明日の朝|公園を|散歩しませんか,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",すみません、ちょっと……。,すみません、ちょっと……,"Sorry, maybe not...",すみません|ちょっと,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",今夜、駅の近くで晩ご飯を食べませんか。,こんや、えきのちかくでばんごはんをたべませんか,Would you like to have dinner near the station tonight?,今夜|駅の近くで|晩ご飯を|食べませんか,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",すみません。今日は忙しいです。,すみません。きょうはいそがしいです,Sorry. I'm busy today.,すみません|今日は|忙しいです,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",仕事が終わったら、一緒にお茶を飲みませんか。,しごとがおわったら、いっしょにおちゃをのみませんか,"When work is finished, would you like to have tea together?",仕事が|終わったら|一緒に|お茶を|飲みませんか,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",一緒に日本語を勉強しませんか。,いっしょににほんごをべんきょうしませんか,Would you like to study Japanese together?,一緒に|日本語を|勉強しませんか,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",いいですね。ちょうど勉強したかったです。,いいですね。ちょうどべんきょうしたかったです,Sounds good. I wanted to study anyway.,いいですね|ちょうど|勉強したかったです,,
-,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",このカフェで少し休みませんか。,このかふぇですこしやすみませんか,Would you like to rest a little at this café?,この|カフェで|少し|休みませんか,,
-,sample,Modality,Predicting and Seeking Agreement with でしょう,明日は雨でしょう。,あしたはあめでしょう,It will probably rain tomorrow.,明日は|雨でしょう,"でしょう has two uses: it means “probably,” and it also asks “right?” Which one you mean depends on whether your voice falls or rises.
+mo20,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",いいですね。見ましょう。,いいですね。みましょう,That sounds good. Let's watch it.,いいですね|見ましょう,,
+mo21,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",今週末、一緒に美術館へ行きませんか。,こんしゅうまつ、いっしょにびじゅつかんへいきませんか,Would you like to go to an art museum together this weekend?,今週末|一緒に|美術館へ|行きませんか,,
+mo22,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",もちろんです！ぜひ行きましょう！,もちろんです！ぜひいきましょう！,Of course! I'd love to!,もちろんです|ぜひ|行きましょう,,
+mo23,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",明日の朝、公園を散歩しませんか。,あしたのあさ、こうえんをさんぽしませんか,Would you like to take a walk in the park tomorrow morning?,明日の朝|公園を|散歩しませんか,,
+mo24,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",すみません、ちょっと……。,すみません、ちょっと……,"Sorry, maybe not...",すみません|ちょっと,,
+mo25,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",今夜、駅の近くで晩ご飯を食べませんか。,こんや、えきのちかくでばんごはんをたべませんか,Would you like to have dinner near the station tonight?,今夜|駅の近くで|晩ご飯を|食べませんか,,
+mo26,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",すみません。今日は忙しいです。,すみません。きょうはいそがしいです,Sorry. I'm busy today.,すみません|今日は|忙しいです,,
+mo27,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",仕事が終わったら、一緒にお茶を飲みませんか。,しごとがおわったら、いっしょにおちゃをのみませんか,"When work is finished, would you like to have tea together?",仕事が|終わったら|一緒に|お茶を|飲みませんか,,
+mo28,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",一緒に日本語を勉強しませんか。,いっしょににほんごをべんきょうしませんか,Would you like to study Japanese together?,一緒に|日本語を|勉強しませんか,,
+mo29,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",いいですね。ちょうど勉強したかったです。,いいですね。ちょうどべんきょうしたかったです,Sounds good. I wanted to study anyway.,いいですね|ちょうど|勉強したかったです,,
+mo30,exercise,Modality,"Inviting with ませんか: How to Offer, and How to Decline",このカフェで少し休みませんか。,このかふぇですこしやすみませんか,Would you like to rest a little at this café?,この|カフェで|少し|休みませんか,,
+mo31,sample,Modality,Predicting and Seeking Agreement with でしょう,明日は雨でしょう。,あしたはあめでしょう,It will probably rain tomorrow.,明日は|雨でしょう,"でしょう has two uses: it means “probably,” and it also asks “right?” Which one you mean depends on whether your voice falls or rises.
 
 **V / いadj / なadj / N + でしょう**
 
@@ -984,16 +984,16 @@ Use the falling でしょう to soften a statement into a guess about weather, t
 
 ## The rising でしょう
 Said with a rising tone, the same words invite the listener to agree. Use it when you already expect a “yes”: showing your cooking, or sharing a view you both see. In writing, a question mark usually marks the agreement use, and otherwise you decide from the situation.",
-,exercise,Modality,Predicting and Seeking Agreement with でしょう,彼はもう家にいるでしょう。,かれはもういえにいるでしょう,He is probably already home.,彼は|もう|家に|いるでしょう,,
-,exercise,Modality,Predicting and Seeking Agreement with でしょう,この料理は辛いでしょう。,このりょうりはからいでしょう,This food is probably spicy.,この|料理は|辛いでしょう,,
-,exercise,Modality,Predicting and Seeking Agreement with でしょう,今日は暑いでしょうね。,きょうはあついでしょうね,"It's probably hot today, isn't it?",今日は|暑いでしょうね,,
-,exercise,Modality,Predicting and Seeking Agreement with でしょう,明日の試験は難しいでしょう。,あしたのしけんはむずかしいでしょう,Tomorrow's exam will probably be difficult.,明日の|試験は|難しいでしょう,,
-,exercise,Modality,Predicting and Seeking Agreement with でしょう,田中さんは日本人でしょう。,たなかさんはにほんじんでしょう,Tanaka is probably Japanese.,田中さんは|日本人でしょう,,
-,exercise,Modality,Predicting and Seeking Agreement with でしょう,これはあなたのかばんでしょう。,これはあなたのかばんでしょう,"This is your bag, right?",これは|あなたの|かばんでしょう,,
-,exercise,Modality,Predicting and Seeking Agreement with でしょう,これは少し高いでしょう。,これはすこしたかいでしょう,This is probably a little expensive.,これは|少し|高いでしょう,,
-,exercise,Modality,Predicting and Seeking Agreement with でしょう,その映画は面白かったでしょう？,そのえいがはおもしろかったでしょう,"The movie was interesting, right?",その映画は|面白かったでしょう,,
-,exercise,Modality,Predicting and Seeking Agreement with でしょう,きっと、いつか夢がかなうでしょう。,きっと、いつかゆめがかなうでしょう,"Surely, someday your dream will come true.",きっと|いつか|夢が|かなうでしょう,,
-,sample,Modality,Softening Opinions with と思います,日本の夏は暑いと思います。,にほんのなつはあついとおもいます,I think Japanese summers are hot.,日本の|夏は|暑いと|思います,"Adding と思います to it turns a bare fact into your opinion. Japanese speakers rarely state an opinion as a bare fact, so と思います softens it. Everything before と stays plain, even when the whole sentence is polite. Do not put です or ます in front of と.
+mo32,exercise,Modality,Predicting and Seeking Agreement with でしょう,彼はもう家にいるでしょう。,かれはもういえにいるでしょう,He is probably already home.,彼は|もう|家に|いるでしょう,,
+mo33,exercise,Modality,Predicting and Seeking Agreement with でしょう,この料理は辛いでしょう。,このりょうりはからいでしょう,This food is probably spicy.,この|料理は|辛いでしょう,,
+mo34,exercise,Modality,Predicting and Seeking Agreement with でしょう,今日は暑いでしょうね。,きょうはあついでしょうね,"It's probably hot today, isn't it?",今日は|暑いでしょうね,,
+mo35,exercise,Modality,Predicting and Seeking Agreement with でしょう,明日の試験は難しいでしょう。,あしたのしけんはむずかしいでしょう,Tomorrow's exam will probably be difficult.,明日の|試験は|難しいでしょう,,
+mo36,exercise,Modality,Predicting and Seeking Agreement with でしょう,田中さんは日本人でしょう。,たなかさんはにほんじんでしょう,Tanaka is probably Japanese.,田中さんは|日本人でしょう,,
+mo37,exercise,Modality,Predicting and Seeking Agreement with でしょう,これはあなたのかばんでしょう。,これはあなたのかばんでしょう,"This is your bag, right?",これは|あなたの|かばんでしょう,,
+mo38,exercise,Modality,Predicting and Seeking Agreement with でしょう,これは少し高いでしょう。,これはすこしたかいでしょう,This is probably a little expensive.,これは|少し|高いでしょう,,
+mo39,exercise,Modality,Predicting and Seeking Agreement with でしょう,その映画は面白かったでしょう？,そのえいがはおもしろかったでしょう,"The movie was interesting, right?",その映画は|面白かったでしょう,,
+mo40,exercise,Modality,Predicting and Seeking Agreement with でしょう,きっと、いつか夢がかなうでしょう。,きっと、いつかゆめがかなうでしょう,"Surely, someday your dream will come true.",きっと|いつか|夢が|かなうでしょう,,
+mo41,sample,Modality,Softening Opinions with と思います,日本の夏は暑いと思います。,にほんのなつはあついとおもいます,I think Japanese summers are hot.,日本の|夏は|暑いと|思います,"Adding と思います to it turns a bare fact into your opinion. Japanese speakers rarely state an opinion as a bare fact, so と思います softens it. Everything before と stays plain, even when the whole sentence is polite. Do not put です or ます in front of と.
 
 **V / いadj + と + おもいます / N / なadj + だ + と + おもいます**
 
@@ -1006,13 +1006,156 @@ Noun|Add だ|休みだと思います
 
 ## Casual and negative
 Among friends the same shape shortens to と思う, dropping the polite ます. For a negative opinion, keep the negative on the inner word: 来ないと思います sounds more natural than moving it to 思います.",
-,exercise,Modality,Softening Opinions with と思います,この料理は少し辛いと思います。,このりょうりはすこしからいとおもいます,I think this food is a little spicy.,この|料理は|少し|辛いと|思います,い-adjective,
-,exercise,Modality,Softening Opinions with と思います,彼は親切な人だと思います。,かれはしんせつなひとだとおもいます,I think he is a kind person.,彼は|親切な|人だと|思います,,
-,exercise,Modality,Softening Opinions with と思います,あの店は有名だと思います。,あのみせはゆうめいだとおもいます,I think that shop is famous.,あの|店は|有名だと|思います,,
-,exercise,Modality,Softening Opinions with と思います,明日は雨だと思います。,あしたはあめだとおもいます,I think it will rain tomorrow.,明日は|雨だと|思います,,
-,exercise,Modality,Softening Opinions with と思います,これはいい考えだと思います。,これはいいかんがえだとおもいます,I think this is a good idea.,これは|いい|考えだと|思います,,
-,exercise,Modality,Softening Opinions with と思います,来週、京都へ行くと思います。,らいしゅう、きょうとへいくとおもいます,I think I'll go to Kyoto next week.,来週|京都へ|行くと|思います,,
-,exercise,Modality,Softening Opinions with と思います,彼はもう帰ったと思います。,かれはもうかえったとおもいます,I think he has already gone home.,彼は|もう|帰ったと|思います,,
-,exercise,Modality,Softening Opinions with と思います,その店は便利じゃないと思います。,そのみせはべんりじゃないとおもいます,I don't think that shop is convenient.,その|店は|便利じゃないと|思います,,
-,exercise,Modality,Softening Opinions with と思います,今日は出かけないと思います。,きょうはでかけないとおもいます,I don't think I'll go out today.,今日は|出かけないと|思います,,
-,exercise,Modality,Softening Opinions with と思います,昨日の試験は難しくなかったと思います。,きのうのしけんはむずかしくなかったとおもいます,I don't think yesterday's exam was difficult.,昨日の|試験は|難しくなかったと|思います,,
+mo42,exercise,Modality,Softening Opinions with と思います,この料理は少し辛いと思います。,このりょうりはすこしからいとおもいます,I think this food is a little spicy.,この|料理は|少し|辛いと|思います,い-adjective,
+mo43,exercise,Modality,Softening Opinions with と思います,彼は親切な人だと思います。,かれはしんせつなひとだとおもいます,I think he is a kind person.,彼は|親切な|人だと|思います,,
+mo44,exercise,Modality,Softening Opinions with と思います,あの店は有名だと思います。,あのみせはゆうめいだとおもいます,I think that shop is famous.,あの|店は|有名だと|思います,,
+mo45,exercise,Modality,Softening Opinions with と思います,明日は雨だと思います。,あしたはあめだとおもいます,I think it will rain tomorrow.,明日は|雨だと|思います,,
+mo46,exercise,Modality,Softening Opinions with と思います,これはいい考えだと思います。,これはいいかんがえだとおもいます,I think this is a good idea.,これは|いい|考えだと|思います,,
+mo47,exercise,Modality,Softening Opinions with と思います,来週、京都へ行くと思います。,らいしゅう、きょうとへいくとおもいます,I think I'll go to Kyoto next week.,来週|京都へ|行くと|思います,,
+mo48,exercise,Modality,Softening Opinions with と思います,彼はもう帰ったと思います。,かれはもうかえったとおもいます,I think he has already gone home.,彼は|もう|帰ったと|思います,,
+mo49,exercise,Modality,Softening Opinions with と思います,その店は便利じゃないと思います。,そのみせはべんりじゃないとおもいます,I don't think that shop is convenient.,その|店は|便利じゃないと|思います,,
+mo50,exercise,Modality,Softening Opinions with と思います,今日は出かけないと思います。,きょうはでかけないとおもいます,I don't think I'll go out today.,今日は|出かけないと|思います,,
+mo51,exercise,Modality,Softening Opinions with と思います,昨日の試験は難しくなかったと思います。,きのうのしけんはむずかしくなかったとおもいます,I don't think yesterday's exam was difficult.,昨日の|試験は|難しくなかったと|思います,,
+CC001,sample,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",寝る前に、少し本を読みました。,ねるまえに、すこしほんをよみました,"Before going to bed, I read a little.",寝る前に|少し|本を|読みました,"Three set phrases put two actions in order: 前に for “before,” あとで for “after,” and てから for “after finishing.” Each phrase takes a different form of the verb in front of it.
+
+Use these three whenever one action comes before or after another. Do not put a past verb in front of 前に: that verb never changes. For a noun instead of a verb, link it with の, as in 食事の前に.
+
+**Vる + まえに / Vた + あとで / Vて + から**
+
+When the sentence is about the past
+Even when the whole sentence describes the past, the verb in front of 前に stays unchanged. The last verb of the sentence carries the tense instead.
+
+## Key takeaways
+1. Ask what sits before the phrase: 前に takes 食べる, あとで takes 食べた.
+2. A noun reaches あとで only through の.
+3. てから adds that the first action is finished before the second starts.",
+CC002,exercise,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",毎朝、学校へ行く前に朝ご飯を食べます。,まいあさ、がっこうへいくまえにあさごはんをたべます,"Every morning, I eat breakfast before going to school.",毎朝|学校へ|行く前に|朝ご飯を|食べます,,
+CC003,exercise,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",昨日、映画を見る前に晩ご飯を食べました。,きのう、えいがをみるまえにばんごはんをたべました,"Yesterday, I ate dinner before watching the movie.",昨日|映画を|見る前に|晩ご飯を|食べました,,
+CC004,exercise,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",旅行する前に、ホテルを予約します。,りょこうするまえに、ほてるをよやくします,"Before traveling, I'll reserve a hotel.",旅行する前に|ホテルを|予約します,,
+CC005,exercise,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",昨日は仕事が終わったあとで、友達に電話しました。,きのうはしごとがおわったあとで、ともだちにでんわしました,"Yesterday, I called my friend after work finished.",昨日は|仕事が|終わったあとで|友達に|電話しました,,
+CC006,exercise,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",この本を読んだあとで、映画を見たいです。,このほんをよんだあとで、えいがをみたいです,"After reading this book, I want to watch the movie.",この|本を|読んだあとで|映画を|見たいです,,
+CC007,exercise,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",毎晩、お風呂に入ったあとで音楽を聞きます。,まいばん、おふろにはいったあとでおんがくをききます,"Every night, I listen to music after taking a bath.",毎晩|お風呂に|入ったあとで|音楽を|聞きます,,
+CC008,exercise,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",昨日、友達と話してから、少し安心しました。,きのう、ともだちとはなしてから、すこしあんしんしました,"Yesterday, I felt a little relieved after talking with my friend.",昨日|友達と|話してから|少し|安心しました,,
+CC009,exercise,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",仕事が終わってから、スーパーへ行く予定です。,しごとがおわってから、すーぱーへいくよていです,"After work ends, I'm planning to go to the supermarket.",仕事が|終わってから|スーパーへ|行く予定です,,
+CC010,exercise,Connectives & clauses,"Ordering Actions with 前に, あとで, and てから",この仕事を始めてから、毎日忙しいです。,このしごとをはじめてから、まいにちいそがしいです,I've been busy every day since starting this job.,この|仕事を|始めてから|毎日|忙しいです,,
+CC011,sample,Connectives & clauses,Making “When” Clauses with とき,寝るとき、電気を消します。,ねる とき、でんきを けします。,"When I go to bed, I turn off the lights.",寝る｜とき｜電気を｜消します,"とき turns a whole sentence into a “when” clause — a part of a sentence with its own verb. It means “at the time that,” and each kind of word joins to it differently.
+
+Put the situation first, then とき, then the main point of the sentence. Never use the polite ます form in front of とき: the verb there stays plain.
+
+**N + の + とき / なadj + な + とき / いadj + とき / V + とき**
+
+## い-adjectives and verbs before とき
+A verb keeps its plain form — the shape without ます — in front of とき, and an い-adjective does the same. That holds whether the sentence ends in the past or not.
+
+Part of speech|Form before とき|Example
+--|--|--
+Noun|Noun + の|学生のとき (when someone was a student)
+な-adjective|Stem + な|静かなとき (when it's quiet)
+い-adjective|Plain form, unchanged|忙しいとき (when someone is busy)
+Verb|Plain form|行くとき (when someone goes)",
+CC012,exercise,Connectives & clauses,Making “When” Clauses with とき,買い物をするとき、いつもメモを見ます。,かいものを する とき、いつも めもを みます。,"When I shop, I always look at my shopping list.",買い物を｜する｜とき｜いつも｜メモを｜見ます,,
+CC013,exercise,Connectives & clauses,Making “When” Clauses with とき,写真を撮るとき、笑ってください。,しゃしんを とる とき、わらって ください。,"When taking a photo, please smile.",写真を｜撮る｜とき｜笑ってください,,
+CC014,exercise,Connectives & clauses,Making “When” Clauses with とき,駅に着いたとき、友達に電話しました。,えきに ついた とき、ともだちに でんわしました。,"When I arrived at the station, I called my friend.",駅に｜着いた｜とき｜友達に｜電話しました,,
+CC015,exercise,Connectives & clauses,Making “When” Clauses with とき,子どものとき、毎日公園で遊びました。,こどもの とき、まいにち こうえんで あそびました。,"When I was a child, I played in the park every day.",子どもの｜とき｜毎日｜公園で｜遊びました,,
+CC016,exercise,Connectives & clauses,Making “When” Clauses with とき,元気なとき、よく散歩します。,げんきな とき、よく さんぽします。,"When I'm feeling well, I often take a walk.",元気な｜とき｜よく｜散歩します,,
+CC017,exercise,Connectives & clauses,Making “When” Clauses with とき,悲しいとき、空を見ます。,かなしい とき、そらを みます。,"When I'm sad, I look at the sky.",悲しい｜とき｜空を｜見ます,,
+CC018,exercise,Connectives & clauses,Making “When” Clauses with とき,時間がないとき、駅まで走ります。,じかんが ない とき、えきまで はしります。,"When I don't have time, I run to the station.",時間が｜ない｜とき｜駅まで｜走ります,,
+CC019,exercise,Connectives & clauses,Making “When” Clauses with とき,春になるとき、この町はとても静かです。,はるに なる とき、この まちは とても しずかです。,"When spring is coming, this town is very quiet.",春に｜なる｜とき｜この｜町は｜とても｜静かです,,
+CC020,exercise,Connectives & clauses,Making “When” Clauses with とき,夏休みのとき、海へ旅行しました。,なつやすみの とき、うみへ りょこうしました。,"During summer vacation, I traveled to the sea.",夏休みの｜とき｜海へ｜旅行しました,,
+CC021,exercise,Connectives & clauses,Making “When” Clauses with とき,この本を読んだとき、少し泣きました。,この ほんを よんだ とき、すこし なきました。,"When I read this book, I cried a little.",この｜本を｜読んだ｜とき｜少し｜泣きました,,
+CC022,sample,Connectives & clauses,Doing Two Things at Once with ながら,音楽を聞きながら、宿題をします。,おんがくをききながら、しゅくだいをします,I do my homework while listening to music.,音楽を|聞きながら|宿題を|します,"ながら joins two actions that one person does at the same time. The main action comes second, and the ながら action runs alongside it. Use ながら when one person keeps two actions going through the same stretch of time. Do not use it when the two actions have different doers. 雨が降りながら fails because the rain is not the one walking.
+
+**V-ます stem + ながら + main action**
+
+Word order decides which action is the point. The verb after ながら is the main one, and the ながら verb runs in the background. 歩きながら話す is mainly talking, and 話しながら歩く is mainly walking.
+
+## Both verbs need to last a while
+Both verbs have to stretch out in time — walk, eat, listen, drive. A verb that names a single instant, such as arrive or notice, has no length for another action to overlap.",
+CC023,exercise,Connectives & clauses,Doing Two Things at Once with ながら,朝ご飯を食べながら、ニュースを見ます。,あさごはんをたべながら、にゅーすをみます,I watch the news while eating breakfast.,朝ご飯を|食べながら|ニュースを|見ます,,
+CC024,exercise,Connectives & clauses,Doing Two Things at Once with ながら,電車に乗りながら、日本語の単語を覚えます。,でんしゃにのりながら、にほんごのたんごをおぼえます,I memorize Japanese words while riding the train.,電車に|乗りながら|日本語の|単語を|覚えます,,
+CC025,exercise,Connectives & clauses,Doing Two Things at Once with ながら,笑いながら、昔の話をしました。,わらいながら、むかしのはなしをしました,We talked about old times while laughing.,笑いながら|昔の|話を|しました,,
+CC026,exercise,Connectives & clauses,Doing Two Things at Once with ながら,雨の音を聞きながら、ゆっくり寝ました。,あめのおとをききながら、ゆっくりねました,I slept peacefully while listening to the sound of rain.,雨の|音を|聞きながら|ゆっくり|寝ました,,
+CC027,exercise,Connectives & clauses,Doing Two Things at Once with ながら,窓の外を見ながら、将来のことを考えました。,まどのそとをみながら、しょうらいのことをかんがえました,I thought about the future while looking out the window.,窓の|外を|見ながら|将来の|ことを|考えました,,
+CC028,exercise,Connectives & clauses,Doing Two Things at Once with ながら,音楽を聞きながら、部屋を掃除しました。,おんがくをききながら、へやをそうじしました,I cleaned my room while listening to music.,音楽を|聞きながら|部屋を|掃除しました,,
+CC029,exercise,Connectives & clauses,Doing Two Things at Once with ながら,空を見ながら、静かな道を歩きました。,そらをみながら、しずかなみちをあるきました,I walked along a quiet road while looking at the sky.,空を|見ながら|静かな|道を|歩きました,,
+CC030,exercise,Connectives & clauses,Doing Two Things at Once with ながら,料理の作り方を見ながら、野菜を切りました。,りょうりのつくりかたをみながら、やさいをきりました,I cut vegetables while looking at the recipe.,料理の|作り方を|見ながら|野菜を|切りました,,
+CC031,exercise,Connectives & clauses,Doing Two Things at Once with ながら,写真を見ながら、旅行の思い出を話しました。,しゃしんをみながら、りょこうのおもいでをはなしました,We talked about travel memories while looking at photos.,写真を|見ながら|旅行の|思い出を|話しました,,
+CC032,exercise,Connectives & clauses,Doing Two Things at Once with ながら,夜の町を見ながら、静かに歩きました。,よるのまちをみながら、しずかにあるきました,I walked quietly while looking at the city at night.,夜の|町を|見ながら|静かに|歩きました,,
+CC033,exercise,Connectives & clauses,Doing Two Things at Once with ながら,彼は笑いながら、私に手を振りました。,かれはわらいながら、わたしにてをふりました,He waved at me while smiling.,彼は|笑いながら|私に|手を|振りました,,
+CC034,sample,Connectives & clauses,Listing Examples with たり〜たり,休みの日は、本を読んだり、映画を見たりします。,やすみのひは、ほんをよんだり、えいがをみたりします,"On my days off, I do things like read books and watch movies.",休みの日は|本を|読んだり|映画を|見たり|します,"たり〜たりします names a couple of things you do, without claiming they are the only ones. The closing します carries the tense for the whole sentence.
+
+Use たり when you name a sample of what you do and leave the rest open. Do not use it when the order matters, because the て form is what puts actions in sequence.
+
+**V-た + り + V-た + り + します**
+
+## たり versus the て form
+The て form also links verbs, but it says something different. て says the actions happened in this order and that the list is complete. たり says neither: the order does not matter, and the two verbs are a sample of more.
+
+## Key takeaways
+1. Ask what closes the sentence: たり lists samples, and します carries the tense.
+2. り attaches to the plain past た form, never to a dictionary form.
+3. Use the て form when the order of the actions matters.",
+CC035,exercise,Connectives & clauses,Listing Examples with たり〜たり,週末は、料理をしたり、部屋を掃除したりします。,しゅうまつは、りょうりをしたり、へやをそうじしたりします,"On weekends, I do things like cook and clean my room.",週末は|料理を|したり|部屋を|掃除したり|します,,
+CC036,exercise,Connectives & clauses,Listing Examples with たり〜たり,夏休みに、海で泳いだり、写真を撮ったりしました。,なつやすみに、うみでおよいだり、しゃしんをとったりしました,"During summer vacation, I did things like swim in the sea and take pictures.",夏休みに|海で|泳いだり|写真を|撮ったり|しました,,
+CC037,exercise,Connectives & clauses,Listing Examples with たり〜たり,京都では、お寺を見たり、おいしいものを食べたりしたいです。,きょうとでは、おてらをみたり、おいしいものをたべたりしたいです,"In Kyoto, I want to do things like visit temples and eat delicious food.",京都では|お寺を|見たり|おいしいものを|食べたり|したいです,,
+CC038,exercise,Connectives & clauses,Listing Examples with たり〜たり,昨日の夜は、友達と話したり、昔の写真を見たりしました。,きのうのよるは、ともだちとはなしたり、むかしのしゃしんをみたりしました,"Last night, I did things like talk with friends and look at old photos.",昨日の夜は|友達と|話したり|昔の|写真を|見たり|しました,,
+CC039,exercise,Connectives & clauses,Listing Examples with たり〜たり,疲れた日は、早く寝たり、家でゆっくりしたりします。,つかれたひは、はやくねたり、いえでゆっくりしたりします,"On days when I'm tired, I do things like go to bed early and relax at home.",疲れた日は|早く|寝たり|家で|ゆっくりしたり|します,,
+CC040,exercise,Connectives & clauses,Listing Examples with たり〜たり,新しい町で、写真を撮ったり、カフェに入ったりしませんか。,あたらしいまちで、しゃしんをとったり、かふぇにはいったりしませんか,"In the new town, shall we do things like take photos and visit cafés?",新しい|町で|写真を|撮ったり|カフェに|入ったり|しませんか,,
+CC041,exercise,Connectives & clauses,Listing Examples with たり〜たり,忙しいときは、朝ご飯を食べなかったり、昼ご飯を忘れたりします。,いそがしいときは、あさごはんをたべなかったり、ひるごはんをわすれたりします,"When I'm busy, I sometimes don't eat breakfast or forget lunch.",忙しいときは|朝ご飯を|食べなかったり|昼ご飯を|忘れたり|します,,
+CC042,exercise,Connectives & clauses,Listing Examples with たり〜たり,昨日は雨だったので、外へ行かなかったり、家で映画を見たりしました。,きのうはあめだったので、そとへいかなかったり、いえでえいがをみたりしました,"Because it rained yesterday, I did things like not go outside and watch movies at home.",昨日は|雨だったので|外へ|行かなかったり|家で|映画を|見たり|しました,,
+CC043,exercise,Connectives & clauses,Listing Examples with たり〜たり,毎晩、日記を書いたり、明日の予定を考えたりします。,まいばん、にっきをかいたり、あしたのよていをかんがえたりします,"Every night, I do things like write in my diary and think about tomorrow's plans.",毎晩|日記を|書いたり|明日の|予定を|考えたり|します,,
+CC044,exercise,Connectives & clauses,Listing Examples with たり〜たり,友達の家で、音楽を聞いたり、おしゃべりしたりしました。,ともだちのいえで、おんがくをきいたり、おしゃべりしたりしました,"At my friend's house, we did things like listen to music and chat.",友達の|家で|音楽を|聞いたり|おしゃべりしたり|しました,,
+CC045,exercise,Connectives & clauses,Listing Examples with たり〜たり,将来は、小説を書いたり、日本語を教えたりしたいです。,しょうらいは、しょうせつをかいたり、にほんごをおしえたりしたいです,"In the future, I want to do things like write novels and teach Japanese.",将来は|小説を|書いたり|日本語を|教えたり|したいです,,
+CC046,sample,Connectives & clauses,Giving Reasons with から and ので,今日は雨だから、家にいます。,きょうはあめだから、いえにいます,"Because it's raining today, I'll stay home.",今日は|雨だから|家に|います,"から and ので both attach a reason to a result, like “because.” から states the reason directly, and ので sounds softer and more objective.
+
+The basic order puts the reason first: reason + から or ので + result. Do not place から or ので before the reason, because they always follow it. Choose ので for requests, notices, and apologies, and から when you want the cause stated plainly.
+
+**V・いadj + から / ので ・ N・なadj + だから / なので**
+
+To answer a “why?” question, end with からです: the reason by itself becomes a full, polite reply. A sentence can also end with から and stop there, leaving the result unsaid.
+## Key takeaways
+1. Ask what comes before it: a noun takes だから, a な-adjective takes なので.
+2. Use ので for requests and apologies, から for firm opinions.
+3. からです gives the reason alone as a complete polite answer.",
+CC047,exercise,Connectives & clauses,Giving Reasons with から and ので,疲れたから、もう寝ます。,つかれたから、もうねます,"I'm tired, so I'll go to bed now.",疲れたから|もう|寝ます,,
+CC048,exercise,Connectives & clauses,Giving Reasons with から and ので,明日は早いから、今夜は早く寝ましょう。,あしたははやいから、こんやははやくねましょう,"We have to get up early tomorrow, so let's go to bed early tonight.",明日は|早いから|今夜は|早く|寝ましょう,,
+CC049,exercise,Connectives & clauses,Giving Reasons with から and ので,どうしてこの店へ行きたいのですか。,どうしてこのみせへいきたいのですか,Why do you want to go to this shop?,どうして|この|店へ|行きたいのですか,,
+CC050,exercise,Connectives & clauses,Giving Reasons with から and ので,この店は料理がおいしいからです。,このみせはりょうりがおいしいからです,Because the food at this restaurant is delicious.,この|店は|料理が|おいしいからです,,
+CC051,exercise,Connectives & clauses,Giving Reasons with から and ので,明日は休みなので、少し遅く起きます。,あしたはやすみなので、すこしおそくおきます,"Since tomorrow is a day off, I'll get up a little late.",明日は|休みなので|少し|遅く|起きます,,
+CC052,exercise,Connectives & clauses,Giving Reasons with から and ので,電車が遅れたので、学校に遅れました。,でんしゃがおくれたので、がっこうにおくれました,"Because the train was delayed, I was late for school.",電車が|遅れたので|学校に|遅れました,,
+CC053,exercise,Connectives & clauses,Giving Reasons with から and ので,昨日は雨だったので、家で映画を見ました。,きのうはあめだったので、いえでえいがをみました,"Since it rained yesterday, I watched a movie at home.",昨日は|雨だったので|家で|映画を|見ました,,
+CC054,exercise,Connectives & clauses,Giving Reasons with から and ので,どうして窓を閉めたのですか。,どうしてまどをしめたのですか,Why did you close the window?,どうして|窓を|閉めたのですか,,
+CC055,exercise,Connectives & clauses,Giving Reasons with から and ので,外が寒かったので、閉めました。,そとがさむかったので、しめました,"Because it was cold outside, I closed it.",外が|寒かったので|閉めました,,
+CC056,exercise,Connectives & clauses,Giving Reasons with から and ので,明日は試験なので、今夜は勉強します。,あしたはしけんなので、こんやはべんきょうします,"Since there's an exam tomorrow, I'll study tonight.",明日は|試験なので|今夜は|勉強します,,
+CC057,exercise,Connectives & clauses,Giving Reasons with から and ので,昨日は忙しかったから、友達に電話しませんでした。,きのうはいそがしかったから、ともだちにでんわしませんでした,"Because I was busy yesterday, I didn't call my friend.",昨日は|忙しかったから|友達に|電話しませんでした,,
+CC058,sample,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",朝ご飯を食べました。そして、学校へ行きました。,あさごはんをたべました。そして、がっこうへいきました,"I ate breakfast. And then, I went to school.",朝ご飯を|食べました|そして|学校へ|行きました,"Four small words start a second sentence and tie it to the first: そして, それから, でも, and だから. が is the fifth tool, and it joins two halves inside one sentence.
+
+Use these connectors when the second idea needs a signal: another point, the next step, a contrast, or a result. でも and だから only start a new sentence, and they never sit inside one. For a contrast inside a single sentence, use が.
+
+そして adds a second point of equal weight, and それから adds the next thing in time. でも signals a contrast in everyday speech, and だから states the result of what came before. Start the second sentence with one of them, add a comma, and continue.
+
+が lives inside one sentence and joins two halves as a gentle “but.” It also begins a polite request, as in すみませんが…, where nothing is contradicted. There が only softens what follows.
+
+Connector|What it does|English feel
+--|--|--
+そして|Adds a second point of equal weight|And
+それから|Adds the next thing in sequence|And then
+でも|Signals a contrast, in casual speech|But
+だから|States the result of what came before|So
+が|Joins two halves with a soft contrast|But",
+CC059,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",この町は静かです。そして、とてもきれいです。,このまちはしずかです。そして、とてもきれいです,This town is quiet. And it is also very beautiful.,この町は|静かです|そして|とても|きれいです,,
+CC060,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",毎朝、コーヒーを飲みます。そして、本を読みます。,まいあさ、こーひーをのみます。そして、ほんをよみます,"Every morning, I drink coffee. Then I read a book.",毎朝|コーヒーを|飲みます|そして|本を|読みます,,
+CC061,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",映画を見ました。それから、カフェへ行きました。,えいがをみました。それから、かふぇへいきました,"I watched a movie. After that, I went to a café.",映画を|見ました|それから|カフェへ|行きました,,
+CC062,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",この本は少し難しいです。でも、面白いです。,このほんはすこしむずかしいです。でも、おもしろいです,This book is a little difficult. But it's interesting.,この本は|少し|難しいです|でも|面白いです,,
+CC063,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",この店は高いです。でも、料理がおいしいです。,このみせはたかいです。でも、りょうりがおいしいです,This restaurant is expensive. But the food is delicious.,この店は|高いです|でも|料理が|おいしいです,,
+CC064,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",今日は暑いです。だから、水をたくさん飲みます。,きょうはあついです。だから、みずをたくさんのみます,It's hot today. So I drink lots of water.,今日は|暑いです|だから|水を|たくさん|飲みます,,
+CC065,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",電車が遅れました。だから、学校に遅れました。,でんしゃがおくれました。だから、がっこうにおくれました,The train was delayed. So I was late for school.,電車が|遅れました|だから|学校に|遅れました,,
+CC066,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",疲れています。だから、今日は早く寝ます。,つかれています。だから、きょうははやくねます,I'm tired. So I'll go to bed early today.,疲れています|だから|今日は|早く|寝ます,,
+CC067,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",この映画は面白いですが、少し長いです。,このえいがはおもしろいですが、すこしながいです,"This movie is interesting, but it's a little long.",この映画は|面白いですが|少し|長いです,,
+CC068,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",この料理は辛いですが、おいしいです。,このりょうりはからいですが、おいしいです,"This food is spicy, but it's delicious.",この料理は|辛いですが|おいしいです,,
+CC069,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",すみませんが、もう一度言ってください。,すみませんが、もういちどいってください,"I'm sorry, but please say it one more time.",すみませんが|もう一度|言ってください,,
+CC070,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",朝、シャワーを浴びました。そして、朝ご飯を食べました。,あさ、しゃわーをあびました。そして、あさごはんをたべました,"In the morning, I took a shower. And then I ate breakfast.",朝|シャワーを|浴びました|そして|朝ご飯を|食べました,,
+CC071,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",買い物をしました。それから、家に帰りました。でも、まだ料理をしていません。,かいものをしました。それから、いえにかえりました。でも、まだりょうりをしていません,I went shopping. Then I went home. But I haven't cooked yet.,買い物を|しました|それから|家に|帰りました|でも|まだ|料理を|していません,,
+CC072,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",明日は早く起きます。だから、今から寝ます。,あしたははやくおきます。だから、いまからねます,I'll wake up early tomorrow. So I'm going to bed now.,明日は|早く|起きます|だから|今から|寝ます,,
+CC073,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",この部屋は小さいですが、きれいです。そして、静かです。,このへやはちいさいですが、きれいです。そして、しずかです,"This room is small, but it's clean. And it's quiet.",この部屋は|小さいですが|きれいです|そして|静かです,,
+CC074,exercise,Connectives & clauses,"Joining Sentences: そして, それから, でも, だから, and が",昨日は雨でした。でも、友達と出かけました。それから、映画を見ました。,きのうはあめでした。でも、ともだちとでかけました。それから、えいがをみました,It rained yesterday. But I went out with my friend. Then we watched a movie.,昨日は|雨でした|でも|友達と|出かけました|それから|映画を|見ました,,
