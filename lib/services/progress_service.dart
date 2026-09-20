@@ -135,3 +135,35 @@ class LyricProgressService {
     return ids.where(mastered.contains).length;
   }
 }
+
+class MeaningProgressService {
+  static const _masteredKey = 'mastered_meaning';
+
+  Future<Set<String>> _getMasteredSet() async {
+    final prefs = await SharedPreferences.getInstance();
+    return (prefs.getStringList(_masteredKey) ?? []).toSet();
+  }
+
+  Future<void> markMastered(String key) async {
+    final prefs = await SharedPreferences.getInstance();
+    final mastered = await _getMasteredSet();
+    mastered.add(key);
+    await prefs.setStringList(_masteredKey, mastered.toList());
+  }
+
+  Future<void> unmarkMastered(String key) async {
+    final prefs = await SharedPreferences.getInstance();
+    final mastered = await _getMasteredSet();
+    mastered.remove(key);
+    await prefs.setStringList(_masteredKey, mastered.toList());
+  }
+
+  Future<bool> isMastered(String key) async {
+    return (await _getMasteredSet()).contains(key);
+  }
+
+  Future<int> countMastered(List<String> keys) async {
+    final mastered = await _getMasteredSet();
+    return keys.where(mastered.contains).length;
+  }
+}

@@ -5,6 +5,7 @@ import 'vocab_category_menu_screen.dart';
 import 'grammar_category_menu_screen.dart';
 import 'kanji_menu_screen.dart';
 import 'fillblank_menu_screen.dart';
+import 'meaning_category_menu_screen.dart';
 import 'song_menu_screen.dart';
 import '../services/vocab_loader.dart';
 import '../services/grammar_loader.dart';
@@ -30,12 +31,14 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
   late final KanjiUnlockService _kanjiUnlockService;
   late final KanjiSummaryService _kanjiSummaryService;
   final _lyricProgressService = LyricProgressService();
+  final _vocabQuizProgressService = MeaningProgressService();
 
   int? _vocabPercent;
   int? _grammarPercent;
   int? _kanjiPercent;
   int? _fillBlankPercent;
   int? _lyricPercent;
+  int? _meaningPercent;
 
   @override
   void initState() {
@@ -47,12 +50,22 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
     _loadKanjiPercent();
     _loadFillBlankPercent();
     _loadLyricPercent();
+    _loadMeaningPercent();
   }
 
   Future<void> _loadVocabPercent() async {
     final cards = await loadVocab(widget.level);
     final keys = cards.map((c) => c.key).toList();
     final masteredCount = await _progressService.countMastered(keys);
+    setState(() {
+      _meaningPercent = keys.isEmpty ? 0 : ((masteredCount / keys.length) * 100).round();
+    });
+  }
+
+  Future<void> _loadMeaningPercent() async {
+    final cards = await loadVocab(widget.level);
+    final keys = cards.map((c) => c.key).toList();
+    final masteredCount = await _vocabQuizProgressService.countMastered(keys);
     setState(() {
       _vocabPercent = keys.isEmpty ? 0 : ((masteredCount / keys.length) * 100).round();
     });
@@ -98,7 +111,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
   Future<void> _loadLyricPercent() async {
     final questions = await loadLyrics(widget.level);
     final ids = questions.map((q) => q.id).toList();
-    final masteredCount = await _progressService.countMastered(ids);
+    final masteredCount = await _lyricProgressService.countMastered(ids);
     setState(() {
       _lyricPercent = ids.isEmpty ? 0 : ((masteredCount / ids.length) * 100).round();
     });
@@ -109,6 +122,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
     final items = [
       {'label': 'Vocab: Flashcards', 'enabled': true},      
       {'label': 'Vocab: Fill in the Blank', 'enabled': true},
+      {'label': 'Vocab Quiz', 'enabled': true},
       {'label': 'Grammar', 'enabled': true},
       {'label': 'Kanji', 'enabled': true},
       {'label': 'Lyric Study', 'enabled': true},
@@ -126,6 +140,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
           final isVocab = label == 'Vocab: Flashcards';
           final isVocalFillBlank = label == 'Vocab: Fill in the Blank';
           final isGrammar = label == 'Grammar';
+          final isVocabQuiz = label == 'Vocab Quiz';
 
           Widget? trailing;
           if (isVocab && _vocabPercent != null) {
@@ -137,6 +152,9 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
           } else if (isVocalFillBlank && _fillBlankPercent != null) {
             trailing = Text('$_fillBlankPercent%', style: const TextStyle(fontWeight: FontWeight.bold));  
           } else if (label == "Lyrics Study" && _lyricPercent != null) {
+            trailing = Text('$_lyricPercent%', style: const TextStyle(fontWeight: FontWeight.bold));  
+          } else if (isVocabQuiz && _meaningPercent != null) {
+            trailing = Text('$_lyricPercent%', style: const TextStyle(fontWeight: FontWeight.bold));  
           } else if (isEnabled) {
             trailing = const Icon(Icons.arrow_forward_ios);
           }
@@ -198,6 +216,15 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
                           MaterialPageRoute(builder: (_) => LyricSongMenuScreen(allQuestions: questions)),
                         );
                         _loadLyricPercent();
+                      }
+                    } else if (isVocabQuiz) {
+                      final cards = await loadVocab(widget.level);
+                      if (context.mounted) {
+                        await Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (_) => MeaningCategoryMenuScreen(allCards: cards)),
+                        );
+                        _loadMeaningPercent();
                       }
                     }
                   },
