@@ -1,9 +1,11 @@
 // lib/screens/n5_menu_screen.dart
 import 'package:flutter/material.dart';
+import 'package:jp_app/services/lyric_loader.dart';
 import 'vocab_category_menu_screen.dart';
 import 'grammar_category_menu_screen.dart';
 import 'kanji_menu_screen.dart';
 import 'fillblank_menu_screen.dart';
+import 'song_menu_screen.dart';
 import '../services/vocab_loader.dart';
 import '../services/grammar_loader.dart';
 import '../services/kanji_data_loader.dart';
@@ -27,10 +29,13 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
   final _fillBlankProgressService = FillBlankProgressService();
   late final KanjiUnlockService _kanjiUnlockService;
   late final KanjiSummaryService _kanjiSummaryService;
+  final _lyricProgressService = LyricProgressService();
+
   int? _vocabPercent;
   int? _grammarPercent;
   int? _kanjiPercent;
   int? _fillBlankPercent;
+  int? _lyricPercent;
 
   @override
   void initState() {
@@ -41,6 +46,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
     _loadGrammarPercent();
     _loadKanjiPercent();
     _loadFillBlankPercent();
+    _loadLyricPercent();
   }
 
   Future<void> _loadVocabPercent() async {
@@ -89,6 +95,15 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
     });
   }
 
+  Future<void> _loadLyricPercent() async {
+    final questions = await loadLyrics(widget.level);
+    final ids = questions.map((q) => q.id).toList();
+    final masteredCount = await _progressService.countMastered(ids);
+    setState(() {
+      _lyricPercent = ids.isEmpty ? 0 : ((masteredCount / ids.length) * 100).round();
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     final items = [
@@ -96,6 +111,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
       {'label': 'Vocab: Fill in the Blank', 'enabled': true},
       {'label': 'Grammar', 'enabled': true},
       {'label': 'Kanji', 'enabled': true},
+      {'label': 'Lyric Study', 'enabled': true},
       {'label': 'Reading', 'enabled': false},
       {'label': 'Listening', 'enabled': false},
       {'label': 'Mock Test', 'enabled': false},
@@ -120,6 +136,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
             trailing = Text('$_kanjiPercent%', style: const TextStyle(fontWeight: FontWeight.bold));
           } else if (isVocalFillBlank && _fillBlankPercent != null) {
             trailing = Text('$_fillBlankPercent%', style: const TextStyle(fontWeight: FontWeight.bold));  
+          } else if (label == "Lyrics Study" && _lyricPercent != null) {
           } else if (isEnabled) {
             trailing = const Icon(Icons.arrow_forward_ios);
           }
@@ -172,6 +189,15 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
                           MaterialPageRoute(builder: (_) => FillBlankCategoryMenuScreen(allCards: cards)),
                         );
                         _loadFillBlankPercent(); // add a matching _loadFillBlankPercent(), mirroring _loadVocabPercent
+                      }
+                    } else if (label == 'Lyric Study') {
+                      final questions = await loadLyrics(widget.level);
+                      if (context.mounted) {
+                        await Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (_) => LyricSongMenuScreen(allQuestions: questions)),
+                        );
+                        _loadLyricPercent();
                       }
                     }
                   },

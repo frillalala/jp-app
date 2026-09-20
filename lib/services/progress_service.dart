@@ -103,3 +103,35 @@ class FillBlankProgressService {
     return keys.where(mastered.contains).length;
   }
 }
+
+class LyricProgressService {
+  static const _masteredKey = 'mastered_lyrics';
+
+  Future<Set<String>> _getMasteredSet() async {
+    final prefs = await SharedPreferences.getInstance();
+    return (prefs.getStringList(_masteredKey) ?? []).toSet();
+  }
+
+  Future<void> markMastered(String id) async {
+    final prefs = await SharedPreferences.getInstance();
+    final mastered = await _getMasteredSet();
+    mastered.add(id);
+    await prefs.setStringList(_masteredKey, mastered.toList());
+  }
+
+  Future<void> unmarkMastered(String id) async {
+    final prefs = await SharedPreferences.getInstance();
+    final mastered = await _getMasteredSet();
+    mastered.remove(id);
+    await prefs.setStringList(_masteredKey, mastered.toList());
+  }
+
+  Future<bool> isMastered(String id) async {
+    return (await _getMasteredSet()).contains(id);
+  }
+
+  Future<int> countMastered(List<String> ids) async {
+    final mastered = await _getMasteredSet();
+    return ids.where(mastered.contains).length;
+  }
+}

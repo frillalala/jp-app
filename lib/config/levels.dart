@@ -7,6 +7,7 @@ class LevelAssets {
   final String radicals;
   final String kanji;
   final String kanjiVocab;
+  final String lyrics;
 
   const LevelAssets({
     required this.vocab,
@@ -14,6 +15,7 @@ class LevelAssets {
     required this.radicals,
     required this.kanji,
     required this.kanjiVocab,
+    required this.lyrics,
   });
 }
 
@@ -26,5 +28,6 @@ final Map<String, LevelAssets> levelAssets = {
       radicals: 'assets/data/${level.toLowerCase()}_radicals.csv',
       kanji: 'assets/data/${level.toLowerCase()}_kanji.csv',
       kanjiVocab: 'assets/data/${level.toLowerCase()}_kanji_vocab.csv',
+      lyrics: 'assets/data/${level.toLowerCase()}_lyrics.csv',
     ),
 };
