@@ -2,7 +2,7 @@ vid,japanese,reading,meaning,type,category,subcategory,level,samplesentence,sent
 v001,私,わたし,I,noun,self_introduction,～です,1,わたしは学生です。,わたしは がくせいです。,I am a student.
 v002,～です,～です,to be,particle,self_introduction,～です,1,これは私の本です。,これは わたしの ほんです。,This is my book.
 v003,～さん,～さん,Mr.,honorific,self_introduction,～です,1,田中さんは先生です。,たなかさんは せんせいです。,Mr./Ms. Tanaka is a teacher.
-v004,～ちゃん,～ちゃん,affectionate/diminutive honorific suffix,honorific,self_introduction,～です,1,さくらちゃんは私の友達です。,さくらちゃんは わたしの ともだちです。,Sakura is my friend.
+v004,～ちゃん,～ちゃん,affectionate suffix;affectionate/diminutive honorific suffix,honorific,self_introduction,～です,1,さくらちゃんは私の友達です。,さくらちゃんは わたしの ともだちです。,Sakura is my friend.
 v005,あなた,あなた,you,pronoun,self_introduction,～です,1,あなたは元気ですか。,あなたは げんきですか。,Are you well?
 v006,彼,かれ,he,noun,self_introduction,～です,1,彼は私の友達です。,かれは わたしの ともだちです。,He is my friend.
 v007,彼女,かのじょ,she,noun,self_introduction,～です,1,彼女は学生です。,かのじょは がくせいです。,She is a student.
@@ -55,7 +55,7 @@ v038,うち,うち,home; household; one’s family,noun,self_introduction,かぞ
 v039,家族,かぞく,family,noun,self_introduction,かぞく,2,私の家族は四人です。,わたしの かぞくは よにんです。,There are four people in my family.
 v040,おじいさん,おじいさん,grandfather; elderly man,noun,self_introduction,かぞく,2,おじいさんは元気です。,おじいさんは げんきです。,Grandfather is well.
 v041,おばあさん,おばあさん,grandmother; elderly woman,noun,self_introduction,かぞく,2,おばあさんは家にいます。,おばあさんは いえに います。,Grandmother is at home.
-v042,ご両親,ごりょうしん,(someone else’s) parents,noun,self_introduction,かぞく,2,ご両親はお元気ですか。,ごりょうしんは おげんきですか。,How are your parents?
+v042,ご両親,ごりょうしん,someone else’s parents,noun,self_introduction,かぞく,2,ご両親はお元気ですか。,ごりょうしんは おげんきですか。,How are your parents?
 v043,お父さん,おとうさん,father; (someone else’s) father,noun,self_introduction,かぞく,2,お父さんは会社員ですか。,おとうさんは かいしゃいんですか。,Is your father a company employee?
 v044,お母さん,おかあさん,mother; (someone else’s) mother,noun,self_introduction,かぞく,2,お母さんは料理をしますか。,おかあさんは りょうりを しますか。,Does your mother cook?
 v045,お姉さん,おねえさん,older sister; young woman,noun,self_introduction,かぞく,2,お姉さんは学生ですか。,おねえさんは がくせいですか。,Is your older sister a student?
@@ -64,11 +64,11 @@ v047,弟さん,おとうとさん,someone else’s younger brother,noun,self_int
 v048,妹さん,いもうとさん,someone else’s younger sister,noun,self_introduction,かぞく,2,妹さんは猫が好きですか。,いもうとさんは ねこが すきですか。,Does your younger sister like cats?
 v049,何人,なんにん,how many people,counter,self_introduction,なんにん,3,家族は何人ですか。,かぞくは なんにんですか。,How many people are in your family?
 v050,一人,ひとり,one person,counter,self_introduction,なんにん,3,私は一人で住んでいます。,わたしは ひとりで すんでいます。,I live alone.
-v051,二人,ふたり,two people,counter,self_introduction,なんにん,3,家族は二人です。,かぞくは ふたりです。,There are two people in my family.
-v052,三人,さんにん,three people,counter,self_introduction,なんにん,3,教室に三人います。,きょうしつに さんにん います。,There are three people in the classroom.
-v053,四人,よにん,four people,counter,self_introduction,なんにん,3,私の家族は四人です。,わたしの かぞくは よにんです。,There are four people in my family.
-v054,五人,ごにん,five people,counter,self_introduction,なんにん,3,パーティーに五人来ます。,ぱーてぃーに ごにん きます。,Five people are coming to the party.
-v055,六人,ろくにん,six people,counter,self_introduction,なんにん,3,学生が六人います。,がくせいが ろくにん います。,There are six students.
+v051,二人,ふたり,two people; two persons,counter,self_introduction,なんにん,3,家族は二人です。,かぞくは ふたりです。,There are two people in my family.
+v052,三人,さんにん,three people; three persons,counter,self_introduction,なんにん,3,教室に三人います。,きょうしつに さんにん います。,There are three people in the classroom.
+v053,四人,よにん,four people; four persons,counter,self_introduction,なんにん,3,私の家族は四人です。,わたしの かぞくは よにんです。,There are four people in my family.
+v054,五人,ごにん,five people; five persons,counter,self_introduction,なんにん,3,パーティーに五人来ます。,ぱーてぃーに ごにん きます。,Five people are coming to the party.
+v055,六人,ろくにん,six people; six persons,counter,self_introduction,なんにん,3,学生が六人います。,がくせいが ろくにん います。,There are six students.
 v056,七人,しちにん,seven people,counter,self_introduction,なんにん,3,教室に七人います。,きょうしつに しちにん います。,There are seven people in the classroom.
 v057,八人,はちにん,eight people,counter,self_introduction,なんにん,3,家に八人います。,いえに はちにん います。,There are eight people at home.
 v058,九人,きゅうにん,nine people,counter,self_introduction,なんにん,3,クラスに九人います。,くらすに きゅうにん います。,There are nine people in the class.
@@ -106,7 +106,7 @@ v089,カナダ,かなだ,Canada,proper_noun,self_introduction,～からきまし
 v090,メキシコ,めきしこ,Mexico,proper_noun,self_introduction,～からきました,4,メキシコの料理を食べます。,めきしこの りょうりを たべます。,I eat Mexican food.
 v091,ブラジル,ぶらじる,Brazil,proper_noun,self_introduction,～からきました,4,ブラジルは遠い国です。,ぶらじるは とおい くにです。,Brazil is a faraway country.
 v092,ロシア,ろしあ,Russia,proper_noun,self_introduction,～からきました,4,ロシアは大きい国です。,ろしあは おおきい くにです。,Russia is a big country.
-v093,イギリス,いぎりす,United Kingdom; Britain,proper_noun,self_introduction,～からきました,4,イギリスの音楽を聞きます。,いぎりすの おんがくを ききます。,I listen to British music.
+v093,イギリス,いぎりす,United Kingdom; Britain; England,proper_noun,self_introduction,～からきました,4,イギリスの音楽を聞きます。,いぎりすの おんがくを ききます。,I listen to British music.
 v094,フランス,ふらんす,France,proper_noun,self_introduction,～からきました,4,フランスへ行きたいです。,ふらんすへ いきたいです。,I want to go to France.
 v095,ドイツ,どいつ,Germany,proper_noun,self_introduction,～からきました,4,ドイツから来ました。,どいつから きました。,I came from Germany.
 v096,スイス,すいす,Switzerland,proper_noun,self_introduction,～からきました,4,スイスの山はきれいです。,すいすの やまは きれいです。,The mountains in Switzerland are beautiful.
@@ -182,7 +182,7 @@ v254,する,する,to do,verb,study,ようび,7,今日、一緒に勉強しま�
 v255,言葉,ことば,word; language,noun,study,ことば,8,君の言葉を大切にします。,きみの ことばを たいせつに します。,I will treasure your words.
 v256,字,じ,character; letter,noun,study,ことば,8,この字はきれいです。,この じは きれいです。,This handwriting is beautiful.
 v257,日本語,にほんご,Japanese language,noun,study,ことば,8,日本語で話してみます。,にほんごで はなして みます。,I'll try speaking in Japanese.
-v258,～語,～ご,[language],suffix,study,ことば,8,英語を少し話します。,えいごを すこし はなします。,I speak a little English.
+v258,～語,～ご,[country] language,suffix,study,ことば,8,英語を少し話します。,えいごを すこし はなします。,I speak a little English.
 v259,話す,はなす,to speak; to talk,verb,study,ことば,8,今日は友達とたくさん話しました。,きょうは ともだちと たくさん はなしました。,I talked a lot with my friend today.
 v260,ゆっくり,ゆっくり,slowly; leisurely,adverb,study,ことば,8,ゆっくり話してください。,ゆっくり はなして ください。,Please speak slowly.
 v261,言う,いう,to say; to tell,verb,study,ことば,8,ありがとうと言います。,ありがとうと いいます。,I say “thank you.”
@@ -232,7 +232,7 @@ w005,休み,やすみ,rest; day off; holiday,noun,work,はたらく,10,明日は
 w006,昼休み,ひるやすみ,lunch break,noun,work,はたらく,10,昼休みに友達と話します。,ひるやすみに ともだちと はなします。,I talk with my friends during lunch break.
 w007,暇な,ひまな,free; not busy,adjective,work,はたらく,10,今日は暇なので、本を読みます。,きょうは ひまなので、ほんを よみます。,"I'm free today, so I'll read a book."
 w008,忙しい,いそがしい,busy,adjective,work,はたらく,10,今週はとても忙しいです。,こんしゅうは とても いそがしいです。,I'm very busy this week.
-w009,産業する,さんぎょうする,to engage in industry,verb,work,はたらく,10,今日は残業しません。,きょうは ざんぎょうしません。,I won't work overtime today.
+w009,産業する,さんぎょうする,to engage in industry; to work in industry,verb,work,はたらく,10,今日は残業しません。,きょうは ざんぎょうしません。,I won't work overtime today.
 w010,出張する,しゅっちょうする,to go on a business trip,verb,work,はたらく,10,来週、大阪へ出張します。,らいしゅう、おおさかへ しゅっちょうします。,I'm going on a business trip to Osaka next week.
 w011,事務所,じむしょ,office,noun,work,はたらく,10,事務所に社長がいます。,じむしょに しゃちょうが います。,The president is in the office.
 w012,工場,こうじょう,factory,noun,work,はたらく,10,父は工場で働いています。,ちちは こうじょうで はたらいて います。,My father works at a factory.
@@ -241,7 +241,7 @@ w014,会議,かいぎ,meeting,noun,work,はたらく,10,三時から会議があ
 w015,会議室,かいぎしつ,meeting room,noun,work,はたらく,10,会議室に行きます。,かいぎしつに いきます。,I go to the meeting room.
 w016,電話,でんわ,telephone; phone,noun,work,はたらく,10,会社から電話がありました。,かいしゃから でんわが ありました。,I got a call from the company.
 w017,電話をかける,でんわをかける,to make a phone call,verb,work,はたらく,10,母に電話をかけます。,ははに でんわを かけます。,I call my mother.
-w018,もしもし,もしもし,hello (on the phone),expression,work,はたらく,10,「もしもし、田中さんですか。」,「もしもし、たなかさんですか。」,"“Hello, is this Tanaka?”"
+w018,もしもし,もしもし,hello (on the phone); hello,expression,work,はたらく,10,「もしもし、田中さんですか。」,「もしもし、たなかさんですか。」,"“Hello, is this Tanaka?”"
 w019,電話番号,でんわばんごう,telephone number,noun,work,はたらく,10,電話番号を教えてください。,でんわばんごうを おしえて ください。,Please tell me your phone number.
 w020,知る,しる,to know; to find out,verb,work,はたらく,10,その人の名前を知っています。,その ひとの なまえを しって います。,I know that person's name.
 w021,何番,なんばん,what number,noun,work,はたらく,10,電話番号は何番ですか。,でんわばんごうは なんばんですか。,What is the phone number?
@@ -285,7 +285,7 @@ w058,鉛筆,えんぴつ,pencil,noun,work,これは何ですか？,12,鉛筆で�
 w059,消しゴム,けしゴム,eraser,noun,work,これは何ですか？,12,消しゴムで間違いを消します。,けしごむで まちがいを けします。,I erase mistakes with an eraser.
 w060,パンチ,パンチ,hole punch,noun,work,これは何ですか？,12,パンチで紙に穴をあけます。,ぱんちで かみに あなを あけます。,I punch a hole in the paper.
 w061,ホッチキス,ホッチキス,stapler,noun,work,これは何ですか？,12,ホッチキスで紙をとめます。,ほっちきすで かみを とめます。,I staple the papers together.
-w062,セロテープ,セロテープ,cellophane tape; clear tape,noun,work,これは何ですか？,12,セロテープで箱をとめます。,せろてーぷで はこを とめます。,I seal the box with tape.
+w062,セロテープ,セロテープ,cellophane tape; clear tape; cellotape,noun,work,これは何ですか？,12,セロテープで箱をとめます。,せろてーぷで はこを とめます。,I seal the box with tape.
 w063,はさみ,はさみ,scissors,noun,work,これは何ですか？,12,はさみで紙を切ります。,はさみで かみを きります。,I cut paper with scissors.
 w064,箱,はこ,box,noun,work,これは何ですか？,12,箱の中に小さなカードがあります。,はこの なかに ちいさな かーどが あります。,There is a small card inside the box.
 w065,コンピューター,コンピューター,computer,noun,work,これは何ですか？,12,コンピューターで音楽を聞きます。,こんぴゅーたーで おんがくを ききます。,I listen to music on a computer.
@@ -306,18 +306,18 @@ w079,七こ,ななこ,seven pieces; seven items,counter,work,何こあります�
 w080,八こ,はっこ,eight pieces; eight items,counter,work,何こありますか?,13,クッキーを八こ作ります。,くっきーを はっこ つくります。,I make eight cookies.
 w081,九こ,きゅうこ,nine pieces; nine items,counter,work,何こありますか?,13,りんごを九こ買いました。,りんごを きゅうこ かいました。,I bought nine apples.
 w082,十こ,じゅっこ,ten pieces; ten items,counter,work,何こありますか?,13,お菓子を十こ作りました。,おかしを じゅっこ つくりました。,I made ten sweets.
-w083,何台,なんだい,how many machines/vehicles,counter,work,何こありますか?,13,会社にパソコンが何台ありますか。,かいしゃに ぱそこんが なんだい ありますか。,How many computers are there at the company?
-w084,～台,～だい,[number] machines/vehicles,suffix,work,何こありますか?,13,車が三台あります。,くるまが さんだい あります。,There are three cars.
-w085,一台,いちだい,one machine/vehicle,counter,work,何こありますか?,13,パソコンが一台あります。,ぱそこんが いちだい あります。,There is one computer.
-w086,二台,にだい,two machines/vehicles,counter,work,何こありますか?,13,会社にパソコンが二台あります。,かいしゃに ぱそこんが にだい あります。,There are two computers at the company.
-w087,三台,さんだい,three machines/vehicles,counter,work,何こありますか?,13,車が三台あります。,くるまが さんだい あります。,There are three cars.
-w088,四台,よんだい,four machines/vehicles,counter,work,何こありますか?,13,会社にプリンターが四台あります。,かいしゃに ぷりんたーが よんだい あります。,There are four printers at the company.
-w089,五台,ごだい,five machines/vehicles,counter,work,何こありますか?,13,店に自転車が五台あります。,みせに じてんしゃが ごだい あります。,There are five bicycles at the shop.
-w090,六台,ろくだい,six machines/vehicles,counter,work,何こありますか?,13,駐車場に車が六台あります。,ちゅうしゃじょうに くるまが ろくだい あります。,There are six cars in the parking lot.
-w091,七台,ななだい,seven machines/vehicles,counter,work,何こありますか?,13,家にコンピューターが七台あります。,いえに こんぴゅーたーが ななだい あります。,There are seven computers at home.
-w092,八台,はちだい,eight machines/vehicles,counter,work,何こありますか?,13,店に車が八台あります。,みせに くるまが はちだい あります。,There are eight cars at the shop.
-w093,九台,きゅうだい,nine machines/vehicles,counter,work,何こありますか?,13,駐車場に車が九台あります。,ちゅうしゃじょうに くるまが きゅうだい あります。,There are nine cars in the parking lot.
-w094,十台,じゅうだい,ten machines/vehicles,counter,work,何こありますか?,13,駅の前にバスが十台あります。,えきの まえに ばすが じゅうだい あります。,There are ten buses in front of the station.
+w083,何台,なんだい,how many machines; how many vehicles,counter,work,何こありますか?,13,会社にパソコンが何台ありますか。,かいしゃに ぱそこんが なんだい ありますか。,How many computers are there at the company?
+w084,～台,～だい,[number] machines; [number] vehicles,suffix,work,何こありますか?,13,車が三台あります。,くるまが さんだい あります。,There are three cars.
+w085,一台,いちだい,one machine; one vehicle,counter,work,何こありますか?,13,パソコンが一台あります。,ぱそこんが いちだい あります。,There is one computer.
+w086,二台,にだい,two machines; two vehicles,counter,work,何こありますか?,13,会社にパソコンが二台あります。,かいしゃに ぱそこんが にだい あります。,There are two computers at the company.
+w087,三台,さんだい,three machines; three vehicles,counter,work,何こありますか?,13,車が三台あります。,くるまが さんだい あります。,There are three cars.
+w088,四台,よんだい,four machines; four vehicles,counter,work,何こありますか?,13,会社にプリンターが四台あります。,かいしゃに ぷりんたーが よんだい あります。,There are four printers at the company.
+w089,五台,ごだい,five machines; five vehicles,counter,work,何こありますか?,13,店に自転車が五台あります。,みせに じてんしゃが ごだい あります。,There are five bicycles at the shop.
+w090,六台,ろくだい,six machines; six vehicles,counter,work,何こありますか?,13,駐車場に車が六台あります。,ちゅうしゃじょうに くるまが ろくだい あります。,There are six cars in the parking lot.
+w091,七台,ななだい,seven machines; seven vehicles,counter,work,何こありますか?,13,家にコンピューターが七台あります。,いえに こんぴゅーたーが ななだい あります。,There are seven computers at home.
+w092,八台,はちだい,eight machines; eight vehicles,counter,work,何こありますか?,13,店に車が八台あります。,みせに くるまが はちだい あります。,There are eight cars at the shop.
+w093,九台,きゅうだい,nine machines; nine vehicles,counter,work,何こありますか?,13,駐車場に車が九台あります。,ちゅうしゃじょうに くるまが きゅうだい あります。,There are nine cars in the parking lot.
+w094,十台,じゅうだい,ten machines; vehicles,counter,work,何こありますか?,13,駅の前にバスが十台あります。,えきの まえに ばすが じゅうだい あります。,There are ten buses in front of the station.
 w095,時間,じかん,time; hours,noun,work,時間,14,時間は大切です。,じかんは たいせつです。,Time is precious.
 w096,何時,なんじ,what time,counter,work,時間,14,今、何時ですか。,いま、なんじですか。,What time is it now?
 w097,何分,なんぷん,how many minutes,counter,work,時間,14,駅まで何分ですか。,えきまで なんぷんですか。,How many minutes is it to the station?
@@ -351,12 +351,12 @@ w124,十五分,じゅうごふん,fifteen minutes,counter,work,時間,14,十五�
 w125,二十分,にじゅっぷん,twenty minutes,counter,work,時間,14,二十分本を読みました。,にじゅっぷん ほんを よみました。,I read for twenty minutes.
 w126,三十分,さんじゅっぷん,thirty minutes,counter,work,時間,14,三十分歩きました。,さんじゅっぷん あるきました。,I walked for thirty minutes.
 w127,四十分,よんじゅっぷん,forty minutes,counter,work,時間,14,四十分勉強しました。,よんじゅっぷん べんきょうしました。,I studied for forty minutes.
-w128,四十五分,よんじゅうごふん,forty-five minutes,counter,work,時間,14,四十五分待ちました。,よんじゅうごふん まちました。,I waited for forty-five minutes.
+w128,四十五分,よんじゅうごふん,forty-five minutes; forty five minutes,counter,work,時間,14,四十五分待ちました。,よんじゅうごふん まちました。,I waited for forty-five minutes.
 w129,五十分,ごじゅっぷん,fifty minutes,counter,work,時間,14,五十分ぐらいかかります。,ごじゅっぷん ぐらい かかります。,It takes about fifty minutes.
 w130,半,はん,half; half past,suffix,work,時間,14,今、九時半です。,いま、くじはんです。,It's half past nine now.
 w131,～ごろ,～ごろ,around; approximately,suffix,work,時間,14,七時ごろに家へ帰ります。,しちじごろに いえへ かえります。,I'll go home around seven.
-w132,午前,ごぜん,a.m.; morning,noun,work,時間,14,午前の空が好きです。,ごぜんの そらが すきです。,I like the morning sky.
-w133,午後,ごご,p.m.; afternoon,noun,work,時間,14,午後は少し休みます。,ごごは すこし やすみます。,I rest a little in the afternoon.
+w132,午前,ごぜん,a.m.; morning; am,noun,work,時間,14,午前の空が好きです。,ごぜんの そらが すきです。,I like the morning sky.
+w133,午後,ごご,p.m.; afternoon; pm,noun,work,時間,14,午後は少し休みます。,ごごは すこし やすみます。,I rest a little in the afternoon.
 w134,今,いま,now,noun,work,時間,14,今を大切にしたいです。,いまを たいせつに したいです。,I want to cherish the present.
 w135,～ぐらい,～ぐらい,about; approximately,suffix,work,時間,14,十分ぐらい休みます。,じゅっぷん ぐらい やすみます。,I'll rest for about ten minutes.
 w136,何時間,なんじかん,how many hours,counter,work,時間,14,何時間寝ましたか。,なんじかん ねましたか。,How many hours did you sleep?
@@ -368,7 +368,7 @@ w141,～台,～だい,[number] machines/vehicles,suffix,work,数え方,15,車が
 w142,～冊,～さつ,[number] bound books/volumes,suffix,work,数え方,15,本を三冊読みました。,ほんを さんさつ よみました。,I read three books.
 w143,～回,～かい,[number] times,suffix,work,数え方,15,この歌を三回聞きました。,この うたを さんかい ききました。,I listened to this song three times.
 w144,～本,～ほん,[number] long cylindrical objects,suffix,work,数え方,15,ペンを二本買いました。,ぺんを にほん かいました。,I bought two pens.
-w145,～杯,～はい,[number] cups/glasses,suffix,work,数え方,15,水を一杯飲みます。,みずを いっぱい のみます。,I drink a glass of water.
+w145,～杯,～はい,[number] cups; [number] glasses,suffix,work,数え方,15,水を一杯飲みます。,みずを いっぱい のみます。,I drink a glass of water.
 f001,友達,ともだち,friend,noun,friend,どんな人?,16,友達と笑う時間が好きです。,ともだちと わらう じかんが すきです。,I like the time I spend laughing with my friends.
 f002,どんな,どんな,what kind of; what sort of,determiner,friend,どんな人?,16,あなたはどんな人ですか。,あなたは どんな ひとですか。,What kind of person are you?
 f003,人,ひと,person; people,noun,friend,どんな人?,16,大切な人がいます。,たいせつな ひとが います。,There is someone important to me.
@@ -410,7 +410,7 @@ f038,スーツ,すーつ,suit,noun,friend,シャツを着ています,17,今日�
 f039,上着,うわぎ,jacket; outerwear,noun,friend,シャツを着ています,17,上着を持って行きます。,うわぎを もって いきます。,I'll take a jacket with me.
 f040,下着,したぎ,underwear,noun,friend,シャツを着ています,17,旅行に下着を持って行きます。,りょこうに したぎを もって いきます。,I take underwear with me on the trip.
 f041,着物,きもの,kimono; traditional Japanese clothing,noun,friend,シャツを着ています,17,お祭りで着物を着たいです。,おまつりで きものを きたいです。,I want to wear a kimono at the festival.
-f042,履く,はく,to wear; to put on (shoes; trousers; skirts),verb,friend,スカートをはきます,18,新しい靴を履きます。,あたらしい くつを はきます。,I put on new shoes.
+f042,履く,はく,to wear; to put on (shoes; trousers; skirts); to wear (lower clothes/items),verb,friend,スカートをはきます,18,新しい靴を履きます。,あたらしい くつを はきます。,I put on new shoes.
 f043,ズボン,ずぼん,trousers; pants,noun,friend,スカートをはきます,18,黒いズボンを履いています。,くろい ずぼんを はいて います。,I'm wearing black pants.
 f044,ジーンズ,じーんず,jeans,noun,friend,スカートをはきます,18,ジーンズを履いて出かけます。,じーんずを はいて でかけます。,I put on jeans and go out.
 f045,パンツ,ぱんつ,pants; underwear,noun,friend,スカートをはきます,18,新しいパンツを買いました。,あたらしい ぱんつを かいました。,I bought new underwear.
@@ -440,8 +440,8 @@ f068,パンダ,ぱんだ,panda,noun,friend,あそぶ,19,パンダを見に行き
 f069,象,ぞう,elephant,noun,friend,あそぶ,19,象は大きいですね。,ぞうは おおきいですね。,"Elephants are big, aren't they?"
 f070,馬,うま,horse,noun,friend,あそぶ,19,馬と一緒に写真を撮りました。,うまと いっしょに しゃしんを とりました。,I took a picture with a horse.
 f071,お祭り,おまつり,festival,noun,friend,あそぶ,19,夏のお祭りが好きです。,なつの おまつりが すきです。,I like summer festivals.
-f072,お寺,おてら,Buddhist temple,noun,friend,あそぶ,19,朝、お寺へ行きました。,あさ、おてらへ いきました。,I went to a temple in the morning.
-f073,神社,じんじゃ,Shinto shrine,noun,friend,あそぶ,19,神社で写真を撮りました。,じんじゃで しゃしんを とりました。,I took a picture at a shrine.
+f072,お寺,おてら,Buddhist temple; temple,noun,friend,あそぶ,19,朝、お寺へ行きました。,あさ、おてらへ いきました。,I went to a temple in the morning.
+f073,神社,じんじゃ,Shinto shrine; shrine,noun,friend,あそぶ,19,神社で写真を撮りました。,じんじゃで しゃしんを とりました。,I took a picture at a shrine.
 f074,旅行する,りょこうする,to travel; to take a trip,verb,friend,あそぶ,19,いつか日本を旅行したいです。,いつか にほんを りょこうしたいです。,"Someday, I want to travel around Japan."
 f075,予約する,よやくする,to reserve; to make a reservation,verb,friend,あそぶ,19,ホテルを予約しました。,ほてるを よやくしました。,I booked a hotel.
 f076,ホテル,ほてる,hotel,noun,friend,あそぶ,19,小さなホテルに泊まります。,ちいさな ほてるに とまります。,I'm staying at a small hotel.
@@ -594,7 +594,7 @@ m113,お腹が空く,おなかがすく,to get hungry,expression,todays_meal,ど
 m114,喉が渇く,のどがかわく,to get thirsty,expression,todays_meal,どうですか,25,歩くと喉が渇きます。,あるくと のどが かわきます。,I get thirsty when I walk.
 m115,いっぱい,いっぱい,full; plenty; one cup/glass,noun,todays_meal,どうですか,25,水をいっぱい飲みました。,みずを いっぱい のみました。,I drank lots of water.
 m116,いかがですか,いかがですか,how about it?; would you like it?,expression,todays_meal,どうですか,25,お茶はいかがですか。,おちゃは いかがですか。,Would you like some tea?
-m117,もう一杯,もういっぱい,one more cup/glass,noun,todays_meal,どうですか,25,もう一杯、お茶をください。,もう いっぱい、おちゃを ください。,"One more cup of tea, please."
+m117,もう一杯,もういっぱい,one more cup; one more glass,noun,todays_meal,どうですか,25,もう一杯、お茶をください。,もう いっぱい、おちゃを ください。,"One more cup of tea, please."
 m118,結構です,けっこうです,no thank you; that's enough; fine,expression,todays_meal,どうですか,25,"「お茶はいかがですか。」
 「結構です。」","「おちゃは いかがですか。」
 「けっこうです。」","“Would you like some tea?”
@@ -678,10 +678,10 @@ h073,悪い,わるい,bad,adjective,hobby,てんき,29,今日は天気が悪い�
 h074,いいお天気ですね,いいおてんきですね,it's nice weather; what nice weather,expression,hobby,てんき,29,今日はいいお天気ですね。,きょうは いい おてんきですね。,"It's lovely weather today, isn't it?"
 h075,雨,あめ,rain,noun,hobby,てんき,29,雨の日も嫌いではありません。,あめの ひも きらいでは ありません。,I don't dislike rainy days either.
 h076,雪,ゆき,snow,noun,hobby,てんき,29,雪の日は町が静かです。,ゆきの ひは まちが しずかです。,The town is quiet on snowy days.
-h077,降る,ふる,to fall (rain; snow),verb,hobby,てんき,29,雨が降っています。,あめが ふって います。,It's raining.
-h078,暑い,あつい,hot (weather),adjective,hobby,てんき,29,暑い日は海へ行きたいです。,あつい ひは うみへ いきたいです。,"On hot days, I want to go to the sea."
+h077,降る,ふる,to fall (rain; snow); to fall,verb,hobby,てんき,29,雨が降っています。,あめが ふって います。,It's raining.
+h078,暑い,あつい,hot (weather); hot,adjective,hobby,てんき,29,暑い日は海へ行きたいです。,あつい ひは うみへ いきたいです。,"On hot days, I want to go to the sea."
 h079,涼しい,すずしい,cool; refreshing,adjective,hobby,てんき,29,夜は少し涼しいです。,よるは すこし すずしいです。,It's a little cool at night.
-h080,寒い,さむい,cold (weather),adjective,hobby,てんき,29,寒い日は家にいたいです。,さむい ひは いえに いたいです。,"On cold days, I want to stay home."
+h080,寒い,さむい,cold (weather); cold,adjective,hobby,てんき,29,寒い日は家にいたいです。,さむい ひは いえに いたいです。,"On cold days, I want to stay home."
 h081,暖かい,あたたかい,warm,adjective,hobby,てんき,29,春は暖かくて気持ちがいいです。,はるは あたたかくて きもちが いいです。,Spring is warm and pleasant.
 h082,多い,おおい,many; much,adjective,hobby,てんき,29,今日は人が多いです。,きょうは ひとが おおいです。,There are many people today.
 h083,少ない,すくない,few; little,adjective,hobby,てんき,29,朝は人が少ないです。,あさは ひとが すくないです。,There are few people in the morning.
@@ -813,11 +813,11 @@ s092,航空便,こうくうびん,airmail,noun,shopping,おくる,34,航空便�
 s093,船便,ふなびん,sea mail; surface mail,noun,shopping,おくる,34,船便で荷物を送ります。,ふなびんで にもつを おくります。,I send the package by sea mail.
 s094,荷物,にもつ,luggage; package; parcel,noun,shopping,おくる,34,荷物を家へ送ります。,にもつを いえへ おくります。,I send the package home.
 s095,重い,おもい,heavy,adjective,shopping,おくる,34,この荷物は重いです。,この にもつは おもいです。,This package is heavy.
-s096,軽い,かるい,light (in weight),adjective,shopping,おくる,34,このかばんは軽いです。,この かばんは かるいです。,This bag is light.
+s096,軽い,かるい,light (in weight); light,adjective,shopping,おくる,34,このかばんは軽いです。,この かばんは かるいです。,This bag is light.
 s097,プレゼント,ぷれぜんと,present; gift,noun,shopping,プレゼント,35,プレゼントは箱の中で静かです。,ぷれぜんとは はこの なかで しずかです。,The present is quiet inside the box.
-s098,あげる,あげる,to give,verb,shopping,プレゼント,35,大切な人に花をあげます。,たいせつな ひとに はなを あげます。,I give flowers to someone important to me.
+s098,あげる,あげる,to give; to give (to someone),verb,shopping,プレゼント,35,大切な人に花をあげます。,たいせつな ひとに はなを あげます。,I give flowers to someone important to me.
 s099,もらう,もらう,to receive; to get,verb,shopping,プレゼント,35,友達から小さな箱をもらいました。,ともだちから ちいさな はこを もらいました。,I received a small box from my friend.
-s100,くれる,くれる,to give (to me/us),verb,shopping,プレゼント,35,友達が私に花をくれました。,ともだちが わたしに はなを くれました。,My friend gave me flowers.
+s100,くれる,くれる,to give (to me/us); to give,verb,shopping,プレゼント,35,友達が私に花をくれました。,ともだちが わたしに はなを くれました。,My friend gave me flowers.
 s101,物,もの,thing; object,noun,shopping,プレゼント,35,物には思い出があります。,ものには おもいでが あります。,Things have memories.
 s102,パーティー,ぱーてぃー,party,noun,shopping,プレゼント,35,小さなパーティーを始めます。,ちいさな ぱーてぃーを はじめます。,We start a small party.
 s103,始める,はじめる,to begin; to start,verb,shopping,プレゼント,35,夜になって、パーティーを始めます。,よるに なって、ぱーてぃーを はじめます。,"When night comes, we start the party."
@@ -830,7 +830,7 @@ s109,生まれる,うまれる,to be born,verb,shopping,プレゼント,35,春�
 s110,おめでとうございます,おめでとうございます,congratulations; happy [birthday/etc.],expression,shopping,プレゼント,35,「お誕生日、おめでとうございます。」,「おたんじょうび、おめでとうございます。」,“Happy birthday.”
 s111,わあ,わあ,wow; oh!,expression,shopping,プレゼント,35,わあ、空に大きな月があります。,わあ、そらに おおきな つきが あります。,"Wow, there's a big moon in the sky."
 s112,何歳,なんさい,how old,expression,shopping,プレゼント,35,何歳ですか。,なんさいですか。,How old are you?
-s113,おいくつ,おいくつ,how old (polite),expression,shopping,プレゼント,35,おいくつですか。,おいくつですか。,How old are you?
+s113,おいくつ,おいくつ,how old (polite); how old,expression,shopping,プレゼント,35,おいくつですか。,おいくつですか。,How old are you?
 s114,～歳,～さい,[number] years old,counter,shopping,プレゼント,35,私は三十歳です。,わたしは さんじゅっさいです。,I am thirty years old.
 s115,一歳,いっさい,one year old,counter,shopping,プレゼント,35,弟は一歳です。,おとうとは いっさいです。,My younger brother is one year old.
 s116,二歳,にさい,two years old,counter,shopping,プレゼント,35,その子は二歳です。,その こは にさいです。,That child is two years old.
@@ -889,8 +889,8 @@ h010,急行,きゅうこう,express train,noun,holiday,のりもの,36,急行に
 h011,特急,とっきゅう,limited express train,noun,holiday,のりもの,36,特急は速いです。,とっきゅうは はやいです。,The limited express is fast.
 h012,新幹線,しんかんせん,Shinkansen; bullet train,noun,holiday,のりもの,36,新幹線から富士山を見ました。,しんかんせんから ふじさんを みました。,I saw Mt. Fuji from the Shinkansen.
 h013,地下鉄,ちかてつ,subway; metro,noun,holiday,のりもの,36,地下鉄で学校へ行きます。,ちかてつで がっこうへ いきます。,I go to school by subway.
-h014,～番線,～ばんせん,platform/track number,suffix,holiday,のりもの,36,電車は三番線です。,でんしゃは さんばんせんです。,The train is on platform 3.
-h015,何番線,なんばんせん,which platform; what track number,noun,holiday,のりもの,36,電車は何番線ですか。,でんしゃは なんばんせんですか。,Which platform is the train on?
+h014,～番線,～ばんせん,platform/track number; platform; [number] platform,suffix,holiday,のりもの,36,電車は三番線です。,でんしゃは さんばんせんです。,The train is on platform 3.
+h015,何番線,なんばんせん,which platform; what track number; what platform,noun,holiday,のりもの,36,電車は何番線ですか。,でんしゃは なんばんせんですか。,Which platform is the train on?
 h016,自動車,じどうしゃ,automobile; motor vehicle,noun,holiday,のりもの,36,自動車の音が夜の町に響きます。,じどうしゃの おとが よるの まちに ひびきます。,The sound of cars echoes through the night town.
 h017,車,くるま,car; vehicle,noun,holiday,のりもの,36,車の中で音楽を聞きます。,くるまの なかで おんがくを ききます。,I listen to music in the car.
 h018,運転する,うんてんする,to drive; to operate a vehicle,verb,holiday,のりもの,36,夜の道を運転します。,よるの みちを うんてんします。,I drive along the road at night.
@@ -1214,4 +1214,4 @@ v167,台所,だいどころ,kitchen,noun,living,null,99,台所からいい音が
 v176,近所,きんじょ,neighborhood,noun,living,null,99,近所に小さな公園があります。,きんじょに ちいさな こうえんが あります。,There is a small park nearby.
 v180,給料,きゅうりょう,salary,noun,work,null,99,給料で新しい本を買いました。,きゅうりょうで あたらしい ほんを かいました。,I bought a new book with my salary.
 v115,上司,じょうし,boss,noun,work,null,99,上司と一緒に昼ご飯を食べます。,じょうしと いっしょに ひるごはんを たべます。,I have lunch with my boss.
-v118,同僚,どうりょう,colleague,noun,work,null,99,同僚と会社の近くでご飯を食べます。,どうりょうと かいしゃの ちかくで ごはんを たべます。,I eat with my coworker near the office.
+v118,同僚,どうりょう,colleague,noun,work,null,99,同僚と会社の近くでご飯を食べます。,どうりょうと かいしゃの ちかくで ごはんを たべます。,I eat with my coworker near the office. 

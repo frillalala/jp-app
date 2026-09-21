@@ -58,7 +58,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
     final keys = cards.map((c) => c.key).toList();
     final masteredCount = await _progressService.countMastered(keys);
     setState(() {
-      _meaningPercent = keys.isEmpty ? 0 : ((masteredCount / keys.length) * 100).round();
+      _vocabPercent = keys.isEmpty ? 0 : ((masteredCount / keys.length) * 100).round();
     });
   }
 
@@ -67,7 +67,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
     final keys = cards.map((c) => c.key).toList();
     final masteredCount = await _vocabQuizProgressService.countMastered(keys);
     setState(() {
-      _vocabPercent = keys.isEmpty ? 0 : ((masteredCount / keys.length) * 100).round();
+      _meaningPercent = keys.isEmpty ? 0 : ((masteredCount / keys.length) * 100).round();
     });
   }
 
@@ -151,7 +151,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
             trailing = Text('$_kanjiPercent%', style: const TextStyle(fontWeight: FontWeight.bold));
           } else if (isVocalFillBlank && _fillBlankPercent != null) {
             trailing = Text('$_fillBlankPercent%', style: const TextStyle(fontWeight: FontWeight.bold));  
-          } else if (label == "Lyrics Study" && _lyricPercent != null) {
+          } else if (label == "Lyric Study" && _lyricPercent != null) {
             trailing = Text('$_lyricPercent%', style: const TextStyle(fontWeight: FontWeight.bold));  
           } else if (isVocabQuiz && _meaningPercent != null) {
             trailing = Text('$_lyricPercent%', style: const TextStyle(fontWeight: FontWeight.bold));  

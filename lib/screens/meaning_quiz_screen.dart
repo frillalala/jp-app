@@ -52,7 +52,8 @@ class _MeaningQuizScreenState extends State<MeaningQuizScreen> {
 
   bool _matches(String input) {
     final current = _deck[_index];
-    return input.trim().toLowerCase() == current.meaning.trim().toLowerCase();
+    final validAnswers = current.meaning.split(';').map((m) => m.trim().toLowerCase());
+    return validAnswers.contains(input.trim().toLowerCase());
   }
 
   void _checkAnswer() {
@@ -148,7 +149,10 @@ class _MeaningQuizScreenState extends State<MeaningQuizScreen> {
                 ),
               ),
               const SizedBox(height: 8),
-              Text('Answer: ${card.meaning}', style: const TextStyle(fontSize: 18)),
+              Text(
+                'Answer: ${card.meaning.split(';').map((m) => m.trim()).join(' / ')}',
+                style: const TextStyle(fontSize: 18),
+              ),
               const SizedBox(height: 20),
               ElevatedButton(onPressed: _nextCard, child: const Text('Next')),
             ] else
