@@ -120,12 +120,12 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
   @override
   Widget build(BuildContext context) {
     final items = [
+      {'label': 'Vocab Quiz', 'enabled': true},
+      {'label': 'Grammar Lesson', 'enabled': true},
+      {'label': 'Lyric Study', 'enabled': true},
+      {'label': 'Kanji', 'enabled': true},
       {'label': 'Vocab: Flashcards', 'enabled': true},      
       {'label': 'Vocab: Fill in the Blank', 'enabled': true},
-      {'label': 'Vocab Quiz', 'enabled': true},
-      {'label': 'Grammar', 'enabled': true},
-      {'label': 'Kanji', 'enabled': true},
-      {'label': 'Lyric Study', 'enabled': true},
       {'label': 'Reading', 'enabled': false},
       {'label': 'Listening', 'enabled': false},
       {'label': 'Mock Test', 'enabled': false},
@@ -139,7 +139,7 @@ class _LevelMenuScreenState extends State<LevelMenuScreen> {
           final isEnabled = item['enabled'] as bool;
           final isVocab = label == 'Vocab: Flashcards';
           final isVocalFillBlank = label == 'Vocab: Fill in the Blank';
-          final isGrammar = label == 'Grammar';
+          final isGrammar = label == 'Grammar Lesson';
           final isVocabQuiz = label == 'Vocab Quiz';
 
           Widget? trailing;
